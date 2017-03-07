@@ -1,0 +1,57 @@
+This is BibTeX, Version 0.99d (TeX Live 2015/Debian)
+Capacity: max_strings=35307, hash_size=35307, hash_prime=30011
+The top-level auxiliary file: dissertation.aux
+A level-1 auxiliary file: chapters/introduction.aux
+A level-1 auxiliary file: chapters/Johnson_noise_thermometry.aux
+A level-1 auxiliary file: chapters/Electronic_cooling_pathways_in_graphene.aux
+A level-1 auxiliary file: chapters/Thermal_conductance_via_electrical_noise.aux
+A level-1 auxiliary file: chapters/Hydrodynamic_theory_of_transport.aux
+A level-1 auxiliary file: chapters/RF_cryostats_and_circuitry.aux
+A level-1 auxiliary file: chapters/Calibration_of_graphene_devices.aux
+A level-1 auxiliary file: chapters/Thermal_conductance_in_high_density_graphene.aux
+A level-1 auxiliary file: chapters/The_Dirac_fluid.aux
+A level-1 auxiliary file: chapters/Magneto-thermal_transport.aux
+A level-1 auxiliary file: chapters/Conclusions_and_future_work.aux
+The style file: apalike2.bst
+Database file #1: references.bib
+You've used 7 entries,
+            2229 wiz_defined-function locations,
+            567 strings with 5308 characters,
+and the built_in function-call counts, 2429 in all, are:
+= -- 245
+> -- 55
+< -- 7
++ -- 20
+- -- 16
+* -- 200
+:= -- 427
+add.period$ -- 21
+call.type$ -- 7
+change.case$ -- 42
+chr.to.int$ -- 7
+cite$ -- 7
+duplicate$ -- 98
+empty$ -- 195
+format.name$ -- 25
+if$ -- 470
+int.to.chr$ -- 1
+int.to.str$ -- 0
+missing$ -- 8
+newline$ -- 38
+num.names$ -- 21
+pop$ -- 26
+preamble$ -- 1
+purify$ -- 43
+quote$ -- 0
+skip$ -- 77
+stack$ -- 0
+substring$ -- 207
+swap$ -- 7
+text.length$ -- 0
+text.prefix$ -- 0
+top$ -- 0
+type$ -- 40
+warning$ -- 0
+while$ -- 25
+width$ -- 0
+write$ -- 93

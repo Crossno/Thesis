@@ -72,6 +72,10 @@
 \RequirePackage{setspace}
 \RequirePackage{verbatim}
 
+%stuff I added
+\usepackage{bm} % bold math
+\usepackage{amsmath, amsthm}
+
 % Fonts.
 \RequirePackage{color}
 \RequirePackage{xcolor}
@@ -79,7 +83,7 @@
 \RequirePackage{url}
 \RequirePackage{amssymb}
 \RequirePackage{mathspec}
-\setmathsfont(Digits,Latin,Greek)[Numbers={Proportional}]{EB Garamond}
+\setmathsfont(Digits,Latin,Greek)[Numbers={Lining,Proportional}]{EB Garamond}
 \setmathrm{EB Garamond}
 \AtBeginEnvironment{tabular}{\addfontfeature{RawFeature=+tnum}}
 \widowpenalty=300
@@ -126,7 +130,7 @@
 \renewcommand*{\chapterheadstartvskip}{\vspace*{-0.5\baselineskip}}
 \renewcommand*{\chapterheadendvskip}{\vspace{1.3\baselineskip}}
 
-% An environment for paragraph-style section.
+% An environment for paragraph-style section
 \providecommand\newthought[1]{%
    \addvspace{1.0\baselineskip plus 0.5ex minus 0.2ex}%
    \noindent\textsc{#1}%

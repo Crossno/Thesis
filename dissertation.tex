@@ -7,12 +7,13 @@
 \begin{document}
 
 % the front matter
-\input{frontmatter/personalize}
-% \maketitle
-% \copyrightpage
 \frontmatter
+%\input{frontmatter/personalize}
+%\maketitle
+%\copyrightpage
+%\frontmatter
 \setstretch{\dnormalspacing}
-% \abstractpage
+%\abstractpage
 % \tableofcontents
 % %\authorlist
 % \listoffigures
@@ -25,21 +26,25 @@
 \setcounter{chapter}{-1}  % start chapter numbering at 0
 \include{chapters/introduction}
 \include{chapters/Johnson_noise_thermometry}
-\include{chapters/Electronic_cooling}
-\include{chapters/Dirac_fluid}
-\chapter{chapters/Magneto-thermal_conductance}
-\include{chapters/conclusion}
+\include{chapters/Electronic_cooling_pathways_in_graphene}
+\include{chapters/Thermal_conductance_via_electrical_noise}
+\include{chapters/Hydrodynamic_theory_of_transport}
+\include{chapters/RF_cryostats_and_circuitry}
+\include{chapters/Calibration_of_graphene_devices}
+\include{chapters/Thermal_conductance_in_high_density_graphene}
+\include{chapters/The_Dirac_fluid}
+\include{chapters/Magneto-thermal_transport}
+\include{chapters/Conclusions_and_future_work}
 
 \setstretch{\dnormalspacing}
 
 % the back matter
-\backmatter
+%\backmatter
 
-% \clearpage
-% \bibliography{references}
-% \addcontentsline{toc}{chapter}{References}
-% \bibliographystyle{apalike2}
+%\clearpage
+\bibliography{references}
+\addcontentsline{toc}{chapter}{References}
+\bibliographystyle{apalike2}
 
-% \include{endmatter/colophon}
 
 \end{document}

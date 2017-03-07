@@ -1,0 +1,23 @@
+%!TEX root = ../dissertation.tex
+\chapter{Thermal conductance via electrical noise}
+\label{ch:thermal_conductance_via_electrical_noise}
+
+from eq above we see we need apply some sort of known heating profile and then measuring the resulting temperature rise. Define thermal conductance as Q/TJN
+
+\section{rectangular device}
+start by just walking through joule heating a rectangular device where the JN temp is the mean temp.
+
+\subsection{Electronic conduction only}
+in the absence of phonons the problem can be solved analytically. Derive temperature profile. Show temperature profile. The mean temperature is the JN temperature. The thermal conductance has the usual geometric factors but with an extra factor of 12. If the WF law is formulated as the 2-terminal resistance it gives you the thermal conductance but for this 12. This 12 is related to how electric R is being measured by applying a voltage difference between the terminals while the thermal conductance is via this parabolic profile.
+
+\subsection{Phonon cooling}
+If phonons dominate the profile is flat and we cannot effectively measure kappa. However in this limit we can measure the Sigmaelph and delta.
+
+\section{Johnson noise temperature vs mean temperatures: wedge device}
+unlike the simple rectangle where the Johnson noise temperature was simply  the mean temperature, for more complicated geometries we have to compute what  effective temperature we will measure in a noise experiment given the temperature profile. The wedge can be solved analytically.  If we use the definition $G_{th}$ above we see again that in the limit of no phonons, the thermal conductance relates to kappa the same way as electrical conductance relates to sigma but with an extra factor of 12.
+In the phonon limit however, the temperature is no longer flat as the current density is no longer uniform
+
+\section{Arbitrary shapes: the geometric factor $\alpha$}
+For arbitrary shapes where analytic solutions do not exist we can turn to finite element simulations. We find this factor of 12 to be a universal property of 2-terminal devices, independent of geometry.
+
+\section{circuitry}

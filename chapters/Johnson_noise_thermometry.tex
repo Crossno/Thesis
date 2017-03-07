@@ -1,31 +1,125 @@
 %!TEX root = ../dissertation.tex
 \begin{savequote}[75mm]
-Since the dawn of time, man hath sought to make things smaller.
-\qauthor{Eric Bachmann}
+In theory, theory and practice are the same thing, but in practice...
+\qauthor{Adam Savage}
 \end{savequote}
 
 \chapter{Johnson noise thermometry}
+\label{ch:johnson_noise_thermometry}
 
-\newthought{There's something to be said} for having a good opening line. 
+\newthought{Given any process in which an applied force generates heat}, the reverse process must also exist and, as such, thermal fluctuations will be create fluctuations in that force. The idea that the same physics governing the dissipation of a object moving through some environment is responsible for the apparent random motion of that object was originally described by Einstein in the context of pollen grains \cite{einstein_investigations_2011}. The generalized fluctuation-dissipation theorem\cite{kubo_fluctuation-dissipation_1966} quantifies this statement for linear systems\footnote{Here a linear system is one where the force acting on a particle is proportional to its velocity $F/v = constant$} by relating the power spectral density $S_P(\omega)$ to the real part of the generalized impedance $Z(\omega)$\cite{callen_irreversibility_1951}.
+\begin{equation}\label{eq:fluctuation_dissipation}
+S_P(\omega^2) \propto k_BT\ \Re[Z(\omega)]
+\end{equation}
+Nearly a quarter of a century later, Nyquist\cite{nyquist_thermal_1928} related Einsteins description of Brownian motion to the electrical noise measured by Johnson\cite{johnson_thermal_1927,johnson_thermal_1928}. Although all the key components were in place it would take until 1946 for the first noise thermometer to be built\cite{dicke_measurement_1946}. The general idea is to measure the noise spectrum emitted by a device and thus determine its electronic temperature. Johnson noise thermometry (JNT) is analogous to radiation thermometry where the blackbody spectrum of an object is used to determine its temperature --- in fact, both rely upon modified versions of eq~\ref{eq:fluctuation_dissipation}
+
+\section{Thermal noise in resistors}
+Johnson noise, often referred to as Johnson-Nyquist noise, was first measured in 1927~\cite{johnson_thermal_1927}. Johnson found the fluctuations in the squared voltage across a resistor was linearly proportional to both the resistance and the temperature and independent of the conductor being measured. The following year, Nyquist derived the form of this noise from thermodynamic arguments; consider two identical resistors in thermal equilibrium at a temperature T connected such that any noise emitted by one is absorbed by the other. As we are in equilibrium we know the power being absorbed per unit frequency must be $k_BT$. If we represent the Johnson noise of the first resistor as a series voltage source we know the power dissipated in in the second resistor per unit frequency must be $I^2R = V_{JN}^2 / 4R$ as the total resistance of the circuit is $2R$. Setting this equal to $k_BT$ leads us to Nyquist's famous result.
+\begin{equation}\label{eq:Nyquist}
+S_{V} = 4Rk_BT\Delta f
+\end{equation}
+This derivation holds regardless of the conductor, be it an electrolytic solution or a piece of graphene in a quantum Hall state. However, there is a glaring problem with extending this formula to high frequency; similar to the UV-catastrophe in black-body radiation, Nyquist's formula extends to infinite energies as it lacks a high frequency cutoff. This is fixed by quantum mechanics resulting in a cutoff in the noise spectrum centered at $\hbar\omega = k_BT$.
+\begin{equation}\label{eq:NyquistFull}
+S_V = 4\hbar\omega~\Re(Z)\left[\frac{1}{2}+\frac{1}{exp(\hbar\omega/k_BT)-1}\right]\Delta f
+\end{equation}
+This high frequency cutoff was seen experimentally by Schoelkopf, et al.~\cite{schoelkopf_frequency_1997} and is only of practical import at high frequencies ($>1~GHz$) and low temperatures ($<1~K$).
+
+\section{Resistor networks: The Johnson noise temperature}
+\newthought{As noise is a random process}, adding multiple resistors together into a network is not a simple matter of adding their voltages and/or currents but instead their mean squared voltages $\tilde{v}^2$ and/or mean squared current $\tilde{i}^2$. This is a property of Gaussian distributed noise: adding together two Gaussian distributions, each with mean $0$ and variance $\sigma$, with result in another Gaussian distribution with mean $0$ and variance $2\sigma$\footnote{This is why mean squared error is often a useful metric. If errors are unbiased and Gaussian distributed then summing their variance is appropriate}.
+
+To find the noise emitted by two resistors in series with resistance $R_1$ and $R_2$ and temperature $T_1$ and $T_2$, we add their mean squared voltages.
+\begin{equation} \label{eq:seriesJN}
+\tilde{v}^2 = 4k_B (R_1T_1+R_2T_2)\Delta f
+\end{equation}
+While in the case of the same two resistors in parallel we must add their mean squared currents.
+\begin{equation} \label{eq:parallelJN}
+\tilde{i}^2 = 4k_B \left(\frac{T_1}{R_1}+\frac{T_2}{R_2}\right)\Delta f
+\end{equation}
+This process can be extended to any network of discrete, two-terminal resistors.
+
+An effective "Johnson noise temperature" for a given resistor network can be defined as the temperature, $T_{JN}$, such that the total noise emitted between two given terminals of the network is:
+\begin{equation}
+\tilde{v}^2 = 4k_BR\Delta f * T_{JN}
+\end{equation}
+where $R$ is the two-terminal resistance. For an arbitrary network with many terminals, $T_{JN}$ will differ depending upon which two-terminals the noise is measured between. For resistors in series we can see from eq.~\ref{eq:seriesJN}
+\begin{equation}
+\tilde{v}^2 = 4k_BR \left(\frac{R_1}{R}T_1+\frac{R_2}{R}T_2\right)\Delta f
+\end{equation}
+and thus we can define the Johnson noise temperature for this network as:
+\begin{equation}
+T_{JN}^{\ series} = \sum_i \frac{R_i}{R}T_i
+\end{equation}
+
+Similarly from eq.\ref{eq:parallelJN} we see that for resistors in parallel
+\begin{equation}
+\tilde{v}^2 = \tilde{i}^2\times R^2 = 4k_BR\Delta f (\frac{R}{R_1}T_1+\frac{R}{R_2}*T_2)
+\end{equation}
+\begin{equation}
+T_{JN}^{\ parallel} = \sum_i \frac{R}{R_i}T_i
+\end{equation}
+
+These equations are unified by considering the relationship between the power dissipated in a particular resistor $\dot{Q_i}$ from a voltage across the two terminals of the network (or equally a current across the network) compared to the total power dissipated over the entire network $\dot{Q_0}$. For the resistors in series $\dot{Q_i}/\dot{Q_0} = R_i/R$ and for resistors in parallel $\dot{Q}_i/\dot{Q_0} = R/R_i$. Thus in both cases:
+\begin{equation}\label{eq:TJN_discrete}
+T_{JN} = \sum_i\frac{\dot{Q_i}}{\dot{Q_0}}T_i
+\end{equation}
+
+In fact this is quite general and holds for any combination of resistors. It stems from the statement: The voltage created on any given two terminals of a resistor network due to the power fluctuations of a given element are exactly given by the power dissipated in that element due to a voltage on those terminals.
+
+In the continuous limit, eq.~\ref{TJN_discrete} can be used to find the noise emitted by a device with a spatially non-uniform temperature profile $T(\vec{r})$ by solving for the spatial power dissipation profile $\dot{q}(\vec{r})$.
+\begin{equation}\label{eq:TJN_cont}
+T_{JN} = \frac{\int \dot{q}(\vec{r})*T(\vec{r}) d\vec{r}}{\int \dot{q}(\vec{r}) d\vec{r}}
+\end{equation}
+where $\vec{r}$ is over the spatial dimensions of the device. Eq.~\ref{eq:TJN_cont} is the main result of this section.
 
 
-%For an example of a full page figure, see Fig.~\ref{fig:myFullPageFigure}.
+\section{Johnson noise in RF circuits}
+When measuring Johnson noise at high frequency, it can be useful to reformulate the problem into the language of microwave circuits. The Nyquist theorem, eq.~\ref{eq:Nyquist}, can be rewritten to describe the average power, $\tilde{\mathrm{P}}$, absorbed by an amplifier coupled to the device with reflection coefficient $\Gamma^2$:
+\begin{equation}\label{eq:NyquistPower}
+\tilde{\mathrm{P}} = k_BT\Delta f~~(1-\Gamma^2)
+\end{equation}
+and
+\begin{equation}\label{eq:Gamma}
+\Gamma = \frac{Z-Z_0}{Z+Z_0}
+\end{equation}
+where $Z$ is the complex impedance of the device and $Z_0$ is the impedance of the measurement circuit --- typically $50~\Omega$. In this form is it quite easy to see the thermodynamic origins of the Nyquist equation; A device at temperature $T$ radiates a power of $k_BT$ per unit frequency, then some of that power is absorbed by the measurement circuit, and some is reflected back to the sample. All the resistance dependence of the noise power is captured by $\Gamma$\footnote{this is also a nice proof for why $\Gamma$ in any 2 port device must be symmetric, $\Gamma_{12}=\Gamma_{21}$. If this was not true, we could place the device between two resistors in thermal equilibrium and one would heat the other. Two-port devices which report asymmetric coefficients often include internal terminated third ports.}.
+With this new formulation the importance of minimizing $\Gamma$ become apparent. For effective high frequency Johnson noise thermometry we must match the impedance of the device to the measurement circuit. For devices with two-terminal resistances far from $50~\Omega$, it is beneficial to add impedance matching circuits to transform the device to match $Z_0$ --- in practice resistances less than $\sim 10~\Omega$ or grater than $\sim 250~\Omega$ benefit from matching circuits.
+As can be seen from eq.~\ref{eq:NyquistPower}, the larger the measurement bandwidth $\Delta f$ the larger noise signal. In practice, measurement bandwidths are often limited by either the impedance matching circuitry or the amplifier bandwidth; operating at higher frequencies increases typically increases both these limiting bandwidths.
 
-Section outlining the techniques of JNT
-\section{geometric factor}
-
-
+\section{An autocorrelation RF noise thermometer}
 \begin{figure}
-\includegraphics[width=\textwidth]{figures/fig1}
-\caption[Short figure name.]{This is a figure that floats inline and here is its caption.
-\label{fig:myInlineFigure}}
+\includegraphics[width=\textwidth]{figures/JNT_Schematic_APL_Autocorrelation.png}
+\caption[JNT autocorrelation schematic]{High level schematic of a typical Johnson noise thermometry measurement circuit. Noise from an impedance matched sample is amplified and a measurement bandwidth is selected using a homodyne mixer and low-pass filter. The noise power is then measured with a power diode or linear multiplier. In this example, an RF switch acts as a chopper and the signal is measured using an lock-in amplifier.}
+\label{fig:JNT_autocorrelation_schematic}
 \end{figure}
 
+Fig.~\ref{fig:JNT_autocorrelation_schematic} shows an example of a typical, Dicke style, radiometer used to measure the temperature of a $50~\Omega$ sample. Radiation from the resistor is coupled into a transmission line terminated in a low noise amplifier (LNA). Even though Johnson noise has a flat "white" spectrum, it is important to filter out unwanted $1/f$ low frequency noise ($\lesssim 10~kHz$) as well as high frequencies where the amplifier gain begins to roll off. This can be done using high- and low- pass filters, or with a homodyne mixer and low-pass filter combo.
 
-%% Requires fltpage2 package
-%%
-%\begin{FPfigure}
-%\includegraphics[width=\textwidth]{figures/fullpage}
-%\caption[Short figure name.]{This is a full page figure using the FPfigure command. It takes up the whole page and the caption appears on the preceding page. Its useful for large figures. Harvard's rules about full page figures are tricky, but you don't have to worry about it because we took care of it for you. For example, the full figure is supposed to have a title in the same style as the caption but without the actual caption. The caption is supposed to appear alone on the preceding page with no other text. You do't have to worry about any of that. We have modified the fltpage package to make it work. This is a lengthy caption and it clearly would not fit on the same page as the figure. Note that you should only use the FPfigure command in instances where the figure really is too large. If the figure is small enough to fit by the caption than it does not produce the desired effect. Good luck with your thesis. I have to keep writing this to make the caption really long. LaTex is a lot of fun. You will enjoy working with it. Good luck on your post doctoral life! I am looking forward to mine. \label{fig:myFullPageFigure}}
-%\end{FPfigure}
-%\afterpage{\clearpage}
+add all the details from the APL
+
+\section{Uncertainty in noise measurements}
+Even noise has noise. There are 2 main areas of uncertainty in a noise measurements: The first comes from the fact that noise is stochastic and deals with how well you know the variance of a Gaussian after measuring some amount of time. If the measurements you take are discrete and uncorrelated then we get the usual 1/sqrt(n) but what to do if we are measuring a continuous signal. Problem stems back to (year) (cite bell labs paper) and n is given by the time bandwidth product. 
+The second source of uncertainty comes from external noise sources such as amplifiers and boils down to the question of the noise you measure, what amount comes from the sample. This can be seen as a constant offset to the sample temperature Tn. Show plot of noise vs T with offset. When we extrapolate the sample temperature to zero we find an offset due to other noise sources. This external noise modifies the uncertainty equation to (noise formula). Show plots of 2 signals with different bandwidths. Show fixed bandwidth over time.
+
+\section{Impedance matching}
+impedance matching mesoscopic devices has a unique set of challenges: 2-terminal resistance can vary significantly with gate and field, matching circuit must be constant down to cryogenic temperatures, insensitive to strong fields. 
+
+\subsection{LC tank circuits}
+theory of LC tank matching. Show equations for Z(f). plot real an imaginary impedance verse frequency with crossing at 50+0i. Show equations finding L and C given f0 and R. Show S11 for fixed R sweeping C. Show fixed LC sweeping R.
+To make components temperature and field insensitive must use non ferrite. Give component names and numbers. Show a plot of temperature stability
+
+\subsection{Multi-stage matching}
+If resistance will vary by multiple orders of magnitude (e.g. magneto resistance) multi-stage matching networks can be used. Multi-stage LC networks allow you to cover a wider area of the resistance-frequency space by giving you multiple solutions of Z=50. Cell phones use many stages to capture the full range of the human voice (need source). If the resistance of the device is fixed we can use multi-stage matching to increase the bandwidth over which we are matched. Show real and imaginary components for single vs double stage matching (subtract off 50 to show how these are zeros). In this plot there are 2 solutions to Z = 50. In the R-f plane this looks like  (show color plot of solution)
+However, if instead we want to match to larger range of resistances, we can move one of these zeros to a higher resistance. This increases the dynamic range of the matching circuit at the expense of bandwidth.
+
+\section{Effective noise temperature}
+The effective noise temperature is the sum of all (unwanted) noise in your system in units of the sample noise temperature. Your signal to noise ratio is given by T/Tn. Tn is a function of gamma integrated over all frequencies. Show formula for. In practice the frequencies integrated over are determined by filters.
+
+\section{Calibration}
+Since the gain and noise temperature of the circuit are a function of many complicated factors (stray, loss, gain profiles, noise profiles) it is necessary to calibrate. Furthermore its strongly dependent on the device resistance and therefore must be calibrated for every device/measurement circuit. Goal is to focus here on general calibration not graphene specifics,calibration of graphene will get its own chapter.
+
+\section{Cross-correlated noise thermometry}
+One challenge in noise measurements is identifying the noise you wish to measure from the unwanted background noise. In the right circumstances, cross-correlation can used to average out unwanted noise leaving behind.
+The idea is to send the noise from the device into 2 independent channels and if the noise on each channel is uncorrelated then you win. Describe the idea in the perfect world. Show schematic (APL fig 1b). using this you can remove the offset from the amplifiers (APL fig 2). However, this does not reduce the precision of the measurement. The integration time needed to attain a given uncertainty is not reduced (APL fig 3)
+
+\subsection{multi-terminal cross-correlation}
+If cross correlation is used on multiple terminals the overlapping noise can be found similar to the Johnson noise temperature.
