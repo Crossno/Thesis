@@ -106,7 +106,7 @@
 % Headings and headers.
 \RequirePackage{fancyhdr}
 \RequirePackage[tiny, md, sc]{titlesec}
-\setlength{\headheight}{15pt}
+\setlength{\headheight}{5pt}
 \pagestyle{plain}
 \RequirePackage{titling}
 

@@ -14,10 +14,16 @@ S_P(\omega^2) \propto k_BT\ \Re[Z(\omega)]
 Nearly a quarter of a century later, Nyquist\cite{nyquist_thermal_1928} related Einsteins description of Brownian motion to the electrical noise measured by Johnson\cite{johnson_thermal_1927,johnson_thermal_1928}. Although all the key components were in place it would take until 1946 for the first noise thermometer to be built\cite{dicke_measurement_1946}. The general idea is to measure the noise spectrum emitted by a device and thus determine its electronic temperature. Johnson noise thermometry (JNT) is analogous to radiation thermometry where the blackbody spectrum of an object is used to determine its temperature --- in fact, both rely upon modified versions of eq~\ref{eq:fluctuation_dissipation}
 
 \section{Thermal noise in resistors}
-Johnson noise, often referred to as Johnson-Nyquist noise, was first measured in 1927~\cite{johnson_thermal_1927}. Johnson found the fluctuations in the squared voltage across a resistor was linearly proportional to both the resistance and the temperature and independent of the conductor being measured. The following year, Nyquist derived the form of this noise from thermodynamic arguments; consider two identical resistors in thermal equilibrium at a temperature T connected such that any noise emitted by one is absorbed by the other. As we are in equilibrium we know the power being absorbed per unit frequency must be $k_BT$. If we represent the Johnson noise of the first resistor as a series voltage source we know the power dissipated in in the second resistor per unit frequency must be $I^2R = V_{JN}^2 / 4R$ as the total resistance of the circuit is $2R$. Setting this equal to $k_BT$ leads us to Nyquist's famous result.
+Johnson noise, often referred to as Johnson-Nyquist noise, was first measured in 1927~\cite{johnson_thermal_1927}. Johnson found the fluctuations in the squared voltage across a resistor was linearly proportional to both the resistance and the temperature and independent of the conductor being measured. The following year, Nyquist derived the form of this noise from thermodynamic arguments; consider two identical resistors in thermal equilibrium at a temperature T connected such that any noise emitted by one is absorbed by the other, as shown in fig.~\ref{fig:Nyquist_resistors}. As we are in equilibrium we know the power being absorbed per unit frequency must be $k_BT$. If we represent the Johnson noise of the first resistor as a series voltage source we know the power dissipated in in the second resistor per unit frequency must be $I^2R = V_{JN}^2 / 4R$ as the total resistance of the circuit is $2R$. Setting this equal to $k_BT$ leads us to Nyquist's famous result.
 \begin{equation}\label{eq:Nyquist}
 S_{V} = 4Rk_BT\Delta f
 \end{equation}
+\begin{figure}
+\centering
+\includegraphics[height = 25mm]{figures/Johnson_noise_thermometry/Nyquist_resistors.png}
+\caption{Schematic of Nyquist's famous thought experiment. Two resistors in thermal equilibrium are connected end to end and allowed to transfer energy between them via thermal current fluctuations.}
+\label{fig:Nyquist_resistors}
+\end{figure}
 This derivation holds regardless of the conductor, be it an electrolytic solution or a piece of graphene in a quantum Hall state. However, there is a glaring problem with extending this formula to high frequency; similar to the UV-catastrophe in black-body radiation, Nyquist's formula extends to infinite energies as it lacks a high frequency cutoff. This is fixed by quantum mechanics resulting in a cutoff in the noise spectrum centered at $\hbar\omega = k_BT$.
 \begin{equation}\label{eq:NyquistFull}
 S_V = 4\hbar\omega~\Re(Z)\left[\frac{1}{2}+\frac{1}{exp(\hbar\omega/k_BT)-1}\right]\Delta f
@@ -25,25 +31,25 @@ S_V = 4\hbar\omega~\Re(Z)\left[\frac{1}{2}+\frac{1}{exp(\hbar\omega/k_BT)-1}\rig
 This high frequency cutoff was seen experimentally by Schoelkopf, et al.~\cite{schoelkopf_frequency_1997} and is only of practical import at high frequencies ($>1~GHz$) and low temperatures ($<1~K$).
 
 \section{Resistor networks: The Johnson noise temperature}
-\newthought{As noise is a random process}, adding multiple resistors together into a network is not a simple matter of adding their voltages and/or currents but instead their mean squared voltages $\tilde{v}^2$ and/or mean squared current $\tilde{i}^2$. This is a property of Gaussian distributed noise: adding together two Gaussian distributions, each with mean $0$ and variance $\sigma$, with result in another Gaussian distribution with mean $0$ and variance $2\sigma$\footnote{This is why mean squared error is often a useful metric. If errors are unbiased and Gaussian distributed then summing their variance is appropriate}.
+\newthought{As noise is a random process}, adding multiple resistors together into a network is not a simple matter of adding their voltages and/or currents but instead their mean squared voltages $\langle V^2\rangle$ and/or mean squared current $\langle I^2\rangle$. This is a property of Gaussian distributed noise: adding together two Gaussian distributions, each with mean $0$ and variance $\sigma$, with result in another Gaussian distribution with mean $0$ and variance $2\sigma$\footnote{This is why mean squared error is often a useful metric. If errors are unbiased and Gaussian distributed then summing their variance is appropriate}.
 
 To find the noise emitted by two resistors in series with resistance $R_1$ and $R_2$ and temperature $T_1$ and $T_2$, we add their mean squared voltages.
 \begin{equation} \label{eq:seriesJN}
-\tilde{v}^2 = 4k_B (R_1T_1+R_2T_2)\Delta f
+\langle V^2\rangle = 4k_B (R_1T_1+R_2T_2)\Delta f
 \end{equation}
 While in the case of the same two resistors in parallel we must add their mean squared currents.
 \begin{equation} \label{eq:parallelJN}
-\tilde{i}^2 = 4k_B \left(\frac{T_1}{R_1}+\frac{T_2}{R_2}\right)\Delta f
+\langle I^2\rangle = 4k_B \left(\frac{T_1}{R_1}+\frac{T_2}{R_2}\right)\Delta f
 \end{equation}
 This process can be extended to any network of discrete, two-terminal resistors.
 
 An effective "Johnson noise temperature" for a given resistor network can be defined as the temperature, $T_{JN}$, such that the total noise emitted between two given terminals of the network is:
 \begin{equation}
-\tilde{v}^2 = 4k_BR\Delta f * T_{JN}
+\langle V^2\rangle = 4k_BR\Delta f * T_{JN}
 \end{equation}
 where $R$ is the two-terminal resistance. For an arbitrary network with many terminals, $T_{JN}$ will differ depending upon which two-terminals the noise is measured between. For resistors in series we can see from eq.~\ref{eq:seriesJN}
 \begin{equation}
-\tilde{v}^2 = 4k_BR \left(\frac{R_1}{R}T_1+\frac{R_2}{R}T_2\right)\Delta f
+\langle V^2\rangle = 4k_BR \left(\frac{R_1}{R}T_1+\frac{R_2}{R}T_2\right)\Delta f
 \end{equation}
 and thus we can define the Johnson noise temperature for this network as:
 \begin{equation}
@@ -52,7 +58,7 @@ T_{JN}^{\ series} = \sum_i \frac{R_i}{R}T_i
 
 Similarly from eq.\ref{eq:parallelJN} we see that for resistors in parallel
 \begin{equation}
-\tilde{v}^2 = \tilde{i}^2\times R^2 = 4k_BR\Delta f (\frac{R}{R_1}T_1+\frac{R}{R_2}*T_2)
+\langle V^2\rangle = \langle I^2\rangle\times R^2 = 4k_BR\Delta f (\frac{R}{R_1}T_1+\frac{R}{R_2}*T_2)
 \end{equation}
 \begin{equation}
 T_{JN}^{\ parallel} = \sum_i \frac{R}{R_i}T_i
@@ -65,7 +71,7 @@ T_{JN} = \sum_i\frac{\dot{Q_i}}{\dot{Q_0}}T_i
 
 In fact this is quite general and holds for any combination of resistors. It stems from the statement: The voltage created on any given two terminals of a resistor network due to the power fluctuations of a given element are exactly given by the power dissipated in that element due to a voltage on those terminals.
 
-In the continuous limit, eq.~\ref{TJN_discrete} can be used to find the noise emitted by a device with a spatially non-uniform temperature profile $T(\vec{r})$ by solving for the spatial power dissipation profile $\dot{q}(\vec{r})$.
+In the continuous limit, eq.~\ref{eq:TJN_discrete} can be used to find the noise emitted by a device with a spatially non-uniform temperature profile $T(\vec{r})$ by solving for the spatial power dissipation profile $\dot{q}(\vec{r})$.
 \begin{equation}\label{eq:TJN_cont}
 T_{JN} = \frac{\int \dot{q}(\vec{r})*T(\vec{r}) d\vec{r}}{\int \dot{q}(\vec{r}) d\vec{r}}
 \end{equation}
@@ -73,9 +79,9 @@ where $\vec{r}$ is over the spatial dimensions of the device. Eq.~\ref{eq:TJN_co
 
 
 \section{Johnson noise in RF circuits}
-When measuring Johnson noise at high frequency, it can be useful to reformulate the problem into the language of microwave circuits. The Nyquist theorem, eq.~\ref{eq:Nyquist}, can be rewritten to describe the average power, $\tilde{\mathrm{P}}$, absorbed by an amplifier coupled to the device with reflection coefficient $\Gamma^2$:
+When measuring Johnson noise at high frequency, it can be useful to reformulate the problem into the language of microwave circuits. The Nyquist theorem, eq.~\ref{eq:Nyquist}, can be rewritten to describe the average power, $\langle\mathrm{P}\rangle$, absorbed by an amplifier coupled to the device with reflection coefficient $\Gamma^2$:
 \begin{equation}\label{eq:NyquistPower}
-\tilde{\mathrm{P}} = k_BT\Delta f~~(1-\Gamma^2)
+\langle\mathrm{P}\rangle = k_BT\Delta f~~(1-\Gamma^2)
 \end{equation}
 and
 \begin{equation}\label{eq:Gamma}
@@ -87,25 +93,150 @@ As can be seen from eq.~\ref{eq:NyquistPower}, the larger the measurement bandwi
 
 \section{An autocorrelation RF noise thermometer}
 \begin{figure}
-\includegraphics[width=\textwidth]{figures/JNT_Schematic_APL_Autocorrelation.png}
-\caption[JNT autocorrelation schematic]{High level schematic of a typical Johnson noise thermometry measurement circuit. Noise from an impedance matched sample is amplified and a measurement bandwidth is selected using a homodyne mixer and low-pass filter. The noise power is then measured with a power diode or linear multiplier. In this example, an RF switch acts as a chopper and the signal is measured using an lock-in amplifier.}
-\label{fig:JNT_autocorrelation_schematic}
+\includegraphics[width=\textwidth]{figures/Johnson_noise_thermometry/Schematic_Autocorrelation.png}
+\caption[JNT autocorrelation schematic]{High level schematic of a typical Johnson noise thermometry measurement circuit. Noise from an impedance matched sample is amplified and a measurement bandwidth is selected using a homodyne mixer and low-pass filter. The noise power is then measured with a power diode or linear multiplier. A microwave switch acts as a chopper and the signal is measured using a lock-in amplifier.}
+\label{fig:schematic_autocorrelation}
 \end{figure}
 
-Fig.~\ref{fig:JNT_autocorrelation_schematic} shows an example of a typical, Dicke style, radiometer used to measure the temperature of a $50~\Omega$ sample. Radiation from the resistor is coupled into a transmission line terminated in a low noise amplifier (LNA). Even though Johnson noise has a flat "white" spectrum, it is important to filter out unwanted $1/f$ low frequency noise ($\lesssim 10~kHz$) as well as high frequencies where the amplifier gain begins to roll off. This can be done using high- and low- pass filters, or with a homodyne mixer and low-pass filter combo.
+Fig.~\ref{fig:JNT_autocorrelation_schematic} shows an example of a typical, Dicke style, radiometer used to measure the temperature of a $50~\Omega$ sample. Radiation from the resistor is coupled into a transmission line terminated in a low noise amplifier (LNA). A typical noise spectrum directly from the output of the LNA is shown in fig.~\ref{fig:Miteq_spec}. The signal-to-noise ratio of a noise measurement is mostly determined the front-end LNA~\cite{pozar_microwave_2011} so care should be taken in selecting the right amplifier. The SiGe LNA (Caltech CITLF3) used throughout the majority of this thesis has a room temperature noise figure, in the frequency range of 0.01 to 2~GHz, of about 0.64~dB, corresponding to an intrinsic noise temperature of 46 K.
+\begin{figure}
+\includegraphics[width=\textwidth]{figures/Johnson_noise_thermometry/Miteq_spec.png}
+\caption{a typical spectrum directly from the output of a low noise amplifier (Miteq AU-1291 $\sim$65~dB gain $\sim$100~K noise temperature) with the input terminated with a 50~$\Omega$ resistor. The spectrum is flat until the amplifier gain begins to roll off above 500~MHz. The amplitude of the "white" spectrum is proportional to the resistor temperature added to the amplifier noise temperature.}
+\label{fig:Miteq_spec}
+\end{figure}
 
-add all the details from the APL
+Even though Johnson noise has a flat "white" spectrum, it is important to filter out unwanted $1/f~$ low frequency fluctuations ($\lesssim 10~kHz$) as well as high frequency noise produced where the amplifier gain begins to roll off. 
+This can be done using high- and low- pass filters (producing a spectrum similar shown in fig.~\ref{fig:Miteq_BP_spec}, or with a homodyne mixer and low-pass filter combo (as shown in fig.~\ref{fig:JNT_autocorrelation_schematic}. 
+\begin{figure}
+\includegraphics[width=\textwidth]{figures/Johnson_noise_thermometry/Miteq_BP_spec.png}
+\caption{a typical Johnson noise spectrum after amplification and filtering using SMA high- and low-pass filters (mini-circuits SLP and SHP series). This square band can then integrated to find the total noise power and thus the temperature of the resistor.}
+\label{fig:Miteq_BP_spec}
+\end{figure}
+
+Once amplified and cleaned, the total noise power can be measured in a few ways: a spectrum analyzer or digital Fourier transform can read the spectrum directly, a linear multiplier can square the signal and the mean voltage can be measured, or a high frequency power diode and low pass filter combo can convert the power to a DC voltage. Each technique has its own advantages/disadvantages and in a typical experiment multiple techniques are used. 
+When presented with a new device or noise setup a spectrum analyzer is often the first measurement to be done; it provides the most in-depth look into the noise of the system and readily shows problem areas such as narrowband noise, parasitic resonances, and/or amplifier performance. After initial setup, however, spectral detail becomes less important and measurements speeds can be significantly enhanced by moving to an all analog setup. 
+
+A linear multiplier (as shown in the schematic fig.~\ref{fig:schematic_autocorrelation}) can be combined with an RF power splitter and a DC voltmeter to directly measure $\langle V^2\rangle$. Operating from DC to 2 GHz, the multi-
+plier, Analog Devices ADL5931, serves as a square law
+detector with 30 dB dynamic range. A JNT using a multiplier is fast and has the added capability of measuring the autocorrelation function, $\langle V(t)V(t-\tau)\rangle$, by simply adding a delay, $\tau$, to one arm of the splitter. While more complicated to setup, once operational a multiplier is a good combination of speed and versatility.
+
+The simplest of the three power detectors discussed here is an RF power diode/low-pass filter combo (e.g. Pasternach PE8000-50). These detectors input an RF signal and output a DC voltage as shown in fig.~\ref{fig:PE8000}. The output capacitance of these detectors can be quite large so if a thermal modulation faster than a few 100~Hz is required care must be taken in choosing an appropriate model. Nevertheless, this is the detector used most commonly in the second half of this thesis due to its wide dynamic range ($30~dB$), small sample package, and ease of use.
+
+\begin{figure}
+\centering
+\includegraphics[width = 100mm]{figures/Johnson_noise_thermometry/PE8000-50.png}
+\caption{Calibration curves for the Pasternach PE8000-50 power detector. A monochromatic signal of known power is supplied using a microwave source (Stanford Research Systems) and the output is measured using a Voltmeter (Keithley 2400). The detector has a flat frequency response up to 1~GHz and shows linear behavior from -45~dBm to -25~dBm (30~dB dynamic range)}
+\label{fig:PE8000}
+\end{figure}
+
+Once the noise power is converted to a dc voltage it can be read by a common Voltmeter. To increase the sensitivity it is useful to modulate the noise power. When measuring mesoscopic samples this can be done by modulating the electron temperature via Joule heating. However, in the case of a macroscopic resistor, a microwave switch is places after amplification and acts as a chopper. The resulting signal can then be measured using a lock-in amplifier.
+
+We can test the noise circuit shown in fig.~\ref{fig:schematic_autocorrelation} by attaching the sample resistor to a coldfinger and varying the temperature from 3~K to 300~K. The results are shown in fig.~\ref{fig:auto_noise_vs_T}. As the sample temperature is lowered, the noise reduces linearly as expected from eq.~\ref{eq:NyquistPower}. However, if we extrapolate the data to zero temperature, we see residual noise; this offset is due to all the other (temperature independent) noise sources in the system --- primarily the front-end amplifier. It is useful to quantify this offset in units of Kelvin and is called the "effective noise temperature". Here we find an effective noise temperature of $68~K$ using a room temperature amplifier.
+More details on this circuit can be found in ref.~\citep{crossno_development_2015}
+
+\begin{figure}
+\centering
+\includegraphics[width = 100mm]{figures/Johnson_noise_thermometry/Auto_noise_vs_T.png}
+\caption{Johnson noise of a 50~$\Omega$ resistor measured by the circuit shown in fig.~\ref{fig:schematic_autocorrelation}. Inset show the lock-in amplifier output. The signal is converted to noise power by the Nyquist equation. The solid line is a linear fit with an offset of 68~K due to amplifier noise}
+\label{fig:auto_noise_vs_T}
+\end{figure}
 
 \section{Uncertainty in noise measurements}
-Even noise has noise. There are 2 main areas of uncertainty in a noise measurements: The first comes from the fact that noise is stochastic and deals with how well you know the variance of a Gaussian after measuring some amount of time. If the measurements you take are discrete and uncorrelated then we get the usual 1/sqrt(n) but what to do if we are measuring a continuous signal. Problem stems back to (year) (cite bell labs paper) and n is given by the time bandwidth product. 
-The second source of uncertainty comes from external noise sources such as amplifiers and boils down to the question of the noise you measure, what amount comes from the sample. This can be seen as a constant offset to the sample temperature Tn. Show plot of noise vs T with offset. When we extrapolate the sample temperature to zero we find an offset due to other noise sources. This external noise modifies the uncertainty equation to (noise formula). Show plots of 2 signals with different bandwidths. Show fixed bandwidth over time.
+\newthought{Even noise has noise}. There are 2 main areas of uncertainty in a noise measurements: The first comes from the fact that noise is stochastic and deals with how well you know the variance of a Gaussian after measuring some amount of time. If the measurements you take are discrete and uncorrelated then we get the usual $1/\sqrt{n}$, but what to do if we are measuring a continuous signal? It turns out this is an old problem which stems back to the 1940 and measurements of noise on telephone lines~\cite{rice}. In 1944 Rice showed the effective number of uncorrelated measurements is given by the product of the measurement time $\tau$ and the effective noise bandwidth\footnote{The effective noise bandwidth is defined as the width of a perfect square band that passes the same noise power as the true filter function.} $\Delta f$. This surprising fact that the wider the measurement bandwidth the lower the uncertainty is counter to many experiments where high Q filters are desired to lower the background noise; nevertheless, it can be seen experimentally, as shown in fig.~\cite{fig:JNT_500measurements}
+\begin{figure}
+\centering
+\includegraphics[width=\textwidth]{figures/Johnson_noise_thermometry/500_measurements.png}
+\caption{500 repeated Johnson noise measurements of a 50~$\Omega$ resistor at 50~K using two different measurement bandwidths. The high bandwidth data has smaller statistical fluctuations than the low bandwidth data.}
+\label{fig:JNT_500measurements}
+\end{figure}
+
+The second source of uncertainty comes from external noise sources such as amplifiers and boils down to the question: of the noise you measure, what amount comes from the sample? Quantitatively, this can be thought of as a constant offset to the sample temperature and is called the system noise temperature $T_n$\footnote{It should be noted that the system noise temperature can be quite different from an amplifiers intrinsic noise temperature which often assumes a perfectly matched input impedance. See the section "effective noise temperature" for more details}. In an autocorrelated noise measurement, $T_n$ can be estimated as the offset of a linear fit to the noise power vs sample temperature, as shown in fig.~\ref{fig:auto_noise_vs_T}. This offset is primarily due to noise in the front-end amplifier but also depends on the sample impedance matching and the bandwidth being measured.
+
+Combining these two sources of error we arrive at the famous Dicke radiometer formula\cite{dicke_measurement_1946}:
+\begin{equation}\label{eq:dicke_formula}
+\delta T = \frac{T+T_n}{\sqrt{\tau~~\Delta f}}
+\end{equation}
+
+We can directly compare eq.~\ref{eq:dicke_formula} to experiments by repeating a measurement many times and studying hot it fluctuates about the mean. Fig.~\ref{fig:JNT_histograms} compares two histograms, both containing 20,000 autocorrelation measurements at 50~K with 50~ms integration time but using two different bandwidths: 28 and 328~MHz. A sensitivity of 5.5~mK (110 ppm) in 1 second of integration time was achieved using 328~Mhz bandwidth on a 50~K signal
+\begin{figure}
+\centering
+\includegraphics[width = 100mm]{figures/Johnson_noise_thermometry/histograms.png}
+\caption{Histograms of 20,000 auto-correlation temperature measurements for 28 and 328~MHz bandwidth using 50~ms integration time. Histogram peaks are normalized to 1 for clarity. All data is taken on a 50~K resistive load.}
+\label{fig:JNT_histograms}
+\end{figure}
 
 \section{Impedance matching}
-impedance matching mesoscopic devices has a unique set of challenges: 2-terminal resistance can vary significantly with gate and field, matching circuit must be constant down to cryogenic temperatures, insensitive to strong fields. 
+Eq.~\ref{eq:NyquistPower} illustrates the importance of minimizing the impedance mismatch between the sample and the measurement circuitry -- typically 50~$\Omega$. The central principle is to use non-dissipative components to transform the total impedance to $Z(\omega) = 50+0i~\Omega$ at some frequency $\omega = 2\pi\times f$. Impedance matching mesoscopic devices has a unique set of challenges: electrostatic gates and high magnetic fields can cause device impedances to change by multiple orders of magnitude, cryogenic temperatures require the use of only thermally stable components, and large magnetic fields restrict the use of ferrite inductors.
 
 \subsection{LC tank circuits}
-theory of LC tank matching. Show equations for Z(f). plot real an imaginary impedance verse frequency with crossing at 50+0i. Show equations finding L and C given f0 and R. Show S11 for fixed R sweeping C. Show fixed LC sweeping R.
-To make components temperature and field insensitive must use non ferrite. Give component names and numbers. Show a plot of temperature stability
+\begin{figure}
+\centering
+\includegraphics[width=80mm]{figures/Johnson_noise_thermometry/Noise_source_matching.png}
+\caption{Schematic of an LC tank circuit setup in a low-pass configuration used to transform a sample resistance $R_0$ to match the characteristic impedance of a measurement circuit $Z_0$.}
+\label{fig:schematic_matching}
+\end{figure}
+A common way to achieve matching is to use a simple LC circuit. These transformation circuits, known as a tank circuits, can be arranged in several ways but the configuration most useful to these experiments is that of a low-pass filter --- i.e a shunt capacitor followed by a series inductor as shown in fig.~\cite{fig:schematic_matching}. The impedance of such a circuit is given by:
+\begin{equation}\label{eq:LC_tank_Z}
+Z(\omega) = \left(R_0^{~-1}+i\omega C\right)^{-1}+i\omega L
+\end{equation}
+where $L$ and $C$ are the series inductance and shunt capacitance values, respectively. Proper matching requires solving eq.~\ref{eq:LC_tank_Z} under the condition:
+\begin{equation}\label{eq:LC_tank_constraint}
+Z(\omega_0) = 50+0i~\Omega 
+\end{equation}
+where $\omega_0$ is the center of the measurement band. Fig.~\ref{fig:LC_tank_Z} shows a plot of the real and imaginary components of eq.~\ref{eq:LC_tank_Z} with $R_0 = 1~k\Omega$. For the right choice of $C$ and $L$, the imaginary part of the complex impedance crosses $0$ when the real part is $50~\Omega$.
+\begin{figure}
+\centering
+\includegraphics[width=100mm]{figures/Johnson_noise_thermometry/Impedance_matching2.png}
+\caption{The real and imaginary impedance of an LC tank circuit (eq.~\ref{eq:LC_tank_Z}) with $R_0=1~k\Omega$, $C = 4.5~pF$, and $L = 220~nH$. The imaginary component cross zero as the real component is 50~$\Omega$.}
+\label{fig:LC_tank_Z}
+\end{figure}
+Combining eq.~\ref{eq:LC_tank_Z} and eq.~\ref{eq:LC_tank_constraint} for a given $R_0$, $\omega_0$ and $Z_0$ give us the needed inductance and capacitance values.
+\begin{equation}\label{eq:LC_tank_L}
+L = \sqrt{\frac{R_0Z_0}{\omega_0^{~2}}}
+\end{equation}
+\begin{equation}\label{eq:LC_tank_C}
+C = \frac{1}{\sqrt{R_0Z_0\omega_0^{~2}}}
+\end{equation}
+
+While in theory adding a precise induction and capacitance onto a device is straight forward, in practice real devices can have a not insignificant amount of stray capacitance\footnote{stray inductance is also possible (particularly if long wire bonds are necessary) but are usually negligible for the resistance and frequency ranges in this thesis}. To account for this we can use a variable capacitor and tune the matching circuit to each device. One simple, temperature independent, magnetic field compatible capacitor that can be easily tuned is a set of twisted pair wires. Fig.~\ref{fig:picture_gimmick1} and fig.~\ref{fig:picture_gimmick2} show an example of a matching circuit using a twisted pair capacitor before and after tuning, respectively.
+\begin{figure}
+\centering
+\includegraphics[width=100mm]{figures/Johnson_noise_thermometry/picture_gimmick1.jpg}
+\caption{Image of an impedance matching circuit before capacitance tuning. A long piece of twisted pair wire shunts the sample and an inductor (Coilcraft RF Air Core) is placed in series. To tune the capacitance, the twisted pair wire is cut shorter and shorter while the reflectance $\Gamma$ is monitored.}
+\label{fig:picture_gimmick1}
+\end{figure}
+\begin{figure}
+\centering
+\includegraphics[width=100mm]{figures/Johnson_noise_thermometry/picture_gimmick2.jpg}
+\caption{Image of an impedance matching circuit after capacitance tuning. The twisted pair wire serves as a gimmick and is tuned for each sample to account for variance in stray capacitance.}
+\label{fig:picture_gimmick2}
+\end{figure} 
+
+A vector network analyzer (VNA) is used to measure the sample reflectance $\Gamma = S_{11}^2$ to ensure the sample is properly matched. Fig.~\ref{fig:gimmick_tuning} shows how the reflectance changes for a $1~k\Omega$ sample impedance and $220~nH$ series inductance as the capacitance is tuned. When properly tuned we measure a large dip in $S_{11}$ signifying the sample is well coupled to the $50~\Omega$ VNA.
+\begin{figure}
+\centering
+\includegraphics[width=\textwidth]{figures/Johnson_noise_thermometry/gimmick_tuning.png}
+\caption{Reflectance curves while tuning a matching circuit for $R_0 = 1~k\Omega$ and $L = 200~nH$. The rightmost curve (green) corresponds to the lowest capacitance and the leftmost curve (blue) corresponds to the highest. Each curve is the result of cutting off a section of twisted pair wire.}
+\label{fig:gimmick_tuning}
+\end{figure} 
+
+After matching, the noise spectral density emitted into the measurement circuitry is no longer flat but instead shaped by $\Gamma$ in accordance to eq.~\ref{eq:NyquistPower}. This point becomes clear when looking at the noise spectra emitted by an impedance matched sample at various temperatures --- as shown in Fig.~\ref{fig:spectrum_matching}; two features out prominently: first, the background noise is no longer flat but has structure and, second, the increase in noise as the sample temperature is raised is not the same at all frequencies. The result is that we are no longer free to select just any measurement bandwidth but must careful choose filters suited to the reflection profile.
+\begin{figure}
+\centering
+\includegraphics[width = 120mm]{figures/Johnson_noise_thermometry/Matched_spectra.png}
+\caption{Amplified noise spectrum from a device, impedance matched using an LC tank circuit, at various temperatures. The background noise is no longer flat as the amplifier is not properly terminated at all frequencies. As the device temperature is raised, the spectral density increases non-uniformly as different frequencies couple differently to the circuitry as determined by eq.~\ref{eq:NyquistPower}}
+\label{fig:spectrum_matching}
+\end{figure}
+
+In most mesoscopic measurements, the resistance of the device under test varies throughout the experiment; whether electrostatic gates modulate the carrier density, strong magnetic fields drive the system toward quantum hall, or cryogenic temperatures modify the conductivity, matching networks should operate over a wide dynamic range of input impedances. The response of a single stage LC matching network coupled to a changing device resistance is shown in fig.~\ref{fig:S11vsR}. The device is optimally matched around $450~\Omega$ but maintains more than $10~dB$ coupling between $200~\Omega$ and $1~k\Omega$. As the resistance drops, we see the appearance of the trivial solution to eq.~\ref{eq:LC_tank_Z} of $R_0~=~50~\Omega$ and $\omega~=~0$. 
+\begin{figure}
+\centering
+\includegraphics[width=\textwidth]{figures/Johnson_noise_thermometry/S11vsR.png}
+\caption{Reflection coefficient |S11|$^2$ for a single stage LC matching network as a function of device resistance. The left plot shows the full data set with a maximum coupling efficiency of more than 30~dB. The right plot shows the same data with the color scale adjusted to highlight 1~dB changes up to a maximum of 10~dB (corresponding to 90\% coupling efficiency). All data taken from a graphene device at low temperature using an electrostatic gate.}
+\label{fig:S11vsR}
+\end{figure}
+
+
 
 \subsection{Multi-stage matching}
 If resistance will vary by multiple orders of magnitude (e.g. magneto resistance) multi-stage matching networks can be used. Multi-stage LC networks allow you to cover a wider area of the resistance-frequency space by giving you multiple solutions of Z=50. Cell phones use many stages to capture the full range of the human voice (need source). If the resistance of the device is fixed we can use multi-stage matching to increase the bandwidth over which we are matched. Show real and imaginary components for single vs double stage matching (subtract off 50 to show how these are zeros). In this plot there are 2 solutions to Z = 50. In the R-f plane this looks like  (show color plot of solution)

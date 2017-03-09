@@ -14,37 +14,76 @@
 \newlabel{eq:fluctuation_dissipation}{{1.1}{3}{Johnson noise thermometry}{equation.1.0.1}{}}
 \@writefile{toc}{\contentsline {section}{\numberline {1.1}Thermal noise in resistors}{3}{section.1.1}}
 \citation{schoelkopf_frequency_1997}
+\@writefile{lof}{\contentsline {figure}{\numberline {1.1}{\ignorespaces Schematic of Nyquist's famous thought experiment. Two resistors in thermal equilibrium are connected end to end and allowed to transfer energy between them via thermal current fluctuations.\relax }}{4}{figure.caption.4}}
+\@cons\caption@pkg@list{{ragged2e}}
+\providecommand*\caption@xref[2]{\@setref\relax\@undefined{#1}}
+\newlabel{fig:Nyquist_resistors}{{1.1}{4}{Schematic of Nyquist's famous thought experiment. Two resistors in thermal equilibrium are connected end to end and allowed to transfer energy between them via thermal current fluctuations.\relax }{figure.caption.4}{}}
 \newlabel{eq:Nyquist}{{1.2}{4}{Thermal noise in resistors}{equation.1.1.2}{}}
 \newlabel{eq:NyquistFull}{{1.3}{4}{Thermal noise in resistors}{equation.1.1.3}{}}
-\@writefile{toc}{\contentsline {section}{\numberline {1.2}Resistor networks: The Johnson noise temperature}{4}{section.1.2}}
+\@writefile{toc}{\contentsline {section}{\numberline {1.2}Resistor networks: The Johnson noise temperature}{5}{section.1.2}}
 \newlabel{eq:seriesJN}{{1.4}{5}{Resistor networks: The Johnson noise temperature}{equation.1.2.4}{}}
 \newlabel{eq:parallelJN}{{1.5}{5}{Resistor networks: The Johnson noise temperature}{equation.1.2.5}{}}
-\newlabel{eq:TJN_discrete}{{1.11}{6}{Resistor networks: The Johnson noise temperature}{equation.1.2.11}{}}
+\newlabel{eq:TJN_discrete}{{1.11}{7}{Resistor networks: The Johnson noise temperature}{equation.1.2.11}{}}
 \newlabel{eq:TJN_cont}{{1.12}{7}{Resistor networks: The Johnson noise temperature}{equation.1.2.12}{}}
 \@writefile{toc}{\contentsline {section}{\numberline {1.3}Johnson noise in RF circuits}{7}{section.1.3}}
 \newlabel{eq:NyquistPower}{{1.13}{7}{Johnson noise in RF circuits}{equation.1.3.13}{}}
-\newlabel{eq:Gamma}{{1.14}{7}{Johnson noise in RF circuits}{equation.1.3.14}{}}
-\@writefile{lof}{\contentsline {figure}{\numberline {1.1}{\ignorespaces JNT autocorrelation schematic}}{8}{figure.caption.4}}
-\@cons\caption@pkg@list{{ragged2e}}
-\providecommand*\caption@xref[2]{\@setref\relax\@undefined{#1}}
-\newlabel{fig:JNT_autocorrelation_schematic}{{1.1}{8}{JNT autocorrelation schematic}{figure.caption.4}{}}
-\@writefile{toc}{\contentsline {section}{\numberline {1.4}An autocorrelation RF noise thermometer}{8}{section.1.4}}
-\@writefile{toc}{\contentsline {section}{\numberline {1.5}Uncertainty in noise measurements}{9}{section.1.5}}
-\@writefile{toc}{\contentsline {section}{\numberline {1.6}Impedance matching}{9}{section.1.6}}
-\@writefile{toc}{\contentsline {subsection}{\numberline {1.6.1}LC tank circuits}{10}{subsection.1.6.1}}
-\@writefile{toc}{\contentsline {subsection}{\numberline {1.6.2}Multi-stage matching}{10}{subsection.1.6.2}}
-\@writefile{toc}{\contentsline {section}{\numberline {1.7}Effective noise temperature}{11}{section.1.7}}
-\@writefile{toc}{\contentsline {section}{\numberline {1.8}Calibration}{11}{section.1.8}}
-\@writefile{toc}{\contentsline {section}{\numberline {1.9}Cross-correlated noise thermometry}{11}{section.1.9}}
-\@writefile{toc}{\contentsline {subsection}{\numberline {1.9.1}multi-terminal cross-correlation}{12}{subsection.1.9.1}}
+\citation{pozar_microwave_2011}
+\newlabel{eq:Gamma}{{1.14}{8}{Johnson noise in RF circuits}{equation.1.3.14}{}}
+\@writefile{lof}{\contentsline {figure}{\numberline {1.2}{\ignorespaces JNT autocorrelation schematic}}{9}{figure.caption.5}}
+\newlabel{fig:schematic_autocorrelation}{{1.2}{9}{JNT autocorrelation schematic}{figure.caption.5}{}}
+\@writefile{toc}{\contentsline {section}{\numberline {1.4}An autocorrelation RF noise thermometer}{9}{section.1.4}}
+\@writefile{lof}{\contentsline {figure}{\numberline {1.3}{\ignorespaces a typical spectrum directly from the output of a low noise amplifier (Miteq AU-1291 $\sim $65\nobreakspace {}dB gain $\sim $100\nobreakspace {}K noise temperature) with the input terminated with a 50\nobreakspace {}${"Ω}$ resistor. The spectrum is flat until the amplifier gain begins to roll off above 500\nobreakspace {}MHz. The amplitude of the "white" spectrum is proportional to the resistor temperature added to the amplifier noise temperature.\relax }}{10}{figure.caption.6}}
+\newlabel{fig:Miteq_spec}{{1.3}{10}{a typical spectrum directly from the output of a low noise amplifier (Miteq AU-1291 $\sim $65~dB gain $\sim $100~K noise temperature) with the input terminated with a 50~$\Omega $ resistor. The spectrum is flat until the amplifier gain begins to roll off above 500~MHz. The amplitude of the "white" spectrum is proportional to the resistor temperature added to the amplifier noise temperature.\relax }{figure.caption.6}{}}
+\@writefile{lof}{\contentsline {figure}{\numberline {1.4}{\ignorespaces a typical Johnson noise spectrum after amplification and filtering using SMA high- and low-pass filters (mini-circuits SLP and SHP series). This square band can then integrated to find the total noise power and thus the temperature of the resistor.\relax }}{10}{figure.caption.7}}
+\newlabel{fig:Miteq_BP_spec}{{1.4}{10}{a typical Johnson noise spectrum after amplification and filtering using SMA high- and low-pass filters (mini-circuits SLP and SHP series). This square band can then integrated to find the total noise power and thus the temperature of the resistor.\relax }{figure.caption.7}{}}
+\citation{crossno_development_2015}
+\@writefile{lof}{\contentsline {figure}{\numberline {1.5}{\ignorespaces Calibration curves for the Pasternach PE8000-50 power detector. A monochromatic signal of known power is supplied using a microwave source (Stanford Research Systems) and the output is measured using a Voltmeter (Keithley 2400). The detector has a flat frequency response up to 1\nobreakspace {}GHz and shows linear behavior from -45\nobreakspace {}dBm to -25\nobreakspace {}dBm (30\nobreakspace {}dB dynamic range)\relax }}{12}{figure.caption.8}}
+\newlabel{fig:PE8000}{{1.5}{12}{Calibration curves for the Pasternach PE8000-50 power detector. A monochromatic signal of known power is supplied using a microwave source (Stanford Research Systems) and the output is measured using a Voltmeter (Keithley 2400). The detector has a flat frequency response up to 1~GHz and shows linear behavior from -45~dBm to -25~dBm (30~dB dynamic range)\relax }{figure.caption.8}{}}
+\citation{rice}
+\citation{fig:JNT_500measurements}
+\@writefile{lof}{\contentsline {figure}{\numberline {1.6}{\ignorespaces Johnson noise of a 50\nobreakspace {}${"Ω}$ resistor measured by the circuit shown in fig.\nobreakspace {}\ref  {fig:schematic_autocorrelation}. Inset show the lock-in amplifier output. The signal is converted to noise power by the Nyquist equation. The solid line is a linear fit with an offset of 68\nobreakspace {}K due to amplifier noise\relax }}{13}{figure.caption.9}}
+\newlabel{fig:auto_noise_vs_T}{{1.6}{13}{Johnson noise of a 50~$\Omega $ resistor measured by the circuit shown in fig.~\ref {fig:schematic_autocorrelation}. Inset show the lock-in amplifier output. The signal is converted to noise power by the Nyquist equation. The solid line is a linear fit with an offset of 68~K due to amplifier noise\relax }{figure.caption.9}{}}
+\@writefile{toc}{\contentsline {section}{\numberline {1.5}Uncertainty in noise measurements}{14}{section.1.5}}
+\citation{dicke_measurement_1946}
+\@writefile{lof}{\contentsline {figure}{\numberline {1.7}{\ignorespaces 500 repeated Johnson noise measurements of a 50\nobreakspace {}${"Ω}$ resistor at 50\nobreakspace {}K using two different measurement bandwidths. The high bandwidth data has smaller statistical fluctuations than the low bandwidth data.\relax }}{15}{figure.caption.10}}
+\newlabel{fig:JNT_500measurements}{{1.7}{15}{500 repeated Johnson noise measurements of a 50~$\Omega $ resistor at 50~K using two different measurement bandwidths. The high bandwidth data has smaller statistical fluctuations than the low bandwidth data.\relax }{figure.caption.10}{}}
+\newlabel{eq:dicke_formula}{{1.15}{15}{Uncertainty in noise measurements}{equation.1.5.15}{}}
+\citation{fig:schematic_matching}
+\@writefile{lof}{\contentsline {figure}{\numberline {1.8}{\ignorespaces Histograms of 20,000 auto-correlation temperature measurements for 28 and 328\nobreakspace {}MHz bandwidth using 50\nobreakspace {}ms integration time. Histogram peaks are normalized to 1 for clarity. All data is taken on a 50\nobreakspace {}K resistive load.\relax }}{16}{figure.caption.11}}
+\newlabel{fig:JNT_histograms}{{1.8}{16}{Histograms of 20,000 auto-correlation temperature measurements for 28 and 328~MHz bandwidth using 50~ms integration time. Histogram peaks are normalized to 1 for clarity. All data is taken on a 50~K resistive load.\relax }{figure.caption.11}{}}
+\@writefile{toc}{\contentsline {section}{\numberline {1.6}Impedance matching}{16}{section.1.6}}
+\@writefile{toc}{\contentsline {subsection}{\numberline {1.6.1}LC tank circuits}{16}{subsection.1.6.1}}
+\@writefile{lof}{\contentsline {figure}{\numberline {1.9}{\ignorespaces Schematic of an LC tank circuit setup in a low-pass configuration used to transform a sample resistance $R_0$ to match the characteristic impedance of a measurement circuit $Z_0$.\relax }}{17}{figure.caption.12}}
+\newlabel{fig:schematic_matching}{{1.9}{17}{Schematic of an LC tank circuit setup in a low-pass configuration used to transform a sample resistance $R_0$ to match the characteristic impedance of a measurement circuit $Z_0$.\relax }{figure.caption.12}{}}
+\newlabel{eq:LC_tank_Z}{{1.16}{17}{LC tank circuits}{equation.1.6.16}{}}
+\newlabel{eq:LC_tank_constraint}{{1.17}{17}{LC tank circuits}{equation.1.6.17}{}}
+\newlabel{eq:LC_tank_L}{{1.18}{17}{LC tank circuits}{equation.1.6.18}{}}
+\newlabel{eq:LC_tank_C}{{1.19}{17}{LC tank circuits}{equation.1.6.19}{}}
+\@writefile{lof}{\contentsline {figure}{\numberline {1.10}{\ignorespaces The real and imaginary impedance of an LC tank circuit (eq.\nobreakspace {}\ref  {eq:LC_tank_Z}) with $R_0=1\nobreakspace {}k{"Ω}$, $C = 4.5\nobreakspace {}pF$, and $L = 220\nobreakspace {}nH$. The imaginary component cross zero as the real component is 50\nobreakspace {}${"Ω}$.\relax }}{18}{figure.caption.13}}
+\newlabel{fig:LC_tank_Z}{{1.10}{18}{The real and imaginary impedance of an LC tank circuit (eq.~\ref {eq:LC_tank_Z}) with $R_0=1~k\Omega $, $C = 4.5~pF$, and $L = 220~nH$. The imaginary component cross zero as the real component is 50~$\Omega $.\relax }{figure.caption.13}{}}
+\@writefile{lof}{\contentsline {figure}{\numberline {1.11}{\ignorespaces Image of an impedance matching circuit before capacitance tuning. A long piece of twisted pair wire shunts the sample and an inductor (Coilcraft RF Air Core) is placed in series. To tune the capacitance, the twisted pair wire is cut shorter and shorter while the reflectance ${"Γ}$ is monitored.\relax }}{19}{figure.caption.14}}
+\newlabel{fig:picture_gimmick1}{{1.11}{19}{Image of an impedance matching circuit before capacitance tuning. A long piece of twisted pair wire shunts the sample and an inductor (Coilcraft RF Air Core) is placed in series. To tune the capacitance, the twisted pair wire is cut shorter and shorter while the reflectance $\Gamma $ is monitored.\relax }{figure.caption.14}{}}
+\@writefile{lof}{\contentsline {figure}{\numberline {1.12}{\ignorespaces Image of an impedance matching circuit after capacitance tuning. The twisted pair wire serves as a gimmick and is tuned for each sample to account for variance in stray capacitance.\relax }}{19}{figure.caption.15}}
+\newlabel{fig:picture_gimmick2}{{1.12}{19}{Image of an impedance matching circuit after capacitance tuning. The twisted pair wire serves as a gimmick and is tuned for each sample to account for variance in stray capacitance.\relax }{figure.caption.15}{}}
+\@writefile{lof}{\contentsline {figure}{\numberline {1.13}{\ignorespaces Reflectance curves while tuning a matching circuit for $R_0 = 1\nobreakspace {}k{"Ω}$ and $L = 200\nobreakspace {}nH$. The rightmost curve (green) corresponds to the lowest capacitance and the leftmost curve (blue) corresponds to the highest. Each curve is the result of cutting off a section of twisted pair wire.\relax }}{20}{figure.caption.16}}
+\newlabel{fig:gimmick_tuning}{{1.13}{20}{Reflectance curves while tuning a matching circuit for $R_0 = 1~k\Omega $ and $L = 200~nH$. The rightmost curve (green) corresponds to the lowest capacitance and the leftmost curve (blue) corresponds to the highest. Each curve is the result of cutting off a section of twisted pair wire.\relax }{figure.caption.16}{}}
+\@writefile{lof}{\contentsline {figure}{\numberline {1.14}{\ignorespaces Amplified noise spectrum from a device, impedance matched using an LC tank circuit, at various temperatures. The background noise is no longer flat as the amplifier is not properly terminated at all frequencies. As the device temperature is raised, the spectral density increases non-uniformly as different frequencies couple differently to the circuitry as determined by eq.\nobreakspace {}\ref  {eq:NyquistPower}\relax }}{21}{figure.caption.17}}
+\newlabel{fig:spectrum_matching}{{1.14}{21}{Amplified noise spectrum from a device, impedance matched using an LC tank circuit, at various temperatures. The background noise is no longer flat as the amplifier is not properly terminated at all frequencies. As the device temperature is raised, the spectral density increases non-uniformly as different frequencies couple differently to the circuitry as determined by eq.~\ref {eq:NyquistPower}\relax }{figure.caption.17}{}}
+\@writefile{lof}{\contentsline {figure}{\numberline {1.15}{\ignorespaces Reflection coefficient |S11|$^2$ for a single stage LC matching network as a function of device resistance. The left plot shows the full data set with a maximum coupling efficiency of more than 30\nobreakspace {}dB. The right plot shows the same data with the color scale adjusted to highlight 1\nobreakspace {}dB changes up to a maximum of 10\nobreakspace {}dB (corresponding to 90\% coupling efficiency). All data taken from a graphene device at low temperature using an electrostatic gate.\relax }}{22}{figure.caption.18}}
+\newlabel{fig:S11vsR}{{1.15}{22}{Reflection coefficient |S11|$^2$ for a single stage LC matching network as a function of device resistance. The left plot shows the full data set with a maximum coupling efficiency of more than 30~dB. The right plot shows the same data with the color scale adjusted to highlight 1~dB changes up to a maximum of 10~dB (corresponding to 90\% coupling efficiency). All data taken from a graphene device at low temperature using an electrostatic gate.\relax }{figure.caption.18}{}}
+\@writefile{toc}{\contentsline {subsection}{\numberline {1.6.2}Multi-stage matching}{22}{subsection.1.6.2}}
+\@writefile{toc}{\contentsline {section}{\numberline {1.7}Effective noise temperature}{23}{section.1.7}}
+\@writefile{toc}{\contentsline {section}{\numberline {1.8}Calibration}{23}{section.1.8}}
+\@writefile{toc}{\contentsline {section}{\numberline {1.9}Cross-correlated noise thermometry}{24}{section.1.9}}
+\@writefile{toc}{\contentsline {subsection}{\numberline {1.9.1}multi-terminal cross-correlation}{24}{subsection.1.9.1}}
 \@setckpt{chapters/Johnson_noise_thermometry}{
-\setcounter{page}{13}
-\setcounter{equation}{14}
+\setcounter{page}{25}
+\setcounter{equation}{19}
 \setcounter{enumi}{0}
 \setcounter{enumii}{0}
 \setcounter{enumiii}{0}
 \setcounter{enumiv}{0}
-\setcounter{footnote}{3}
+\setcounter{footnote}{6}
 \setcounter{mpfootnote}{0}
 \setcounter{part}{0}
 \setcounter{chapter}{1}
@@ -53,7 +92,7 @@
 \setcounter{subsubsection}{0}
 \setcounter{paragraph}{0}
 \setcounter{subparagraph}{0}
-\setcounter{figure}{1}
+\setcounter{figure}{15}
 \setcounter{table}{0}
 \setcounter{DefaultLines}{2}
 \setcounter{DefaultDepth}{0}
@@ -61,12 +100,12 @@
 \setcounter{L@depth}{0}
 \setcounter{parentequation}{0}
 \setcounter{Item}{0}
-\setcounter{Hfootnote}{3}
+\setcounter{Hfootnote}{6}
 \setcounter{Hy@AnnotLevel}{0}
 \setcounter{bookmark@seq@number}{14}
 \setcounter{eu@}{0}
 \setcounter{eu@i}{0}
-\setcounter{mkern}{3}
+\setcounter{mkern}{4}
 \setcounter{ContinuedFloat}{0}
 \setcounter{lofdepth}{1}
 \setcounter{lotdepth}{1}
