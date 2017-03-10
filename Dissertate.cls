@@ -75,6 +75,7 @@
 %stuff I added
 \usepackage{bm} % bold math
 \usepackage{amsmath, amsthm}
+\usepackage{float}
 
 % Fonts.
 \RequirePackage{color}

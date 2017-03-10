@@ -93,7 +93,7 @@ As can be seen from eq.~\ref{eq:NyquistPower}, the larger the measurement bandwi
 
 \section{An autocorrelation RF noise thermometer}
 \begin{figure}
-\includegraphics[width=\textwidth]{figures/Johnson_noise_thermometry/Schematic_Autocorrelation.png}
+\includegraphics[width=130mm]{figures/Johnson_noise_thermometry/Schematic_Autocorrelation.png}
 \caption[JNT autocorrelation schematic]{High level schematic of a typical Johnson noise thermometry measurement circuit. Noise from an impedance matched sample is amplified and a measurement bandwidth is selected using a homodyne mixer and low-pass filter. The noise power is then measured with a power diode or linear multiplier. A microwave switch acts as a chopper and the signal is measured using a lock-in amplifier.}
 \label{fig:schematic_autocorrelation}
 \end{figure}
@@ -136,7 +136,7 @@ More details on this circuit can be found in ref.~\citep{crossno_development_201
 
 \begin{figure}
 \centering
-\includegraphics[width = 100mm]{figures/Johnson_noise_thermometry/Auto_noise_vs_T.png}
+\includegraphics[width = 90mm]{figures/Johnson_noise_thermometry/Auto_noise_vs_T.png}
 \caption{Johnson noise of a 50~$\Omega$ resistor measured by the circuit shown in fig.~\ref{fig:schematic_autocorrelation}. Inset show the lock-in amplifier output. The signal is converted to noise power by the Nyquist equation. The solid line is a linear fit with an offset of 68~K due to amplifier noise}
 \label{fig:auto_noise_vs_T}
 \end{figure}
@@ -145,7 +145,7 @@ More details on this circuit can be found in ref.~\citep{crossno_development_201
 \newthought{Even noise has noise}. There are 2 main areas of uncertainty in a noise measurements: The first comes from the fact that noise is stochastic and deals with how well you know the variance of a Gaussian after measuring some amount of time. If the measurements you take are discrete and uncorrelated then we get the usual $1/\sqrt{n}$, but what to do if we are measuring a continuous signal? It turns out this is an old problem which stems back to the 1940 and measurements of noise on telephone lines~\cite{rice}. In 1944 Rice showed the effective number of uncorrelated measurements is given by the product of the measurement time $\tau$ and the effective noise bandwidth\footnote{The effective noise bandwidth is defined as the width of a perfect square band that passes the same noise power as the true filter function.} $\Delta f$. This surprising fact that the wider the measurement bandwidth the lower the uncertainty is counter to many experiments where high Q filters are desired to lower the background noise; nevertheless, it can be seen experimentally, as shown in fig.~\cite{fig:JNT_500measurements}
 \begin{figure}
 \centering
-\includegraphics[width=\textwidth]{figures/Johnson_noise_thermometry/500_measurements.png}
+\includegraphics[width=120mm]{figures/Johnson_noise_thermometry/500_measurements.png}
 \caption{500 repeated Johnson noise measurements of a 50~$\Omega$ resistor at 50~K using two different measurement bandwidths. The high bandwidth data has smaller statistical fluctuations than the low bandwidth data.}
 \label{fig:JNT_500measurements}
 \end{figure}
@@ -171,7 +171,7 @@ Eq.~\ref{eq:NyquistPower} illustrates the importance of minimizing the impedance
 \subsection{LC tank circuits}
 \begin{figure}
 \centering
-\includegraphics[width=80mm]{figures/Johnson_noise_thermometry/Noise_source_matching.png}
+\includegraphics[width=80mm]{figures/Johnson_noise_thermometry/schematic_matching.png}
 \caption{Schematic of an LC tank circuit setup in a low-pass configuration used to transform a sample resistance $R_0$ to match the characteristic impedance of a measurement circuit $Z_0$.}
 \label{fig:schematic_matching}
 \end{figure}
@@ -191,25 +191,18 @@ where $\omega_0$ is the center of the measurement band. Fig.~\ref{fig:LC_tank_Z}
 \label{fig:LC_tank_Z}
 \end{figure}
 Combining eq.~\ref{eq:LC_tank_Z} and eq.~\ref{eq:LC_tank_constraint} for a given $R_0$, $\omega_0$ and $Z_0$ give us the needed inductance and capacitance values.
-\begin{equation}\label{eq:LC_tank_L}
+\begin{equation}\label{eq:LC_tank_LC}
 L = \sqrt{\frac{R_0Z_0}{\omega_0^{~2}}}
-\end{equation}
-\begin{equation}\label{eq:LC_tank_C}
+\hspace{15mm}
 C = \frac{1}{\sqrt{R_0Z_0\omega_0^{~2}}}
 \end{equation}
 
 While in theory adding a precise induction and capacitance onto a device is straight forward, in practice real devices can have a not insignificant amount of stray capacitance\footnote{stray inductance is also possible (particularly if long wire bonds are necessary) but are usually negligible for the resistance and frequency ranges in this thesis}. To account for this we can use a variable capacitor and tune the matching circuit to each device. One simple, temperature independent, magnetic field compatible capacitor that can be easily tuned is a set of twisted pair wires. Fig.~\ref{fig:picture_gimmick1} and fig.~\ref{fig:picture_gimmick2} show an example of a matching circuit using a twisted pair capacitor before and after tuning, respectively.
 \begin{figure}
 \centering
-\includegraphics[width=100mm]{figures/Johnson_noise_thermometry/picture_gimmick1.jpg}
-\caption{Image of an impedance matching circuit before capacitance tuning. A long piece of twisted pair wire shunts the sample and an inductor (Coilcraft RF Air Core) is placed in series. To tune the capacitance, the twisted pair wire is cut shorter and shorter while the reflectance $\Gamma$ is monitored.}
+\includegraphics[width=0.5\textwidth]{figures/Johnson_noise_thermometry/picture_gimmick1.jpg}\includegraphics[width=0.5\textwidth]{figures/Johnson_noise_thermometry/picture_gimmick2.jpg}
+\caption{Images of an impedance matching circuit before (left) and after (right) capacitance tuning. A long piece of twisted pair wire shunts the sample and an inductor (Coilcraft RF Air Core) is placed in series. To tune the capacitance, the twisted pair wire is cut shorter and shorter while the reflectance is monitored.}
 \label{fig:picture_gimmick1}
-\end{figure}
-\begin{figure}
-\centering
-\includegraphics[width=100mm]{figures/Johnson_noise_thermometry/picture_gimmick2.jpg}
-\caption{Image of an impedance matching circuit after capacitance tuning. The twisted pair wire serves as a gimmick and is tuned for each sample to account for variance in stray capacitance.}
-\label{fig:picture_gimmick2}
 \end{figure} 
 
 A vector network analyzer (VNA) is used to measure the sample reflectance $\Gamma = S_{11}^2$ to ensure the sample is properly matched. Fig.~\ref{fig:gimmick_tuning} shows how the reflectance changes for a $1~k\Omega$ sample impedance and $220~nH$ series inductance as the capacitance is tuned. When properly tuned we measure a large dip in $S_{11}$ signifying the sample is well coupled to the $50~\Omega$ VNA.
@@ -228,19 +221,60 @@ After matching, the noise spectral density emitted into the measurement circuitr
 \label{fig:spectrum_matching}
 \end{figure}
 
-In most mesoscopic measurements, the resistance of the device under test varies throughout the experiment; whether electrostatic gates modulate the carrier density, strong magnetic fields drive the system toward quantum hall, or cryogenic temperatures modify the conductivity, matching networks should operate over a wide dynamic range of input impedances. The response of a single stage LC matching network coupled to a changing device resistance is shown in fig.~\ref{fig:S11vsR}. The device is optimally matched around $450~\Omega$ but maintains more than $10~dB$ coupling between $200~\Omega$ and $1~k\Omega$. As the resistance drops, we see the appearance of the trivial solution to eq.~\ref{eq:LC_tank_Z} of $R_0~=~50~\Omega$ and $\omega~=~0$. 
+In most mesoscopic measurements, the resistance of the device under test varies throughout the experiment; whether electrostatic gates modulate the carrier density, strong magnetic fields drive the system toward quantum hall, or cryogenic temperatures modify the conductivity, matching networks should operate over a wide dynamic range of input impedances. The response of a single stage LC matching network coupled to a variable resistance device\footnote{in this case an graphene device with an electrostatic gate} is shown in fig.~\ref{fig:S11vsR}. The device is optimally matched around $450~\Omega$ but maintains more than $10~dB$ coupling between $200~\Omega$ and $1~k\Omega$. As the resistance drops, we see the appearance of the trivial solution to eq.~\ref{eq:LC_tank_Z} of $R_0~=~50~\Omega$ and $\omega~=~0$. 
 \begin{figure}
 \centering
-\includegraphics[width=\textwidth]{figures/Johnson_noise_thermometry/S11vsR.png}
+\includegraphics[width=120mm]{figures/Johnson_noise_thermometry/S11vsR.png}
 \caption{Reflection coefficient |S11|$^2$ for a single stage LC matching network as a function of device resistance. The left plot shows the full data set with a maximum coupling efficiency of more than 30~dB. The right plot shows the same data with the color scale adjusted to highlight 1~dB changes up to a maximum of 10~dB (corresponding to 90\% coupling efficiency). All data taken from a graphene device at low temperature using an electrostatic gate.}
 \label{fig:S11vsR}
 \end{figure}
 
-
-
 \subsection{Multi-stage matching}
-If resistance will vary by multiple orders of magnitude (e.g. magneto resistance) multi-stage matching networks can be used. Multi-stage LC networks allow you to cover a wider area of the resistance-frequency space by giving you multiple solutions of Z=50. Cell phones use many stages to capture the full range of the human voice (need source). If the resistance of the device is fixed we can use multi-stage matching to increase the bandwidth over which we are matched. Show real and imaginary components for single vs double stage matching (subtract off 50 to show how these are zeros). In this plot there are 2 solutions to Z = 50. In the R-f plane this looks like  (show color plot of solution)
-However, if instead we want to match to larger range of resistances, we can move one of these zeros to a higher resistance. This increases the dynamic range of the matching circuit at the expense of bandwidth.
+Some experiments, such as the magneto-thermal transport studies discussed in chapter~\ref{ch:magneto-thermal_transport}, require devices to vary in resistance over multiple ordered of magnitude. Single stage LC networks are insufficient to cover this wide range. Fig.~\cite{fig:S11_3Rs} shows the loss of coupling in a single stage LC tank circuit at high device resistances. In this situation, multiple LC stages can be used to increase the dynamic range.
+\begin{figure}
+\centering
+\includegraphics[width = 120mm]{figures/Johnson_noise_thermometry/S11_3Rs.png}
+\caption{Reflection measurements of a single stage LC tank circuit coupled to a graphene device at different resistances. At high resistances the coupling drops off and reflection is high.}
+\label{fig:S11_3Rs}
+\end{figure}
+
+Multi-stage LC networks allow you to match a wider area of the resistance-frequency space by giving you multiple solutions to the equation $Z(\omega)=Z_0$\footnote{This is a well known solution to a similar problem in audio recording. Multi-stage impedance transforms are used to capture the full audio range~\cite{?}.}. An example schematic of a two-stage LC tank circuit is shown in fig.~\ref{fig:schematic_double_matching}. The resulting impedance takes the form:
+\begin{equation}\label{eq:LC_double_tank_Z}
+Z(\omega) = \left\lbrace\left[\left(R_0^{~-1}+i\omega C_1\right)^{-1}+i\omega L_1\right]^{~-1}+i\omega C_2\right\rbrace^{-1}+i\omega L_2
+\end{equation}
+\begin{figure}
+\centering
+\includegraphics[width=100mm]{figures/Johnson_noise_thermometry/schematic_double_matching}
+\caption{Schematic of a double-stage LC matching network. The device resistance $R_0$ to transformed to match the characteristic impedance of the measurement circuit $Z_0$ using two LC tank circuits. This results in a wider matching bandwidth and/or larger dynamic range depending on the values of the reactive elements.}
+\label{fig:schematic_double_matching}
+\end{figure}
+Eq.~\ref{eq:LC_double_tank_Z}, under the constraint defined by eq.~\ref{eq:LC_tank_constraint}, can have multiple solutions for the same set of inputs. This makes it possible to increase the matching bandwidth for the same dynamic range. Fig.~\ref{fig:LC_double_tank_Z} plots the real and imaginary components of eq.~\ref{eq:LC_double_tank_Z} for a specific choice of inductances and capacitances designed to cross $50+0i~\Omega$ at two nearby frequencies for the same device resistance. It can be shown for a fixed resistance that the maximum bandwidth occurs when the impedance is dropped by geometric factor --- i.e each stage transforms the impedance by the same factor. For an $N$ stage network of the form shown in fig.~\ref{fig:schematic_double_matching}, the $i$th inductance and capacitance are given by a generalized form of eq.~\ref{eq:LC_tank_LC}. 
+\begin{equation}\label{eq:LC_double_tank_LC}
+L_i = \frac{\left(R_0^{~2N-2i+1}~Z_0^{~2i-1}\right)^{1/2N}}{\omega_0}
+\hspace{15mm}
+C_i = \frac{\left(R_0^{~2N-2i+1}~Z_0^{~2i-1}\right)^{-1/2N}}{\omega_0}
+\end{equation}
+\begin{figure}
+\centering
+\includegraphics[width=120mm]{figures/Johnson_noise_thermometry/Z_doubleTank.png}
+\caption{Real and imaginary components of eq.~\ref{eq:LC_double_tank_Z} for $R=1000\Omega$, $C_1=1.9~pF$,$L_1=430~nH$, $C_2=8.6~pF$, and $L_1=96~nH$. The impedance goes to $50+0i~\Omega$ at two nearby frequencies.}
+\label{fig:LC_double_tank_Z}
+\end{figure}
+Applying eq.~\ref{eq:LC_double_tank_LC} to a two-stage LC network with a graphene device we can increase the matched bandwidth to ${\sim}150~MHz$, as shown in fig.~\ref{fig:S11vsR_double}.
+
+However, if instead we want to match to larger range of resistances, we can move one of these zeros to a higher resistance. This increases the dynamic range of the matching circuit at the expense of bandwidth. For example, by lowering the first capacitance of the network shown in fig.~\ref{fig:S11vsR_double}, we move the high frequency solution from ${\sim}1~k\Omega$ to ${\sim}4~k\Omega$, increasing the dynamic range to include quantum hall resistances, as shown in fig.~\ref{fig:S11vsR_double2}.
+\begin{figure}
+\centering
+\includegraphics[width=\textwidth]{figures/Johnson_noise_thermometry/S11vsR_double.png}
+\caption{Reflection coefficient |S11|$^2$ for a double stage LC matching network as a function of device resistance for reactive components following eq.~\ref{eq:LC_double_tank_LC}. The left plot shows the full data. The right plot shows the same data with the color scale adjusted to highlight 1~dB changes up to a maximum of 10~dB. The attached graphene device is optimally coupled at ${\sim}1~k\Omega$ and has an effective noise bandwidth of ${\sim}150~MHz$.}
+\label{fig:S11vsR_double}
+\end{figure}
+\begin{figure}
+\centering
+\includegraphics[width=\textwidth]{figures/Johnson_noise_thermometry/S11vsR_double2.png}
+\caption{Reflection coefficient |S11|$^2$ for the same  double stage LC matching network shown in fig.~\ref{fig:S11vsR_double} as a function of device resistance with the first stage capacitance lowered. This moves the high frequency zero to a higher resistance; effectively increasing the dynamic range at the cost of bandwidth. This technique enables the continuous measurement of graphene devices from zero field into the quantum Hall regime}
+\label{fig:S11vsR_double2}
+\end{figure}
 
 \section{Effective noise temperature}
 The effective noise temperature is the sum of all (unwanted) noise in your system in units of the sample noise temperature. Your signal to noise ratio is given by T/Tn. Tn is a function of gamma integrated over all frequencies. Show formula for. In practice the frequencies integrated over are determined by filters.
