@@ -106,7 +106,7 @@ Fig.~\ref{fig:JNT_autocorrelation_schematic} shows an example of a typical, Dick
 \end{figure}
 
 Even though Johnson noise has a flat "white" spectrum, it is important to filter out unwanted $1/f~$ low frequency fluctuations ($\lesssim 10~kHz$) as well as high frequency noise produced where the amplifier gain begins to roll off. 
-This can be done using high- and low- pass filters (producing a spectrum similar shown in fig.~\ref{fig:Miteq_BP_spec}, or with a homodyne mixer and low-pass filter combo (as shown in fig.~\ref{fig:JNT_autocorrelation_schematic}. 
+This can be done using high- and low- pass filters (producing a spectrum similar shown in fig.~\ref{fig:Miteq_BP_spec}, or with a homodyne mixer and low-pass filter combo (as shown in fig.~\ref{fig:autocorrelation_schematic}. 
 \begin{figure}
 \includegraphics[width=\textwidth]{figures/Johnson_noise_thermometry/Miteq_BP_spec.png}
 \caption{a typical Johnson noise spectrum after amplification and filtering using SMA high- and low-pass filters (mini-circuits SLP and SHP series). This square band can then integrated to find the total noise power and thus the temperature of the resistor.}
@@ -166,7 +166,7 @@ We can directly compare eq.~\ref{eq:dicke_formula} to experiments by repeating a
 \end{figure}
 
 \section{Impedance matching}
-Eq.~\ref{eq:NyquistPower} illustrates the importance of minimizing the impedance mismatch between the sample and the measurement circuitry -- typically 50~$\Omega$. The central principle is to use non-dissipative components to transform the total impedance to $Z(\omega) = 50+0i~\Omega$ at some frequency $\omega = 2\pi\times f$. Impedance matching mesoscopic devices has a unique set of challenges: electrostatic gates and high magnetic fields can cause device impedances to change by multiple orders of magnitude, cryogenic temperatures require the use of only thermally stable components, and large magnetic fields restrict the use of ferrite inductors.
+\newthought{Life does not always give you $50~\Omega$ samples}. Eq.~\ref{eq:NyquistPower} illustrates the importance of minimizing the impedance mismatch between the sample and the measurement circuitry -- typically 50~$\Omega$. The central principle is to use non-dissipative components to transform the total impedance to $Z(\omega) = 50+0i~\Omega$ at some frequency $\omega = 2\pi\times f$. Impedance matching mesoscopic devices has a unique set of challenges: electrostatic gates and high magnetic fields can cause device impedances to change by multiple orders of magnitude, cryogenic temperatures require the use of only thermally stable components, and large magnetic fields restrict the use of ferrite inductors.
 
 \subsection{LC tank circuits}
 \begin{figure}
@@ -248,7 +248,7 @@ Z(\omega) = \left\lbrace\left[\left(R_0^{~-1}+i\omega C_1\right)^{-1}+i\omega L_
 \caption{Schematic of a double-stage LC matching network. The device resistance $R_0$ to transformed to match the characteristic impedance of the measurement circuit $Z_0$ using two LC tank circuits. This results in a wider matching bandwidth and/or larger dynamic range depending on the values of the reactive elements.}
 \label{fig:schematic_double_matching}
 \end{figure}
-Eq.~\ref{eq:LC_double_tank_Z}, under the constraint defined by eq.~\ref{eq:LC_tank_constraint}, can have multiple solutions for the same set of inputs. This makes it possible to increase the matching bandwidth for the same dynamic range. Fig.~\ref{fig:LC_double_tank_Z} plots the real and imaginary components of eq.~\ref{eq:LC_double_tank_Z} for a specific choice of inductances and capacitances designed to cross $50+0i~\Omega$ at two nearby frequencies for the same device resistance. It can be shown for a fixed resistance that the maximum bandwidth occurs when the impedance is dropped by geometric factor --- i.e each stage transforms the impedance by the same factor. For an $N$ stage network of the form shown in fig.~\ref{fig:schematic_double_matching}, the $i$th inductance and capacitance are given by a generalized form of eq.~\ref{eq:LC_tank_LC}. 
+Eq.~\ref{eq:LC_double_tank_Z}, under the constraint defined by eq.~\ref{eq:LC_tank_constraint}, can have multiple solutions for the same set of inputs. This makes it possible to increase the matching bandwidth for the same dynamic range. Fig.~\ref{fig:LC_double_tank_Z} plots the real and imaginary components of eq.~\ref{eq:LC_double_tank_Z} for a specific choice of inductances and capacitances designed to cross $50+0i~\Omega$ at two nearby frequencies for the same device resistance. It can be shown for a fixed resistance that the maximum bandwidth occurs when the impedance is dropped by geometric factor~\cite{pozar_microwave_2011} --- i.e each stage transforms the impedance by the same factor. For an $N$ stage network of the form shown in fig.~\ref{fig:schematic_double_matching}, the $i$th inductance and capacitance are given by a generalized form of eq.~\ref{eq:LC_tank_LC}. 
 \begin{equation}\label{eq:LC_double_tank_LC}
 L_i = \frac{\left(R_0^{~2N-2i+1}~Z_0^{~2i-1}\right)^{1/2N}}{\omega_0}
 \hspace{15mm}
@@ -276,8 +276,62 @@ However, if instead we want to match to larger range of resistances, we can move
 \label{fig:S11vsR_double2}
 \end{figure}
 
+The more stages added the wider the matched area in resistance-frequency space but also the more sensitive to stray capacitance the circuit becomes. In practice, devices with a $300~nm~SiO_2$ back-gate dielectric often have $3-6~pF$ stray capacitance; this can be reduced to less than $1~pf$ with the use of insulating substrates and local top-gates, or by increasing the back-gate dielectric to $1~\mu m$. Reducing the stray reactance also addressed the another challenge that comes with multiple matching stages --- it is no longer trivial to tune the circuit using gimmick\footnote{the twisted pair wire is one form of a gimmick meant to fine tune the circuit capacitance}. For these more complicated networks, surface mount ceramic capacitors can be soldered direct to the sample package, as shown in fig.~\ref{fig:picture_doubleLC}, and adjustments can be made by careful removal and replacement\footnote{making sure not to only the locally to avoid damaging the sample.}
+\begin{figure}
+\centering
+\includegraphics[width = 100mm]{figures/Johnson_noise_thermometry/picture_matching_ceramic}
+\caption{Image of a two-stage LC matching network soldered directly to a custom cryogenic sample package and wire-bonded to a graphene device. Inductive elements have gold leads allowing direct wire-bonding. The sample is placed on an insulating sapphire substrate with a local top-gate to reduce the stray capacitance.}
+\label{fig:picture_doubleLC}
+\end{figure}
+
 \section{Effective noise temperature}
-The effective noise temperature is the sum of all (unwanted) noise in your system in units of the sample noise temperature. Your signal to noise ratio is given by T/Tn. Tn is a function of gamma integrated over all frequencies. Show formula for. In practice the frequencies integrated over are determined by filters.
+\newthought{A factor of two in signal to noise can be the difference between graduating in two years or eight.} From the dicke radiometer formula, Eq.~\ref{eq:dicke_formula}, the measurement time scales as the effective noise temperature squared. Each component of the measurement circuit should be chosen with this in mind and, as such, its important to understand how each element affects the system as a whole.
+
+The effective noise temperature, $T_n$, is the temperature at which your sample emits the same noise power as the sum of all the "unwanted" noise in your system --- i.e. your signal to noise ratio is given by $T/T_n$, where $T$ is the sample temperature. Quantifying noise in this way lets us write the measured noise power, $\langle P\rangle$, as:
+\begin{equation}\label{eq:power_output}
+\langle P\rangle = \mathcal{G(\Gamma)}(T+T_n(\Gamma))
+\end{equation}
+where $\Gamma$ is reflection coefficient between the sample and the amplifier and $\mathcal{G}$ is the generalized gain factor set by the LNA amplification together with the insertion loss of the microwave components integrated over the bandwidth defined by the external filters. In general, both $\mathcal{G}$ and $T_n$ are functions of $\Gamma$. All defining characteristics of a given given measurement circuit can be swept into $T_n$ and $\mathcal{G}$. In principle these factors must be measured but reasonable estimates can aid in the circuit design.
+
+It is useful to distinguish the difference between the system's intrinsic noise temperature $T_n^0$ and the system's effective noise temperature $T_n$. $T_n^0$ corresponds to the noise emitted by the circuit relative to the Johnson noise of a perfectly matched resistor, while $T_n$ is relative to the sample being measured --- i.e. $T_n^0$ can be reported on a device's specification sheet while $T_n$ is a function of the sample under test and can therefore change with experimental parameters such as electrostatic gate voltage and external field. In general $T_n$ is always equal to or higher than $T_n^0$
+
+While $T_n^0$ is primary determined by the front-end amplifier, every component, $i$, with a finite intrinsic noise $T_i^n$ contributes an amount inversely proportional to the gain before that component, $G_i$. For example, if a circuit has three amplification stages with gains $G_1$, $G_2$, and $G_3$ and intrinsic noise temperatures $T_1^n$, $T_2^n$, and $T_3^n$, respectively, the total system intrinsic noise value is given by:
+\begin{equation}
+T_n^0 = T_1^n+\frac{T_2^n}{G_1}+\frac{T_3^n}{G_1G_2}
+\end{equation}
+or in general
+\begin{equation}
+T_n^0 = \sum_{i}\frac{T_i^n}{\prod_{j<i}G_j}
+\end{equation}
+hence, if the front-end amplifier has a gain or $30~dB$, the noise from second amplifier is effectively reduced by a factor of $1,000$.
+
+Estimating $T_n$ from $T_n^0$ requires knowing the matching function characterized by $\Gamma$. If $\Gamma$ is frequency independent then $T_n \approx T_n^0 / (1-\Gamma)$. For arbitrary $\Gamma(\omega)$ you can integrate over the bandwidth defined by external filters $Delta f$\footnote{Eq.~\ref{eq:Tn_integral} approximates the external filter function as a perfect square filter of bandwidth $\Delta f$. For the full calculation you must include the full filter function.}.
+\begin{equation}\label{eq:Tn_integral}
+T_n \approx \frac{1}{\Delta f}\ \int\limits_{\Delta f}\frac{T_n^0}{1-\Gamma(\omega)}d\omega
+\end{equation}
+\begin{figure}
+\centering
+\includegraphics[width=40mm]{figures/Johnson_noise_thermometry/schematic_noise_IV.png}
+\caption{schematic of a common noise model for active elements. A random voltage source is added in series with the signal and a random current source is added in parallel.}
+\label{fig:schematic_noise_IV}
+\end{figure}
+
+The above formulation is approximate as it assumes the system's intrinsic noise can be described entirely by a single parameter $T_n^0$ --- a good assumption if the sample is properly matched. In general, active components require two parameters fully capture the noise behavior. A common technique is to model the circuit with an effective series voltage noise and parallel current noise, as shown in fig.~\ref{fig:schematic_noise_IV}. However, an equivalent description, which is often more useful in microwave experiments, is that of a forward traveling noise power, $T_{n,for}^0$, a reverse traveling noise power $T_{n,rev}^0$, and some correlation between them~\cite{weinreb's_talk??}. In the case of perfect matching, $\Gamma\rightarrow0$, $T_{n,rev}^0$ is completely absorbed. However for finite $\Gamma$ we can write the amplified noise as:
+\begin{equation}\label{eq:P_full}
+\langle P\rangle=G\ \left(T(1-\Gamma)+T_{n,rev}^0\Gamma+T_{n,for}^0\right)
+\end{equation}
+Rewriting this in the form of eq.~\ref{eq:power_output} and solving for $T_n$ yields.
+\begin{equation}\label{eq:Tn_effective_full}
+T_n(\Gamma)=\frac{\Gamma}{1-\Gamma}T_{n,rev}^0+\frac{1}{1-\Gamma}T_{n,for}^0
+\end{equation}
+
+While eq.~\ref{eq:Tn_effective_full} is what determines uncertainty, and therefore the speed of the measurement, an interesting side effect of eq.~\ref{eq:P_full} is that when the sample temperature is equal to $T_{n,rev}^0$, the total output noise has no dependence on $\Gamma$; no matter what resistance is being measured, the output noise power is the same! Fig.~\ref{fig:JNT_Vn_vs_R} show the total noise power, eq.~\ref{eq:P_full}, as a function of sample resistance at several temperatures. The sample is optimally matche at ${\sim}10^3~\Omega$. In accordance with eq.\ref{eq:P_full}, at low sample temperature the noise decreases as $\Gamma$ decreases while at high temperature the noise increases as the sample approaches optimal matching. The spacing between curves is proportional to the generalized gain,$\mathcal{G}(\Gamma)$, which is maximized when $\Gamma$ is minimized.
+\begin{figure}
+\centering
+\includegraphics[width=120mm]{figures/Johnson_noise_thermometry/Vn_vs_R.png}
+\caption{Voltage proportional to the total integrated noise power as a function of input sample resistance for different sample temperatures. The matching circuit is optimally matched ($\Gamma$ is minimized) at ${\sim}10^3~\Omega$. At low temperature, the total noise decreases as $\Gamma$ decreases, wile at high temperature, the opposite is true. At $T\approx50~K$ the noise power is constant regardless of the input impedance in accordance with eq.\ref{eq:P_full} and $T_{n,rev}^0\approx50~K$.}
+\label{fig:JNT_Vn_vs_R}
+\end{figure}
 
 \section{Calibration}
 Since the gain and noise temperature of the circuit are a function of many complicated factors (stray, loss, gain profiles, noise profiles) it is necessary to calibrate. Furthermore its strongly dependent on the device resistance and therefore must be calibrated for every device/measurement circuit. Goal is to focus here on general calibration not graphene specifics,calibration of graphene will get its own chapter.

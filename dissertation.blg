@@ -19,9 +19,10 @@ Warning--I didn't find a database entry for "fig:JNT_500measurements"
 Warning--I didn't find a database entry for "fig:schematic_matching"
 Warning--I didn't find a database entry for "fig:S11_3Rs"
 Warning--I didn't find a database entry for "?"
+Warning--I didn't find a database entry for "weinreb's_talk??"
 You've used 10 entries,
             2229 wiz_defined-function locations,
-            595 strings with 5964 characters,
+            596 strings with 5980 characters,
 and the built_in function-call counts, 3703 in all, are:
 = -- 366
 > -- 118
@@ -60,4 +61,4 @@ warning$ -- 0
 while$ -- 34
 width$ -- 0
 write$ -- 135
-(There were 5 warnings)
+(There were 6 warnings)

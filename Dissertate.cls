@@ -75,9 +75,10 @@
 %stuff I added
 \usepackage{bm} % bold math
 \usepackage{amsmath, amsthm}
-\usepackage{float}
+\usepackage{perpage} %the perpage package
+\MakePerPage{footnote} %the perpage package command
 
-% Fonts.
+% Fonts
 \RequirePackage{color}
 \RequirePackage{xcolor}
 \usepackage{hyperref}
