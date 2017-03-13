@@ -20,45 +20,52 @@ Warning--I didn't find a database entry for "fig:schematic_matching"
 Warning--I didn't find a database entry for "fig:S11_3Rs"
 Warning--I didn't find a database entry for "?"
 Warning--I didn't find a database entry for "weinreb's_talk??"
-You've used 10 entries,
+Warning--I didn't find a database entry for "Glattli:1997"
+Warning--I didn't find a database entry for "Glattli:1997p7350"
+Warning--I didn't find a database entry for "DiCarlo:2006p2620"
+Warning--I didn't find a database entry for "Henny:1999p2790"
+Warning--I didn't find a database entry for "Brophy:1965p2623"
+Warning--I didn't find a database entry for "*Klein:1978p2616"
+Warning--I didn't find a database entry for "Sampietro:2000p2679"
+You've used 11 entries,
             2229 wiz_defined-function locations,
-            596 strings with 5980 characters,
-and the built_in function-call counts, 3703 in all, are:
-= -- 366
-> -- 118
+            617 strings with 6459 characters,
+and the built_in function-call counts, 4335 in all, are:
+= -- 417
+> -- 176
 < -- 8
-+ -- 42
-- -- 38
-* -- 318
-:= -- 654
-add.period$ -- 31
-call.type$ -- 10
-change.case$ -- 68
-chr.to.int$ -- 10
-cite$ -- 10
-duplicate$ -- 140
-empty$ -- 279
-format.name$ -- 50
-if$ -- 713
++ -- 66
+- -- 60
+* -- 386
+:= -- 771
+add.period$ -- 34
+call.type$ -- 11
+change.case$ -- 84
+chr.to.int$ -- 11
+cite$ -- 11
+duplicate$ -- 154
+empty$ -- 305
+format.name$ -- 73
+if$ -- 825
 int.to.chr$ -- 1
 int.to.str$ -- 0
-missing$ -- 12
-newline$ -- 54
-num.names$ -- 30
-pop$ -- 47
+missing$ -- 13
+newline$ -- 59
+num.names$ -- 33
+pop$ -- 61
 preamble$ -- 1
-purify$ -- 69
+purify$ -- 85
 quote$ -- 0
-skip$ -- 107
+skip$ -- 117
 stack$ -- 0
-substring$ -- 292
-swap$ -- 10
+substring$ -- 315
+swap$ -- 11
 text.length$ -- 0
 text.prefix$ -- 0
 top$ -- 0
-type$ -- 56
+type$ -- 62
 warning$ -- 0
-while$ -- 34
+while$ -- 37
 width$ -- 0
-write$ -- 135
-(There were 6 warnings)
+write$ -- 148
+(There were 13 warnings)

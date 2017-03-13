@@ -31,6 +31,7 @@ S_V = 4\hbar\omega~\Re(Z)\left[\frac{1}{2}+\frac{1}{exp(\hbar\omega/k_BT)-1}\rig
 This high frequency cutoff was seen experimentally by Schoelkopf, et al.~\cite{schoelkopf_frequency_1997} and is only of practical import at high frequencies ($>1~GHz$) and low temperatures ($<1~K$).
 
 \section{Resistor networks: The Johnson noise temperature}
+\label{section:TJN}
 \newthought{As noise is a random process}, adding multiple resistors together into a network is not a simple matter of adding their voltages and/or currents but instead their mean squared voltages $\langle V^2\rangle$ and/or mean squared current $\langle I^2\rangle$. This is a property of Gaussian distributed noise: adding together two Gaussian distributions, each with mean $0$ and variance $\sigma$, with result in another Gaussian distribution with mean $0$ and variance $2\sigma$\footnote{This is why mean squared error is often a useful metric. If errors are unbiased and Gaussian distributed then summing their variance is appropriate}.
 
 To find the noise emitted by two resistors in series with resistance $R_1$ and $R_2$ and temperature $T_1$ and $T_2$, we add their mean squared voltages.
@@ -93,7 +94,8 @@ As can be seen from eq.~\ref{eq:NyquistPower}, the larger the measurement bandwi
 
 \section{An autocorrelation RF noise thermometer}
 \begin{figure}
-\includegraphics[width=130mm]{figures/Johnson_noise_thermometry/Schematic_Autocorrelation.png}
+\centering
+\includegraphics[width=\textwidth]{figures/Johnson_noise_thermometry/Schematic_Autocorrelation.png}
 \caption[JNT autocorrelation schematic]{High level schematic of a typical Johnson noise thermometry measurement circuit. Noise from an impedance matched sample is amplified and a measurement bandwidth is selected using a homodyne mixer and low-pass filter. The noise power is then measured with a power diode or linear multiplier. A microwave switch acts as a chopper and the signal is measured using a lock-in amplifier.}
 \label{fig:schematic_autocorrelation}
 \end{figure}
@@ -362,10 +364,50 @@ A more robust method is to simultaneously measure both $V_{out}$ and $\Gamma$ an
 \end{figure}
 
 
-
 \section{Cross-correlated noise thermometry}
-One challenge in noise measurements is identifying the noise you wish to measure from the unwanted background noise. In the right circumstances, cross-correlation can used to average out unwanted noise leaving behind.
-The idea is to send the noise from the device into 2 independent channels and if the noise on each channel is uncorrelated then you win. Describe the idea in the perfect world. Show schematic (APL fig 1b). using this you can remove the offset from the amplifiers (APL fig 2). However, this does not reduce the precision of the measurement. The integration time needed to attain a given uncertainty is not reduced (APL fig 3)
+
+\newthought{A challenge in noise measurements} is isolating the noise you want to measure from the noise you don't. Dissipation between the resistive load and the LNA, such as coaxial attenuation and contact resistance, can contaminate thermal transport measurements~\cite{white_status_1996, Glattli:1997}. Johnson noise from the sample is added to the unwanted Johnson noise from these lossy components. Cross-correlation techniques can mitigate this problem by amplifying the Johnson noise signal of interest independently via two separate measurement lines~\cite{Glattli:1997p7350, DiCarlo:2006p2620, Henny:1999p2790, Brophy:1965p2623, *Klein:1978p2616} and discarding uncorrelated noise between the two channels. The output voltage of such a scheme can be written as:
+\begin{equation}
+V_{out}\propto\langle\left(V_{JN}+V_{n1}\right)\times\left(V_{JN}+V_{n2}\right)\rangle 
+\end{equation}
+\begin{equation}\label{eq:crosscorrelation_expanded}
+V_{out}\propto\langle V_{JN}^2\rangle + \langle V_{JN}V_{n1}\rangle+\langle V_{JN}V_{n2}\rangle+\langle V_{n1}V_{n2}\rangle
+\end{equation}
+where $V_{JN}$ is the instantaneous Johnson noise voltage and $V_{n1}$ and $V_{n2}$ are the instantaneous voltage noise on the two channels. If all noise sources are uncorrelated then only the first term in eq.~\ref{eq:crosscorrelation_expanded} is non zero and ${V_{out}\propto\langle V_{JN}^2\rangle}$
+\begin{figure}
+\centering
+\includegraphics[width=\textwidth]{figures/Johnson_noise_thermometry/Schematic_Crosscorrelation.png}
+\caption[JNT crosscorrelation schematic]{High level schematic of a typical Johnson noise thermometry cross-correlation measurement circuit. Noise from an impedance matched sample is sent into two independent measurement lines. Each line is then amplified, a measurement bandwidth is selected, and combined using a linear multiplier. A microwave switch acts as a chopper and the signal is integrated using a lock-in amplifier.}
+\label{fig:schematic_crosscorrelation}
+\end{figure}
+Previously, cross-correlation measurements were limited to frequencies below a few MHz due to the practical implementation of multipliers and digital processing speeds~\cite{Brophy:1965p2623, *Klein:1978p2616, Sampietro:2000p2679, DiCarlo:2006p2620}. However, the $2~GHz$ analog multiplier (Analog Devices ADL5931) and LNA, combined with the lock-in amplifier modulation scheme described in fig.~\ref{fig:schematic_crosscorrelation}, measure the correlated noise between the two channels, rejecting a large portion of the uncorrelated amplifier noise. The results are shown alongside an autocorrelation measurement (fig.~\ref{fig:schematic_autocorrelation}) for comparison in fig.~\ref{fig:cross_noise_vs_T}; the offset due to amplifier noise was reduced from $68~K$ to $2.6~K$.
+
+\begin{figure}
+\centering
+\includegraphics[width = 80mm]{figures/Johnson_noise_thermometry/Cross_noise_vs_T.png}
+\caption{Auto- and cross-correlation Johnson noise measurements of a $50~\Omega$ resistor measured by the circuit shown in fig.~\ref{fig:schematic_autocorrelation} and ~\ref{fig:schematic_crosscorrelation}, respectively. Inset shows the raw output voltage. The signal is converted to noise power by the Nyquist equation. The solid lines are linear fits, where the auto- and cross-correlation data exhibit an offset of $68~K$ and $2.6~K$, respectively, due to amplifier noise}
+\label{fig:auto_noise_vs_T}
+\end{figure}
+
+Although the offset in the data is reduced by cross-correlation, the measurement time required to achieve a given precision is not reduced\footnote{Cross-correlation can improve the accuracy of an experiment but not the precision}. The time required to effectively average out the uncorrelated noise is still proportional to the amplifiers noise temperature. To be precise, $T_n$ is given by the geometric mean of individual amplifiers noise temperatures.
+\begin{equation}\label{eq:cross_Tn}
+T_n = \sqrt{T_1^nT_2^n}
+\end{equation}
+where $T_i^n$ is the noise temperature of the $i$th amplifier. Using two LNAs with similar specifications eq.~\ref{eq:cross_Tn} reduces to the Dicke formula, eq.~\ref{eq:dicke_formula}. Fig.~\ref{fig:cross_sensitivity} shows the standard deviation of $1000$ temperature measurements as a funciton of integration time. Both auto- and cross-correlation measurements follow the Dicke formula with similar magnitude and uncertainty scaling as $\sqrt{\tau}$ and $\sqrt{\Delta f}$.
+\begin{figure}
+\centering
+\includegraphics[width = 100mm]{figures/Johnson_noise_thermometry/cross_sensitivity.png}
+\caption{Standard deviation of $1000$ auto- and cross-correlation temperature measurements as a function of integration time for $328~MHz$ (left) and $28~MHz$ (right). In all cases, uncertainty follows the Dicke relation, eq.~\ref{eq:dicke_formula}, scaling as $\sqrt{\tau}$ and $\sqrt{\Delta f}$. Data is taken from a $50~\Omega$ resistor}
+\label{fig:cross_sensitivity}
+\end{figure}
+ 
 
 \subsection{multi-terminal cross-correlation}
-If cross correlation is used on multiple terminals the overlapping noise can be found similar to the Johnson noise temperature.
+Cross-correlation can be used to reduce the effects of contact and lead resistance with the use of multi-terminal devices. However, as discussed in section~\ref{section:TJN}, the noise measured on different pairs of terminals sample different areas of the device. For example, the four-terminal device drawn in fig.~\ref{fig:4terminal} will give very different results depending on which terminal are paired --- cross-correlation between $V_{AD}$ and $V_{BC}$ will by more sensitive to the device temperature than cross-correlation of $V_{AB}$ and $V_{CD}$. The exactly amount of overlap between between the noise on any pair of terminals can be found via the method described in section~\ref{section:TJN}.
+\begin{figure}
+\centering
+\includegraphics[width=80mm]{figures/Johnson_noise_thermometry/4terminal.png}
+\caption{Cartoon of a four-terminal device. If the voltage between terminals A and D is cross-correlated to the voltage between terminals B and C, the result will be more sensitive to the temperature of the device than pairing A-B and C-D}
+\label{fig:4terminal}
+\end{figure}
+

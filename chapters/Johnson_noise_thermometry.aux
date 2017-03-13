@@ -23,6 +23,7 @@
 \newlabel{eq:Nyquist}{{1.2}{4}{Thermal noise in resistors}{equation.1.1.2}{}}
 \newlabel{eq:NyquistFull}{{1.3}{4}{Thermal noise in resistors}{equation.1.1.3}{}}
 \@writefile{toc}{\contentsline {section}{\numberline {1.2}Resistor networks: The Johnson noise temperature}{5}{section.1.2}}
+\newlabel{section:TJN}{{1.2}{5}{Resistor networks: The Johnson noise temperature}{section.1.2}{}}
 \pp@pagectr{footnote}{4}{12}{5}
 \newlabel{eq:seriesJN}{{1.4}{5}{Resistor networks: The Johnson noise temperature}{equation.1.2.4}{}}
 \newlabel{eq:parallelJN}{{1.5}{5}{Resistor networks: The Johnson noise temperature}{equation.1.2.5}{}}
@@ -110,16 +111,30 @@
 \@writefile{lof}{\contentsline {figure}{\numberline {1.22}{\ignorespaces Voltage proportional to the total integrated noise power as a function of input sample resistance for different sample temperatures. The matching circuit is optimally matched (${"Γ}$ is minimized) at ${\sim }10^3\nobreakspace {}{"Ω}$. At low temperature, the total noise decreases as ${"Γ}$ decreases, wile at high temperature, the opposite is true. At $T\approx 50\nobreakspace {}K$ the noise power is constant regardless of the input impedance in accordance with eq.\ref  {eq:P_full} and $T_{n,rev}^0\approx 50\nobreakspace {}K$.\relax }}{30}{figure.caption.25}}
 \newlabel{fig:JNT_Vn_vs_R}{{1.22}{30}{Voltage proportional to the total integrated noise power as a function of input sample resistance for different sample temperatures. The matching circuit is optimally matched ($\Gamma $ is minimized) at ${\sim }10^3~\Omega $. At low temperature, the total noise decreases as $\Gamma $ decreases, wile at high temperature, the opposite is true. At $T\approx 50~K$ the noise power is constant regardless of the input impedance in accordance with eq.\ref {eq:P_full} and $T_{n,rev}^0\approx 50~K$.\relax }{figure.caption.25}{}}
 \@writefile{toc}{\contentsline {section}{\numberline {1.8}Calibration}{30}{section.1.8}}
+\citation{white_status_1996,Glattli:1997}
+\citation{Glattli:1997p7350,DiCarlo:2006p2620,Henny:1999p2790,Brophy:1965p2623,*Klein:1978p2616}
 \@writefile{lof}{\contentsline {figure}{\numberline {1.23}{\ignorespaces Output voltage proportional integrated noise given by eq.\nobreakspace {}\ref  {eq:power_output} as a function of device temperature fixing resistance. The slope of each line gives the generalized gain $\mathcal  {G}(R)$ while the extrapolated offset (divided by $\mathcal  {G}$) is $T_n(R)$. The external parameters that result in a given resistance are generally different for different bath temperatures.\relax }}{32}{figure.caption.26}}
 \newlabel{fig:JNT_Vn_vs_T}{{1.23}{32}{Output voltage proportional integrated noise given by eq.~\ref {eq:power_output} as a function of device temperature fixing resistance. The slope of each line gives the generalized gain $\mathcal {G}(R)$ while the extrapolated offset (divided by $\mathcal {G}$) is $T_n(R)$. The external parameters that result in a given resistance are generally different for different bath temperatures.\relax }{figure.caption.26}{}}
 \pp@pagectr{footnote}{14}{39}{32}
-\@writefile{toc}{\contentsline {section}{\numberline {1.9}Cross-correlated noise thermometry}{32}{section.1.9}}
-\@writefile{lof}{\contentsline {figure}{\numberline {1.24}{\ignorespaces Generalize gain and effective noise temperature exracted from data shown in fig.\nobreakspace {}\ref  {fig:JNT_Vn_vs_T}. The circuit is designed to optimally match an input resistance of ${\sim }1k{"Ω}$. As expected from eq.\nobreakspace {}\ref  {eq:Tn_effective_full} and \ref  {eq:G_effective_full}, the gain is maximized and the noise temperature is minimized when the device is effectively coupled --- i.e. ${"Γ}$ is minimized. This two-stage LC tank circuit shows effective coupling over ${\sim }3$ orders of magnitude of input resistance.\relax }}{33}{figure.caption.27}}
-\newlabel{fig:JNT_G_Tn_vs_T}{{1.24}{33}{Generalize gain and effective noise temperature exracted from data shown in fig.~\ref {fig:JNT_Vn_vs_T}. The circuit is designed to optimally match an input resistance of ${\sim }1k\Omega $. As expected from eq.~\ref {eq:Tn_effective_full} and \ref {eq:G_effective_full}, the gain is maximized and the noise temperature is minimized when the device is effectively coupled --- i.e. $\Gamma $ is minimized. This two-stage LC tank circuit shows effective coupling over ${\sim }3$ orders of magnitude of input resistance.\relax }{figure.caption.27}{}}
-\@writefile{toc}{\contentsline {subsection}{\numberline {1.9.1}multi-terminal cross-correlation}{33}{subsection.1.9.1}}
+\@writefile{lof}{\contentsline {figure}{\numberline {1.24}{\ignorespaces Generalize gain and effective noise temperature exracted from data shown in fig.\nobreakspace {}\ref  {fig:JNT_Vn_vs_T}. The circuit is designed to optimally match an input resistance of ${\sim }1k{"Ω}$. As expected from eq.\nobreakspace {}\ref  {eq:Tn_effective_full} and \ref  {eq:G_effective_full}, the gain is maximized and the noise temperature is minimized when the device is effectively coupled --- i.e. ${"Γ}$ is minimized. This two-stage LC tank circuit shows effective coupling over $3$ orders of magnitude of input resistance.\relax }}{33}{figure.caption.27}}
+\newlabel{fig:JNT_G_Tn_vs_T}{{1.24}{33}{Generalize gain and effective noise temperature exracted from data shown in fig.~\ref {fig:JNT_Vn_vs_T}. The circuit is designed to optimally match an input resistance of ${\sim }1k\Omega $. As expected from eq.~\ref {eq:Tn_effective_full} and \ref {eq:G_effective_full}, the gain is maximized and the noise temperature is minimized when the device is effectively coupled --- i.e. $\Gamma $ is minimized. This two-stage LC tank circuit shows effective coupling over $3$ orders of magnitude of input resistance.\relax }{figure.caption.27}{}}
+\@writefile{toc}{\contentsline {section}{\numberline {1.9}Cross-correlated noise thermometry}{33}{section.1.9}}
+\citation{Brophy:1965p2623,*Klein:1978p2616,Sampietro:2000p2679,DiCarlo:2006p2620}
+\@writefile{lof}{\contentsline {figure}{\numberline {1.25}{\ignorespaces JNT crosscorrelation schematic}}{34}{figure.caption.28}}
+\newlabel{fig:schematic_crosscorrelation}{{1.25}{34}{JNT crosscorrelation schematic}{figure.caption.28}{}}
+\newlabel{eq:crosscorrelation_expanded}{{1.30}{34}{Cross-correlated noise thermometry}{equation.1.9.30}{}}
+\@writefile{lof}{\contentsline {figure}{\numberline {1.26}{\ignorespaces Auto- and cross-correlation Johnson noise measurements of a $50\nobreakspace {}{"Ω}$ resistor measured by the circuit shown in fig.\nobreakspace {}\ref  {fig:schematic_autocorrelation} and \nobreakspace {}\ref  {fig:schematic_crosscorrelation}, respectively. Inset shows the raw output voltage. The signal is converted to noise power by the Nyquist equation. The solid lines are linear fits, where the auto- and cross-correlation data exhibit an offset of $68\nobreakspace {}K$ and $2.6\nobreakspace {}K$, respectively, due to amplifier noise\relax }}{35}{figure.caption.29}}
+\newlabel{fig:auto_noise_vs_T}{{1.26}{35}{Auto- and cross-correlation Johnson noise measurements of a $50~\Omega $ resistor measured by the circuit shown in fig.~\ref {fig:schematic_autocorrelation} and ~\ref {fig:schematic_crosscorrelation}, respectively. Inset shows the raw output voltage. The signal is converted to noise power by the Nyquist equation. The solid lines are linear fits, where the auto- and cross-correlation data exhibit an offset of $68~K$ and $2.6~K$, respectively, due to amplifier noise\relax }{figure.caption.29}{}}
+\pp@pagectr{footnote}{15}{42}{35}
+\newlabel{eq:cross_Tn}{{1.31}{35}{Cross-correlated noise thermometry}{equation.1.9.31}{}}
+\@writefile{lof}{\contentsline {figure}{\numberline {1.27}{\ignorespaces Standard deviation of $1000$ auto- and cross-correlation temperature measurements as a function of integration time for $328\nobreakspace {}MHz$ (left) and $28\nobreakspace {}MHz$ (right). In all cases, uncertainty follows the Dicke relation, eq.\nobreakspace {}\ref  {eq:dicke_formula}, scaling as $\sqrt  {{"τ}}$ and $\sqrt  {{"Δ}f}$. Data is taken from a $50\nobreakspace {}{"Ω}$ resistor\relax }}{36}{figure.caption.30}}
+\newlabel{fig:cross_sensitivity}{{1.27}{36}{Standard deviation of $1000$ auto- and cross-correlation temperature measurements as a function of integration time for $328~MHz$ (left) and $28~MHz$ (right). In all cases, uncertainty follows the Dicke relation, eq.~\ref {eq:dicke_formula}, scaling as $\sqrt {\tau }$ and $\sqrt {\Delta f}$. Data is taken from a $50~\Omega $ resistor\relax }{figure.caption.30}{}}
+\@writefile{toc}{\contentsline {subsection}{\numberline {1.9.1}multi-terminal cross-correlation}{36}{subsection.1.9.1}}
+\@writefile{lof}{\contentsline {figure}{\numberline {1.28}{\ignorespaces cartoon of a four-terminal device. If the voltage between terminals A and D is cross-correlated to the voltage between terminals B and C, the result will be more sensitive to the temperature of the device than pairing A-B and C-D\relax }}{37}{figure.caption.31}}
+\newlabel{fig:4terminal}{{1.28}{37}{cartoon of a four-terminal device. If the voltage between terminals A and D is cross-correlated to the voltage between terminals B and C, the result will be more sensitive to the temperature of the device than pairing A-B and C-D\relax }{figure.caption.31}{}}
 \@setckpt{chapters/Johnson_noise_thermometry}{
-\setcounter{page}{34}
-\setcounter{equation}{28}
+\setcounter{page}{38}
+\setcounter{equation}{31}
 \setcounter{enumi}{0}
 \setcounter{enumii}{0}
 \setcounter{enumiii}{0}
@@ -133,16 +148,16 @@
 \setcounter{subsubsection}{0}
 \setcounter{paragraph}{0}
 \setcounter{subparagraph}{0}
-\setcounter{figure}{24}
+\setcounter{figure}{28}
 \setcounter{table}{0}
 \setcounter{DefaultLines}{2}
 \setcounter{DefaultDepth}{0}
 \setcounter{L@lines}{0}
 \setcounter{L@depth}{0}
 \setcounter{parentequation}{0}
-\setcounter{pp@a@footnote}{14}
+\setcounter{pp@a@footnote}{15}
 \setcounter{Item}{0}
-\setcounter{Hfootnote}{12}
+\setcounter{Hfootnote}{13}
 \setcounter{Hy@AnnotLevel}{0}
 \setcounter{bookmark@seq@number}{14}
 \setcounter{eu@}{0}
