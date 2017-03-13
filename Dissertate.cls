@@ -78,6 +78,7 @@
 \usepackage{perpage} %the perpage package
 \MakePerPage{footnote} %the perpage package command
 
+
 % Fonts
 \RequirePackage{color}
 \RequirePackage{xcolor}

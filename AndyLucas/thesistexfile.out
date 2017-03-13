@@ -1,0 +1,123 @@
+\BOOKMARK [0][-]{chapter.1}{Overview}{}% 1
+\BOOKMARK [-1][-]{part.1}{I Review and Introduction}{}% 2
+\BOOKMARK [0][-]{chapter.2}{Holographic quantum matter}{part.1}% 3
+\BOOKMARK [1][-]{section.2.1}{The holographic correspondence}{chapter.2}% 4
+\BOOKMARK [2][-]{subsection.2.1.1}{Introducing `AdS/CMT'}{section.2.1}% 5
+\BOOKMARK [2][-]{subsection.2.1.2}{Historical context I: horizons are dissipative}{section.2.1}% 6
+\BOOKMARK [2][-]{subsection.2.1.3}{Historical context II: the 't Hooft matrix large N limit}{section.2.1}% 7
+\BOOKMARK [2][-]{subsection.2.1.4}{Maldacena's argument and the canonical examples}{section.2.1}% 8
+\BOOKMARK [2][-]{subsection.2.1.5}{The essential dictionary}{section.2.1}% 9
+\BOOKMARK [2][-]{subsection.2.1.6}{The emergent dimension I: Wilsonian holographic renormalization}{section.2.1}% 10
+\BOOKMARK [2][-]{subsection.2.1.7}{The emergent dimension II: Entanglement entropy}{section.2.1}% 11
+\BOOKMARK [2][-]{subsection.2.1.8}{Microscopics: Kaluza-Klein modes and consistent truncations}{section.2.1}% 12
+\BOOKMARK [1][-]{section.2.2}{Zero density matter}{chapter.2}% 13
+\BOOKMARK [2][-]{subsection.2.2.1}{Condensed matter systems}{section.2.2}% 14
+\BOOKMARK [2][-]{subsection.2.2.2}{Scale invariant geometries}{section.2.2}% 15
+\BOOKMARK [2][-]{subsection.2.2.3}{Nonzero temperature}{section.2.2}% 16
+\BOOKMARK [2][-]{subsection.2.2.4}{Theories with a mass gap}{section.2.2}% 17
+\BOOKMARK [1][-]{section.2.3}{Quantum critical transport}{chapter.2}% 18
+\BOOKMARK [2][-]{subsection.2.3.1}{Condensed matter systems and questions}{section.2.3}% 19
+\BOOKMARK [2][-]{subsection.2.3.2}{Standard approaches and their limitations}{section.2.3}% 20
+\BOOKMARK [2][-]{subsection.2.3.3}{Holographic spectral functions}{section.2.3}% 21
+\BOOKMARK [2][-]{subsection.2.3.4}{Quantum critical charge dynamics}{section.2.3}% 22
+\BOOKMARK [2][-]{subsection.2.3.5}{Quasinormal modes replace quasiparticles}{section.2.3}% 23
+\BOOKMARK [1][-]{section.2.4}{Compressible quantum matter}{chapter.2}% 24
+\BOOKMARK [2][-]{subsection.2.4.1}{Condensed matter systems}{section.2.4}% 25
+\BOOKMARK [2][-]{subsection.2.4.2}{Charged horizons}{section.2.4}% 26
+\BOOKMARK [2][-]{subsection.2.4.3}{Hidden Fermi surfaces?}{section.2.4}% 27
+\BOOKMARK [2][-]{subsection.2.4.4}{Fermions in the bulk I: classical effects}{section.2.4}% 28
+\BOOKMARK [2][-]{subsection.2.4.5}{Fermions in the bulk II: quantum effects}{section.2.4}% 29
+\BOOKMARK [1][-]{section.2.5}{Metallic transport without quasiparticles}{chapter.2}% 30
+\BOOKMARK [2][-]{subsection.2.5.1}{Thermoelectric conductivity matrix}{section.2.5}% 31
+\BOOKMARK [2][-]{subsection.2.5.2}{Hydrodynamic transport \(with momentum\)}{section.2.5}% 32
+\BOOKMARK [2][-]{subsection.2.5.3}{Weak momentum relaxation I: inhomogeneous hydrodynamics}{section.2.5}% 33
+\BOOKMARK [2][-]{subsection.2.5.4}{Weak momentum relaxation II: the memory matrix formalism}{section.2.5}% 34
+\BOOKMARK [2][-]{subsection.2.5.5}{Magnetotransport}{section.2.5}% 35
+\BOOKMARK [2][-]{subsection.2.5.6}{Hydrodynamic transport \(without momentum\)}{section.2.5}% 36
+\BOOKMARK [2][-]{subsection.2.5.7}{Strong momentum relaxation I: ``mean field" methods}{section.2.5}% 37
+\BOOKMARK [2][-]{subsection.2.5.8}{Strong momentum relaxation II: exact methods}{section.2.5}% 38
+\BOOKMARK [1][-]{section.2.6}{Further topics}{chapter.2}% 39
+\BOOKMARK [2][-]{subsection.2.6.1}{Probe branes}{section.2.6}% 40
+\BOOKMARK [2][-]{subsection.2.6.2}{Disordered fixed points}{section.2.6}% 41
+\BOOKMARK [2][-]{subsection.2.6.3}{Out of equilibrium I: quenches}{section.2.6}% 42
+\BOOKMARK [2][-]{subsection.2.6.4}{Out of equilibrium II: turbulence}{section.2.6}% 43
+\BOOKMARK [-1][-]{part.2}{II Transport in weakly disordered metals}{}% 44
+\BOOKMARK [0][-]{chapter.3}{Holographic strange metals with random-field disorder}{part.2}% 45
+\BOOKMARK [1][-]{section.3.1}{Introduction}{chapter.3}% 46
+\BOOKMARK [1][-]{section.3.2}{Scale-Invariant Hyperscaling-Violating Holography}{chapter.3}% 47
+\BOOKMARK [1][-]{section.3.3}{Conductivity with Random Field Disorder.}{chapter.3}% 48
+\BOOKMARK [1][-]{section.3.4}{Holography}{chapter.3}% 49
+\BOOKMARK [2][-]{subsection.3.4.1}{The Harris Criterion and a Dirty Black Hole}{section.3.4}% 50
+\BOOKMARK [2][-]{subsection.3.4.2}{DC conductivity}{section.3.4}% 51
+\BOOKMARK [2][-]{subsection.3.4.3}{Breakdown of Perturbation Theory}{section.3.4}% 52
+\BOOKMARK [1][-]{section.3.5}{Memory Matrix Method}{chapter.3}% 53
+\BOOKMARK [1][-]{section.3.6}{Conclusions}{chapter.3}% 54
+\BOOKMARK [0][-]{chapter.4}{From holography to memory matrices}{part.2}% 55
+\BOOKMARK [1][-]{section.4.1}{Introduction}{chapter.4}% 56
+\BOOKMARK [1][-]{section.4.2}{Hydrodynamics and the Drude Peak}{chapter.4}% 57
+\BOOKMARK [1][-]{section.4.3}{Memory Functions}{chapter.4}% 58
+\BOOKMARK [1][-]{section.4.4}{Holography}{chapter.4}% 59
+\BOOKMARK [2][-]{subsection.4.4.1}{Drude Peak}{section.4.4}% 60
+\BOOKMARK [2][-]{subsection.4.4.2}{Equivalence with the Memory Function Approach}{section.4.4}% 61
+\BOOKMARK [2][-]{subsection.4.4.3}{Seebeck Coefficient}{section.4.4}% 62
+\BOOKMARK [1][-]{section.4.5}{Conclusion}{chapter.4}% 63
+\BOOKMARK [0][-]{chapter.5}{Memory matrix theory of magnetotransport}{part.2}% 64
+\BOOKMARK [1][-]{section.5.1}{Introduction}{chapter.5}% 65
+\BOOKMARK [2][-]{subsection.5.1.1}{Transport Without Quasiparticles}{section.5.1}% 66
+\BOOKMARK [2][-]{subsection.5.1.2}{Outline of the Paper}{section.5.1}% 67
+\BOOKMARK [1][-]{section.5.2}{Hydrodynamics}{chapter.5}% 68
+\BOOKMARK [1][-]{section.5.3}{Memory Function Formalism}{chapter.5}% 69
+\BOOKMARK [2][-]{subsection.5.3.1}{Hydrodynamic Interpretation}{section.5.3}% 70
+\BOOKMARK [1][-]{section.5.4}{Dynamics of Charge and Momentum}{chapter.5}% 71
+\BOOKMARK [2][-]{subsection.5.4.1}{Diffusive Transport}{section.5.4}% 72
+\BOOKMARK [2][-]{subsection.5.4.2}{Momentum Relaxation}{section.5.4}% 73
+\BOOKMARK [2][-]{subsection.5.4.3}{Magnetic Fields}{section.5.4}% 74
+\BOOKMARK [1][-]{section.5.5}{Dynamics of Charge, Heat and Momentum}{chapter.5}% 75
+\BOOKMARK [1][-]{section.5.6}{Thermal and Thermoelectric Transport}{chapter.5}% 76
+\BOOKMARK [1][-]{section.5.7}{Conclusions}{chapter.5}% 77
+\BOOKMARK [-1][-]{part.3}{III Transport in strongly disordered metals}{}% 78
+\BOOKMARK [0][-]{chapter.6}{Lower bound on electrical conductivity}{part.3}% 79
+\BOOKMARK [1][-]{section.6.1}{Introduction}{chapter.6}% 80
+\BOOKMARK [1][-]{section.6.2}{Results}{chapter.6}% 81
+\BOOKMARK [1][-]{section.6.3}{Technical Details}{chapter.6}% 82
+\BOOKMARK [0][-]{chapter.7}{Lower bound on thermal conductivity}{part.3}% 83
+\BOOKMARK [1][-]{section.7.1}{Introduction}{chapter.7}% 84
+\BOOKMARK [1][-]{section.7.2}{Results}{chapter.7}% 85
+\BOOKMARK [1][-]{section.7.3}{Dirty Black Holes}{chapter.7}% 86
+\BOOKMARK [1][-]{section.7.4}{One Dimension}{chapter.7}% 87
+\BOOKMARK [1][-]{section.7.5}{Two Dimensions}{chapter.7}% 88
+\BOOKMARK [1][-]{section.7.6}{Mean Field Models}{chapter.7}% 89
+\BOOKMARK [-1][-]{part.4}{IV Hydrodynamics in graphene}{}% 90
+\BOOKMARK [0][-]{chapter.8}{Observation of the Dirac fluid}{part.4}% 91
+\BOOKMARK [0][-]{chapter.9}{Hydrodynamic transport in the Dirac fluid}{part.4}% 92
+\BOOKMARK [1][-]{section.9.1}{Introduction}{chapter.9}% 93
+\BOOKMARK [2][-]{subsection.9.1.1}{Summary of Results}{section.9.1}% 94
+\BOOKMARK [2][-]{subsection.9.1.2}{Outline}{section.9.1}% 95
+\BOOKMARK [1][-]{section.9.2}{Transport Coefficients}{chapter.9}% 96
+\BOOKMARK [1][-]{section.9.3}{Relativistic Hydrodynamics}{chapter.9}% 97
+\BOOKMARK [2][-]{subsection.9.3.1}{Hydrodynamic Equations}{section.9.3}% 98
+\BOOKMARK [2][-]{subsection.9.3.2}{Hydrodynamic Theory of Transport}{section.9.3}% 99
+\BOOKMARK [1][-]{section.9.4}{The Dirac Fluid in Graphene}{chapter.9}% 100
+\BOOKMARK [1][-]{section.9.5}{Numerical Results}{chapter.9}% 101
+\BOOKMARK [2][-]{subsection.9.5.1}{Comparison to Experiment}{section.9.5}% 102
+\BOOKMARK [1][-]{section.9.6}{Phonons in Graphene}{chapter.9}% 103
+\BOOKMARK [1][-]{section.9.7}{Conclusions}{chapter.9}% 104
+\BOOKMARK [0][-]{appendix.A}{Appendix for Chapter 5}{part.4}% 105
+\BOOKMARK [0][-]{appendix.B}{Appendix for Chapter 8}{part.4}% 106
+\BOOKMARK [1][-]{section.B.1}{Sample Fabrication}{appendix.B}% 107
+\BOOKMARK [2][-]{subsection.B.1.1}{Optimizing samples for high frequency thermal conductivity measurements}{section.B.1}% 108
+\BOOKMARK [1][-]{section.B.2}{Device Characterization}{appendix.B}% 109
+\BOOKMARK [1][-]{section.B.3}{Johnson Noise Thermometry}{appendix.B}% 110
+\BOOKMARK [1][-]{section.B.4}{Measuring electronic thermal conductance}{appendix.B}% 111
+\BOOKMARK [1][-]{section.B.5}{Thermal model of graphene electrons}{appendix.B}% 112
+\BOOKMARK [1][-]{section.B.6}{Measuring Thermal Conductivity}{appendix.B}% 113
+\BOOKMARK [1][-]{section.B.7}{Bipolar Diffusion }{appendix.B}% 114
+\BOOKMARK [0][-]{appendix.C}{Appendix for Chapter 9}{part.4}% 115
+\BOOKMARK [1][-]{section.C.1}{Thermodynamics}{appendix.C}% 116
+\BOOKMARK [2][-]{subsection.C.1.1}{Thermodynamics of Disordered Fluids}{section.C.1}% 117
+\BOOKMARK [1][-]{section.C.2}{Rescaling Symmetries of dc Transport}{appendix.C}% 118
+\BOOKMARK [1][-]{section.C.3}{Weak Disorder}{appendix.C}% 119
+\BOOKMARK [1][-]{section.C.4}{Equations of State of the Dirac Fluid}{appendix.C}% 120
+\BOOKMARK [1][-]{section.C.5}{Numerical Methods}{appendix.C}% 121
+\BOOKMARK [2][-]{subsection.C.5.1}{Finite Size Effects}{section.C.5}% 122
+\BOOKMARK [2][-]{subsection.C.5.2}{Dimensional Analysis}{section.C.5}% 123

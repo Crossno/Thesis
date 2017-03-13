@@ -1,0 +1,51 @@
+This is BibTeX, Version 0.99d (TeX Live 2014)
+Capacity: max_strings=35307, hash_size=35307, hash_prime=30011
+The top-level auxiliary file: thesistexfile.aux
+The style file: jhepsort.bst
+Reallocated field_info (elt_size=4) to 19645 items from 5000.
+Database file #1: RMPrefs.bib
+Reallocated str_pool (elt_size=1) to 130000 items from 65000.
+Warning--empty publisher in Coleman:1980nk
+Warning--empty publisher in Witten:1979pi
+You've used 505 entries,
+            2511 wiz_defined-function locations,
+            4152 strings with 92951 characters,
+and the built_in function-call counts, 209904 in all, are:
+= -- 22467
+> -- 9460
+< -- 0
++ -- 3196
+- -- 2688
+* -- 17404
+:= -- 31610
+add.period$ -- 525
+call.type$ -- 505
+change.case$ -- 2851
+chr.to.int$ -- 0
+cite$ -- 507
+duplicate$ -- 9496
+empty$ -- 15053
+format.name$ -- 2688
+if$ -- 50665
+int.to.chr$ -- 0
+int.to.str$ -- 505
+missing$ -- 1942
+newline$ -- 1536
+num.names$ -- 1010
+pop$ -- 2455
+preamble$ -- 1
+purify$ -- 2359
+quote$ -- 0
+skip$ -- 8879
+stack$ -- 0
+substring$ -- 8230
+swap$ -- 4542
+text.length$ -- 0
+text.prefix$ -- 0
+top$ -- 0
+type$ -- 1992
+warning$ -- 2
+while$ -- 1543
+width$ -- 508
+write$ -- 5285
+(There were 2 warnings)
