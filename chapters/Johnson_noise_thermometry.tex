@@ -287,9 +287,9 @@ The more stages added the wider the matched area in resistance-frequency space b
 \section{Effective noise temperature}
 \newthought{A factor of two in signal to noise can be the difference between graduating in two years or eight.} From the dicke radiometer formula, Eq.~\ref{eq:dicke_formula}, the measurement time scales as the effective noise temperature squared. Each component of the measurement circuit should be chosen with this in mind and, as such, its important to understand how each element affects the system as a whole.
 
-The effective noise temperature, $T_n$, is the temperature at which your sample emits the same noise power as the sum of all the "unwanted" noise in your system --- i.e. your signal to noise ratio is given by $T/T_n$, where $T$ is the sample temperature. Quantifying noise in this way lets us write the measured noise power, $\langle P\rangle$, as:
+The effective noise temperature, $T_n$, is the temperature at which your sample emits the same noise power as the sum of all the "unwanted" noise in your system --- i.e. your signal to noise ratio is given by $T/T_n$, where $T$ is the sample temperature. Quantifying noise in this way lets us write the output voltage of our circuit, $V_{out}$, (which is proportional to the integrated noise power) as:
 \begin{equation}\label{eq:power_output}
-\langle P\rangle = \mathcal{G(\Gamma)}(T+T_n(\Gamma))
+V_{out} = \mathcal{G}(\Gamma)(T+T_n(\Gamma))
 \end{equation}
 where $\Gamma$ is reflection coefficient between the sample and the amplifier and $\mathcal{G}$ is the generalized gain factor set by the LNA amplification together with the insertion loss of the microwave components integrated over the bandwidth defined by the external filters. In general, both $\mathcal{G}$ and $T_n$ are functions of $\Gamma$. All defining characteristics of a given given measurement circuit can be swept into $T_n$ and $\mathcal{G}$. In principle these factors must be measured but reasonable estimates can aid in the circuit design.
 
@@ -320,12 +320,16 @@ The above formulation is approximate as it assumes the system's intrinsic noise 
 \begin{equation}\label{eq:P_full}
 \langle P\rangle=G\ \left(T(1-\Gamma)+T_{n,rev}^0\Gamma+T_{n,for}^0\right)
 \end{equation}
-Rewriting this in the form of eq.~\ref{eq:power_output} and solving for $T_n$ yields.
+Rewriting this in the form of eq.~\ref{eq:power_output} and solving for $T_n$ and $\mathcal{G}$ yields.
 \begin{equation}\label{eq:Tn_effective_full}
 T_n(\Gamma)=\frac{\Gamma}{1-\Gamma}T_{n,rev}^0+\frac{1}{1-\Gamma}T_{n,for}^0
 \end{equation}
+and
+\begin{equation}\label{eq:G_effective_full}
+\mathcal{G}(\Gamma)=\frac{G}{1-\Gamma}
+\end{equation}
 
-While eq.~\ref{eq:Tn_effective_full} is what determines uncertainty, and therefore the speed of the measurement, an interesting side effect of eq.~\ref{eq:P_full} is that when the sample temperature is equal to $T_{n,rev}^0$, the total output noise has no dependence on $\Gamma$; no matter what resistance is being measured, the output noise power is the same! Fig.~\ref{fig:JNT_Vn_vs_R} show the total noise power, eq.~\ref{eq:P_full}, as a function of sample resistance at several temperatures. The sample is optimally matche at ${\sim}10^3~\Omega$. In accordance with eq.\ref{eq:P_full}, at low sample temperature the noise decreases as $\Gamma$ decreases while at high temperature the noise increases as the sample approaches optimal matching. The spacing between curves is proportional to the generalized gain,$\mathcal{G}(\Gamma)$, which is maximized when $\Gamma$ is minimized.
+While eq.~\ref{eq:Tn_effective_full} is what determines uncertainty, and therefore the speed of the measurement, an interesting side effect of eq.~\ref{eq:P_full} is that when the sample temperature is equal to $T_{n,rev}^0$, the total output noise has no dependence on $\Gamma$; no matter what resistance is being measured, the output noise power is the same! Fig.~\ref{fig:JNT_Vn_vs_R} show the total noise power, eq.~\ref{eq:P_full}, as a function of sample resistance at several temperatures. The sample is optimally matche at ${\sim}10^3~\Omega$. In accordance with eq.\ref{eq:P_full}, at low sample temperature the noise decreases as $\Gamma$ decreases while at high temperature the noise increases as the sample approaches optimal matching. The spacing between curves is proportional to the generalized gain, $\mathcal{G}(\Gamma)$, which is maximized when $\Gamma$ is minimized.
 \begin{figure}
 \centering
 \includegraphics[width=120mm]{figures/Johnson_noise_thermometry/Vn_vs_R.png}
@@ -334,7 +338,30 @@ While eq.~\ref{eq:Tn_effective_full} is what determines uncertainty, and therefo
 \end{figure}
 
 \section{Calibration}
-Since the gain and noise temperature of the circuit are a function of many complicated factors (stray, loss, gain profiles, noise profiles) it is necessary to calibrate. Furthermore its strongly dependent on the device resistance and therefore must be calibrated for every device/measurement circuit. Goal is to focus here on general calibration not graphene specifics,calibration of graphene will get its own chapter.
+\newthought{Circuit losses and couplings are difficult to calculate a priori}, and while $T_n$ can be modulated away in a differential measurement, the generalize gain $\mathcal{G}(\Gamma)$ must be calibrated. If the output voltage is written in the form of eq.~\ref{eq:power_output} then $\mathcal{G}$ is given by:
+\begin{equation}
+\mathcal{G}(\Gamma) = \frac{dV_{out}}{dT}\bigg\rvert_{~\Gamma}
+\end{equation}
+
+The challenge is fixing $\Gamma$. If the device under test has a fixed resistance then calibration can be done by recording $V_{out}$ for a few select bath temperatures. $\mathcal{G}$ is then given by the slope of a linear fit to $V_{out}(T)$. The inset of fig.~\ref{fig:auto_noise_vs_T} shows $V_{out}(T)$ which was used to calibrate $\mathcal{G}$ yielding the main panel. However, most mesoscopic devices do not have a fixed resistance and thus more care must be taken in calibrating $\mathcal{G}(\Gamma)$.
+
+The exact method of calibration will depend on the device characteristics and the size of the parameter space being measured. If impedance of the device is sensitive to external parameters but only has a weak dependence on temperature --- i.e. $|dV_{out}/dT|$ is small and $V_{out}(T)$ is locally linear on a reasonable experimental scale --- then calibration can be done by taking local derivatives of $V_{out}(T)$ everywhere in the parameter space. While this method is straight forward to implement, it has several glaring drawbacks. Firstly, the time required to find local derivatives for the entire parameter space scales exponentially in the number of parameters. Secondly, it requires knowing the exact parameters that will be measured ahead of time; if during the course of an experiment the parameter space must be expanded or higher resolution is required, calibration must be done again.
+
+A more robust method is to simultaneously measure both $V_{out}$ and $\Gamma$ and then numerically solve for $dV_{out}/dT$ for fixed $\Gamma$. Whats more, if the right reactive elements are used for impedance matching, $\Gamma$ become a function of only the resistance and fixing $\Gamma$ is equivalent to fixing $R$. Fig.~\ref{fig:JNT_Vn_vs_R} shows $V_{out}$ as a function of device resistance for various temperatures. It is important to note that each temperature curve is a collection of many different parameter sweeps that all collapse onto one smooth curve --- i.e. it does not matter if the sample is $13~k\Omega$ due to electrostatic gating at zero magnetic field, or due to the quantum Hall effect, the emitted noise is the same. If we attempt to fix external parameters and raise the temperature the output voltage nonlinear, but if instead we fix two-terminal resistance we arrive at fig.~\ref{fig:JNT_Vn_vs_T}. Linear fits to each line then give $\mathcal{G}$ as the slope and $T_n$ as the offset\footnote{negative $T_n$ is where the linear fit intercepts the horizontal axis; also given by the offset divided by the slope}. For the data shown in fig.~\ref{fig:JNT_Vn_vs_T}, the gain and noise temperature is shown in fig.~\ref{fig:JNT_G_Tn_vs_R}; as expected the gain in maximized and the noise temperature is minimized at $R\sim 1~k\Omega$ where the sample is optimally matched. This particular data was taken from a two-stage matching network coupled to a graphene device and shows a dynamic range of ${\sim}3$ orders of magnitude in device resistance.
+\begin{figure}
+\centering
+\includegraphics[width = 130mm]{figures/Johnson_noise_thermometry/Vn_vs_T}
+\caption{Output voltage proportional integrated noise given by eq.~\ref{eq:power_output} as a function of device temperature fixing resistance. The slope of each line gives the generalized gain $\mathcal{G}(R)$ while the extrapolated offset (divided by $\mathcal{G}$) is $T_n(R)$. The external parameters that result in a given resistance are generally different for different bath temperatures.}
+\label{fig:JNT_Vn_vs_T}
+\end{figure}
+\begin{figure}
+\centering
+\includegraphics[width = 100mm]{figures/Johnson_noise_thermometry/G_Tn_vs_R}
+\caption{Generalize gain and effective noise temperature exracted from data shown in fig.~\ref{fig:JNT_Vn_vs_T}. The circuit is designed to optimally match an input resistance of ${\sim}1k\Omega$. As expected from eq.~\ref{eq:Tn_effective_full} and \ref{eq:G_effective_full}, the gain is maximized and the noise temperature is minimized when the device is effectively coupled --- i.e. $\Gamma$ is minimized. This two-stage LC tank circuit shows effective coupling over $3$ orders of magnitude of input resistance.}
+\label{fig:JNT_G_Tn_vs_T}
+\end{figure}
+
+
 
 \section{Cross-correlated noise thermometry}
 One challenge in noise measurements is identifying the noise you wish to measure from the unwanted background noise. In the right circumstances, cross-correlation can used to average out unwanted noise leaving behind.
