@@ -13,39 +13,39 @@
 \contentsline {section}{\numberline {1.9}Cross-correlated noise thermometry}{33}{section.1.9}
 \contentsline {subsection}{\numberline {1.9.1}multi-terminal cross-correlation}{36}{subsection.1.9.1}
 \contentsline {chapter}{\numberline {2}Electronic cooling mechanisms in graphene}{38}{chapter.2}
-\contentsline {section}{\numberline {2.1}Wiedemann-Franz}{38}{section.2.1}
-\contentsline {subsection}{\numberline {2.1.1}Linearization}{39}{subsection.2.1.1}
-\contentsline {subsection}{\numberline {2.1.2}Hot electron shot noise}{39}{subsection.2.1.2}
-\contentsline {section}{\numberline {2.2}Electron-Phonon coupling}{39}{section.2.2}
-\contentsline {subsection}{\numberline {2.2.1}Linearization}{39}{subsection.2.2.1}
-\contentsline {subsection}{\numberline {2.2.2}Bloch-Gruneisen temperature}{39}{subsection.2.2.2}
-\contentsline {subsection}{\numberline {2.2.3}Acoustic phonon}{39}{subsection.2.2.3}
-\contentsline {subsection}{\numberline {2.2.4}Intrinsic optical phonons}{39}{subsection.2.2.4}
-\contentsline {subsection}{\numberline {2.2.5}Remote optical phonons}{39}{subsection.2.2.5}
-\contentsline {section}{\numberline {2.3}Photon cooling}{39}{section.2.3}
-\contentsline {section}{\numberline {2.4}Heat transfer equations}{39}{section.2.4}
-\contentsline {chapter}{\numberline {3}Thermal conductance via electrical noise}{40}{chapter.3}
-\contentsline {section}{\numberline {3.1}rectangular device}{40}{section.3.1}
-\contentsline {subsection}{\numberline {3.1.1}Electronic conduction only}{41}{subsection.3.1.1}
-\contentsline {subsection}{\numberline {3.1.2}Phonon cooling}{41}{subsection.3.1.2}
-\contentsline {section}{\numberline {3.2}Johnson noise temperature vs mean temperatures: wedge device}{41}{section.3.2}
-\contentsline {section}{\numberline {3.3}Arbitrary shapes: the geometric factor ${"α}$}{42}{section.3.3}
-\contentsline {section}{\numberline {3.4}circuitry}{42}{section.3.4}
-\contentsline {chapter}{\numberline {4}Hydrodynamic framework}{43}{chapter.4}
-\contentsline {section}{\numberline {4.1}Hydrodynamic framework}{43}{section.4.1}
-\contentsline {section}{\numberline {4.2}Experimental evidence}{44}{section.4.2}
-\contentsline {chapter}{\numberline {5}RF cryostats and circuitry}{45}{chapter.5}
-\contentsline {section}{\numberline {5.1}Janis}{46}{section.5.1}
-\contentsline {section}{\numberline {5.2}Oxford}{46}{section.5.2}
-\contentsline {section}{\numberline {5.3}Leiden}{46}{section.5.3}
-\contentsline {section}{\numberline {5.4}JNT circuits}{46}{section.5.4}
-\contentsline {chapter}{\numberline {6}Calibration of graphene devices}{47}{chapter.6}
-\contentsline {chapter}{\numberline {7}Thermal conductance in high density graphene}{48}{chapter.7}
-\contentsline {section}{\numberline {7.1}Device characteristics}{49}{section.7.1}
-\contentsline {section}{\numberline {7.2}Circuitry}{49}{section.7.2}
-\contentsline {section}{\numberline {7.3}Low temperature Wiedemann-franz}{49}{section.7.3}
-\contentsline {section}{\numberline {7.4}High temperature electron-phonon}{49}{section.7.4}
-\contentsline {chapter}{\numberline {8}The Dirac fluid}{50}{chapter.8}
-\contentsline {chapter}{\numberline {9}Magneto-thermal transport}{51}{chapter.9}
-\contentsline {chapter}{\numberline {10}Conclusions and future work}{52}{chapter.10}
-\contentsline {chapter}{References}{54}{chapter*.32}
+\contentsline {section}{\numberline {2.1}Wiedemann-Franz}{39}{section.2.1}
+\contentsline {subsection}{\numberline {2.1.1}Linearization}{40}{subsection.2.1.1}
+\contentsline {subsection}{\numberline {2.1.2}Hot electron shot noise}{40}{subsection.2.1.2}
+\contentsline {section}{\numberline {2.2}Electron-Phonon coupling}{40}{section.2.2}
+\contentsline {subsection}{\numberline {2.2.1}Linearization}{41}{subsection.2.2.1}
+\contentsline {subsection}{\numberline {2.2.2}Bloch-Gruneisen temperature}{41}{subsection.2.2.2}
+\contentsline {subsection}{\numberline {2.2.3}Acoustic phonon}{41}{subsection.2.2.3}
+\contentsline {subsection}{\numberline {2.2.4}Intrinsic optical phonons}{41}{subsection.2.2.4}
+\contentsline {subsection}{\numberline {2.2.5}Remote optical phonons}{41}{subsection.2.2.5}
+\contentsline {section}{\numberline {2.3}Photon cooling}{41}{section.2.3}
+\contentsline {section}{\numberline {2.4}Heat transfer equations}{41}{section.2.4}
+\contentsline {chapter}{\numberline {3}Thermal conductance via electrical noise}{42}{chapter.3}
+\contentsline {section}{\numberline {3.1}rectangular device}{43}{section.3.1}
+\contentsline {subsection}{\numberline {3.1.1}Electronic conduction only}{43}{subsection.3.1.1}
+\contentsline {subsection}{\numberline {3.1.2}Phonon cooling}{44}{subsection.3.1.2}
+\contentsline {section}{\numberline {3.2}Johnson noise temperature vs mean temperatures: wedge device}{44}{section.3.2}
+\contentsline {section}{\numberline {3.3}Arbitrary shapes: the geometric factor ${"α}$}{44}{section.3.3}
+\contentsline {section}{\numberline {3.4}circuitry}{44}{section.3.4}
+\contentsline {chapter}{\numberline {4}Hydrodynamic framework}{45}{chapter.4}
+\contentsline {section}{\numberline {4.1}Hydrodynamic framework}{45}{section.4.1}
+\contentsline {section}{\numberline {4.2}Experimental evidence}{46}{section.4.2}
+\contentsline {chapter}{\numberline {5}RF cryostats and circuitry}{47}{chapter.5}
+\contentsline {section}{\numberline {5.1}Janis}{48}{section.5.1}
+\contentsline {section}{\numberline {5.2}Oxford}{48}{section.5.2}
+\contentsline {section}{\numberline {5.3}Leiden}{48}{section.5.3}
+\contentsline {section}{\numberline {5.4}JNT circuits}{48}{section.5.4}
+\contentsline {chapter}{\numberline {6}Calibration of graphene devices}{49}{chapter.6}
+\contentsline {chapter}{\numberline {7}Thermal conductance in high density graphene}{50}{chapter.7}
+\contentsline {section}{\numberline {7.1}Device characteristics}{51}{section.7.1}
+\contentsline {section}{\numberline {7.2}Circuitry}{51}{section.7.2}
+\contentsline {section}{\numberline {7.3}Low temperature Wiedemann-franz}{51}{section.7.3}
+\contentsline {section}{\numberline {7.4}High temperature electron-phonon}{51}{section.7.4}
+\contentsline {chapter}{\numberline {8}The Dirac fluid}{52}{chapter.8}
+\contentsline {chapter}{\numberline {9}Magneto-thermal transport}{53}{chapter.9}
+\contentsline {chapter}{\numberline {10}Conclusions and future work}{54}{chapter.10}
+\contentsline {chapter}{References}{56}{chapter*.33}

@@ -23,6 +23,11 @@ Einstein, A. (2011).
 \newblock {\em Investigations on the {Theory} of the {Brownian} {Movement}}.
 \newblock Place of publication not identified: BN Publishing.
 
+\bibitem[Franz \& Wiedemann, 1853]{franz_ueber_1853}
+Franz, R. \& Wiedemann, G. (1853).
+\newblock Ueber die {Wärme}-{Leitungsfähigkeit} der {Metalle}.
+\newblock {\em Annalen der Physik}, 165(8), 497--531.
+
 \bibitem[Johnson, 1927]{johnson_thermal_1927}
 Johnson, J.~B. (1927).
 \newblock Thermal {Agitation} of {Electricity} in {Conductors} : {Abstract} :
@@ -38,6 +43,16 @@ Johnson, J.~B. (1928).
 Kubo, R. (1966).
 \newblock The fluctuation-dissipation theorem.
 \newblock {\em Reports on Progress in Physics}, 29(1), 255.
+
+\bibitem[Kumar et~al., 1993]{kumar_experimental_1993}
+Kumar, G.~S., Prasad, G., \& Pohl, R.~O. (1993).
+\newblock Experimental determinations of the {Lorenz} number.
+\newblock {\em Journal of Materials Science}, 28(16), 4261--4272.
+
+\bibitem[Lorenz, 1872]{lorenz_bestimmung_1872}
+Lorenz, L. (1872).
+\newblock Bestimmung der {Wärmegrade} in absolutem {Maasse}.
+\newblock {\em Annalen der Physik}, 223(11), 429--452.
 
 \bibitem[Nyquist, 1928]{nyquist_thermal_1928}
 Nyquist, H. (1928).

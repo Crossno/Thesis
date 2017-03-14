@@ -77,6 +77,8 @@
 \usepackage{amsmath, amsthm}
 \usepackage{perpage} %the perpage package
 \MakePerPage{footnote} %the perpage package command
+\newcommand{\sL}{\mathcal{L}}
+\newcommand{\sG}{\mathcal{G}}
 
 
 % Fonts
@@ -108,10 +110,12 @@
 
 % Headings and headers.
 \RequirePackage{fancyhdr}
-\RequirePackage[tiny, md, sc]{titlesec}
+\RequirePackage[small, md, sc]{titlesec}
 \setlength{\headheight}{5pt}
 \pagestyle{plain}
 \RequirePackage{titling}
+
+%\titleformat{\section}[runin]{}{}{0pt}{\thesection\quad#1}
 
 % Front matter.
 \setcounter{tocdepth}{1}
@@ -127,7 +131,7 @@
 
 % References.
 \renewcommand\bibname{References}
-\RequirePackage[super,comma,numbers]{natbib}
+\RequirePackage[square,comma,numbers]{natbib}
 \renewcommand{\bibnumfmt}[1]{[#1]}
 \RequirePackage[palatino]{quotchap}
 \renewcommand*{\chapterheadstartvskip}{\vspace*{-0.5\baselineskip}}

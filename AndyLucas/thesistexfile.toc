@@ -20,12 +20,12 @@
 \contentsline {subsection}{\numberline {2.1.7}The emergent dimension II: Entanglement entropy}{26}{subsection.2.1.7}
 \contentsline {subsubsection}{\numberline {2.1.7.1}Analogy with tensor networks}{28}{subsubsection.2.1.7.1}
 \contentsline {subsection}{\numberline {2.1.8}Microscopics: Kaluza-Klein modes and consistent truncations}{31}{subsection.2.1.8}
-\contentsline {section}{\numberline {2.2}Zero density matter}{35}{section.2.2}
+\contentsline {section}{\numberline {2.2}Zero density matter}{34}{section.2.2}
 \contentsline {subsection}{\numberline {2.2.1}Condensed matter systems}{35}{subsection.2.2.1}
 \contentsline {subsubsection}{\numberline {2.2.1.1}Antiferromagnetism on the honeycomb lattice}{39}{subsubsection.2.2.1.1}
-\contentsline {subsubsection}{\numberline {2.2.1.2}Emergent gauge fields}{41}{subsubsection.2.2.1.2}
+\contentsline {subsubsection}{\numberline {2.2.1.2}Emergent gauge fields}{40}{subsubsection.2.2.1.2}
 \contentsline {subsection}{\numberline {2.2.2}Scale invariant geometries}{44}{subsection.2.2.2}
-\contentsline {subsubsection}{\numberline {2.2.2.1}Dynamical critical exponent $z>1$}{45}{subsubsection.2.2.2.1}
+\contentsline {subsubsection}{\numberline {2.2.2.1}Dynamical critical exponent $z>1$}{44}{subsubsection.2.2.2.1}
 \contentsline {subsubsection}{\numberline {2.2.2.2}Hyperscaling violation}{48}{subsubsection.2.2.2.2}
 \contentsline {subsubsection}{\numberline {2.2.2.3}Galilean-invariant `non-relativistic CFTs'}{50}{subsubsection.2.2.2.3}
 \contentsline {subsection}{\numberline {2.2.3}Nonzero temperature}{50}{subsection.2.2.3}
@@ -35,154 +35,154 @@
 \contentsline {section}{\numberline {2.3}Quantum critical transport}{59}{section.2.3}
 \contentsline {subsection}{\numberline {2.3.1}Condensed matter systems and questions}{59}{subsection.2.3.1}
 \contentsline {subsection}{\numberline {2.3.2}Standard approaches and their limitations}{62}{subsection.2.3.2}
-\contentsline {subsubsection}{\numberline {2.3.2.1}Quasiparticle-based methods}{63}{subsubsection.2.3.2.1}
+\contentsline {subsubsection}{\numberline {2.3.2.1}Quasiparticle-based methods}{62}{subsubsection.2.3.2.1}
 \contentsline {subsubsection}{\numberline {2.3.2.2}Short time expansion}{65}{subsubsection.2.3.2.2}
-\contentsline {subsubsection}{\numberline {2.3.2.3}Quantum Monte Carlo}{67}{subsubsection.2.3.2.3}
-\contentsline {subsection}{\numberline {2.3.3}Holographic spectral functions}{68}{subsection.2.3.3}
+\contentsline {subsubsection}{\numberline {2.3.2.3}Quantum Monte Carlo}{66}{subsubsection.2.3.2.3}
+\contentsline {subsection}{\numberline {2.3.3}Holographic spectral functions}{67}{subsection.2.3.3}
 \contentsline {subsubsection}{\numberline {2.3.3.1}Infalling boundary conditions at the horizon}{68}{subsubsection.2.3.3.1}
-\contentsline {subsubsection}{\numberline {2.3.3.2}Example: spectral weight $\text {Im}\tmspace +\thinmuskip {.1667em} G^R_{{\mathcal {O}}{\mathcal {O}}}(\omega )$ of a large dimension operator}{70}{subsubsection.2.3.3.2}
-\contentsline {subsubsection}{\numberline {2.3.3.3}Infalling boundary conditions at zero temperature}{72}{subsubsection.2.3.3.3}
-\contentsline {subsection}{\numberline {2.3.4}Quantum critical charge dynamics}{73}{subsection.2.3.4}
+\contentsline {subsubsection}{\numberline {2.3.3.2}Example: spectral weight $\text {Im}\tmspace +\thinmuskip {.1667em} G^R_{{\mathcal {O}}{\mathcal {O}}}(\omega )$ of a large dimension operator}{69}{subsubsection.2.3.3.2}
+\contentsline {subsubsection}{\numberline {2.3.3.3}Infalling boundary conditions at zero temperature}{71}{subsubsection.2.3.3.3}
+\contentsline {subsection}{\numberline {2.3.4}Quantum critical charge dynamics}{72}{subsection.2.3.4}
 \contentsline {subsubsection}{\numberline {2.3.4.1}Conductivity from the dynamics of a bulk Maxwell field}{73}{subsubsection.2.3.4.1}
 \contentsline {subsubsection}{\numberline {2.3.4.2}The dc conductivity}{75}{subsubsection.2.3.4.2}
 \contentsline {subsubsection}{\numberline {2.3.4.3}Diffusive limit}{77}{subsubsection.2.3.4.3}
-\contentsline {subsubsection}{\numberline {2.3.4.4}$\sigma (\omega )$ part I: Critical phases}{80}{subsubsection.2.3.4.4}
-\contentsline {subsubsection}{\numberline {2.3.4.5}$\sigma (\omega )$ part II: Critical points and holographic analytic continuation}{85}{subsubsection.2.3.4.5}
-\contentsline {subsubsection}{\numberline {2.3.4.6}Particle-vortex duality and Maxwell duality}{86}{subsubsection.2.3.4.6}
+\contentsline {subsubsection}{\numberline {2.3.4.4}$\sigma (\omega )$ part I: Critical phases}{79}{subsubsection.2.3.4.4}
+\contentsline {subsubsection}{\numberline {2.3.4.5}$\sigma (\omega )$ part II: Critical points and holographic analytic continuation}{84}{subsubsection.2.3.4.5}
+\contentsline {subsubsection}{\numberline {2.3.4.6}Particle-vortex duality and Maxwell duality}{85}{subsubsection.2.3.4.6}
 \contentsline {subsection}{\numberline {2.3.5}Quasinormal modes replace quasiparticles}{88}{subsection.2.3.5}
 \contentsline {subsubsection}{\numberline {2.3.5.1}Physics and computation of quasinormal modes}{88}{subsubsection.2.3.5.1}
 \contentsline {subsubsection}{\numberline {2.3.5.2}$1/N$ corrections from quasinormal modes}{93}{subsubsection.2.3.5.2}
-\contentsline {section}{\numberline {2.4}Compressible quantum matter}{96}{section.2.4}
+\contentsline {section}{\numberline {2.4}Compressible quantum matter}{95}{section.2.4}
 \contentsline {subsection}{\numberline {2.4.1}Condensed matter systems}{97}{subsection.2.4.1}
 \contentsline {subsubsection}{\numberline {2.4.1.1}Ising-nematic transition}{99}{subsubsection.2.4.1.1}
-\contentsline {subsubsection}{\numberline {2.4.1.2}Spin density wave transition}{102}{subsubsection.2.4.1.2}
-\contentsline {subsubsection}{\numberline {2.4.1.3}Emergent gauge fields}{103}{subsubsection.2.4.1.3}
-\contentsline {subsection}{\numberline {2.4.2}Charged horizons}{106}{subsection.2.4.2}
-\contentsline {subsubsection}{\numberline {2.4.2.1}Einstein-Maxwell models: $\mathrm {AdS}_2 \times {{\mathbb R}}^{d}$}{108}{subsubsection.2.4.2.1}
-\contentsline {subsubsection}{\numberline {2.4.2.2}The zoo of $z$, $\theta $}{111}{subsubsection.2.4.2.2}
-\contentsline {subsubsection}{\numberline {2.4.2.3}Anomalous scaling of charge density}{113}{subsubsection.2.4.2.3}
-\contentsline {subsection}{\numberline {2.4.3}Hidden Fermi surfaces?}{114}{subsection.2.4.3}
-\contentsline {subsubsection}{\numberline {2.4.3.1}Spectral weight: zero temperature}{114}{subsubsection.2.4.3.1}
-\contentsline {subsubsection}{\numberline {2.4.3.2}Spectral weight: finite temperature}{117}{subsubsection.2.4.3.2}
-\contentsline {subsubsection}{\numberline {2.4.3.3}Logarithmic violation of the area law of entanglement}{120}{subsubsection.2.4.3.3}
-\contentsline {subsection}{\numberline {2.4.4}Fermions in the bulk I: classical effects}{121}{subsection.2.4.4}
-\contentsline {subsubsection}{\numberline {2.4.4.1}The holographic dictionary}{121}{subsubsection.2.4.4.1}
-\contentsline {subsubsection}{\numberline {2.4.4.2}Bulk fermions around charged black holes}{123}{subsubsection.2.4.4.2}
-\contentsline {subsubsection}{\numberline {2.4.4.3}Semi-holography}{124}{subsubsection.2.4.4.3}
-\contentsline {subsection}{\numberline {2.4.5}Fermions in the bulk II: quantum effects}{125}{subsection.2.4.5}
-\contentsline {subsubsection}{\numberline {2.4.5.1}Luttinger's theorem in holography}{125}{subsubsection.2.4.5.1}
-\contentsline {subsubsection}{\numberline {2.4.5.2}The Thomas-Fermi approximation}{127}{subsubsection.2.4.5.2}
-\contentsline {section}{\numberline {2.5}Metallic transport without quasiparticles}{129}{section.2.5}
-\contentsline {subsection}{\numberline {2.5.1}Thermoelectric conductivity matrix}{129}{subsection.2.5.1}
-\contentsline {subsection}{\numberline {2.5.2}Hydrodynamic transport (with momentum)}{131}{subsection.2.5.2}
-\contentsline {subsubsection}{\numberline {2.5.2.1}Relativistic hydrodynamics near quantum criticality}{132}{subsubsection.2.5.2.1}
-\contentsline {subsubsection}{\numberline {2.5.2.2}Sound waves}{134}{subsubsection.2.5.2.2}
-\contentsline {subsubsection}{\numberline {2.5.2.3}Transport coefficients}{136}{subsubsection.2.5.2.3}
-\contentsline {subsubsection}{\numberline {2.5.2.4}General linearized hydrodynamics}{137}{subsubsection.2.5.2.4}
-\contentsline {subsection}{\numberline {2.5.3}Weak momentum relaxation I: inhomogeneous hydrodynamics}{139}{subsection.2.5.3}
-\contentsline {subsection}{\numberline {2.5.4}Weak momentum relaxation II: the memory matrix formalism}{142}{subsection.2.5.4}
-\contentsline {subsubsection}{\numberline {2.5.4.1}The Drude conductivites}{145}{subsubsection.2.5.4.1}
-\contentsline {subsubsection}{\numberline {2.5.4.2}Transport co-efficients in condensed matter}{149}{subsubsection.2.5.4.2}
-\contentsline {subsubsection}{\numberline {2.5.4.3}From holography to memory matrices}{150}{subsubsection.2.5.4.3}
-\contentsline {subsubsection}{\numberline {2.5.4.4}Holographic examples}{153}{subsubsection.2.5.4.4}
-\contentsline {subsection}{\numberline {2.5.5}Magnetotransport}{154}{subsection.2.5.5}
-\contentsline {subsection}{\numberline {2.5.6}Hydrodynamic transport (without momentum)}{158}{subsection.2.5.6}
-\contentsline {subsection}{\numberline {2.5.7}Strong momentum relaxation I: ``mean field" methods}{160}{subsection.2.5.7}
-\contentsline {subsubsection}{\numberline {2.5.7.1}Metal-insulator transitions}{162}{subsubsection.2.5.7.1}
-\contentsline {subsubsection}{\numberline {2.5.7.2}ac transport}{162}{subsubsection.2.5.7.2}
-\contentsline {subsubsection}{\numberline {2.5.7.3}Demystifying massive gravity}{163}{subsubsection.2.5.7.3}
-\contentsline {subsubsection}{\numberline {2.5.7.4}Thermoelectric conductivities}{163}{subsubsection.2.5.7.4}
-\contentsline {subsection}{\numberline {2.5.8}Strong momentum relaxation II: exact methods}{165}{subsection.2.5.8}
-\contentsline {subsubsection}{\numberline {2.5.8.1}Analytic methods}{165}{subsubsection.2.5.8.1}
-\contentsline {subsubsection}{\numberline {2.5.8.2}Numerical methods}{168}{subsubsection.2.5.8.2}
-\contentsline {section}{\numberline {2.6}Further topics}{169}{section.2.6}
-\contentsline {subsection}{\numberline {2.6.1}Probe branes}{169}{subsection.2.6.1}
-\contentsline {subsubsection}{\numberline {2.6.1.1}Conductivity}{171}{subsubsection.2.6.1.1}
-\contentsline {subsubsection}{\numberline {2.6.1.2}``Zero sound" modes}{173}{subsubsection.2.6.1.2}
-\contentsline {subsubsection}{\numberline {2.6.1.3}Defects and impurities}{174}{subsubsection.2.6.1.3}
-\contentsline {subsection}{\numberline {2.6.2}Disordered fixed points}{174}{subsection.2.6.2}
-\contentsline {subsection}{\numberline {2.6.3}Out of equilibrium I: quenches}{177}{subsection.2.6.3}
-\contentsline {subsubsection}{\numberline {2.6.3.1}Uniform quenches}{178}{subsubsection.2.6.3.1}
-\contentsline {subsubsection}{\numberline {2.6.3.2}Spatial quenches}{179}{subsubsection.2.6.3.2}
-\contentsline {subsubsection}{\numberline {2.6.3.3}Kibble-Zurek mechanism and beyond}{181}{subsubsection.2.6.3.3}
-\contentsline {subsection}{\numberline {2.6.4}Out of equilibrium II: turbulence}{182}{subsection.2.6.4}
-\contentsline {part}{II\hspace {1em}Transport in weakly disordered metals}{186}{part.2}
-\contentsline {chapter}{\numberline {3}Holographic strange metals with random-field disorder}{187}{chapter.3}
-\contentsline {section}{\numberline {3.1}Introduction}{187}{section.3.1}
-\contentsline {section}{\numberline {3.2}Scale-Invariant Hyperscaling-Violating Holography}{189}{section.3.2}
-\contentsline {section}{\numberline {3.3}Conductivity with Random Field Disorder.}{192}{section.3.3}
-\contentsline {section}{\numberline {3.4}Holography}{193}{section.3.4}
-\contentsline {subsection}{\numberline {3.4.1}The Harris Criterion and a Dirty Black Hole}{193}{subsection.3.4.1}
-\contentsline {subsection}{\numberline {3.4.2}DC conductivity}{194}{subsection.3.4.2}
-\contentsline {subsection}{\numberline {3.4.3}Breakdown of Perturbation Theory}{199}{subsection.3.4.3}
-\contentsline {section}{\numberline {3.5}Memory Matrix Method}{200}{section.3.5}
-\contentsline {section}{\numberline {3.6}Conclusions}{200}{section.3.6}
-\contentsline {chapter}{\numberline {4}From holography to memory matrices}{202}{chapter.4}
-\contentsline {section}{\numberline {4.1}Introduction}{202}{section.4.1}
-\contentsline {section}{\numberline {4.2}Hydrodynamics and the Drude Peak}{203}{section.4.2}
-\contentsline {section}{\numberline {4.3}Memory Functions}{204}{section.4.3}
-\contentsline {section}{\numberline {4.4}Holography}{206}{section.4.4}
-\contentsline {subsection}{\numberline {4.4.1}Drude Peak}{209}{subsection.4.4.1}
-\contentsline {subsection}{\numberline {4.4.2}Equivalence with the Memory Function Approach}{213}{subsection.4.4.2}
-\contentsline {subsection}{\numberline {4.4.3}Seebeck Coefficient}{215}{subsection.4.4.3}
-\contentsline {section}{\numberline {4.5}Conclusion}{215}{section.4.5}
-\contentsline {chapter}{\numberline {5}Memory matrix theory of magnetotransport}{217}{chapter.5}
-\contentsline {section}{\numberline {5.1}Introduction}{217}{section.5.1}
-\contentsline {subsection}{\numberline {5.1.1}Transport Without Quasiparticles}{219}{subsection.5.1.1}
-\contentsline {subsection}{\numberline {5.1.2}Outline of the Paper}{220}{subsection.5.1.2}
-\contentsline {section}{\numberline {5.2}Hydrodynamics}{220}{section.5.2}
-\contentsline {section}{\numberline {5.3}Memory Function Formalism}{223}{section.5.3}
-\contentsline {subsection}{\numberline {5.3.1}Hydrodynamic Interpretation}{224}{subsection.5.3.1}
-\contentsline {section}{\numberline {5.4}Dynamics of Charge and Momentum}{226}{section.5.4}
-\contentsline {subsection}{\numberline {5.4.1}Diffusive Transport}{227}{subsection.5.4.1}
-\contentsline {subsection}{\numberline {5.4.2}Momentum Relaxation}{229}{subsection.5.4.2}
-\contentsline {subsection}{\numberline {5.4.3}Magnetic Fields}{231}{subsection.5.4.3}
-\contentsline {section}{\numberline {5.5}Dynamics of Charge, Heat and Momentum}{232}{section.5.5}
-\contentsline {section}{\numberline {5.6}Thermal and Thermoelectric Transport}{235}{section.5.6}
-\contentsline {section}{\numberline {5.7}Conclusions}{237}{section.5.7}
-\contentsline {part}{III\hspace {1em}Transport in strongly disordered metals}{239}{part.3}
-\contentsline {chapter}{\numberline {6}Lower bound on electrical conductivity}{240}{chapter.6}
-\contentsline {section}{\numberline {6.1}Introduction}{240}{section.6.1}
-\contentsline {section}{\numberline {6.2}Results}{241}{section.6.2}
-\contentsline {section}{\numberline {6.3}Technical Details}{244}{section.6.3}
-\contentsline {chapter}{\numberline {7}Lower bound on thermal conductivity}{249}{chapter.7}
-\contentsline {section}{\numberline {7.1}Introduction}{249}{section.7.1}
-\contentsline {section}{\numberline {7.2}Results}{250}{section.7.2}
-\contentsline {section}{\numberline {7.3}Dirty Black Holes}{252}{section.7.3}
-\contentsline {section}{\numberline {7.4}One Dimension}{254}{section.7.4}
-\contentsline {section}{\numberline {7.5}Two Dimensions}{254}{section.7.5}
-\contentsline {section}{\numberline {7.6}Mean Field Models}{257}{section.7.6}
-\contentsline {part}{IV\hspace {1em}Hydrodynamics in graphene}{258}{part.4}
-\contentsline {chapter}{\numberline {8}Observation of the Dirac fluid}{259}{chapter.8}
-\contentsline {chapter}{\numberline {9}Hydrodynamic transport in the Dirac fluid}{267}{chapter.9}
-\contentsline {section}{\numberline {9.1}Introduction}{267}{section.9.1}
-\contentsline {subsection}{\numberline {9.1.1}Summary of Results}{269}{subsection.9.1.1}
-\contentsline {subsection}{\numberline {9.1.2}Outline}{272}{subsection.9.1.2}
-\contentsline {section}{\numberline {9.2}Transport Coefficients}{272}{section.9.2}
-\contentsline {section}{\numberline {9.3}Relativistic Hydrodynamics}{273}{section.9.3}
-\contentsline {subsection}{\numberline {9.3.1}Hydrodynamic Equations}{274}{subsection.9.3.1}
-\contentsline {subsection}{\numberline {9.3.2}Hydrodynamic Theory of Transport}{276}{subsection.9.3.2}
-\contentsline {section}{\numberline {9.4}The Dirac Fluid in Graphene}{279}{section.9.4}
-\contentsline {section}{\numberline {9.5}Numerical Results}{281}{section.9.5}
-\contentsline {subsection}{\numberline {9.5.1}Comparison to Experiment}{282}{subsection.9.5.1}
-\contentsline {section}{\numberline {9.6}Phonons in Graphene}{286}{section.9.6}
-\contentsline {section}{\numberline {9.7}Conclusions}{288}{section.9.7}
-\contentsline {chapter}{\numberline {A}Appendix for Chapter 5}{290}{appendix.A}
-\contentsline {chapter}{\numberline {B}Appendix for Chapter 8}{292}{appendix.B}
-\contentsline {section}{\numberline {B.1}Sample Fabrication}{292}{section.B.1}
-\contentsline {subsection}{\numberline {B.1.1}Optimizing samples for high frequency thermal conductivity measurements}{292}{subsection.B.1.1}
-\contentsline {section}{\numberline {B.2}Device Characterization}{293}{section.B.2}
-\contentsline {section}{\numberline {B.3}Johnson Noise Thermometry}{294}{section.B.3}
-\contentsline {section}{\numberline {B.4}Measuring electronic thermal conductance}{296}{section.B.4}
-\contentsline {section}{\numberline {B.5}Thermal model of graphene electrons}{296}{section.B.5}
-\contentsline {section}{\numberline {B.6}Measuring Thermal Conductivity}{297}{section.B.6}
-\contentsline {section}{\numberline {B.7}Bipolar Diffusion }{300}{section.B.7}
-\contentsline {chapter}{\numberline {C}Appendix for Chapter 9}{303}{appendix.C}
-\contentsline {section}{\numberline {C.1}Thermodynamics}{303}{section.C.1}
-\contentsline {subsection}{\numberline {C.1.1}Thermodynamics of Disordered Fluids}{304}{subsection.C.1.1}
-\contentsline {section}{\numberline {C.2}Rescaling Symmetries of dc Transport}{306}{section.C.2}
-\contentsline {section}{\numberline {C.3}Weak Disorder}{306}{section.C.3}
-\contentsline {section}{\numberline {C.4}Equations of State of the Dirac Fluid}{308}{section.C.4}
-\contentsline {section}{\numberline {C.5}Numerical Methods}{309}{section.C.5}
-\contentsline {subsection}{\numberline {C.5.1}Finite Size Effects}{310}{subsection.C.5.1}
-\contentsline {subsection}{\numberline {C.5.2}Dimensional Analysis}{311}{subsection.C.5.2}
+\contentsline {subsubsection}{\numberline {2.4.1.2}Spin density wave transition}{101}{subsubsection.2.4.1.2}
+\contentsline {subsubsection}{\numberline {2.4.1.3}Emergent gauge fields}{102}{subsubsection.2.4.1.3}
+\contentsline {subsection}{\numberline {2.4.2}Charged horizons}{105}{subsection.2.4.2}
+\contentsline {subsubsection}{\numberline {2.4.2.1}Einstein-Maxwell models: $\mathrm {AdS}_2 \times {{\mathbb R}}^{d}$}{107}{subsubsection.2.4.2.1}
+\contentsline {subsubsection}{\numberline {2.4.2.2}The zoo of $z$, $\theta $}{110}{subsubsection.2.4.2.2}
+\contentsline {subsubsection}{\numberline {2.4.2.3}Anomalous scaling of charge density}{112}{subsubsection.2.4.2.3}
+\contentsline {subsection}{\numberline {2.4.3}Hidden Fermi surfaces?}{113}{subsection.2.4.3}
+\contentsline {subsubsection}{\numberline {2.4.3.1}Spectral weight: zero temperature}{113}{subsubsection.2.4.3.1}
+\contentsline {subsubsection}{\numberline {2.4.3.2}Spectral weight: finite temperature}{116}{subsubsection.2.4.3.2}
+\contentsline {subsubsection}{\numberline {2.4.3.3}Logarithmic violation of the area law of entanglement}{119}{subsubsection.2.4.3.3}
+\contentsline {subsection}{\numberline {2.4.4}Fermions in the bulk I: classical effects}{120}{subsection.2.4.4}
+\contentsline {subsubsection}{\numberline {2.4.4.1}The holographic dictionary}{120}{subsubsection.2.4.4.1}
+\contentsline {subsubsection}{\numberline {2.4.4.2}Bulk fermions around charged black holes}{121}{subsubsection.2.4.4.2}
+\contentsline {subsubsection}{\numberline {2.4.4.3}Semi-holography}{123}{subsubsection.2.4.4.3}
+\contentsline {subsection}{\numberline {2.4.5}Fermions in the bulk II: quantum effects}{124}{subsection.2.4.5}
+\contentsline {subsubsection}{\numberline {2.4.5.1}Luttinger's theorem in holography}{124}{subsubsection.2.4.5.1}
+\contentsline {subsubsection}{\numberline {2.4.5.2}The Thomas-Fermi approximation}{126}{subsubsection.2.4.5.2}
+\contentsline {section}{\numberline {2.5}Metallic transport without quasiparticles}{128}{section.2.5}
+\contentsline {subsection}{\numberline {2.5.1}Thermoelectric conductivity matrix}{128}{subsection.2.5.1}
+\contentsline {subsection}{\numberline {2.5.2}Hydrodynamic transport (with momentum)}{130}{subsection.2.5.2}
+\contentsline {subsubsection}{\numberline {2.5.2.1}Relativistic hydrodynamics near quantum criticality}{131}{subsubsection.2.5.2.1}
+\contentsline {subsubsection}{\numberline {2.5.2.2}Sound waves}{133}{subsubsection.2.5.2.2}
+\contentsline {subsubsection}{\numberline {2.5.2.3}Transport coefficients}{135}{subsubsection.2.5.2.3}
+\contentsline {subsubsection}{\numberline {2.5.2.4}General linearized hydrodynamics}{136}{subsubsection.2.5.2.4}
+\contentsline {subsection}{\numberline {2.5.3}Weak momentum relaxation I: inhomogeneous hydrodynamics}{138}{subsection.2.5.3}
+\contentsline {subsection}{\numberline {2.5.4}Weak momentum relaxation II: the memory matrix formalism}{141}{subsection.2.5.4}
+\contentsline {subsubsection}{\numberline {2.5.4.1}The Drude conductivites}{144}{subsubsection.2.5.4.1}
+\contentsline {subsubsection}{\numberline {2.5.4.2}Transport co-efficients in condensed matter}{148}{subsubsection.2.5.4.2}
+\contentsline {subsubsection}{\numberline {2.5.4.3}From holography to memory matrices}{149}{subsubsection.2.5.4.3}
+\contentsline {subsubsection}{\numberline {2.5.4.4}Holographic examples}{152}{subsubsection.2.5.4.4}
+\contentsline {subsection}{\numberline {2.5.5}Magnetotransport}{153}{subsection.2.5.5}
+\contentsline {subsection}{\numberline {2.5.6}Hydrodynamic transport (without momentum)}{156}{subsection.2.5.6}
+\contentsline {subsection}{\numberline {2.5.7}Strong momentum relaxation I: ``mean field" methods}{158}{subsection.2.5.7}
+\contentsline {subsubsection}{\numberline {2.5.7.1}Metal-insulator transitions}{160}{subsubsection.2.5.7.1}
+\contentsline {subsubsection}{\numberline {2.5.7.2}ac transport}{161}{subsubsection.2.5.7.2}
+\contentsline {subsubsection}{\numberline {2.5.7.3}Demystifying massive gravity}{162}{subsubsection.2.5.7.3}
+\contentsline {subsubsection}{\numberline {2.5.7.4}Thermoelectric conductivities}{162}{subsubsection.2.5.7.4}
+\contentsline {subsection}{\numberline {2.5.8}Strong momentum relaxation II: exact methods}{163}{subsection.2.5.8}
+\contentsline {subsubsection}{\numberline {2.5.8.1}Analytic methods}{163}{subsubsection.2.5.8.1}
+\contentsline {subsubsection}{\numberline {2.5.8.2}Numerical methods}{166}{subsubsection.2.5.8.2}
+\contentsline {section}{\numberline {2.6}Further topics}{167}{section.2.6}
+\contentsline {subsection}{\numberline {2.6.1}Probe branes}{167}{subsection.2.6.1}
+\contentsline {subsubsection}{\numberline {2.6.1.1}Conductivity}{169}{subsubsection.2.6.1.1}
+\contentsline {subsubsection}{\numberline {2.6.1.2}``Zero sound" modes}{171}{subsubsection.2.6.1.2}
+\contentsline {subsubsection}{\numberline {2.6.1.3}Defects and impurities}{172}{subsubsection.2.6.1.3}
+\contentsline {subsection}{\numberline {2.6.2}Disordered fixed points}{172}{subsection.2.6.2}
+\contentsline {subsection}{\numberline {2.6.3}Out of equilibrium I: quenches}{175}{subsection.2.6.3}
+\contentsline {subsubsection}{\numberline {2.6.3.1}Uniform quenches}{176}{subsubsection.2.6.3.1}
+\contentsline {subsubsection}{\numberline {2.6.3.2}Spatial quenches}{177}{subsubsection.2.6.3.2}
+\contentsline {subsubsection}{\numberline {2.6.3.3}Kibble-Zurek mechanism and beyond}{178}{subsubsection.2.6.3.3}
+\contentsline {subsection}{\numberline {2.6.4}Out of equilibrium II: turbulence}{180}{subsection.2.6.4}
+\contentsline {part}{II\hspace {1em}Transport in weakly disordered metals}{183}{part.2}
+\contentsline {chapter}{\numberline {3}Holographic strange metals with random-field disorder}{184}{chapter.3}
+\contentsline {section}{\numberline {3.1}Introduction}{184}{section.3.1}
+\contentsline {section}{\numberline {3.2}Scale-Invariant Hyperscaling-Violating Holography}{186}{section.3.2}
+\contentsline {section}{\numberline {3.3}Conductivity with Random Field Disorder.}{189}{section.3.3}
+\contentsline {section}{\numberline {3.4}Holography}{190}{section.3.4}
+\contentsline {subsection}{\numberline {3.4.1}The Harris Criterion and a Dirty Black Hole}{190}{subsection.3.4.1}
+\contentsline {subsection}{\numberline {3.4.2}DC conductivity}{191}{subsection.3.4.2}
+\contentsline {subsection}{\numberline {3.4.3}Breakdown of Perturbation Theory}{196}{subsection.3.4.3}
+\contentsline {section}{\numberline {3.5}Memory Matrix Method}{197}{section.3.5}
+\contentsline {section}{\numberline {3.6}Conclusions}{197}{section.3.6}
+\contentsline {chapter}{\numberline {4}From holography to memory matrices}{199}{chapter.4}
+\contentsline {section}{\numberline {4.1}Introduction}{199}{section.4.1}
+\contentsline {section}{\numberline {4.2}Hydrodynamics and the Drude Peak}{200}{section.4.2}
+\contentsline {section}{\numberline {4.3}Memory Functions}{201}{section.4.3}
+\contentsline {section}{\numberline {4.4}Holography}{203}{section.4.4}
+\contentsline {subsection}{\numberline {4.4.1}Drude Peak}{206}{subsection.4.4.1}
+\contentsline {subsection}{\numberline {4.4.2}Equivalence with the Memory Function Approach}{210}{subsection.4.4.2}
+\contentsline {subsection}{\numberline {4.4.3}Seebeck Coefficient}{212}{subsection.4.4.3}
+\contentsline {section}{\numberline {4.5}Conclusion}{212}{section.4.5}
+\contentsline {chapter}{\numberline {5}Memory matrix theory of magnetotransport}{214}{chapter.5}
+\contentsline {section}{\numberline {5.1}Introduction}{214}{section.5.1}
+\contentsline {subsection}{\numberline {5.1.1}Transport Without Quasiparticles}{216}{subsection.5.1.1}
+\contentsline {subsection}{\numberline {5.1.2}Outline of the Paper}{217}{subsection.5.1.2}
+\contentsline {section}{\numberline {5.2}Hydrodynamics}{217}{section.5.2}
+\contentsline {section}{\numberline {5.3}Memory Function Formalism}{220}{section.5.3}
+\contentsline {subsection}{\numberline {5.3.1}Hydrodynamic Interpretation}{221}{subsection.5.3.1}
+\contentsline {section}{\numberline {5.4}Dynamics of Charge and Momentum}{223}{section.5.4}
+\contentsline {subsection}{\numberline {5.4.1}Diffusive Transport}{224}{subsection.5.4.1}
+\contentsline {subsection}{\numberline {5.4.2}Momentum Relaxation}{226}{subsection.5.4.2}
+\contentsline {subsection}{\numberline {5.4.3}Magnetic Fields}{228}{subsection.5.4.3}
+\contentsline {section}{\numberline {5.5}Dynamics of Charge, Heat and Momentum}{229}{section.5.5}
+\contentsline {section}{\numberline {5.6}Thermal and Thermoelectric Transport}{232}{section.5.6}
+\contentsline {section}{\numberline {5.7}Conclusions}{234}{section.5.7}
+\contentsline {part}{III\hspace {1em}Transport in strongly disordered metals}{236}{part.3}
+\contentsline {chapter}{\numberline {6}Lower bound on electrical conductivity}{237}{chapter.6}
+\contentsline {section}{\numberline {6.1}Introduction}{237}{section.6.1}
+\contentsline {section}{\numberline {6.2}Results}{238}{section.6.2}
+\contentsline {section}{\numberline {6.3}Technical Details}{241}{section.6.3}
+\contentsline {chapter}{\numberline {7}Lower bound on thermal conductivity}{246}{chapter.7}
+\contentsline {section}{\numberline {7.1}Introduction}{246}{section.7.1}
+\contentsline {section}{\numberline {7.2}Results}{247}{section.7.2}
+\contentsline {section}{\numberline {7.3}Dirty Black Holes}{249}{section.7.3}
+\contentsline {section}{\numberline {7.4}One Dimension}{251}{section.7.4}
+\contentsline {section}{\numberline {7.5}Two Dimensions}{251}{section.7.5}
+\contentsline {section}{\numberline {7.6}Mean Field Models}{254}{section.7.6}
+\contentsline {part}{IV\hspace {1em}Hydrodynamics in graphene}{255}{part.4}
+\contentsline {chapter}{\numberline {8}Observation of the Dirac fluid}{256}{chapter.8}
+\contentsline {chapter}{\numberline {9}Hydrodynamic transport in the Dirac fluid}{262}{chapter.9}
+\contentsline {section}{\numberline {9.1}Introduction}{262}{section.9.1}
+\contentsline {subsection}{\numberline {9.1.1}Summary of Results}{264}{subsection.9.1.1}
+\contentsline {subsection}{\numberline {9.1.2}Outline}{266}{subsection.9.1.2}
+\contentsline {section}{\numberline {9.2}Transport Coefficients}{267}{section.9.2}
+\contentsline {section}{\numberline {9.3}Relativistic Hydrodynamics}{268}{section.9.3}
+\contentsline {subsection}{\numberline {9.3.1}Hydrodynamic Equations}{268}{subsection.9.3.1}
+\contentsline {subsection}{\numberline {9.3.2}Hydrodynamic Theory of Transport}{271}{subsection.9.3.2}
+\contentsline {section}{\numberline {9.4}The Dirac Fluid in Graphene}{273}{section.9.4}
+\contentsline {section}{\numberline {9.5}Numerical Results}{276}{section.9.5}
+\contentsline {subsection}{\numberline {9.5.1}Comparison to Experiment}{277}{subsection.9.5.1}
+\contentsline {section}{\numberline {9.6}Phonons in Graphene}{279}{section.9.6}
+\contentsline {section}{\numberline {9.7}Conclusions}{281}{section.9.7}
+\contentsline {chapter}{\numberline {A}Appendix for Chapter 5}{283}{appendix.A}
+\contentsline {chapter}{\numberline {B}Appendix for Chapter 8}{285}{appendix.B}
+\contentsline {section}{\numberline {B.1}Sample Fabrication}{285}{section.B.1}
+\contentsline {subsection}{\numberline {B.1.1}Optimizing samples for high frequency thermal conductivity measurements}{285}{subsection.B.1.1}
+\contentsline {section}{\numberline {B.2}Device Characterization}{286}{section.B.2}
+\contentsline {section}{\numberline {B.3}Johnson Noise Thermometry}{287}{section.B.3}
+\contentsline {section}{\numberline {B.4}Measuring electronic thermal conductance}{288}{section.B.4}
+\contentsline {section}{\numberline {B.5}Thermal model of graphene electrons}{288}{section.B.5}
+\contentsline {section}{\numberline {B.6}Measuring Thermal Conductivity}{289}{section.B.6}
+\contentsline {section}{\numberline {B.7}Bipolar Diffusion }{291}{section.B.7}
+\contentsline {chapter}{\numberline {C}Appendix for Chapter 9}{294}{appendix.C}
+\contentsline {section}{\numberline {C.1}Thermodynamics}{294}{section.C.1}
+\contentsline {subsection}{\numberline {C.1.1}Thermodynamics of Disordered Fluids}{295}{subsection.C.1.1}
+\contentsline {section}{\numberline {C.2}Rescaling Symmetries of dc Transport}{297}{section.C.2}
+\contentsline {section}{\numberline {C.3}Weak Disorder}{297}{section.C.3}
+\contentsline {section}{\numberline {C.4}Equations of State of the Dirac Fluid}{299}{section.C.4}
+\contentsline {section}{\numberline {C.5}Numerical Methods}{300}{section.C.5}
+\contentsline {subsection}{\numberline {C.5.1}Finite Size Effects}{301}{subsection.C.5.1}
+\contentsline {subsection}{\numberline {C.5.2}Dimensional Analysis}{302}{subsection.C.5.2}
