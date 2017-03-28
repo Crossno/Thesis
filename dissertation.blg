@@ -1,5 +1,5 @@
-This is BibTeX, Version 0.99d (TeX Live 2015/Debian)
-Capacity: max_strings=35307, hash_size=35307, hash_prime=30011
+This is BibTeX, Version 0.99d (TeX Live 2016)
+Capacity: max_strings=100000, hash_size=100000, hash_prime=85009
 The top-level auxiliary file: dissertation.aux
 A level-1 auxiliary file: chapters/introduction.aux
 A level-1 auxiliary file: chapters/Johnson_noise_thermometry.aux
@@ -27,49 +27,52 @@ Warning--I didn't find a database entry for "Henny:1999p2790"
 Warning--I didn't find a database entry for "Brophy:1965p2623"
 Warning--I didn't find a database entry for "*Klein:1978p2616"
 Warning--I didn't find a database entry for "Sampietro:2000p2679"
-Warning--I didn't find a database entry for "kittle??"
 Warning--I didn't find a database entry for "??"
 Warning--I didn't find a database entry for "prober"
-Warning--I didn't find a database entry for "mckitterick"
-You've used 14 entries,
+Warning--I didn't find a database entry for "mckitterick??"
+Warning--I didn't find a database entry for "sommerfeld"
+Warning--I didn't find a database entry for "martinez??"
+Warning--I didn't find a database entry for "shaffique"
+Warning--I didn't find a database entry for "flexure"
+You've used 37 entries,
             2229 wiz_defined-function locations,
-            644 strings with 6877 characters,
-and the built_in function-call counts, 5549 in all, are:
-= -- 542
-> -- 214
-< -- 10
-+ -- 78
-- -- 72
-* -- 497
-:= -- 977
-add.period$ -- 43
-call.type$ -- 14
-change.case$ -- 105
-chr.to.int$ -- 14
-cite$ -- 14
-duplicate$ -- 196
-empty$ -- 397
-format.name$ -- 90
-if$ -- 1061
+            788 strings with 11343 characters,
+and the built_in function-call counts, 15640 in all, are:
+= -- 1494
+> -- 748
+< -- 22
++ -- 266
+- -- 260
+* -- 1455
+:= -- 2775
+add.period$ -- 116
+call.type$ -- 37
+change.case$ -- 313
+chr.to.int$ -- 37
+cite$ -- 37
+duplicate$ -- 514
+empty$ -- 1034
+format.name$ -- 315
+if$ -- 2968
 int.to.chr$ -- 1
 int.to.str$ -- 0
-missing$ -- 16
-newline$ -- 74
-num.names$ -- 42
-pop$ -- 74
+missing$ -- 40
+newline$ -- 193
+num.names$ -- 111
+pop$ -- 230
 preamble$ -- 1
-purify$ -- 106
+purify$ -- 315
 quote$ -- 0
-skip$ -- 149
+skip$ -- 389
 stack$ -- 0
-substring$ -- 432
-swap$ -- 14
+substring$ -- 1101
+swap$ -- 37
 text.length$ -- 0
 text.prefix$ -- 0
 top$ -- 0
-type$ -- 80
+type$ -- 214
 warning$ -- 0
-while$ -- 49
+while$ -- 122
 width$ -- 0
-write$ -- 187
-(There were 17 warnings)
+write$ -- 495
+(There were 20 warnings)

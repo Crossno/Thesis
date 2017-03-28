@@ -9,14 +9,14 @@ In theory, theory and practice are the same thing, but in practice...
 
 \newthought{Given any process in which an applied force generates heat}, the reverse process must also exist and, as such, thermal fluctuations will be create fluctuations in that force. The idea that the same physics governing the dissipation of a object moving through some environment is responsible for the apparent random motion of that object was originally described by Einstein in the context of pollen grains ~\cite{einstein_investigations_2011}. The generalized fluctuation-dissipation theorem~\cite{kubo_fluctuation-dissipation_1966} quantifies this statement for linear systems\footnote{Here a linear system is one where the force acting on a particle is proportional to its velocity $F/v = constant$} by relating the power spectral density $S_P(\omega)$ to the real part of the generalized impedance $Z(\omega)$~\cite{callen_irreversibility_1951}.
 \begin{equation}\label{eq:fluctuation_dissipation}
-S_P(\omega^2) \propto k_BT\ \Re[Z(\omega)]
+S_P(\omega) \propto k_BT\ \Re[Z(\omega)]
 \end{equation}
 Nearly a quarter of a century later, Nyquist~\cite{nyquist_thermal_1928} related Einsteins description of Brownian motion to the electrical noise measured by Johnson~\cite{johnson_thermal_1927,johnson_thermal_1928}. Although all the key components were in place it would take until 1946 for the first noise thermometer to be built~\cite{dicke_measurement_1946}. The general idea is to measure the noise spectrum emitted by a device and thus determine its electronic temperature. Johnson noise thermometry (JNT) is analogous to radiation thermometry where the blackbody spectrum of an object is used to determine its temperature --- in fact, both rely upon modified versions of eq~\ref{eq:fluctuation_dissipation}
 
 \section{Thermal noise in resistors}
 Johnson noise, often referred to as Johnson-Nyquist noise, was first measured in 1927~\cite{johnson_thermal_1927}. Johnson found the fluctuations in the squared voltage across a resistor was linearly proportional to both the resistance and the temperature and independent of the conductor being measured. The following year, Nyquist derived the form of this noise from thermodynamic arguments; consider two identical resistors in thermal equilibrium at a temperature T connected such that any noise emitted by one is absorbed by the other, as shown in fig.~\ref{fig:Nyquist_resistors}. As we are in equilibrium we know the power being absorbed per unit frequency must be $k_BT$. If we represent the Johnson noise of the first resistor as a series voltage source we know the power dissipated in in the second resistor per unit frequency must be $I^2R = V_{JN}^2 / 4R$ as the total resistance of the circuit is $2R$. Setting this equal to $k_BT$ leads us to Nyquist's famous result.
 \begin{equation}\label{eq:Nyquist}
-S_{V} = 4Rk_BT\Delta f
+S_{V} = 4Rk_BT
 \end{equation}
 \begin{figure}
 \centering
@@ -26,7 +26,7 @@ S_{V} = 4Rk_BT\Delta f
 \end{figure}
 This derivation holds regardless of the conductor, be it an electrolytic solution or a piece of graphene in a quantum Hall state. However, there is a glaring problem with extending this formula to high frequency; similar to the UV-catastrophe in black-body radiation, Nyquist's formula extends to infinite energies as it lacks a high frequency cutoff. This is fixed by quantum mechanics resulting in a cutoff in the noise spectrum centered at $\hbar\omega = k_BT$.
 \begin{equation}\label{eq:NyquistFull}
-S_V = 4\hbar\omega~\Re(Z)\left[\frac{1}{2}+\frac{1}{exp(\hbar\omega/k_BT)-1}\right]\Delta f
+S_V = 4\hbar\omega~\Re(Z)\left[\frac{1}{2}+\frac{1}{exp(\hbar\omega/k_BT)-1}\right]
 \end{equation}
 This high frequency cutoff was seen experimentally by Schoelkopf, et al.~\cite{schoelkopf_frequency_1997} and is only of practical import at high frequencies ($>1~GHz$) and low temperatures ($<1~K$).
 
@@ -44,7 +44,7 @@ While in the case of the same two resistors in parallel we must add their mean s
 \end{equation}
 This process can be extended to any network of discrete, two-terminal resistors.
 
-An effective "Johnson noise temperature" for a given resistor network can be defined as the temperature, $T_{JN}$, such that the total noise emitted between two given terminals of the network is:
+An effective ``Johnson noise temperature" for a given resistor network can be defined as the temperature, $T_{JN}$, such that the total noise emitted between two given terminals of the network is:
 \begin{equation}
 \langle V^2\rangle = 4k_BR\Delta f * T_{JN}
 \end{equation}
@@ -65,9 +65,9 @@ Similarly from eq.\ref{eq:parallelJN} we see that for resistors in parallel
 T_{JN}^{\ parallel} = \sum_i \frac{R}{R_i}T_i
 \end{equation}
 
-These equations are unified by considering the relationship between the power dissipated in a particular resistor $\dot{Q_i}$ from a voltage across the two terminals of the network (or equally a current across the network) compared to the total power dissipated over the entire network $\dot{Q_0}$. For the resistors in series $\dot{Q_i}/\dot{Q_0} = R_i/R$ and for resistors in parallel $\dot{Q}_i/\dot{Q_0} = R/R_i$. Thus in both cases:
+These equations are unified by considering the relationship between the power dissipated in a particular resistor $\Qdot_i$ from a voltage across the two terminals of the network (or equally a current across the network) compared to the total power dissipated over the entire network $\Qdot_0$. For the resistors in series $\Qdot_i/\Qdot_0 = R_i/R$ and for resistors in parallel $\Qdot_i/\Qdot_0 = R/R_i$. Thus in both cases:
 \begin{equation}\label{eq:TJN_discrete}
-T_{JN} = \sum_i\frac{\dot{Q_i}}{\dot{Q_0}}T_i
+T_{JN} = \sum_i\frac{\Qdot_i}{\Qdot_0}T_i
 \end{equation}
 
 In fact this is quite general and holds for any combination of resistors. It stems from the statement: The voltage created on any given two terminals of a resistor network due to the power fluctuations of a given element are exactly given by the power dissipated in that element due to a voltage on those terminals.
@@ -103,11 +103,11 @@ As can be seen from eq.~\ref{eq:NyquistPower}, the larger the measurement bandwi
 Fig.~\ref{fig:JNT_autocorrelation_schematic} shows an example of a typical, Dicke style, radiometer used to measure the temperature of a $50~\Omega$ sample. Radiation from the resistor is coupled into a transmission line terminated in a low noise amplifier (LNA). A typical noise spectrum directly from the output of the LNA is shown in fig.~\ref{fig:Miteq_spec}. The signal-to-noise ratio of a noise measurement is mostly determined the front-end LNA~\cite{pozar_microwave_2011} so care should be taken in selecting the right amplifier. The SiGe LNA (Caltech CITLF3) used throughout the majority of this thesis has a room temperature noise figure, in the frequency range of 0.01 to 2~GHz, of about 0.64~dB, corresponding to an intrinsic noise temperature of 46 K.
 \begin{figure}
 \includegraphics[width=\textwidth]{figures/Johnson_noise_thermometry/Miteq_spec.png}
-\caption{a typical spectrum directly from the output of a low noise amplifier (Miteq AU-1291 $\sim$65~dB gain $\sim$100~K noise temperature) with the input terminated with a 50~$\Omega$ resistor. The spectrum is flat until the amplifier gain begins to roll off above 500~MHz. The amplitude of the "white" spectrum is proportional to the resistor temperature added to the amplifier noise temperature.}
+\caption{a typical spectrum directly from the output of a low noise amplifier (Miteq AU-1291 $\sim$65~dB gain $\sim$100~K noise temperature) with the input terminated with a 50~$\Omega$ resistor. The spectrum is flat until the amplifier gain begins to roll off above 500~MHz. The amplitude of the ``white" spectrum is proportional to the resistor temperature added to the amplifier noise temperature.}
 \label{fig:Miteq_spec}
 \end{figure}
 
-Even though Johnson noise has a flat "white" spectrum, it is important to filter out unwanted $1/f~$ low frequency fluctuations ($\lesssim 10~kHz$) as well as high frequency noise produced where the amplifier gain begins to roll off. 
+Even though Johnson noise has a flat ``white" spectrum, it is important to filter out unwanted $1/f~$ low frequency fluctuations ($\lesssim 10~kHz$) as well as high frequency noise produced where the amplifier gain begins to roll off. 
 This can be done using high- and low- pass filters (producing a spectrum similar shown in fig.~\ref{fig:Miteq_BP_spec}, or with a homodyne mixer and low-pass filter combo (as shown in fig.~\ref{fig:autocorrelation_schematic}. 
 \begin{figure}
 \includegraphics[width=\textwidth]{figures/Johnson_noise_thermometry/Miteq_BP_spec.png}
@@ -133,7 +133,7 @@ The simplest of the three power detectors discussed here is an RF power diode/lo
 
 Once the noise power is converted to a dc voltage it can be read by a common Voltmeter. To increase the sensitivity it is useful to modulate the noise power. When measuring mesoscopic samples this can be done by modulating the electron temperature via Joule heating. However, in the case of a macroscopic resistor, a microwave switch is places after amplification and acts as a chopper. The resulting signal can then be measured using a lock-in amplifier.
 
-We can test the noise circuit shown in fig.~\ref{fig:schematic_autocorrelation} by attaching the sample resistor to a coldfinger and varying the temperature from 3~K to 300~K. The results are shown in fig.~\ref{fig:auto_noise_vs_T}. As the sample temperature is lowered, the noise reduces linearly as expected from eq.~\ref{eq:NyquistPower}. However, if we extrapolate the data to zero temperature, we see residual noise; this offset is due to all the other (temperature independent) noise sources in the system --- primarily the front-end amplifier. It is useful to quantify this offset in units of Kelvin and is called the "effective noise temperature". Here we find an effective noise temperature of $68~K$ using a room temperature amplifier.
+We can test the noise circuit shown in fig.~\ref{fig:schematic_autocorrelation} by attaching the sample resistor to a coldfinger and varying the temperature from 3~K to 300~K. The results are shown in fig.~\ref{fig:auto_noise_vs_T}. As the sample temperature is lowered, the noise reduces linearly as expected from eq.~\ref{eq:NyquistPower}. However, if we extrapolate the data to zero temperature, we see residual noise; this offset is due to all the other (temperature independent) noise sources in the system --- primarily the front-end amplifier. It is useful to quantify this offset in units of Kelvin and is called the ``effective noise temperature". Here we find an effective noise temperature of $68~K$ using a room temperature amplifier.
 More details on this circuit can be found in ref.~\cite{crossno_development_2015}
 
 \begin{figure}
@@ -152,7 +152,7 @@ More details on this circuit can be found in ref.~\cite{crossno_development_2015
 \label{fig:JNT_500measurements}
 \end{figure}
 
-The second source of uncertainty comes from external noise sources such as amplifiers and boils down to the question: of the noise you measure, what amount comes from the sample? Quantitatively, this can be thought of as a constant offset to the sample temperature and is called the system noise temperature $T_n$\footnote{It should be noted that the system noise temperature can be quite different from an amplifiers intrinsic noise temperature which often assumes a perfectly matched input impedance. See the section "effective noise temperature" for more details}. In an autocorrelated noise measurement, $T_n$ can be estimated as the offset of a linear fit to the noise power vs sample temperature, as shown in fig.~\ref{fig:auto_noise_vs_T}. This offset is primarily due to noise in the front-end amplifier but also depends on the sample impedance matching and the bandwidth being measured.
+The second source of uncertainty comes from external noise sources such as amplifiers and boils down to the question: of the noise you measure, what amount comes from the sample? Quantitatively, this can be thought of as a constant offset to the sample temperature and is called the system noise temperature $T_n$\footnote{It should be noted that the system noise temperature can be quite different from an amplifiers intrinsic noise temperature which often assumes a perfectly matched input impedance. See the section ``effective noise temperature" for more details}. In an autocorrelated noise measurement, $T_n$ can be estimated as the offset of a linear fit to the noise power vs sample temperature, as shown in fig.~\ref{fig:auto_noise_vs_T}. This offset is primarily due to noise in the front-end amplifier but also depends on the sample impedance matching and the bandwidth being measured.
 
 Combining these two sources of error we arrive at the famous Dicke radiometer formula~\cite{dicke_measurement_1946}:
 \begin{equation}\label{eq:dicke_formula}
@@ -289,7 +289,7 @@ The more stages added the wider the matched area in resistance-frequency space b
 \section{Effective noise temperature}
 \newthought{A factor of two in signal to noise can be the difference between graduating in two years or eight.} From the dicke radiometer formula, Eq.~\ref{eq:dicke_formula}, the measurement time scales as the effective noise temperature squared. Each component of the measurement circuit should be chosen with this in mind and, as such, its important to understand how each element affects the system as a whole.
 
-The effective noise temperature, $T_n$, is the temperature at which your sample emits the same noise power as the sum of all the "unwanted" noise in your system --- i.e. your signal to noise ratio is given by $T/T_n$, where $T$ is the sample temperature. Quantifying noise in this way lets us write the output voltage of our circuit, $V_{out}$, (which is proportional to the integrated noise power) as:
+The effective noise temperature, $T_n$, is the temperature at which your sample emits the same noise power as the sum of all the ``unwanted" noise in your system --- i.e. your signal to noise ratio is given by $T/T_n$, where $T$ is the sample temperature. Quantifying noise in this way lets us write the output voltage of our circuit, $V_{out}$, (which is proportional to the integrated noise power) as:
 \begin{equation}\label{eq:power_output}
 V_{out} = \mathcal{G}(\Gamma)(T+T_n(\Gamma))
 \end{equation}

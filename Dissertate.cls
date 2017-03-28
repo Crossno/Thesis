@@ -77,8 +77,13 @@
 \usepackage{amsmath, amsthm}
 \usepackage{perpage} %the perpage package
 \MakePerPage{footnote} %the perpage package command
-\newcommand{\sL}{\mathcal{L}}
-\newcommand{\sG}{\mathcal{G}}
+\def\sL{\mathcal{L}}
+\def\sG{\mathcal{G}}
+\def\Watt{\mathrm{W}}
+\def\Qdot{\dot{\mathrm{Q}}}
+\def\de{\mathrm{\delta}}
+\def\p{\mathrm{\rho}}
+\def\m{\mathrm{\mu}}
 
 
 % Fonts
@@ -118,7 +123,7 @@
 %\titleformat{\section}[runin]{}{}{0pt}{\thesection\quad#1}
 
 % Front matter.
-\setcounter{tocdepth}{1}
+\setcounter{tocdepth}{2}
 \usepackage[titles]{tocloft}
 \usepackage[titletoc]{appendix}
 \renewcommand{\cftsecleader}{\cftdotfill{\cftdotsep}}
