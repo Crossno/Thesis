@@ -73,6 +73,7 @@
 \RequirePackage{verbatim}
 
 %stuff I added
+\usepackage{sidecap}
 \usepackage{bm} % bold math
 \usepackage{amsmath, amsthm}
 \usepackage{perpage} %the perpage package
