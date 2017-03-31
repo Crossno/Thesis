@@ -29,9 +29,9 @@
 \BOOKMARK [0][-]{chapter.3}{Thermal\040conductance\040via\040electrical\040noise}{}% 29
 \BOOKMARK [1][-]{section.3.1}{rectangular\040device}{chapter.3}% 30
 \BOOKMARK [2][-]{subsection.3.1.1}{Electronic\040conduction\040only}{section.3.1}% 31
-\BOOKMARK [2][-]{subsection.3.1.2}{Phonon\040cooling}{section.3.1}% 32
-\BOOKMARK [1][-]{section.3.2}{Johnson\040noise\040temperature\040vs\040mean\040temperatures:\040wedge\040device}{chapter.3}% 33
-\BOOKMARK [1][-]{section.3.3}{Arbitrary shapes: the geometric factor "α}{chapter.3}% 34
+\BOOKMARK [2][-]{subsection.3.1.2}{Phonon\040cooling\040only}{section.3.1}% 32
+\BOOKMARK [1][-]{section.3.2}{Wedge\040devices}{chapter.3}% 33
+\BOOKMARK [1][-]{section.3.3}{Arbitrary geometries: universality of "β}{chapter.3}% 34
 \BOOKMARK [1][-]{section.3.4}{circuitry}{chapter.3}% 35
 \BOOKMARK [0][-]{chapter.4}{Hydrodynamic\040framework}{}% 36
 \BOOKMARK [1][-]{section.4.1}{Hydrodynamic\040framework}{chapter.4}% 37
@@ -50,4 +50,4 @@
 \BOOKMARK [0][-]{chapter.8}{The\040Dirac\040fluid}{}% 50
 \BOOKMARK [0][-]{chapter.9}{Magneto-thermal\040transport}{}% 51
 \BOOKMARK [0][-]{chapter.10}{Conclusions\040and\040future\040work}{}% 52
-\BOOKMARK [0][-]{chapter*.35}{References}{}% 53
+\BOOKMARK [0][-]{chapter*.38}{References}{}% 53

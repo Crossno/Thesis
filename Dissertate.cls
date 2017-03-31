@@ -84,6 +84,10 @@
 \def\de{\mathrm{\delta}}
 \def\p{\mathrm{\rho}}
 \def\m{\mathrm{\mu}}
+\def\Gth{G_{\mathrm{th}}}
+\def\DTave{\langle\Delta T\rangle}
+\def\DTJN{\Delta T_{\mathrm{JN}}}
+\def\kap{\mathrm{\kappa}}
 
 
 % Fonts

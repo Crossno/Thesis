@@ -1,4 +1,4 @@
-This is XeTeX, Version 3.14159265-2.6-0.99996 (TeX Live 2016) (preloaded format=xelatex 2017.3.13)  28 MAR 2017 10:41
+This is XeTeX, Version 3.14159265-2.6-0.99996 (TeX Live 2016) (preloaded format=xelatex 2017.3.13)  30 MAR 2017 17:49
 entering extended mode
  restricted \write18 enabled.
  %&-line parsing enabled.
@@ -768,21 +768,21 @@ File: xkeyval.tex 2014/12/03 v2.7a key=value parser (HA)
 . - 'bold italic small caps'  (bx/itsc) with NFSS spec.: <->"EB
 . Garamond/BI/OT:script=latn;language=DFLT;+smcp;"
 .................................................
-LaTeX Font Info:    Redeclaring math alphabet \mathrm on input line 97.
+LaTeX Font Info:    Redeclaring math alphabet \mathrm on input line 101.
 LaTeX Font Info:    Overwriting math alphabet `\mathrm' in version `bold'
 (Font)                  TU/EBGaramond(1)/m/n --> TU/EBGaramond(1)/bx/n on input
- line 97.
-LaTeX Font Info:    Redeclaring math alphabet \mathit on input line 97.
+ line 101.
+LaTeX Font Info:    Redeclaring math alphabet \mathit on input line 101.
 LaTeX Font Info:    Overwriting math alphabet `\mathit' in version `normal'
-(Font)                  OT1/cmr/m/it --> TU/EBGaramond(1)/m/it on input line 97
-.
+(Font)                  OT1/cmr/m/it --> TU/EBGaramond(1)/m/it on input line 10
+1.
 LaTeX Font Info:    Overwriting math alphabet `\mathit' in version `bold'
-(Font)                  OT1/cmr/bx/it --> TU/EBGaramond(1)/m/it on input line 9
-7.
-LaTeX Font Info:    Redeclaring math alphabet \mathbf on input line 97.
+(Font)                  OT1/cmr/bx/it --> TU/EBGaramond(1)/m/it on input line 1
+01.
+LaTeX Font Info:    Redeclaring math alphabet \mathbf on input line 101.
 LaTeX Font Info:    Overwriting math alphabet `\mathit' in version `bold'
 (Font)                  TU/EBGaramond(1)/m/it --> TU/EBGaramond(1)/bx/it on inp
-ut line 97.
+ut line 101.
 \symOperators:m:n=\mathgroup14
 .................................................
 . fontspec info: "no-font-shape"
@@ -811,9 +811,9 @@ ut line 97.
 . Garamond/BI/OT:script=latn;language=DFLT;+onum;+liga;+smcp;mapping=tex-text;"
 
 .................................................
-LaTeX Info: Redefining \rmfamily on input line 101.
+LaTeX Info: Redefining \rmfamily on input line 105.
 LaTeX Font Info:    Font shape `TU/EBGaramond(2)/m/n' will be
-(Font)              scaled to size 12.0pt on input line 101.
+(Font)              scaled to size 12.0pt on input line 105.
 .................................................
 . fontspec info: "no-font-shape"
 . 
@@ -887,7 +887,7 @@ LaTeX Font Info:    Font shape `TU/EBGaramond(2)/m/n' will be
 . Bold/I/OT:script=latn;language=DFLT;mapping=tex-text;"
 . - 'bold italic small caps'  (bx/itsc) with NFSS spec.: 
 .................................................
-LaTeX Info: Redefining \sffamily on input line 103.
+LaTeX Info: Redefining \sffamily on input line 107.
 .................................................
 . fontspec info: "set-scale"
 . 
@@ -941,7 +941,7 @@ LaTeX Info: Redefining \sffamily on input line 103.
 . \fontdimen 2\font =1\fontdimen 2\font \fontdimen 3\font =0\fontdimen 3\font
 . \fontdimen 4\font =0\fontdimen 4\font \fontdimen 7\font =0\fontdimen 2\font 
 .................................................
-LaTeX Info: Redefining \ttfamily on input line 104.
+LaTeX Info: Redefining \ttfamily on input line 108.
 
 (/usr/local/texlive/2016/texmf-dist/tex/latex/caption/caption.sty
 Package: caption 2016/02/21 v3.3-144 Customizing captions (AR)
@@ -1071,7 +1071,7 @@ Package: quotchap 2012/10/20 v1.1 Decorative Chapter Headings with Quotes
 \@quotebox=\box48
 )
 \mybibindent=\skip120
-Package hyperref Info: Option `colorlinks' set `true' on input line 214.
+Package hyperref Info: Option `colorlinks' set `true' on input line 218.
 )
 (./dissertation.aux (./chapters/introduction.aux)
 (./chapters/Johnson_noise_thermometry.aux
@@ -1533,8 +1533,8 @@ le (type QTm)
 <use  "figures/Johnson_noise_thermometry/picture_matching_ceramic.jpg" >
 [24] [25] [26] [27]
 Underfull \hbox (badness 10000) in paragraph at lines 310--310
-[][][]\TU/EBGaramond(2)/bx/n/10 Eq. [][]1.24[][] approximates the external filt
-er function as a perfect square filter of bandwidth $[][]$. For the full
+[][][]\TU/EBGaramond(2)/bx/n/10 Eqn. [][]1.24[][] approximates the external fil
+ter function as a perfect square filter of bandwidth $[][]$. For the full
  []
 
 File: figures/Johnson_noise_thermometry/schematic_noise_IV.png Graphic file (ty
@@ -1664,15 +1664,15 @@ e 45.
 
 [42]
 
-Package natbib Warning: Citation `??' on page 43 undefined on input line 64.
+Package natbib Warning: Citation `??' on page 43 undefined on input line 65.
 
 
 Package natbib Warning: Citation `shaffique' on page 43 undefined on input line
- 64.
+ 65.
 
 
 Package natbib Warning: Citation `flexure' on page 43 undefined on input line 6
-4.
+5.
 
 [43] [44]
 File: figures/electronic_cooling/Viljas2010_conduction.png Graphic file (type Q
@@ -1681,7 +1681,7 @@ Tm)
 [45]
 File: figures/electronic_cooling/Thermal_diagram.png Graphic file (type QTm)
  <use  "figures/electronic_cooling/Thermal_diagram.png" >
-Underfull \hbox (badness 10000) in paragraph at lines 108--108
+Underfull \hbox (badness 10000) in paragraph at lines 109--109
 [][][]\TU/EBGaramond(2)/bx/n/10 The ratio of the lattice conductance to the ele
 ctron-phonon conductance is geometry dependent. In long
  []
@@ -1695,52 +1695,79 @@ Chapter 3.
 
 
 
-] [50]
-Overfull \hbox (12.15138pt too wide) in paragraph at lines 20--20
-|[]\TU/EBGaramond(2)/m/sc/14.4 Johnson noise temperature vs mean temperatures: 
-wedge de-
+]
+File: figures/thermal_via_noise/thermal_diagram.png Graphic file (type QTm)
+ <use  "figures/thermal_via_noise/thermal_diagram.png" > [50] [51] [52]
+[53]
+File: figures/thermal_via_noise/picture_temperature_profile.png Graphic file (t
+ype QTm)
+ <use  "figures/thermal_via_noise/picture_temperature_profile.png" >
+Overfull \hbox (1.36507pt too wide) in paragraph at lines 79--81
+\TU/EBGaramond(2)/bx/n/10.95 All the information about the heating profile is c
+ontained in the factor of 12. — i.e for a two-terminal 
+ []
+
+
+Overfull \hbox (16.50146pt too wide) in paragraph at lines 79--81
+\TU/EBGaramond(2)/bx/n/10.95 rectangular geometry under Joule heating $[] \OT1/
+cmr/m/n/10.95 = [][]$\TU/EBGaramond(2)/bx/n/10.95 . If the electronic conductan
+ce follows the Wiedemann- 
+ []
+
+[54]
+File: figures/thermal_via_noise/wedge.png Graphic file (type QTm)
+ <use  "figures/thermal_via_noise/wedge.png" > [55]
+Overfull \hbox (0.81026pt too wide) in paragraph at lines 119--121
+\TU/EBGaramond(2)/bx/n/10.95 The mean temperature and the Johnson noise tempera
+ture can be calculated by integrating Eqn. [][]3.20[][] 
+ []
+
+[56]
+Overfull \hbox (4.4639pt too wide) in paragraph at lines 124--126
+\TU/EBGaramond(2)/bx/n/10.95 into the system is the same as the spatial weighti
+ng function for Johnson noise measurements. Rewrit- 
  []
 
 LaTeX Font Info:    Font shape `TU/SourceCodePro(0)/m/sc' will be
-(Font)              scaled to size 12.30006pt on input line 24.
+(Font)              scaled to size 12.30006pt on input line 131.
 LaTeX Font Info:    Font shape `TU/SourceCodePro(0)/m/it' will be
-(Font)              scaled to size 12.30006pt on input line 24.
+(Font)              scaled to size 12.30006pt on input line 131.
 LaTeX Font Info:    Font shape `TU/EBGaramond(2)/m/sc' will be
-(Font)              scaled to size 10.0pt on input line 24.
+(Font)              scaled to size 10.0pt on input line 131.
 LaTeX Font Info:    Font shape `TU/EBGaramond(2)/m/sc' will be
-(Font)              scaled to size 7.0pt on input line 24.
+(Font)              scaled to size 7.0pt on input line 131.
 
 Package hyperref Warning: Token not allowed in a PDF string (Unicode):
-(hyperref)                removing `math shift' on input line 24.
+(hyperref)                removing `math shift' on input line 131.
 
 
 Package hyperref Warning: Token not allowed in a PDF string (Unicode):
-(hyperref)                removing `math shift' on input line 24.
+(hyperref)                removing `math shift' on input line 131.
 
-) [51]
+[57] [58] [59] [60]) [61]
 \openout2 = `chapters/Hydrodynamic_theory_of_transport.aux'.
 
  (./chapters/Hydrodynamic_theory_of_transport.tex
 Chapter 4.
-) [52
+) [62
 
 
 
-] [53]
+] [63]
 \openout2 = `chapters/RF_cryostats_and_circuitry.aux'.
 
  (./chapters/RF_cryostats_and_circuitry.tex
 Chapter 5.
-) [54
+) [64
 
 
 
-] [55]
+] [65]
 \openout2 = `chapters/Calibration_of_graphene_devices.aux'.
 
  (./chapters/Calibration_of_graphene_devices.tex
 Chapter 6.
-) [56
+) [66
 
 
 
@@ -1749,16 +1776,16 @@ Chapter 6.
 
  (./chapters/Thermal_conductance_in_high_density_graphene.tex
 Chapter 7.
-) [57
+) [67
 
 
 
-] [58]
+] [68]
 \openout2 = `chapters/The_Dirac_fluid.aux'.
 
  (./chapters/The_Dirac_fluid.tex
 Chapter 8.
-) [59
+) [69
 
 
 
@@ -1772,7 +1799,7 @@ ngs
  []
 
 Chapter 9.
-) [60
+) [70
 
 
 
@@ -1781,22 +1808,22 @@ Chapter 9.
 
  (./chapters/Conclusions_and_future_work.tex
 Chapter 10.
-) [61
+) [71
 
 
 
 ] (./dissertation.bbl
 LaTeX Font Info:    Font shape `TU/EBGaramond(2)/m/it' will be
 (Font)              scaled to size 10.95pt on input line 5.
- [62
+ [72
 
 
-] [63] [64] [65])
+] [73] [74] [75])
 
 Package natbib Warning: There were undefined citations.
 
 Package atveryend Info: Empty hook `BeforeClearDocument' on input line 50.
-[66]
+[76]
 Package atveryend Info: Empty hook `AfterLastShipout' on input line 50.
  (./dissertation.aux (./chapters/introduction.aux)
 (./chapters/Johnson_noise_thermometry.aux)
@@ -1822,12 +1849,12 @@ LaTeX Warning: There were multiply-defined labels.
 
  ) 
 Here is how much of TeX's memory you used:
- 24476 strings out of 493068
- 451980 string characters out of 6135636
- 579726 words of memory out of 5000000
- 27919 multiletter control sequences out of 15000+600000
+ 24510 strings out of 493068
+ 452656 string characters out of 6135636
+ 581847 words of memory out of 5000000
+ 27950 multiletter control sequences out of 15000+600000
  20579 words of font info for 140 fonts, out of 8000000 for 9000
  1347 hyphenation exceptions out of 8191
- 60i,12n,119p,10481b,505s stack positions out of 5000i,500n,10000p,200000b,80000s
+ 60i,14n,119p,10481b,505s stack positions out of 5000i,500n,10000p,200000b,80000s
 
-Output written on dissertation.pdf (73 pages).
+Output written on dissertation.pdf (83 pages).

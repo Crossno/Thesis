@@ -24,27 +24,27 @@
 \contentsline {section}{\numberline {2.3}Photon cooling}{46}{section.2.3}
 \contentsline {section}{\numberline {2.4}Thermal Network}{47}{section.2.4}
 \contentsline {chapter}{\numberline {3}Thermal conductance via electrical noise}{49}{chapter.3}
-\contentsline {section}{\numberline {3.1}rectangular device}{50}{section.3.1}
-\contentsline {subsection}{\numberline {3.1.1}Electronic conduction only}{50}{subsection.3.1.1}
-\contentsline {subsection}{\numberline {3.1.2}Phonon cooling}{51}{subsection.3.1.2}
-\contentsline {section}{\numberline {3.2}Johnson noise temperature vs mean temperatures: wedge device}{51}{section.3.2}
-\contentsline {section}{\numberline {3.3}Arbitrary shapes: the geometric factor ${"α}$}{51}{section.3.3}
-\contentsline {section}{\numberline {3.4}circuitry}{51}{section.3.4}
-\contentsline {chapter}{\numberline {4}Hydrodynamic framework}{52}{chapter.4}
-\contentsline {section}{\numberline {4.1}Hydrodynamic framework}{52}{section.4.1}
-\contentsline {section}{\numberline {4.2}Experimental evidence}{53}{section.4.2}
-\contentsline {chapter}{\numberline {5}RF cryostats and circuitry}{54}{chapter.5}
-\contentsline {section}{\numberline {5.1}Janis}{55}{section.5.1}
-\contentsline {section}{\numberline {5.2}Oxford}{55}{section.5.2}
-\contentsline {section}{\numberline {5.3}Leiden}{55}{section.5.3}
-\contentsline {section}{\numberline {5.4}JNT circuits}{55}{section.5.4}
-\contentsline {chapter}{\numberline {6}Calibration of graphene devices}{56}{chapter.6}
-\contentsline {chapter}{\numberline {7}Thermal conductance in high density graphene}{57}{chapter.7}
-\contentsline {section}{\numberline {7.1}Device characteristics}{58}{section.7.1}
-\contentsline {section}{\numberline {7.2}Circuitry}{58}{section.7.2}
-\contentsline {section}{\numberline {7.3}Low temperature Wiedemann-franz}{58}{section.7.3}
-\contentsline {section}{\numberline {7.4}High temperature electron-phonon}{58}{section.7.4}
-\contentsline {chapter}{\numberline {8}The Dirac fluid}{59}{chapter.8}
-\contentsline {chapter}{\numberline {9}Magneto-thermal transport}{60}{chapter.9}
-\contentsline {chapter}{\numberline {10}Conclusions and future work}{61}{chapter.10}
-\contentsline {chapter}{References}{66}{chapter*.35}
+\contentsline {section}{\numberline {3.1}rectangular device}{51}{section.3.1}
+\contentsline {subsection}{\numberline {3.1.1}Electronic conduction only}{52}{subsection.3.1.1}
+\contentsline {subsection}{\numberline {3.1.2}Phonon cooling only}{55}{subsection.3.1.2}
+\contentsline {section}{\numberline {3.2}Wedge devices}{55}{section.3.2}
+\contentsline {section}{\numberline {3.3}Arbitrary geometries: universality of ${"β}$}{57}{section.3.3}
+\contentsline {section}{\numberline {3.4}circuitry}{61}{section.3.4}
+\contentsline {chapter}{\numberline {4}Hydrodynamic framework}{62}{chapter.4}
+\contentsline {section}{\numberline {4.1}Hydrodynamic framework}{62}{section.4.1}
+\contentsline {section}{\numberline {4.2}Experimental evidence}{63}{section.4.2}
+\contentsline {chapter}{\numberline {5}RF cryostats and circuitry}{64}{chapter.5}
+\contentsline {section}{\numberline {5.1}Janis}{65}{section.5.1}
+\contentsline {section}{\numberline {5.2}Oxford}{65}{section.5.2}
+\contentsline {section}{\numberline {5.3}Leiden}{65}{section.5.3}
+\contentsline {section}{\numberline {5.4}JNT circuits}{65}{section.5.4}
+\contentsline {chapter}{\numberline {6}Calibration of graphene devices}{66}{chapter.6}
+\contentsline {chapter}{\numberline {7}Thermal conductance in high density graphene}{67}{chapter.7}
+\contentsline {section}{\numberline {7.1}Device characteristics}{68}{section.7.1}
+\contentsline {section}{\numberline {7.2}Circuitry}{68}{section.7.2}
+\contentsline {section}{\numberline {7.3}Low temperature Wiedemann-franz}{68}{section.7.3}
+\contentsline {section}{\numberline {7.4}High temperature electron-phonon}{68}{section.7.4}
+\contentsline {chapter}{\numberline {8}The Dirac fluid}{69}{chapter.8}
+\contentsline {chapter}{\numberline {9}Magneto-thermal transport}{70}{chapter.9}
+\contentsline {chapter}{\numberline {10}Conclusions and future work}{71}{chapter.10}
+\contentsline {chapter}{References}{76}{chapter*.38}
