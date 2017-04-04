@@ -1,5 +1,12 @@
 \begin{thebibliography}{}
 
+\bibitem[Adam et~al., 2017]{adam_theoretical_2017}
+Adam, S., Ho, D., Yudhistira, I., \& Chakraborty, N. (2017).
+\newblock Theoretical study of the criteria and consequences of hydrodynamic
+  electron flow in graphene.
+\newblock In {\em Bulletin of the {American} {Physical} {Society}}  New
+  Orleans: American Physical Society.
+
 \bibitem[Adam et~al., 2007]{adam_self-consistent_2007}
 Adam, S., Hwang, E.~H., Galitski, V.~M., \& Sarma, S.~D. (2007).
 \newblock A self-consistent theory for graphene transport.
@@ -78,6 +85,12 @@ Bolotin, K.~I., Sikes, K.~J., Jiang, Z., Klima, M., Fudenberg, G., Hone, J.,
 Breusing, M., Ropers, C., \& Elsaesser, T. (2009).
 \newblock Ultrafast {Carrier} {Dynamics} in {Graphite}.
 \newblock {\em Physical Review Letters}, 102(8), 086809.
+
+\bibitem[Briskot et~al., 2015]{briskot_collision-dominated_2015}
+Briskot, U., Schütt, M., Gornyi, I.~V., Titov, M., Narozhny, B.~N., \& Mirlin,
+  A.~D. (2015).
+\newblock Collision-dominated nonlinear hydrodynamics in graphene.
+\newblock {\em Physical Review B}, 92(11), 115426.
 
 \bibitem[Callen \& Welton, 1951]{callen_irreversibility_1951}
 Callen, H.~B. \& Welton, T.~A. (1951).
@@ -502,13 +515,6 @@ Sachdev, S. (2011).
 \newblock {\em Quantum {Phase} {Transitions}}.
 \newblock Cambridge ; New York: Cambridge University Press, 2 edition edition.
 
-\bibitem[Santavicca et~al., 2010]{santavicca_energy_2010}
-Santavicca, D.~F., Chudow, J.~D., Prober, D.~E., Purewal, M.~S., \& Kim, P.
-  (2010).
-\newblock Energy loss of the electron system in individual single-walled carbon
-  nanotubes.
-\newblock {\em Nano Letters}, 10, 4538.
-
 \bibitem[Schoelkopf et~al., 1997]{schoelkopf_frequency_1997}
 Schoelkopf, R.~J., Burke, P.~J., Kozhevnikov, A.~A., Prober, D.~E., \& Rooks,
   M.~J. (1997).
@@ -635,17 +641,16 @@ Xue, J., Sanchez-Yamagishi, J., Bulmash, D., Jacquod, P., Deshpande, A.,
   graphene on hexagonal boron nitride.
 \newblock {\em Nature Materials}, 10(4), 282--285.
 
-\bibitem[Yigen \& Champagne, 2014]{yigen_wiedemannfranz_2014}
-Yigen, S. \& Champagne, A. (2014).
-\newblock Wiedemann–{Franz} {Relation} and {Thermal}-{Transistor} {Effect} in
-  {Suspended} {Graphene}.
-\newblock {\em Nano Letters}, 14(1), 289--293.
-
 \bibitem[Yoshino \& Murata, 2015]{yoshino_significant_2015}
 Yoshino, H. \& Murata, K. (2015).
 \newblock Significant enhancement of electronic thermal conductivity of
   two-dimensional zero-gap systems by bipolar-diffusion effect.
 \newblock {\em Journal of the Physical Society of Japan}, 84(2), 024601.
+
+\bibitem[Zaanen, 2016]{zaanen_electrons_2016}
+Zaanen, J. (2016).
+\newblock Electrons go with the flow in exotic material systems.
+\newblock {\em Science}, 351(6277), 1026--1027.
 
 \bibitem[Zhang et~al., 2009]{zhang_origin_2009}
 Zhang, Y., Brar, V.~W., Girit, C., Zettl, A., \& Crommie, M.~F. (2009).

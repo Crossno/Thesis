@@ -73,6 +73,7 @@
 \RequirePackage{verbatim}
 
 %stuff I added
+\usepackage[export]{adjustbox} %aligning figures
 \usepackage{sidecap}
 \usepackage{bm} % bold math
 \usepackage{amsmath, amsthm}
@@ -319,6 +320,5 @@
         \bibliography{references}
         \addcontentsline{toc}{chapter}{References}
         \bibliographystyle{apalike2}
-        \include{endmatter/colophon}
     \end{spacing}
 }

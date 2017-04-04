@@ -12,7 +12,6 @@ A level-1 auxiliary file: chapters/Magneto-thermal_transport.aux
 A level-1 auxiliary file: chapters/Conclusions_and_future_work.aux
 A level-1 auxiliary file: chapters/appendixA.aux
 The style file: apalike2.bst
-A level-1 auxiliary file: endmatter/colophon.aux
 Database file #1: references.bib
 Warning--I didn't find a database entry for "einstein_investigations_2011"
 Warning--I didn't find a database entry for "johnson_thermal_1927"
@@ -60,45 +59,45 @@ Warning--I didn't find a database entry for "lucas"
 Warning--empty journal in cooper_anomalous_323
 Warning--empty journal in mckitterick_electron-phonon_2015
 Warning--empty publisher in nolas_thermal_2004
-You've used 113 entries,
+You've used 114 entries,
             2229 wiz_defined-function locations,
-            1178 strings with 25757 characters,
-and the built_in function-call counts, 50855 in all, are:
-= -- 4743
-> -- 2733
+            1184 strings with 25957 characters,
+and the built_in function-call counts, 51298 in all, are:
+= -- 4784
+> -- 2755
 < -- 52
-+ -- 977
-- -- 964
-* -- 4888
-:= -- 9004
-add.period$ -- 342
-call.type$ -- 113
-change.case$ -- 1045
-chr.to.int$ -- 112
-cite$ -- 116
-duplicate$ -- 1590
-empty$ -- 3236
-format.name$ -- 1147
-if$ -- 9624
++ -- 985
+- -- 972
+* -- 4927
+:= -- 9082
+add.period$ -- 345
+call.type$ -- 114
+change.case$ -- 1054
+chr.to.int$ -- 113
+cite$ -- 117
+duplicate$ -- 1608
+empty$ -- 3270
+format.name$ -- 1154
+if$ -- 9712
 int.to.chr$ -- 2
 int.to.str$ -- 0
-missing$ -- 119
-newline$ -- 571
-num.names$ -- 339
-pop$ -- 801
+missing$ -- 120
+newline$ -- 576
+num.names$ -- 342
+pop$ -- 813
 preamble$ -- 1
-purify$ -- 1047
+purify$ -- 1056
 quote$ -- 0
-skip$ -- 1188
+skip$ -- 1196
 stack$ -- 0
-substring$ -- 3464
-swap$ -- 120
+substring$ -- 3488
+swap$ -- 121
 text.length$ -- 1
 text.prefix$ -- 0
 top$ -- 0
-type$ -- 666
+type$ -- 672
 warning$ -- 3
-while$ -- 369
+while$ -- 371
 width$ -- 0
-write$ -- 1478
+write$ -- 1492
 (There were 46 warnings)
