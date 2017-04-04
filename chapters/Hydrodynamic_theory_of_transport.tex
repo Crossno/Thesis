@@ -1,14 +1,34 @@
 %!TEX root = ../dissertation.tex
+\begin{savequote}[75mm]
+Turn a switch and the light goes on. The layman's perception is that this is like opening a tap so that the water starts running. But this analogy is misleading.
+\qauthor{Jan Zaanen}
+\end{savequote}
+
 \chapter{Hydrodynamic framework}
 \label{Ch:hydrodynamic_framework}
-Below we present the original text of [?]. Reprinted with permission from A. Lucas, J. Crossno, K. C. Fong, P. Kim and S. Sachdev, “Hydrodynamic transport in quantum critical fluids and in the Dirac fluid in graphene”, Physical Review B93 075426 (2016). Copyright (2016) by the American Physical Society
+
+As electron-electron interactions begin to dominate over electron-impurity and electron-phonon scattering, new theoretical tools are needed to effectively model heat and charge transport. One such method, described in detail below, is to abandon the idea of quasiparticles altogether and instead rely on tracking macroscopically conserved quantities such as energy, momentum, and charge (hydrodynamics). The difficulty with this technique is the inclusion of momentum relaxing scattering event, such as those due to impurities. It is possible to include these effects to first order by modeling the hydrodynamic equations in the presence of a non-uniform (but slowly varying) potential similar that shown by ref.\cite{xue_scanning_2011} to exist in graphene. While this method has been applied with much success to describe the Dirac fluid in graphene, it is worth noting that, for the devices described in chapter~\ref{ch:the_Dirac_fluid}, the electron-electron scattering rate is of the same order as other relevant scatting rates in the system; as such, a Boltzmann approach with the inclusion of an inter-particle scattering time is feasible~\cite{adam_theoretical_2017} (Fig.~\ref{fig:Boltzmann_vs_hydro} illustrates the regimes applicable to the two frameworks).
+
 \begin{figure}
 \centering
-\includegraphics[width = 100mm]{figures/hydro_theory/cartoon_hydro.png}
-\caption{caption}
+\includegraphics[width = 130mm]{figures/hydro_theory/cartoon_hydro.png}
+\caption{\textbf{Distinguishing different flow regimes}. (\textbf{Left}) In conventional metals, the flow of electrical current is due to electrons (balls) moving independently as a consequence of quantum physics while scattering against crystal imperfections (bumpers). (\textbf{Right}) In normal fluids such as water, the molecules collide with each other, equilibrating in a macroscopic fluid that is described by the theory of hydrodynamics. Electrons in particular solids that form strongly interacting quantum systems are also found to exhibit hydrodynamic transport properties (ref.~\cite{crossno_observation_2016, bandurin_negative_2016, moll_evidence_2016}). Taken from ref.~\cite{zaanen_electrons_2016}, reprinted with permission from AAAS license number 4082140628269}
 \end{figure}
 
-\section{Introduction}
+
+
+\begin{figure}
+\centering
+\includegraphics[width = 130mm]{figures/hydro_theory/Boltzmann.png}
+\caption{Illustration of a few common theoretical frameworks used to model electron flow in solids and their capabilities in models systems with various electron-electron interaction strength. Taken from ref.~\cite{adam_theoretical_2017} adapted from ref.~\cite{briskot_collision-dominated_2015} with permission from S. Adam}
+\label{fig:Boltzmann_vs_hydro}
+\end{figure}
+
+
+
+Below we present the original text of [?]. Reprinted with permission from A. Lucas, J. Crossno, K. C. Fong, P. Kim and S. Sachdev, “Hydrodynamic transport in quantum critical fluids and in the Dirac fluid in graphene”, Physical Review B93 075426 (2016). Copyright (2016) by the American Physical Society
+
+\section{Transport in inhomogeneous quantum critical fluids and in the Dirac fluid in graphene}
 Over a half century ago, the theory of electronic transport in ``standard" metals such as iron and copper was developed.  The key pillar of this approach is the validity of Fermi liquid theory, which states that the interacting electrons in solids form nearly free-streaming quasiparticles \cite{pines_theory_1994}.  At finite temperature, these quasiparticles form a weakly interacting quantum gas which is well described by quantum kinetic theory.   The transport properties of these quantum gases are by now very well understood.   A particularly important property of Fermi liquids is the Wiedemann-Franz law, which states that\footnote{Below we have assumed that the charge of the quasiparticles is $\pm e$, with $e$ the charge of the electron -- this is essentially always the case.} \begin{equation}
 \mathcal{L} \equiv \frac{\kappa}{\sigma T} = \frac{\pi^2}{3} \frac{k_{\mathrm{B}}^2}{e^2} \equiv \mathcal{L}_{\mathrm{WF}}.
 \end{equation}

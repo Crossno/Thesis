@@ -1,18 +1,38 @@
 %!TEX root = ../dissertation.tex
-\begin{savequote}[75mm]
-quote
-\qauthor{Quoteauthor Lastname}
-\end{savequote}
-
 \chapter{The Dirac fluid}
 \label{ch:the_Dirac_fluid}
+
+While the term ``Fermi liquid" is often used to describe the electron flow in a metal, the key feature of Fermi liquid theory is that the electron-electron interactions are renormalized away leaving something more analogous to a non-interacting gas than an ordinary fluid, like water. In strongly correlated systems, however, these interactions can dominate causing behavior ranging from Mott insulators to high temperature superconductivity. In graphene near the charge neutrality point a unique situation occurs where quasi-relativistic electrons are holes coexist and interact. In the limit of perfectly clean samples (and in the absence of phonon coupling), inter-particle scattering causes dissipation to electrical currents as electron and holes are driven in opposite directions by an electric field. This effect has been notoriously difficult to observe as scattering off of impurities and phonons can easily dominate inter-particle scattering in traditional graphene samples on $S_iO_2$. Even in the case of clean samples, demonstrating that electron-electron scattering is dominate requires a measurement that can distinguish between the momentum conserving inter-particle collisions and the more traditional elastic scatting mechanisms off impurities. One such measurement is to compare the response of a device under an electric field to its response under a thermal gradient; while an electric field drives electrons and holes in opposite directions, a thermal gradient drives them in the same direction, therefore inter-particle scattering causes dissipation to electric current but not to heat current (inset of Fig.~\ref{fig:DF_Fig3}C).
+
+\section{Temperature regimes}
+\begin{figure}
+\centering
+\includegraphics[width=100mm]{figures/Dirac_fluid/charge_puddles.png}
+\caption{Spatial maps of the density of states of graphene on hBN and $SiO_2$. \textbf{a}, Topography of graphene on hBN. \textbf{b}, Tip voltage at the Dirac point as a function of position for graphene on hBN. \textbf{c}, Tip voltage at the Dirac point as a function of position for graphene on $SiO_2$. The color scale is the same for \textbf{b} and \textbf{c}. The scale bar in all images is 10 nm. \textbf{d} Histogram of the energies of the Dirac point from \textbf{b} as well as a Gaussian fit. The inset shows the same data but also includes the histogram for $SiO_2$ shown in red. Taken from ref~\cite{xue_scanning_2011}, reprinted with permission from the Nature Publishing Group license number 4082110543400}
+\label{fig:charge_puddles}
+\end{figure}
+In general there are three primary scattering mechanism in graphene that can dominate transport: impurities, inter-particle, and phonon. At low temperature, charge impurities in graphene cause significant spatial variations in the local chemical potential resulting in what are known as electron-hole puddles. Scanning tunneling microscope images of these puddles have been taken of graphene on traditional $SiO_2$ substrates and on hexagonal boron nitride (hBN)~\cite{xue_scanning_2011}, shown in Fig.~\ref{fig:charge_puddles}. On hBN these puddles can be of size $>100~nm$ --- which is comparable to the electron-electron scattering length at moderate temperatures --- and have a potential variation with standard deviation ${\sim 5}~meV$. At high temperature, phonon scattering becomes dominate as described in section~\ref{section:elph}. 
+
+Whether there exists an intermediate temperature where inter-particle scattering becomes dominate depends on the disorder level. D. Y. H. Ho et al.~\cite{??} quantitatively compares the scattering rates in graphene and finds that, for samples on hBN, an temperature window opens up where the electron-electron time becomes the fastest in the system, Fig.~\ref{fig:scattering_Tregimes}.
+\begin{figure}
+\centering
+\includegraphics[width=130mm]{figures/Dirac_fluid/temperature_regimes.png}
+\caption{Interaction regime emerges in very clean samples. Taken from D. Y. H. Ho et al. (in preparation, 2017) with permission from S. Adam.}
+\label{fig:scattering_Tregimes}
+\end{figure}
+Scattering from these charge puddles
+
+
+
+\section{Observation of the Dirac fluid and the breakdown of the Wiedemann-Franz law in graphene}
 Understanding the dynamics of many interacting particles is a formidable task in physics, complicated by many coupled degrees of freedom.   For electronic transport in matter, strong interactions can lead to a breakdown of the Fermi liquid (FL) paradigm of coherent quasiparticles scattering off of impurities.  In such situations, the complex microscopic dynamics can be coarse-grained to a hydrodynamic description of momentum, energy, and charge transport on long length and time scales \cite{kadanoff_hydrodynamic_1963}. Hydrodynamics has been successfully applied to a diverse array of interacting quantum systems, from high mobility electrons in conductors \cite{jong_hydrodynamic_1995}, to cold atoms \cite{cao_universal_2011} and quark-gluon plasmas \cite{shuryak_why_2004}.   As has been argued for strongly interacting massless Dirac fermions in graphene at the charge-neutrality point (CNP) \cite{muller_collective_2008, foster_slow_2009, apostolov_hydrodynamic_2014, narozhny_hydrodynamics_2015}, hydrodynamic effects are expected to greatly modify transport coefficients as compared to their FL counterparts.
 
 Many-body physics in graphene is interesting due to electron-hole symmetry and a linear dispersion relation at the CNP \cite{novoselov_two-dimensional_2005, zhang_experimental_2005}. In particular, the Fermi surface vanishes, leading to ineffective screening \cite{siegel_charge-carrier_2013} and the formation of a strongly-interacting quasi-relativistic electron-hole plasma, known as a Dirac fluid \cite{sheehy_quantum_2007}.  The Dirac fluid shares many features with quantum critical systems \cite{keimer_quantum_2011}: most importantly, the electron-electron scattering time is fast \cite{lui_ultrafast_2010, breusing_ultrafast_2009, tielrooij_photoexcitation_2013, johannsen_direct_2013}, and well suited to a hydrodynamic description.   A number of exotic properties have been predicted including nearly perfect (inviscid) flow \cite{muller_graphene:_2009} and a diverging thermal conductivity resulting in the breakdown of the Wiedemann-Franz law \cite{muller_quantum-critical_2008,foster_slow_2009}.
 
 
 \begin{figure}
-\includegraphics[width=6.25in]{figures/Dirac_fluid/Fig1.pdf}
+\centering
+\includegraphics[width=130mm]{figures/Dirac_fluid/Fig1.pdf}
 \caption{\textbf{Temperature and density dependent electrical and thermal conductivity.} \textbf{(A)} Resistance versus gate voltage at various temperatures. \textbf{(B)} Electrical conductivity (blue) as a function of the charge density set by the back gate for different bath temperatures. The residual carrier density at the neutrality point (green) is estimated by the intersection of the minimum conductivity with a linear fit to $\log(\sigma)$ away from neutrality (dashed grey lines). Curves have been offset vertically such that the minimum density (green) aligns with the temperature axis to the right. Solid black lines correspond to $4e^2/h$. At low temperature, the minimum density is limited by disorder (charge puddles). However, above $T_{\mathrm{dis}}\sim$ 40~K, a crossover marked in the half-tone background, thermal excitations begin to dominate and the sample enters the non-degenerate regime near the neutrality point. \textbf{(C-D)} Thermal conductivity (red points) as a function of (C) gate voltage and (D) bath temperature compared to the Wiedemann-Franz law, $\sigma T\mathcal{L}_0$ (blue lines).  At low temperature and/or high doping ($|\mu| \gg k_{\mathrm{B}}T$), we find the WF law to hold.  This is a non-trivial check on the quality of our measurement. In the non-degenerate regime ($|\mu|<k_{\mathrm{B}}T$) the thermal conductivity is enhanced and the WF law is violated. Above $T_{\mathrm{el-ph}}\sim$ 80~K, electron-phonon coupling becomes appreciable and begins to dominate thermal transport at all measured gate voltages.   All data from this figure is taken from sample S2 (inset 1E).}
 \label{fig:DF_Fig1}
 \end{figure}
@@ -36,7 +56,8 @@ Fig.~\ref{fig:DF_Fig1}C plots $\kappa_{\mathrm{e}}(V_{\mathrm{g}})$ alongside th
 The deviation is the largest at  75~K, where $\kappa_{\mathrm{e}}$ is over an order of magnitude larger than the value expected for a FL.   This non-FL behavior quickly disappears as $|n|$ increases; $\kappa_{\mathrm{e}}$ returns to the FL value and restores the WF law.   In fact, away from the CNP, the WF law holds for a wide temperature range, consistent with previous reports \cite{crossno_development_2015, yigen_wiedemann-franz_2014, fong_measurement_2013}.    For this FL regime, we verify the WF law up to $T_{\mathrm{el-ph}} \sim 80$ K.  Finally, in the high temperature regime $T>T_{\mathrm{el-ph}}$, the additional electron-phonon cooling pathway causes the measured thermal conductivity to be larger than $\kappa_{\mathrm{e}}$.  We find that near the CNP $\kappa_{\mathrm{e}}$ tends to decrease just before $T_{\mathrm{el-ph}}$, restricting the maximal observable violation of the WF law.
 
 \begin{figure}
-\includegraphics[width=\columnwidth]{figures/Dirac_fluid/Fig2.pdf}
+\centering
+\includegraphics[width=100mm]{figures/Dirac_fluid/Fig2.pdf}
 \caption{\textbf{Breakdown of the Wiedemann-Franz law in the Dirac fluid regime.} The Lorenz ratio is shown as a function of the charge carrier density and bath temperature. Near the CNP and for temperatures above the disorder (charge puddle) regime but below the onset of electron-phonon coupling, the Lorenz ratio is measured to be an order of magnitude greater than the Fermi liquid value of 1 (blue). The WF law is observed to hold outside of the Dirac fluid regime.  All data from this figure is taken from sample S1.}
 \label{fig:DF_Fig2}
 \end{figure}
@@ -46,7 +67,8 @@ Our observation of the breakdown of the WF law in graphene is consistent with th
 We investigate the effect of impurities on hydrodynamic transport by comparing the results obtained from samples with varying disorder. Fig.~\ref{fig:DF_Fig3}A shows $n_{\mathrm{min}}$ as a function of temperature for three samples used in this study. $n_{\mathrm{min}}(T=0)$ is estimated as 5, 8, and 10$\times$10$^9~$cm$^{-2}$ in samples S1, S2, and S3, respectively. All devices show qualitatively similar Dirac fluid behavior; the largest value of $\mathcal{L}/\mathcal{L}_0$ measured in the Dirac fluid regime is 22, 12 and 3 in samples S1, S2, and S3, respectively (Fig.~\ref{fig:DF_Fig3}B). For a direct comparison, we show $\mathcal{L}(n)$ for all three samples at the same temperature (60~K) in Fig.~\ref{fig:DF_Fig3}C. We find that cleaner samples not only have a more pronounced peak but also a narrower density dependence, as predicted \cite{muller_quantum-critical_2008, foster_slow_2009}.
 
 \begin{figure}
-\includegraphics[width=\columnwidth]{figures/Dirac_fluid/Fig3.pdf}
+\centering
+\includegraphics[width=100mm]{figures/Dirac_fluid/Fig3.pdf}
 \caption{\textbf{Disorder in the Dirac fluid.  (A)} Minimum carrier density as a function of temperature for all three samples.  At low temperature each sample is limited by disorder. At high temperature all samples become limited by thermal excitations.  Dashed lines are a guide to the eye. \textbf{(B)} The Lorentz ratio of all three samples as a function of bath temperature. The largest WF violation is seen in the cleanest sample. \textbf{(C)} The gate dependence of the Lorentz ratio is well fit to hydrodynamic theory of Ref. \cite{muller_quantum-critical_2008, foster_slow_2009}. Fits of all three samples are shown at 60~K. All samples return to the Fermi liquid value (black dashed line) at high density. Inset shows the fitted enthalpy density as a function of temperature and the theoretical value in clean graphene (black dashed line). Schematic inset illustrates the difference between heat and charge current in the neutral Dirac plasma.}
 \label{fig:DF_Fig3}
 \end{figure}
@@ -108,112 +130,3 @@ n=\frac{C_{\mathrm{g}}(V_{\mathrm{g}}-V_{\mathrm{d}})}{e}
 \caption{2-terminal resistance $R$ vs. back gate voltage for the 3 samples used in this report.}
 \label{fig:DF_S1}
 \end{figure}
-
-\section{Johnson Noise Thermometry}
-The full Johnson noise thermometry (JNT) setup used in this study is outlined in detail in \cite{crossno_development_2015}.   Here, we only give a brief synopsis for completeness.
-
-The electronic transport within a dissipative device can be determined by the high frequency noise power collected by a low noise amplifier as \begin{equation}
-\left\langle V^2\right\rangle = k_{\mathrm{B}}T_{\mathrm{e}} \times \mathrm{Re}(Z)\Delta f \left[1-\left(\frac{Z-Z_0}{Z+Z_0}\right)^2\right]
-\end{equation}where $Z$ is the complex impedance of the device under test, $Z_0$ is the impedance of the measure circuit (typically 50 $\Omega$) and $\Delta f$ is the bandwidth.   From this formula, we can see two critical components of JNT:  impedance matching over a wide bandwidth and low noise amplification.
-
-Graphene devices have a typical channel resistance on the order of $h/4e^2 \sim 6\; \mathrm{k}\Omega$ near the CNP.   To compensate for this, we use an inductor-capacitor (LC) tank circuit mounted directly on the sample package to impedance match the graphene to the 50 $\Omega$ measurement network.  Fig.~\ref{fig:DF_S2} shows the reflectance coefficient $\mathcal{R}=|S_{11}|^{2}$ for a typical graphene device after impedance matching.   The bandwidth and measurement frequency of our JNT is set by the Q-factor and LC time of this matching network.
-
- \begin{figure}
-\includegraphics[width=3in]{figures/Dirac_fluid/S2.eps}
-\caption{Reflectance $\mathcal{R}=|S_{11}|^{2}$ for a graphene device impedance matched to 50 $\Omega$ near 125 MHz.}
-\label{fig:DF_S2}
-\end{figure}
-
-At 10 K, the power emitted by a resistor in a 1 Hz bandwidth is $\sim 10^{-22}$ W or $-190$ dBm.  To amplify this signal we use a SiGe low noise amplifier (Caltech CITLF3) with a room temperature noise figure of about 0.64 dB in our measurement bandwidth, corresponding to a noise temperature of about 46 K.   We operate the amplifier at room temperature, outside of the cryostat, to ensure it is unaffected by the 3--300 K temperature ramp used for thermal conduction measurements.  After amplification, a homodyne mixer and low pass filter define the measurement bandwidth and the power is found by an analog RF multiplier operating up to 2 GHz (Analog Devices ADL5931).  The result is a voltage proportional to the Johnson noise power which -- after calibration -- measures the electron temperature in the graphene device.
-
-Calibration of our JNT device must be done on every sample as each device has a unique $R(T,V_{\mathrm{g}})$ and therefore couples differently to the amplifier.  The graphene device being measured is placed on a cold finger in a cryostat with varying temperature $T_{\mathrm{bath}}$.  With no excitation current in the graphene, we collect the JNT signal $V_{\mathrm{s}}(T,V_{\mathrm{g}})$ for all temperatures and gate voltage needed in the study, as shown in Fig.~\ref{fig:DF_S3}.   The linear temperature slope at each point gives a gain factor $g(T,V_{\mathrm{g}}) = \partial V_{\mathrm{s}}/\partial T$.
-
- \begin{figure}
-\includegraphics[width=3in]{figures/Dirac_fluid/S3.eps}
-\caption{Output voltage $V_{\mathrm{s}}$ from the JNT measuring a graphene device with no excitation current.  This is used to calibrate the JNT to a given sample.}
-\label{fig:DF_S3}
-\end{figure}
-
-
-\section{Measuring electronic thermal conductance}
-
-The procedure used to measure electronic thermal conductance is outlined in \cite{crossno_development_2015, fong_ultrasensitive_2012, santavicca_energy_2010}.  A small sinusoidal current $I(\omega)$ is run through the graphene sample, causing a Joule heating power $P(2\omega)$ to be injected directly into the electronic system.  This causes a small temperature difference $\Delta T(2\omega) $ between the electronic temperature and the bath, described by Fourier's law: \begin{equation}
-P = G_{\mathrm{th}} \Delta T.   \label{eq:DF_eqp1}
-\end{equation}
-Here $G_{\mathrm{th}}$ is the total thermal conductance between the electronic system and the bath.  The component of Johnson noise at frequency $2\omega$  is measured by a lock-in amplifier and then converted to a temperature difference $\Delta T$ using the gain $g(T,V_{\mathrm{g}})$ described in the previous section.  Fig.~\ref{fig:DF_S4} shows $T_{\mathrm{e}}$ as a function of heating current $I$ for a graphene device at three different bath temperatures:  3, 30 and 300 K.
-
- \begin{figure}
-\includegraphics[width=3in]{figures/Dirac_fluid/S4.eps}
-\caption{The electronic temperature in an encapsulated graphene device as a function of heating current for three different bath temperatures.  $T_{\mathrm{e}}=T_{\mathrm{bath}}+I^2R/G_{\mathrm{th}}$.  The total thermal conductance between the electronic system and the bath is found through Fourier's Law (solid lines).}
-\label{fig:DF_S4}
-\end{figure}
-
-\section{Thermal model of graphene electrons}\label{section:DF_s6sec}
-In the regime presented here, $G_{\mathrm{th}}$ is dominated by two electronic cooling pathways.  Hot electrons can diffuse directly out to the contacts ($G_{\mathrm{diff}}$), or they can couple to phonons ($G_{\mathrm{el-ph}}$):  \begin{equation}
-G \approx G_{\mathrm{diff}} + G_{\mathrm{el-ph}}.
-\end{equation}
-In a typical metal, electron diffusion is described by the WF law which is linear in $T_{\mathrm{e}}$.  The electron-phonon cooling pathway has two components:  first, the electrons must transfer heat to the lattice via electron-phonon coupling, and then the lattice must conduct the heat to the bath.   Consistent with previous experimental studies on graphene \cite{crossno_development_2015, fong_measurement_2013, yigen_wiedemannfranz_2014, laitinen_electron-phonon_2014}, we find $G_{\mathrm{el-ph}}$ is bottlenecked by the weak electron-phonon coupling and hence the lattice is well thermalized to the bath.  Fig.~\ref{fig:DF_S5} shows the simplified thermal diagram of the electronic cooling pathways in graphene, relevant to our experiment.
-
-
-
- \begin{figure}
-\includegraphics[width=1in]{figures/Dirac_fluid/S5.eps}
-\caption{Simplified thermal diagram of the electronic cooling pathways in graphene relevant for our experimental conditions.  A current induces a heating power into the electronic system which conducts to the bath via two parallel pathways:  diffusion and coupling to phonons.}
-\label{fig:DF_S5}
-\end{figure}
-
-At low temperature, $G_{\mathrm{th}}$ is dominated by $G_{\mathrm{diff}}$, while at high temperature it is dominated by $G_{\mathrm{el-ph}}$.  Fig.~\ref{fig:DF_S6} shows an illustration of this effect in one of our devices.
-
-
- \begin{figure}
-\includegraphics[width=3in]{figures/Dirac_fluid/S6.eps}
-\caption{The total thermal conductance of a graphene device in the high density regime, illustrating how $G_{\mathrm{th}}$ is dominated by either $G_{\mathrm{diff}}\sim T$, as predicted by the WF law, or $G_{\mathrm{el-ph}}\sim T^4$.}
-\label{fig:DF_S6}
-\end{figure}
-
-\section{Measuring Thermal Conductivity}
-In the diffusion-limited regime, we extract the electronic thermal conductivity $\kappa_{\mathrm{e}}$ as follows.    This is detailed in \cite{fong_ultrasensitive_2012} and we review the basic calculation for clarity.   The total power dissipated, $P$, is given by \begin{equation}
-P = \frac{J^2}{\sigma} LW = \mathcal{P}LW  \label{eq:DF_eqp2}
-\end{equation}
-where $L$ is the length of the sample in the direction of current flow,  $W$ is the width in the perpendicular direction and $\mathcal{P}$ is the local power dissipated.  Because this calculation is done in linear response, and the external heat baths on either side of the sample are at the same temperature,  the contributions to power dissipated $\sim \kappa (\Delta T)^2$ do not enter so long as $\Delta T \sim J^2$ is  small.   This is an appropriate assumption in the regime of linear response, where $J$ is treated as a perturbatively small parameter.    Fig.~\ref{fig:DF_S4} shows our experiment is in this regime.
-
-Let us now determine the change in the temperature profile.   For simplicity we assume that the graphene sample is homogeneous, that the approximately uniform electrical current is given by \begin{equation}
-J = -\sigma \frac{\mathrm{d}V}{\mathrm{d}x} - \alpha \frac{\mathrm{d}T}{\mathrm{d}x},
-\end{equation}
-and that the heat current is given by \begin{equation}
-Q = -\alpha T\frac{\mathrm{d}V}{\mathrm{d}x} - \bar\kappa_{\mathrm{e}} \frac{\mathrm{d}T}{\mathrm{d}x},
-\end{equation}
-where \begin{equation}
-\bar\kappa_{\mathrm{e}} \equiv \kappa_{\mathrm{e}} + \frac{T\alpha^2}{\sigma} = \kappa_{\mathrm{e}}(1+ZT).
-\end{equation}
-In the latter equation,  $ZT$ is the thermoelectric coefficient of merit.    As $\alpha \approx 0$ at the CNP,  we expect $ZT\approx 0$,  and that $\bar\kappa_{\mathrm{e}}\approx \kappa_{\mathrm{e}}$. 
-
- $\mathrm{d}T/\mathrm{d}x$ is the temperature gradient in the sample,  and $-\mathrm{d}V/\mathrm{d}x$ is the electric field in the sample.  $\alpha/\sigma$ is the Seebeck coefficient.  We assume that the response of graphene is dominated only by the changes in voltage $V$ and temperature $T$ to a uniform current density $J$, which is applied externally.  We also assume that deviations from constant $V$ and $T$ are small, so that the linear response theory is valid.  Joule heating leads to the following equations: \begin{subequations}\begin{align}
-0 &= \frac{\mathrm{d}J}{\mathrm{d}x}, \\
-\mathcal{P} = \frac{J^2}{\sigma} &=  \frac{\mathrm{d}Q}{\mathrm{d}x},
-\end{align}\end{subequations}which can be combined to obtain \begin{equation}
-\mathcal{P} = -\kappa_{\mathrm{e}} \frac{\mathrm{d}^2 T}{\mathrm{d}x^2},
-\end{equation}
-assuming that $\kappa_{\mathrm{e}}$ is approximately homogeneous throughout the sample.  
-
-
- \begin{figure}
-\includegraphics[width=3.5in]{figures/Dirac_fluid/S7.eps}
-\caption{Cartoon illustrating the non-uniform temperature profile within the graphene-hBN stack during Joule heating in the diffusion-limited regime.}
-\label{fig:DF_S7}
-\end{figure}
-
-The contacts in our experiment are held at the same temperature $T$.   Thus, writing \begin{equation}
-T(x) = T_{\mathrm{e}} + \Delta T(x),
-\end{equation}we find that \begin{equation}
-\Delta T(x) = \frac{\mathcal{P}}{2\kappa_{\mathrm{e}}}x(L-x).  
-\end{equation}
-The average temperature change in the sample, which is directly measured through JNT, is \begin{equation}
-\langle \Delta T\rangle = \int\limits_0^L \frac{\mathrm{d}x}{L}\; \Delta T(x)  = \frac{\mathcal{P}L^2}{12\kappa_{\mathrm{e}}}.  \label{eq:DF_eqp3}
-\end{equation}
-This non-uniform temperature profile is illustrated in Fig.~\ref{fig:DF_S7}.   Combining Eqs.~\ref{eq:DF_eqp1}, \ref{eq:DF_eqp2} and \ref{eq:DF_eqp3} we obtain \begin{equation}
-G_{\mathrm{th}} = \frac{12L}{W} \kappa_{\mathrm{e}}.
-\end{equation}
-
-As we have pointed out in the main text,  our samples are not perfectly homogeneous, but have local fluctuations in the charge density.   Nevertheless, we do recover the WF law in the FL regime, suggesting that our measurement of $G_{\mathrm{th}}$ -- and thus $\kappa_{\mathrm{e}}$ -- using JNT, along with the above formalism, is valid.
-

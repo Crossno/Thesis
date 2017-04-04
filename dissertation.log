@@ -1,4 +1,4 @@
-This is XeTeX, Version 3.14159265-2.6-0.99996 (TeX Live 2016) (preloaded format=xelatex 2017.3.13)  3 APR 2017 21:22
+This is XeTeX, Version 3.14159265-2.6-0.99996 (TeX Live 2016) (preloaded format=xelatex 2017.3.13)  4 APR 2017 15:32
 entering extended mode
  restricted \write18 enabled.
  %&-line parsing enabled.
@@ -812,21 +812,21 @@ File: xkeyval.tex 2014/12/03 v2.7a key=value parser (HA)
 . - 'bold italic small caps'  (bx/itsc) with NFSS spec.: <->"EB
 . Garamond/BI/OT:script=latn;language=DFLT;+smcp;"
 .................................................
-LaTeX Font Info:    Redeclaring math alphabet \mathrm on input line 104.
+LaTeX Font Info:    Redeclaring math alphabet \mathrm on input line 99.
 LaTeX Font Info:    Overwriting math alphabet `\mathrm' in version `bold'
 (Font)                  TU/EBGaramond(0)/m/n --> TU/EBGaramond(0)/bx/n on input
- line 104.
-LaTeX Font Info:    Redeclaring math alphabet \mathit on input line 104.
+ line 99.
+LaTeX Font Info:    Redeclaring math alphabet \mathit on input line 99.
 LaTeX Font Info:    Overwriting math alphabet `\mathit' in version `normal'
-(Font)                  OT1/cmr/m/it --> TU/EBGaramond(0)/m/it on input line 10
-4.
+(Font)                  OT1/cmr/m/it --> TU/EBGaramond(0)/m/it on input line 99
+.
 LaTeX Font Info:    Overwriting math alphabet `\mathit' in version `bold'
-(Font)                  OT1/cmr/bx/it --> TU/EBGaramond(0)/m/it on input line 1
-04.
-LaTeX Font Info:    Redeclaring math alphabet \mathbf on input line 104.
+(Font)                  OT1/cmr/bx/it --> TU/EBGaramond(0)/m/it on input line 9
+9.
+LaTeX Font Info:    Redeclaring math alphabet \mathbf on input line 99.
 LaTeX Font Info:    Overwriting math alphabet `\mathit' in version `bold'
 (Font)                  TU/EBGaramond(0)/m/it --> TU/EBGaramond(0)/bx/it on inp
-ut line 104.
+ut line 99.
 \symOperators:m:n=\mathgroup9
 .................................................
 . fontspec info: "no-font-shape"
@@ -855,9 +855,9 @@ ut line 104.
 . Garamond/BI/OT:script=latn;language=DFLT;+onum;+liga;+smcp;mapping=tex-text;"
 
 .................................................
-LaTeX Info: Redefining \rmfamily on input line 108.
+LaTeX Info: Redefining \rmfamily on input line 103.
 LaTeX Font Info:    Font shape `TU/EBGaramond(1)/m/n' will be
-(Font)              scaled to size 12.0pt on input line 108.
+(Font)              scaled to size 12.0pt on input line 103.
 .................................................
 . fontspec info: "no-font-shape"
 . 
@@ -931,7 +931,7 @@ LaTeX Font Info:    Font shape `TU/EBGaramond(1)/m/n' will be
 . Bold/I/OT:script=latn;language=DFLT;mapping=tex-text;"
 . - 'bold italic small caps'  (bx/itsc) with NFSS spec.: 
 .................................................
-LaTeX Info: Redefining \sffamily on input line 110.
+LaTeX Info: Redefining \sffamily on input line 105.
 .................................................
 . fontspec info: "set-scale"
 . 
@@ -985,7 +985,7 @@ LaTeX Info: Redefining \sffamily on input line 110.
 . \fontdimen 2\font =1\fontdimen 2\font \fontdimen 3\font =0\fontdimen 3\font
 . \fontdimen 4\font =0\fontdimen 4\font \fontdimen 7\font =0\fontdimen 2\font 
 .................................................
-LaTeX Info: Redefining \ttfamily on input line 111.
+LaTeX Info: Redefining \ttfamily on input line 106.
 
 (/usr/local/texlive/2016/texmf-dist/tex/latex/caption/caption.sty
 Package: caption 2016/02/21 v3.3-144 Customizing captions (AR)
@@ -1116,7 +1116,7 @@ Package: quotchap 2012/10/20 v1.1 Decorative Chapter Headings with Quotes
 \@quotebox=\box49
 )
 \mybibindent=\skip120
-Package hyperref Info: Option `colorlinks' set `true' on input line 221.
+Package hyperref Info: Option `colorlinks' set `true' on input line 216.
 )
 (./dissertation.aux (./chapters/introduction.aux)
 (./chapters/Johnson_noise_thermometry.aux
@@ -1290,20 +1290,31 @@ LaTeX Font Info:    Font shape `TU/EBGaramond(1)/bx/n' will be
  [4
 
 ]
-[5])
+Overfull \hbox (29.35017pt too wide) in paragraph at lines 39--39
+ [][] [][][]\TU/EBGaramond(1)/bx/n/10.95 Observation of the Dirac fluid and the
+ breakdown of the Wiedemann-Franz law in graphene[][] []  
+ []
+
+
+Overfull \hbox (7.98677pt too wide) in paragraph at lines 44--44
+ [][] [][][]\TU/EBGaramond(1)/bx/n/10.95 Transport in inhomogeneous quantum cri
+tical fluids and in the Dirac fluid in graphene[][] []  
+ []
+
+)
 \tf@toc=\write4
 \openout4 = `dissertation.toc'.
 
- [6] (./frontmatter/dedication.tex) [7
+ [5] [6] (./frontmatter/dedication.tex) [7
 
-] (./frontmatter/thanks.tex) [8
+] (./frontmatter/thanks.tex)
+[8
 
 
 ]
 \openout2 = `chapters/introduction.aux'.
 
-
-(./chapters/introduction.tex
+ (./chapters/introduction.tex
 Chapter 0.
 ) [1
 
@@ -1854,38 +1865,41 @@ Chapter 5.
 
 
 ]
-File: figures/Dirac_fluid/Fig1.pdf Graphic file (type QTm)
- <use  "figures/Dirac_fluid/Fig1.pdf" >
-Overfull \hbox (36.13501pt too wide) in paragraph at lines 15--16
-[][] 
+File: figures/Dirac_fluid/charge_puddles.png Graphic file (type QTm)
+ <use  "figures/Dirac_fluid/charge_puddles.png" > [67] [68]
+
+Package natbib Warning: Citation `??' on page 69 undefined on input line 16.
+
+File: figures/Dirac_fluid/temperature_regimes.png Graphic file (type QTm)
+<use  "figures/Dirac_fluid/temperature_regimes.png" >
+Overfull \hbox (78.55458pt too wide) in paragraph at lines 27--27
+|[]\TU/EBGaramond(1)/m/sc/14.4 Observation of the Dirac fluid and the breakdown
+ of the Wiedemann-
  []
 
-[67] [68]
+[69]
+File: figures/Dirac_fluid/Fig1.pdf Graphic file (type QTm)
+ <use  "figures/Dirac_fluid/Fig1.pdf" > [70] [71] [72]
 
 LaTeX Font Warning: Font shape `TU/EBGaramond(0)/bx/n' undefined
-(Font)              using `TU/EBGaramond(0)/m/n' instead on input line 29.
+(Font)              using `TU/EBGaramond(0)/m/n' instead on input line 49.
 
-[69]
+[73]
 
-Package natbib Warning: Citation `yigen_wiedemann-franz_2014' on page 70 undefi
-ned on input line 33.
+Package natbib Warning: Citation `yigen_wiedemann-franz_2014' on page 74 undefi
+ned on input line 53.
 
-[70]
+[74]
 
-Package natbib Warning: Citation `yigen_wiedemann-franz_2014' on page 71 undefi
-ned on input line 36.
+Package natbib Warning: Citation `yigen_wiedemann-franz_2014' on page 75 undefi
+ned on input line 56.
 
-[71]
 File: figures/Dirac_fluid/Fig2.pdf Graphic file (type QTm)
- <use  "figures/Dirac_fluid/Fig2.pdf" > [72]
+<use  "figures/Dirac_fluid/Fig2.pdf" > [75] [76]
 File: figures/Dirac_fluid/Fig3.pdf Graphic file (type QTm)
 
 <use  "figures/Dirac_fluid/Fig3.pdf" >
-
-LaTeX Warning: Float too large for page by 34.08939pt on input line 52.
-
-
-Overfull \hbox (6.2155pt too wide) in paragraph at lines 54--55
+Overfull \hbox (6.2155pt too wide) in paragraph at lines 76--77
 []\TU/EBGaramond(1)/bx/n/10.95 More quantitative analysis of $\OMS/cmsy/m/n/10.
 95 L\OT1/cmr/m/n/10.95 (\OML/cmm/m/it/10.95 n\OT1/cmr/m/n/10.95 )$ \TU/EBGaramo
 nd(1)/bx/n/10.95 in our experiment can be done by employing a quasi-relativisti
@@ -1893,14 +1907,14 @@ c
  []
 
 LaTeX Font Info:    Font shape `TU/EBGaramond(1)/m/n' will be
-(Font)              scaled to size 6.0pt on input line 61.
-[73] [74] [75] [76]
-Overfull \hbox (9.65059pt too wide) in paragraph at lines 77--77
+(Font)              scaled to size 6.0pt on input line 83.
+[77] [78] [79] [80]
+Overfull \hbox (10.65858pt too wide) in paragraph at lines 99--99
 |[]\TU/EBGaramond(1)/m/sc/14.4 Optimizing samples for high frequency thermal co
 nductiv-
  []
 
-[77]
+[81]
 .................................................
 . fontspec info: "no-font-shape"
 . 
@@ -1933,235 +1947,213 @@ ext;"
 text;"
 .................................................
 LaTeX Font Info:    Font shape `TU/EBGaramond(3)/m/n' will be
-(Font)              scaled to size 12.0pt on input line 87.
- [78]
-Invalid UTF-8 byte or sequence at line 107 replaced by U+FFFD.
-Invalid UTF-8 byte or sequence at line 107 replaced by U+FFFD.
-Invalid UTF-8 byte or sequence at line 107 replaced by U+FFFD.
-Invalid UTF-8 byte or sequence at line 107 replaced by U+FFFD.
-Invalid UTF-8 byte or sequence at line 107 replaced by U+FFFD.
-Invalid UTF-8 byte or sequence at line 107 replaced by U+FFFD.
+(Font)              scaled to size 12.0pt on input line 109.
+ [82]
+Invalid UTF-8 byte or sequence at line 129 replaced by U+FFFD.
+Invalid UTF-8 byte or sequence at line 129 replaced by U+FFFD.
+Invalid UTF-8 byte or sequence at line 129 replaced by U+FFFD.
+Invalid UTF-8 byte or sequence at line 129 replaced by U+FFFD.
+Invalid UTF-8 byte or sequence at line 129 replaced by U+FFFD.
+Invalid UTF-8 byte or sequence at line 129 replaced by U+FFFD.
 File: figures/Dirac_fluid/S1.eps Graphic file (type eps)
- <figures/Dirac_fluid/S1.eps> [79]
-Invalid UTF-8 byte or sequence at line 122 replaced by U+FFFD.
-Invalid UTF-8 byte or sequence at line 122 replaced by U+FFFD.
-Invalid UTF-8 byte or sequence at line 122 replaced by U+FFFD.
-Invalid UTF-8 byte or sequence at line 122 replaced by U+FFFD.
-Invalid UTF-8 byte or sequence at line 122 replaced by U+FFFD.
-Invalid UTF-8 byte or sequence at line 122 replaced by U+FFFD.
-Invalid UTF-8 byte or sequence at line 122 replaced by U+FFFD.
-Invalid UTF-8 byte or sequence at line 122 replaced by U+FFFD.
-File: figures/Dirac_fluid/S2.eps Graphic file (type eps)
- <figures/Dirac_fluid/S2.eps>
-[80]
-Overfull \hbox (2.1219pt too wide) in paragraph at lines 129--130
-[]\TU/EBGaramond(1)/bx/n/10.95 Calibration of our JNT device must be done on ev
-ery sample as each device has a unique $\OML/cmm/m/it/10.95 R\OT1/cmr/m/n/10.95
- (\OML/cmm/m/it/10.95 T; V[]\OT1/cmr/m/n/10.95 )$ 
- []
-
-Invalid UTF-8 byte or sequence at line 132 replaced by U+FFFD.
-Invalid UTF-8 byte or sequence at line 132 replaced by U+FFFD.
-Invalid UTF-8 byte or sequence at line 132 replaced by U+FFFD.
-Invalid UTF-8 byte or sequence at line 132 replaced by U+FFFD.
-Invalid UTF-8 byte or sequence at line 132 replaced by U+FFFD.
-Invalid UTF-8 byte or sequence at line 132 replaced by U+FFFD.
-Invalid UTF-8 byte or sequence at line 132 replaced by U+FFFD.
-File: figures/Dirac_fluid/S3.eps Graphic file (type eps)
-<figures/Dirac_fluid/S3.eps> [81]
-Invalid UTF-8 byte or sequence at line 146 replaced by U+FFFD.
-Invalid UTF-8 byte or sequence at line 146 replaced by U+FFFD.
-Invalid UTF-8 byte or sequence at line 146 replaced by U+FFFD.
-Invalid UTF-8 byte or sequence at line 146 replaced by U+FFFD.
-Invalid UTF-8 byte or sequence at line 146 replaced by U+FFFD.
-Invalid UTF-8 byte or sequence at line 146 replaced by U+FFFD.
-Invalid UTF-8 byte or sequence at line 146 replaced by U+FFFD.
-File: figures/Dirac_fluid/S4.eps Graphic file (type eps)
- <figures/Dirac_fluid/S4.eps> [82] [83]
-Invalid UTF-8 byte or sequence at line 160 replaced by U+FFFD.
-Invalid UTF-8 byte or sequence at line 160 replaced by U+FFFD.
-Invalid UTF-8 byte or sequence at line 160 replaced by U+FFFD.
-Invalid UTF-8 byte or sequence at line 160 replaced by U+FFFD.
-Invalid UTF-8 byte or sequence at line 160 replaced by U+FFFD.
-Invalid UTF-8 byte or sequence at line 160 replaced by U+FFFD.
-Invalid UTF-8 byte or sequence at line 160 replaced by U+FFFD.
-File: figures/Dirac_fluid/S5.eps Graphic file (type eps)
-
-<figures/Dirac_fluid/S5.eps>
-Invalid UTF-8 byte or sequence at line 169 replaced by U+FFFD.
-Invalid UTF-8 byte or sequence at line 169 replaced by U+FFFD.
-Invalid UTF-8 byte or sequence at line 169 replaced by U+FFFD.
-Invalid UTF-8 byte or sequence at line 169 replaced by U+FFFD.
-Invalid UTF-8 byte or sequence at line 169 replaced by U+FFFD.
-Invalid UTF-8 byte or sequence at line 169 replaced by U+FFFD.
-File: figures/Dirac_fluid/S6.eps Graphic file (type eps)
- <figures/Dirac_fluid/S6.eps> [84] [85]
-Invalid UTF-8 byte or sequence at line 201 replaced by U+FFFD.
-Invalid UTF-8 byte or sequence at line 201 replaced by U+FFFD.
-Invalid UTF-8 byte or sequence at line 201 replaced by U+FFFD.
-Invalid UTF-8 byte or sequence at line 201 replaced by U+FFFD.
-Invalid UTF-8 byte or sequence at line 201 replaced by U+FFFD.
-Invalid UTF-8 byte or sequence at line 201 replaced by U+FFFD.
-Invalid UTF-8 byte or sequence at line 201 replaced by U+FFFD.
-Invalid UTF-8 byte or sequence at line 201 replaced by U+FFFD.
-File: figures/Dirac_fluid/S7.eps Graphic file (type eps)
-
-<figures/Dirac_fluid/S7.eps> [86] [87]) [88]
+ <figures/Dirac_fluid/S1.eps>) [83]
 \openout2 = `chapters/Hydrodynamic_theory_of_transport.aux'.
 
 
 (./chapters/Hydrodynamic_theory_of_transport.tex
+Underfull \hbox (badness 10000) in paragraph at lines 3--4
+[]\TU/EBGaramond(1)/m/it/10 Turn a switch and the light goes on. The layman’s p
+er-
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 3--4
+\TU/EBGaramond(1)/m/it/10 ception is that this is like opening a tap so that th
+e water
+ []
+
 Chapter 6.
+
+Package natbib Warning: Citation `adam_theoretical_2017' on page 84 undefined o
+n input line 10.
+
+
+LaTeX Warning: Reference `fig:Boltzmann_vs_hydro' on page 84 undefined on input
+ line 10.
+
+[84
+
+
+
+]
 File: figures/hydro_theory/cartoon_hydro.png Graphic file (type QTm)
-<use  "figures/hydro_theory/cartoon_hydro.png" >
-Underfull \hbox (badness 10000) in paragraph at lines 12--12
+ <use  "figures/hydro_theory/cartoon_hydro.png" >
+
+Package natbib Warning: Citation `zaanen_electrons_2016' on page 85 undefined o
+n input line 15.
+
+File: figures/hydro_theory/Boltzmann.png Graphic file (type QTm)
+<use  "figures/hydro_theory/Boltzmann.png" >
+
+Package natbib Warning: Citation `adam_theoretical_2017' on page 85 undefined o
+n input line 23.
+
+
+Package natbib Warning: Citation `briskot_collision-dominated_2015' on page 85 
+undefined on input line 23.
+
+
+Overfull \hbox (1.3418pt too wide) in paragraph at lines 31--31
+|[]\TU/EBGaramond(1)/m/sc/14.4 Transport in inhomogeneous quantum critical flui
+ds and
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 32--32
 [][][]\TU/EBGaramond(1)/bx/n/10 Below we have assumed that the charge of the qu
 asiparticles is $\OMS/cmsy/m/n/10 ^^F\OML/cmm/m/it/10 e$\TU/EBGaramond(1)/bx/n/
 10 , with $\OML/cmm/m/it/10 e$ \TU/EBGaramond(1)/bx/n/10 the charge of the elec
 tron –
  []
 
-[89
+[85] [86]
+
+Package natbib Warning: Citation `weber_observation_437' on page 87 undefined o
+n input line 37.
 
 
-
-] [90]
-
-Package natbib Warning: Citation `weber_observation_437' on page 91 undefined o
-n input line 17.
+Package natbib Warning: Citation `yang_doppler_153' on page 87 undefined on inp
+ut line 37.
 
 
-Package natbib Warning: Citation `yang_doppler_153' on page 91 undefined on inp
-ut line 17.
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 20--20
+Underfull \hbox (badness 10000) in paragraph at lines 40--40
 [][][]\TU/EBGaramond(1)/bx/n/10 Quantum dynamics in one dimension, which is oft
 en integrable, is described using very different tech-
  []
 
-[91] [92] [93]
+[87] [88] [89] [90]
 File: figures/hydro_theory/mainfigplot.pdf Graphic file (type QTm)
  <use  "figures/hydro_theory/mainfigplot.pdf" >
-Overfull \hbox (90.33751pt too wide) in paragraph at lines 45--46
+Overfull \hbox (90.33751pt too wide) in paragraph at lines 65--66
  [][] 
  []
 
 File: figures/hydro_theory/mainfigTplot.pdf Graphic file (type QTm)
 <use  "figures/hydro_theory/mainfigTplot.pdf" >
-Overfull \hbox (90.33751pt too wide) in paragraph at lines 52--53
+Overfull \hbox (90.33751pt too wide) in paragraph at lines 72--73
  [][] 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 58--58
+Underfull \hbox (badness 10000) in paragraph at lines 78--78
 [][][]\TU/EBGaramond(1)/bx/n/10 See [[], []] for a theory of electrical conduct
 ivity in charge puddle dominated graphene at low tempera-
  []
 
-[94] [95]
+[91]
 File: figures/hydro_theory/hydrofig.pdf Graphic file (type QTm)
- <use  "figures/hydro_theory/hydrofig.pdf" > [96] [97] [98] [99]
-[100]
+ <use  "figures/hydro_theory/hydrofig.pdf" > [92] [93] [94] [95] [96]
+[97]
 LaTeX Font Info:    Font shape `TU/EBGaramond(1)/m/n' will be
-(Font)              scaled to size 5.0pt on input line 105.
- [101]
-Overfull \hbox (1.27989pt too wide) in paragraph at lines 107--107
+(Font)              scaled to size 5.0pt on input line 125.
+
+Overfull \hbox (1.27989pt too wide) in paragraph at lines 127--127
 []\TU/EBGaramond(1)/bx/n/10.95 The equations of motion of hydrodynamics are the
  local conservation laws, up to external sources. 
  []
 
-[102]
+[98]
 
-Package natbib Warning: Citation `pines' on page 103 undefined on input line 12
-1.
+Package natbib Warning: Citation `pines' on page 99 undefined on input line 141
+.
+
+[99]
+
+Package natbib Warning: Citation `dsz' on page 100 undefined on input line 143.
 
 
-Package natbib Warning: Citation `dsz' on page 103 undefined on input line 123.
 
-
-[103]
-Underfull \hbox (badness 10000) in paragraph at lines 133--133
+Underfull \hbox (badness 10000) in paragraph at lines 153--153
 [][][]\TU/EBGaramond(1)/bx/n/10 It is qualitatively similar to the bipolar diff
 usion effect [[], []] – however, in hydrodynamics the quasi-
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 133--133
+Underfull \hbox (badness 10000) in paragraph at lines 153--153
 \TU/EBGaramond(1)/bx/n/10 particle lifetimes are limited by $\U/msb/m/n/10 ~\OM
 L/cmm/m/it/10 =k[]T$\TU/EBGaramond(1)/bx/n/10 , whereas in the bipolar diffusio
 n effect these lifetimes are parametri-
  []
 
-[104]
-Underfull \hbox (badness 10000) in paragraph at lines 136--136
+[100]
+Underfull \hbox (badness 10000) in paragraph at lines 156--156
 [][][]\TU/EBGaramond(1)/bx/n/10 The application of a constant $\OML/cmm/m/it/10
  ^^P[]$ \TU/EBGaramond(1)/bx/n/10 on a periodic space is the reason why we cann
 ot talk about driving the
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 136--136
+Underfull \hbox (badness 10000) in paragraph at lines 156--156
 \TU/EBGaramond(1)/bx/n/10 system with a constant temperature gradient, since th
 e temperature is a periodic function in space. One can
  []
 
-[105] [106] [107] [108]
+[101] [102] [103] [104]
 
-Package natbib Warning: Citation `geim2005' on page 109 undefined on input line
- 182.
+Package natbib Warning: Citation `geim2005' on page 105 undefined on input line
+ 202.
 
 
-Package natbib Warning: Citation `kim2005' on page 109 undefined on input line 
-182.
+Package natbib Warning: Citation `kim2005' on page 105 undefined on input line 
+202.
 
-[109]
+[105]
 LaTeX Font Info:    Font shape `TU/EBGaramond(1)/m/it' will be
-(Font)              scaled to size 10.95pt on input line 185.
- [110] [111] [112] [113] [114]
+(Font)              scaled to size 10.95pt on input line 205.
+ [106] [107] [108] [109] [110]
 File: figures/hydro_theory/viscosityplot.pdf Graphic file (type QTm)
 
 <use  "figures/hydro_theory/viscosityplot.pdf" >
-Overfull \hbox (90.33751pt too wide) in paragraph at lines 235--236
+Overfull \hbox (90.33751pt too wide) in paragraph at lines 255--256
  [][] 
  []
 
 File: figures/hydro_theory/c4plot.pdf Graphic file (type QTm)
 <use  "figures/hydro_theory/c4plot.pdf" >
-Overfull \hbox (90.33751pt too wide) in paragraph at lines 244--245
+Overfull \hbox (90.33751pt too wide) in paragraph at lines 264--265
  [][] 
  []
 
-[115] [116]
+[111] [112]
 File: figures/hydro_theory/Tscaleplot.pdf Graphic file (type QTm)
  <use  "figures/hydro_theory/Tscaleplot.pdf" >
 File: figures/hydro_theory/kappaTC4plot.pdf Graphic file (type QTm)
 
-<use  "figures/hydro_theory/kappaTC4plot.pdf" > [117]
-Underfull \hbox (badness 10000) in paragraph at lines 278--278
+<use  "figures/hydro_theory/kappaTC4plot.pdf" > [113]
+Underfull \hbox (badness 10000) in paragraph at lines 298--298
 [][][]\TU/EBGaramond(1)/bx/n/10 We have used theoretically predicted values of 
 $\OML/cmm/m/it/10 C[]$ \TU/EBGaramond(1)/bx/n/10 and $\OML/cmm/m/it/10 C[]$ \TU
 /EBGaramond(1)/bx/n/10 [[]], and assumed that the Dirac fluid ends
  []
 
-[118] [119] [120]
-Underfull \hbox (badness 10000) in paragraph at lines 289--289
+[114] [115] [116]
+Underfull \hbox (badness 10000) in paragraph at lines 309--309
 [][][]\TU/EBGaramond(1)/bx/n/10 The hydrodynamic description of transport reduc
 es to a diffusion equation for the conserved electrical
  []
 
-[121]
-Underfull \hbox (badness 2213) in paragraph at lines 298--298
+[117]
+Underfull \hbox (badness 2213) in paragraph at lines 318--318
 [][][]\TU/EBGaramond(1)/bx/n/10 As there is no large Fermi surface with $\OML/c
 mm/m/it/10 ^^V \OMS/cmsy/m/n/10 ^^] \OML/cmm/m/it/10 k[]T$\TU/EBGaramond(1)/bx/
 n/10 , no further corrections to $\OML/cmm/m/it/10 a$ \TU/EBGaramond(1)/bx/n/10
  are necessary, as in usual
  []
 
-[122]
+[118]
 File: figures/hydro_theory/ephsketchplot.pdf Graphic file (type QTm)
- <use  "figures/hydro_theory/ephsketchplot.pdf" > [123] [124]) [125]
-[126]
+ <use  "figures/hydro_theory/ephsketchplot.pdf" > [119] [120]) [121]
+[122]
 \openout2 = `chapters/Magneto-thermal_transport.aux'.
 
  (./chapters/Magneto-thermal_transport.tex
@@ -2171,7 +2163,7 @@ ngs
  []
 
 Chapter 7.
-) [127
+) [123
 
 
 
@@ -2180,7 +2172,7 @@ Chapter 7.
 
  (./chapters/Conclusions_and_future_work.tex
 Chapter 8.
-) [128
+) [124
 
 
 
@@ -2189,21 +2181,21 @@ Chapter 8.
 
  (./chapters/appendixA.tex
 Appendix A.
-[129
+[125
 
 
 
-] [130] [131] [132] [133] [134]
+] [126] [127] [128] [129] [130]
 
-Package natbib Warning: Citation `lucas' on page 135 undefined on input line 72
+Package natbib Warning: Citation `lucas' on page 131 undefined on input line 72
 .
 
-[135] [136] [137] [138]
+[131] [132] [133] [134]
 Package microtype Info: Loading generic settings for font family
 (microtype)             `cmss' (encoding: OT1).
 (microtype)             For optimal results, create family-specific settings.
 (microtype)             See the microtype manual for details.
- [139]
+ [135]
 Overfull \hbox (8.29147pt too wide) in paragraph at lines 135--137
 \TU/EBGaramond(1)/bx/n/10.95 with $[]$ a constant, $[]\OT1/cmr/m/n/10.95 (\OML/
 cmm/m/it/10.95 n[]; n[]\OT1/cmr/m/n/10.95 )$ \TU/EBGaramond(1)/bx/n/10.95 unifo
@@ -2212,7 +2204,7 @@ rmly distributed on $\OT1/cmr/m/n/10.95 [\OMS/cmsy/m/n/10.95 ^^@\OML/cmm/m/it/1
 t/10.95 c \OT1/cmr/m/n/10.95 = []$\TU/EBGaramond(1)/bx/n/10.95 , 
  []
 
-[140]
+[136]
 File: figures/appendix/finitesizeplot2.pdf Graphic file (type QTm)
  <use  "figures/appendix/finitesizeplot2.pdf" >
 Overfull \hbox (90.33751pt too wide) in paragraph at lines 144--145
@@ -2225,15 +2217,15 @@ Overfull \hbox (90.33751pt too wide) in paragraph at lines 151--152
  [][] 
  []
 
-[141]
+[137]
 File: figures/appendix/spectralplot.pdf Graphic file (type QTm)
- <use  "figures/appendix/spectralplot.pdf" > [142]
+ <use  "figures/appendix/spectralplot.pdf" > [138]
 Missing character: There is no 
  in font EB Garamond 12 Regular/OT:script=latn;language=DFLT;!
 Missing character: There is no 
  in font EB Garamond 12 Regular/OT:script=latn;language=DFLT;!
-) [143]
-(./endmatter/personalize.tex) (./dissertation.bbl [144
+) [139]
+(./endmatter/personalize.tex) (./dissertation.bbl [140
 
 
 
@@ -2243,11 +2235,11 @@ Underfull \hbox (badness 1097) in paragraph at lines 99--102
 lity in the electrical resistivity of 
  []
 
-[145] [146] [147]
+[141] [142] [143]
 Invalid UTF-8 byte or sequence at line 289 replaced by U+FFFD.
 Missing character: There is no � in font EB Garamond 12 Regular/OT:script=latn;
 language=DFLT;+onum;+liga;mapping=tex-text;!
- [148] [149] [150] [151] [152]) [153]
+ [144] [145] [146] [147] [148]) [149]
 \openout2 = `endmatter/colophon.aux'.
 
 
@@ -2328,9 +2320,9 @@ Underfull \hbox (badness 10000) in paragraph at lines 16--16
 \TU/EBGaramond(1)/bx/n/10.95 from its lead author, Jordan Suchow, at [][]su-
  []
 
-[154
+[150
 
-]) [155]
+]) [151]
 
 Package natbib Warning: There were undefined citations.
 
@@ -2360,12 +2352,12 @@ LaTeX Warning: There were multiply-defined labels.
 
  ) 
 Here is how much of TeX's memory you used:
- 25062 strings out of 493068
- 463642 string characters out of 6135636
- 617285 words of memory out of 5000000
- 28462 multiletter control sequences out of 15000+600000
+ 25045 strings out of 493068
+ 463608 string characters out of 6135636
+ 619463 words of memory out of 5000000
+ 28448 multiletter control sequences out of 15000+600000
  24678 words of font info for 133 fonts, out of 8000000 for 9000
  1347 hyphenation exceptions out of 8191
  60i,17n,119p,10427b,699s stack positions out of 5000i,500n,10000p,200000b,80000s
 
-Output written on dissertation.pdf (163 pages).
+Output written on dissertation.pdf (159 pages).

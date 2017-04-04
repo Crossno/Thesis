@@ -86,11 +86,6 @@
 \def\Gth{G_{\mathrm{th}}}
 \def\DTave{\langle\Delta T\rangle}
 \def\DTJN{\Delta T_{JN}}
-\newcommand\unslant[2][-.25]{\slantbox[#1]{$#2$}}
-\newcommand{\mmu}{\text{\unslant\mu}}
-\newcommand{\mpi}{\text{\unslant[-.18]\pi}}
-\newcommand{\mdelta}{\text{\unslant[-.18]\delta}}
-\newcommand{\mzeta}{\text{\unslant[-.15]\zeta}}
 
 
 % Fonts

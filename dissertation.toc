@@ -35,35 +35,33 @@
 \contentsline {section}{\numberline {4.2}Low temperature Wiedemann-Franz}{65}{section.4.2}
 \contentsline {section}{\numberline {4.3}High temperature electron-phonon}{65}{section.4.3}
 \contentsline {chapter}{\numberline {5}The Dirac fluid}{66}{chapter.5}
-\contentsline {section}{\numberline {5.1}Sample Fabrication}{77}{section.5.1}
-\contentsline {section}{\numberline {5.2}Optimizing samples for high frequency thermal conductivity measurements}{77}{section.5.2}
-\contentsline {section}{\numberline {5.3}Device Characterization}{79}{section.5.3}
-\contentsline {section}{\numberline {5.4}Johnson Noise Thermometry}{79}{section.5.4}
-\contentsline {section}{\numberline {5.5}Measuring electronic thermal conductance}{82}{section.5.5}
-\contentsline {section}{\numberline {5.6}Thermal model of graphene electrons}{83}{section.5.6}
-\contentsline {section}{\numberline {5.7}Measuring Thermal Conductivity}{84}{section.5.7}
-\contentsline {chapter}{\numberline {6}Hydrodynamic framework}{89}{chapter.6}
-\contentsline {section}{\numberline {6.1}Introduction}{90}{section.6.1}
-\contentsline {subsection}{\numberline {6.1.1}Summary of Results}{93}{subsection.6.1.1}
-\contentsline {subsection}{\numberline {6.1.2}Outline}{98}{subsection.6.1.2}
-\contentsline {section}{\numberline {6.2}Transport Coefficients}{98}{section.6.2}
-\contentsline {section}{\numberline {6.3}Relativistic Hydrodynamics}{100}{section.6.3}
-\contentsline {subsection}{\numberline {6.3.1}Hydrodynamic Equations}{101}{subsection.6.3.1}
-\contentsline {subsection}{\numberline {6.3.2}Hydrodynamic Theory of Transport}{105}{subsection.6.3.2}
-\contentsline {section}{\numberline {6.4}The Dirac Fluid in Graphene}{109}{section.6.4}
-\contentsline {section}{\numberline {6.5}Numerical Results}{113}{section.6.5}
-\contentsline {subsection}{\numberline {6.5.1}Comparison to Experiment}{115}{subsection.6.5.1}
-\contentsline {section}{\numberline {6.6}Phonons in Graphene}{121}{section.6.6}
-\contentsline {section}{\numberline {6.7}Conclusions}{124}{section.6.7}
-\contentsline {chapter}{\numberline {7}Magneto-thermal transport}{127}{chapter.7}
-\contentsline {chapter}{\numberline {8}Conclusions and future work}{128}{chapter.8}
-\contentsline {chapter}{Appendix \numberline {A}Appendix}{129}{Appendix.1.A}
-\contentsline {section}{\numberline {A.1}Thermodynamics}{129}{section.1.A.1}
-\contentsline {subsection}{\numberline {A.1.1}Thermodynamics of Disordered Fluids}{131}{subsection.1.A.1.1}
-\contentsline {section}{\numberline {A.2}Rescaling Symmetries of dc Transport}{134}{section.1.A.2}
-\contentsline {section}{\numberline {A.3}Weak Disorder}{135}{section.1.A.3}
-\contentsline {section}{\numberline {A.4}Equations of State of the Dirac Fluid}{138}{section.1.A.4}
-\contentsline {section}{\numberline {A.5}Numerical Methods}{139}{section.1.A.5}
-\contentsline {subsection}{\numberline {A.5.1}Finite Size Effects}{141}{subsection.1.A.5.1}
-\contentsline {subsection}{\numberline {A.5.2}Dimensional Analysis}{142}{subsection.1.A.5.2}
-\contentsline {chapter}{References}{153}{chapter*.64}
+\contentsline {section}{\numberline {5.1}Temperature regimes}{67}{section.5.1}
+\contentsline {section}{\numberline {5.2}Observation of the Dirac fluid and the breakdown of the Wiedemann-Franz law in graphene}{70}{section.5.2}
+\contentsline {section}{\numberline {5.3}Sample Fabrication}{80}{section.5.3}
+\contentsline {section}{\numberline {5.4}Optimizing samples for high frequency thermal conductivity measurements}{81}{section.5.4}
+\contentsline {section}{\numberline {5.5}Device Characterization}{82}{section.5.5}
+\contentsline {chapter}{\numberline {6}Hydrodynamic framework}{84}{chapter.6}
+\contentsline {section}{\numberline {6.1}Transport in inhomogeneous quantum critical fluids and in the Dirac fluid in graphene}{86}{section.6.1}
+\contentsline {subsection}{\numberline {6.1.1}Summary of Results}{89}{subsection.6.1.1}
+\contentsline {subsection}{\numberline {6.1.2}Outline}{94}{subsection.6.1.2}
+\contentsline {section}{\numberline {6.2}Transport Coefficients}{95}{section.6.2}
+\contentsline {section}{\numberline {6.3}Relativistic Hydrodynamics}{96}{section.6.3}
+\contentsline {subsection}{\numberline {6.3.1}Hydrodynamic Equations}{97}{subsection.6.3.1}
+\contentsline {subsection}{\numberline {6.3.2}Hydrodynamic Theory of Transport}{101}{subsection.6.3.2}
+\contentsline {section}{\numberline {6.4}The Dirac Fluid in Graphene}{105}{section.6.4}
+\contentsline {section}{\numberline {6.5}Numerical Results}{109}{section.6.5}
+\contentsline {subsection}{\numberline {6.5.1}Comparison to Experiment}{111}{subsection.6.5.1}
+\contentsline {section}{\numberline {6.6}Phonons in Graphene}{117}{section.6.6}
+\contentsline {section}{\numberline {6.7}Conclusions}{120}{section.6.7}
+\contentsline {chapter}{\numberline {7}Magneto-thermal transport}{123}{chapter.7}
+\contentsline {chapter}{\numberline {8}Conclusions and future work}{124}{chapter.8}
+\contentsline {chapter}{Appendix \numberline {A}Appendix}{125}{Appendix.1.A}
+\contentsline {section}{\numberline {A.1}Thermodynamics}{125}{section.1.A.1}
+\contentsline {subsection}{\numberline {A.1.1}Thermodynamics of Disordered Fluids}{127}{subsection.1.A.1.1}
+\contentsline {section}{\numberline {A.2}Rescaling Symmetries of dc Transport}{130}{section.1.A.2}
+\contentsline {section}{\numberline {A.3}Weak Disorder}{131}{section.1.A.3}
+\contentsline {section}{\numberline {A.4}Equations of State of the Dirac Fluid}{134}{section.1.A.4}
+\contentsline {section}{\numberline {A.5}Numerical Methods}{135}{section.1.A.5}
+\contentsline {subsection}{\numberline {A.5.1}Finite Size Effects}{137}{subsection.1.A.5.1}
+\contentsline {subsection}{\numberline {A.5.2}Dimensional Analysis}{138}{subsection.1.A.5.2}
+\contentsline {chapter}{References}{149}{chapter*.61}
