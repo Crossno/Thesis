@@ -10,7 +10,7 @@
 \contentsline {subsection}{\numberline {1.6.2}Multi-stage matching}{21}{subsection.1.6.2}
 \contentsline {section}{\numberline {1.7}Effective noise temperature}{26}{section.1.7}
 \contentsline {section}{\numberline {1.8}Calibration}{30}{section.1.8}
-\contentsline {section}{\numberline {1.9}Cross-correlated noise thermometry}{33}{section.1.9}
+\contentsline {section}{\numberline {1.9}Cross-correlated noise thermometry}{32}{section.1.9}
 \contentsline {subsection}{\numberline {1.9.1}multi-terminal cross-correlation}{36}{subsection.1.9.1}
 \contentsline {chapter}{\numberline {2}Electronic cooling mechanisms in graphene}{38}{chapter.2}
 \contentsline {section}{\numberline {2.1}Wiedemann-Franz}{39}{section.2.1}
@@ -18,7 +18,7 @@
 \contentsline {subsection}{\numberline {2.1.2}Hot-electron shot noise}{41}{subsection.2.1.2}
 \contentsline {section}{\numberline {2.2}Electron-Phonon coupling}{42}{section.2.2}
 \contentsline {subsection}{\numberline {2.2.1}Linearization}{43}{subsection.2.2.1}
-\contentsline {subsection}{\numberline {2.2.2}Bloch-Gr{\"u}neisen temperature}{43}{subsection.2.2.2}
+\contentsline {subsection}{\numberline {2.2.2}Bloch-Gr{\"u}neisen temperature}{44}{subsection.2.2.2}
 \contentsline {subsection}{\numberline {2.2.3}Acoustic phonons}{44}{subsection.2.2.3}
 \contentsline {subsection}{\numberline {2.2.4}Optical phonons}{45}{subsection.2.2.4}
 \contentsline {section}{\numberline {2.3}Photon cooling}{46}{section.2.3}
@@ -28,23 +28,33 @@
 \contentsline {subsection}{\numberline {3.1.1}Electronic conduction only}{52}{subsection.3.1.1}
 \contentsline {subsection}{\numberline {3.1.2}Phonon cooling only}{55}{subsection.3.1.2}
 \contentsline {section}{\numberline {3.2}Wedge devices}{55}{section.3.2}
-\contentsline {section}{\numberline {3.3}Arbitrary geometries: universality of ${"β}$}{57}{section.3.3}
+\contentsline {section}{\numberline {3.3}Arbitrary geometries: universality of $\beta $}{57}{section.3.3}
 \contentsline {section}{\numberline {3.4}Experimental setup}{61}{section.3.4}
-\contentsline {chapter}{\numberline {4}Hydrodynamic framework}{64}{chapter.4}
-\contentsline {section}{\numberline {4.1}Hydrodynamic framework}{64}{section.4.1}
-\contentsline {section}{\numberline {4.2}Experimental evidence}{65}{section.4.2}
-\contentsline {chapter}{\numberline {5}RF cryostats and circuitry}{66}{chapter.5}
-\contentsline {section}{\numberline {5.1}Janis}{67}{section.5.1}
-\contentsline {section}{\numberline {5.2}Oxford}{67}{section.5.2}
-\contentsline {section}{\numberline {5.3}Leiden}{67}{section.5.3}
-\contentsline {section}{\numberline {5.4}JNT circuits}{67}{section.5.4}
-\contentsline {chapter}{\numberline {6}Calibration of graphene devices}{68}{chapter.6}
-\contentsline {chapter}{\numberline {7}Thermal conductance in high density graphene}{69}{chapter.7}
-\contentsline {section}{\numberline {7.1}Device characteristics}{70}{section.7.1}
-\contentsline {section}{\numberline {7.2}Circuitry}{70}{section.7.2}
-\contentsline {section}{\numberline {7.3}Low temperature Wiedemann-franz}{70}{section.7.3}
-\contentsline {section}{\numberline {7.4}High temperature electron-phonon}{70}{section.7.4}
-\contentsline {chapter}{\numberline {8}The Dirac fluid}{71}{chapter.8}
-\contentsline {chapter}{\numberline {9}Magneto-thermal transport}{72}{chapter.9}
-\contentsline {chapter}{\numberline {10}Conclusions and future work}{73}{chapter.10}
-\contentsline {chapter}{References}{78}{chapter*.41}
+\contentsline {chapter}{\numberline {4}Thermal conductance in high density graphene}{64}{chapter.4}
+\contentsline {section}{\numberline {4.1}Device characteristics}{65}{section.4.1}
+\contentsline {section}{\numberline {4.2}Low temperature Wiedemann-Franz}{65}{section.4.2}
+\contentsline {section}{\numberline {4.3}High temperature electron-phonon}{65}{section.4.3}
+\contentsline {chapter}{\numberline {5}The Dirac fluid}{66}{chapter.5}
+\contentsline {section}{\numberline {5.1}Sample Fabrication}{77}{section.5.1}
+\contentsline {section}{\numberline {5.2}Optimizing samples for high frequency thermal conductivity measurements}{77}{section.5.2}
+\contentsline {section}{\numberline {5.3}Device Characterization}{79}{section.5.3}
+\contentsline {section}{\numberline {5.4}Johnson Noise Thermometry}{79}{section.5.4}
+\contentsline {section}{\numberline {5.5}Measuring electronic thermal conductance}{82}{section.5.5}
+\contentsline {section}{\numberline {5.6}Thermal model of graphene electrons}{83}{section.5.6}
+\contentsline {section}{\numberline {5.7}Measuring Thermal Conductivity}{84}{section.5.7}
+\contentsline {chapter}{\numberline {6}Hydrodynamic framework}{89}{chapter.6}
+\contentsline {section}{\numberline {6.1}Introduction}{90}{section.6.1}
+\contentsline {subsection}{\numberline {6.1.1}Summary of Results}{93}{subsection.6.1.1}
+\contentsline {subsection}{\numberline {6.1.2}Outline}{98}{subsection.6.1.2}
+\contentsline {section}{\numberline {6.2}Transport Coefficients}{98}{section.6.2}
+\contentsline {section}{\numberline {6.3}Relativistic Hydrodynamics}{100}{section.6.3}
+\contentsline {subsection}{\numberline {6.3.1}Hydrodynamic Equations}{101}{subsection.6.3.1}
+\contentsline {subsection}{\numberline {6.3.2}Hydrodynamic Theory of Transport}{105}{subsection.6.3.2}
+\contentsline {section}{\numberline {6.4}The Dirac Fluid in Graphene}{109}{section.6.4}
+\contentsline {section}{\numberline {6.5}Numerical Results}{113}{section.6.5}
+\contentsline {subsection}{\numberline {6.5.1}Comparison to Experiment}{115}{subsection.6.5.1}
+\contentsline {section}{\numberline {6.6}Phonons in Graphene}{121}{section.6.6}
+\contentsline {section}{\numberline {6.7}Conclusions}{124}{section.6.7}
+\contentsline {chapter}{\numberline {7}Magneto-thermal transport}{127}{chapter.7}
+\contentsline {chapter}{\numberline {8}Conclusions and future work}{128}{chapter.8}
+\contentsline {chapter}{References}{143}{chapter*.61}

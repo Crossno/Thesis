@@ -5,15 +5,15 @@ A level-1 auxiliary file: chapters/introduction.aux
 A level-1 auxiliary file: chapters/Johnson_noise_thermometry.aux
 A level-1 auxiliary file: chapters/Electronic_cooling_pathways_in_graphene.aux
 A level-1 auxiliary file: chapters/Thermal_conductance_via_electrical_noise.aux
-A level-1 auxiliary file: chapters/Hydrodynamic_theory_of_transport.aux
-A level-1 auxiliary file: chapters/RF_cryostats_and_circuitry.aux
-A level-1 auxiliary file: chapters/Calibration_of_graphene_devices.aux
 A level-1 auxiliary file: chapters/Thermal_conductance_in_high_density_graphene.aux
 A level-1 auxiliary file: chapters/The_Dirac_fluid.aux
+A level-1 auxiliary file: chapters/Hydrodynamic_theory_of_transport.aux
 A level-1 auxiliary file: chapters/Magneto-thermal_transport.aux
 A level-1 auxiliary file: chapters/Conclusions_and_future_work.aux
 The style file: apalike2.bst
 Database file #1: references.bib
+Warning--I didn't find a database entry for "einstein_investigations_2011"
+Warning--I didn't find a database entry for "johnson_thermal_1927"
 Warning--I didn't find a database entry for "rice"
 Warning--I didn't find a database entry for "fig:JNT_500measurements"
 Warning--I didn't find a database entry for "fig:schematic_matching"
@@ -27,52 +27,75 @@ Warning--I didn't find a database entry for "Henny:1999p2790"
 Warning--I didn't find a database entry for "Brophy:1965p2623"
 Warning--I didn't find a database entry for "*Klein:1978p2616"
 Warning--I didn't find a database entry for "Sampietro:2000p2679"
+Warning--I didn't find a database entry for "kittel_introduction_2004"
 Warning--I didn't find a database entry for "??"
 Warning--I didn't find a database entry for "prober"
 Warning--I didn't find a database entry for "mckitterick??"
+Warning--I didn't find a database entry for "franz_ueber_1853"
+Warning--I didn't find a database entry for "lorenz_bestimmung_1872"
 Warning--I didn't find a database entry for "sommerfeld"
+Warning--I didn't find a database entry for "mckitterick_prospects_2015"
+Warning--I didn't find a database entry for "steinbach_observation_1996"
+Warning--I didn't find a database entry for "de_jong_semiclassical_1996"
 Warning--I didn't find a database entry for "martinez??"
 Warning--I didn't find a database entry for "shaffique"
 Warning--I didn't find a database entry for "flexure"
-You've used 37 entries,
+Warning--I didn't find a database entry for "sohier_phonon-limited_2014"
+Warning--I didn't find a database entry for "bloch_zum_1930"
+Warning--I didn't find a database entry for "gruneisen_abhangigkeit_1933"
+Warning--I didn't find a database entry for "stormer_observation_1990"
+Warning--I didn't find a database entry for "low_cooling_2012"
+Warning--I didn't find a database entry for "tielrooij_out--plane_2017"
+Warning--I didn't find a database entry for "schmidt_photon-mediated_2004"
+Warning--I didn't find a database entry for "yigen_wiedemann-franz_2014"
+Warning--I didn't find a database entry for "weber_observation_437"
+Warning--I didn't find a database entry for "yang_doppler_153"
+Warning--I didn't find a database entry for "pines"
+Warning--I didn't find a database entry for "dsz"
+Warning--I didn't find a database entry for "geim2005"
+Warning--I didn't find a database entry for "kim2005"
+Warning--empty journal in cooper_anomalous_323
+Warning--empty journal in mckitterick_electron-phonon_2015
+Warning--empty publisher in nolas_thermal_2004
+You've used 111 entries,
             2229 wiz_defined-function locations,
-            788 strings with 11343 characters,
-and the built_in function-call counts, 15640 in all, are:
-= -- 1494
-> -- 748
-< -- 22
-+ -- 266
-- -- 260
-* -- 1455
-:= -- 2775
-add.period$ -- 116
-call.type$ -- 37
-change.case$ -- 313
-chr.to.int$ -- 37
-cite$ -- 37
-duplicate$ -- 514
-empty$ -- 1034
-format.name$ -- 315
-if$ -- 2968
-int.to.chr$ -- 1
+            1165 strings with 25366 characters,
+and the built_in function-call counts, 50223 in all, are:
+= -- 4684
+> -- 2708
+< -- 51
++ -- 969
+- -- 956
+* -- 4840
+:= -- 8887
+add.period$ -- 336
+call.type$ -- 111
+change.case$ -- 1032
+chr.to.int$ -- 110
+cite$ -- 114
+duplicate$ -- 1562
+empty$ -- 3190
+format.name$ -- 1137
+if$ -- 9501
+int.to.chr$ -- 2
 int.to.str$ -- 0
-missing$ -- 40
-newline$ -- 193
-num.names$ -- 111
-pop$ -- 230
+missing$ -- 115
+newline$ -- 561
+num.names$ -- 333
+pop$ -- 785
 preamble$ -- 1
-purify$ -- 315
+purify$ -- 1033
 quote$ -- 0
-skip$ -- 389
+skip$ -- 1169
 stack$ -- 0
-substring$ -- 1101
-swap$ -- 37
-text.length$ -- 0
+substring$ -- 3440
+swap$ -- 118
+text.length$ -- 1
 text.prefix$ -- 0
 top$ -- 0
-type$ -- 214
-warning$ -- 0
-while$ -- 122
+type$ -- 658
+warning$ -- 3
+while$ -- 365
 width$ -- 0
-write$ -- 495
-(There were 20 warnings)
+write$ -- 1451
+(There were 45 warnings)

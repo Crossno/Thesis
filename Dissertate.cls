@@ -76,19 +76,21 @@
 \usepackage{sidecap}
 \usepackage{bm} % bold math
 \usepackage{amsmath, amsthm}
+\usepackage{isomath}
 \usepackage{perpage} %the perpage package
 \MakePerPage{footnote} %the perpage package command
 \def\sL{\mathcal{L}}
 \def\sG{\mathcal{G}}
 \def\Watt{\mathrm{W}}
 \def\Qdot{\dot{\mathrm{Q}}}
-\def\de{\mathrm{\delta}}
-\def\p{\mathrm{\rho}}
-\def\m{\mathrm{\mu}}
 \def\Gth{G_{\mathrm{th}}}
 \def\DTave{\langle\Delta T\rangle}
-\def\DTJN{\Delta T_{\mathrm{JN}}}
-\def\kap{\mathrm{\kappa}}
+\def\DTJN{\Delta T_{JN}}
+\newcommand\unslant[2][-.25]{\slantbox[#1]{$#2$}}
+\newcommand{\mmu}{\text{\unslant\mu}}
+\newcommand{\mpi}{\text{\unslant[-.18]\pi}}
+\newcommand{\mdelta}{\text{\unslant[-.18]\delta}}
+\newcommand{\mzeta}{\text{\unslant[-.15]\zeta}}
 
 
 % Fonts
@@ -98,7 +100,7 @@
 \RequirePackage{url}
 \RequirePackage{amssymb}
 \RequirePackage{mathspec}
-\setmathsfont(Digits,Latin,Greek)[Numbers={Lining,Proportional}]{EB Garamond}
+%\setmathsfont(Digits,Latin,Greek)[Numbers={Lining,Proportional}]{EB Garamond}
 \setmathrm{EB Garamond}
 \AtBeginEnvironment{tabular}{\addfontfeature{RawFeature=+tnum}}
 \widowpenalty=300
@@ -269,7 +271,7 @@
 	\pagenumbering{roman}
 	\setcounter{page}{3}
 	\pagestyle{fancy}
-	\lhead{Thesis advisor: Professor \@advisor} \rhead{\@author}
+	\lhead{Dissertation advisor: Professor \@advisor} \rhead{\@author}
 	\renewcommand{\headrulewidth}{0.0pt}
 	\vspace*{35pt}
 	\begin{center}
