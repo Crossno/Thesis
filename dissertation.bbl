@@ -539,6 +539,12 @@ Siegel, D., Regan, W., Fedorov, A., Zettl, A., \& Lanzara, A. (2013).
 \newblock Charge-{Carrier} {Screening} in {Single}-{Layer} {Graphene}.
 \newblock {\em Physical Review Letters}, 110(14), 146802.
 
+\bibitem[Smith et~al., 2004]{smith_domain_2004}
+Smith, B., Bjorstad, P., \& Gropp, W. (2004).
+\newblock {\em Domain {Decomposition}: {Parallel} {Multilevel} {Methods} for
+  {Elliptic} {Partial} {Differential} {Equations}}.
+\newblock Cambridge: Cambridge University Press.
+
 \bibitem[Smith et~al., 2008]{smith_marginal_2008}
 Smith, R.~P., Sutherland, M., Lonzarich, G.~G., Saxena, S.~S., Kimura, N.,
   Takashima, S., Nohara, M., \& Takagi, H. (2008).
@@ -574,6 +580,12 @@ Tomadin, A., Vignale, G., \& Polini, M. (2014).
 Torre, I., Tomadin, A., Geim, A.~K., \& Polini, M. (2015).
 \newblock Nonlocal transport and the hydrodynamic shear viscosity in graphene.
 \newblock {\em Physical Review B}, 92(16), 165433.
+
+\bibitem[Trefethen, 2001]{trefethen_spectral_2001}
+Trefethen, L.~N. (2001).
+\newblock {\em Spectral {Methods} in {MATLAB}}.
+\newblock Philadelphia, PA: SIAM: Society for Industrial and Applied
+  Mathematics, 62026th edition edition.
 
 \bibitem[Vafek, 2007]{vafek_anomalous_2007}
 Vafek, O. (2007).

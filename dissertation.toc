@@ -57,4 +57,13 @@
 \contentsline {section}{\numberline {6.7}Conclusions}{124}{section.6.7}
 \contentsline {chapter}{\numberline {7}Magneto-thermal transport}{127}{chapter.7}
 \contentsline {chapter}{\numberline {8}Conclusions and future work}{128}{chapter.8}
-\contentsline {chapter}{References}{143}{chapter*.61}
+\contentsline {chapter}{Appendix \numberline {A}Appendix}{129}{Appendix.1.A}
+\contentsline {section}{\numberline {A.1}Thermodynamics}{129}{section.1.A.1}
+\contentsline {subsection}{\numberline {A.1.1}Thermodynamics of Disordered Fluids}{131}{subsection.1.A.1.1}
+\contentsline {section}{\numberline {A.2}Rescaling Symmetries of dc Transport}{134}{section.1.A.2}
+\contentsline {section}{\numberline {A.3}Weak Disorder}{135}{section.1.A.3}
+\contentsline {section}{\numberline {A.4}Equations of State of the Dirac Fluid}{138}{section.1.A.4}
+\contentsline {section}{\numberline {A.5}Numerical Methods}{139}{section.1.A.5}
+\contentsline {subsection}{\numberline {A.5.1}Finite Size Effects}{141}{subsection.1.A.5.1}
+\contentsline {subsection}{\numberline {A.5.2}Dimensional Analysis}{142}{subsection.1.A.5.2}
+\contentsline {chapter}{References}{153}{chapter*.64}

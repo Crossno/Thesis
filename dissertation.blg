@@ -10,7 +10,9 @@ A level-1 auxiliary file: chapters/The_Dirac_fluid.aux
 A level-1 auxiliary file: chapters/Hydrodynamic_theory_of_transport.aux
 A level-1 auxiliary file: chapters/Magneto-thermal_transport.aux
 A level-1 auxiliary file: chapters/Conclusions_and_future_work.aux
+A level-1 auxiliary file: chapters/appendixA.aux
 The style file: apalike2.bst
+A level-1 auxiliary file: endmatter/colophon.aux
 Database file #1: references.bib
 Warning--I didn't find a database entry for "einstein_investigations_2011"
 Warning--I didn't find a database entry for "johnson_thermal_1927"
@@ -54,48 +56,49 @@ Warning--I didn't find a database entry for "pines"
 Warning--I didn't find a database entry for "dsz"
 Warning--I didn't find a database entry for "geim2005"
 Warning--I didn't find a database entry for "kim2005"
+Warning--I didn't find a database entry for "lucas"
 Warning--empty journal in cooper_anomalous_323
 Warning--empty journal in mckitterick_electron-phonon_2015
 Warning--empty publisher in nolas_thermal_2004
-You've used 111 entries,
+You've used 113 entries,
             2229 wiz_defined-function locations,
-            1165 strings with 25366 characters,
-and the built_in function-call counts, 50223 in all, are:
-= -- 4684
-> -- 2708
-< -- 51
-+ -- 969
-- -- 956
-* -- 4840
-:= -- 8887
-add.period$ -- 336
-call.type$ -- 111
-change.case$ -- 1032
-chr.to.int$ -- 110
-cite$ -- 114
-duplicate$ -- 1562
-empty$ -- 3190
-format.name$ -- 1137
-if$ -- 9501
+            1178 strings with 25757 characters,
+and the built_in function-call counts, 50855 in all, are:
+= -- 4743
+> -- 2733
+< -- 52
++ -- 977
+- -- 964
+* -- 4888
+:= -- 9004
+add.period$ -- 342
+call.type$ -- 113
+change.case$ -- 1045
+chr.to.int$ -- 112
+cite$ -- 116
+duplicate$ -- 1590
+empty$ -- 3236
+format.name$ -- 1147
+if$ -- 9624
 int.to.chr$ -- 2
 int.to.str$ -- 0
-missing$ -- 115
-newline$ -- 561
-num.names$ -- 333
-pop$ -- 785
+missing$ -- 119
+newline$ -- 571
+num.names$ -- 339
+pop$ -- 801
 preamble$ -- 1
-purify$ -- 1033
+purify$ -- 1047
 quote$ -- 0
-skip$ -- 1169
+skip$ -- 1188
 stack$ -- 0
-substring$ -- 3440
-swap$ -- 118
+substring$ -- 3464
+swap$ -- 120
 text.length$ -- 1
 text.prefix$ -- 0
 top$ -- 0
-type$ -- 658
+type$ -- 666
 warning$ -- 3
-while$ -- 365
+while$ -- 369
 width$ -- 0
-write$ -- 1451
-(There were 45 warnings)
+write$ -- 1478
+(There were 46 warnings)
