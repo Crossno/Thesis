@@ -59,45 +59,45 @@ Warning--I didn't find a database entry for "lucas"
 Warning--empty journal in cooper_anomalous_323
 Warning--empty journal in mckitterick_electron-phonon_2015
 Warning--empty publisher in nolas_thermal_2004
-You've used 114 entries,
+You've used 115 entries,
             2229 wiz_defined-function locations,
-            1184 strings with 25957 characters,
-and the built_in function-call counts, 51298 in all, are:
-= -- 4784
-> -- 2755
-< -- 52
-+ -- 985
-- -- 972
-* -- 4927
-:= -- 9082
-add.period$ -- 345
-call.type$ -- 114
-change.case$ -- 1054
-chr.to.int$ -- 113
-cite$ -- 117
-duplicate$ -- 1608
-empty$ -- 3270
-format.name$ -- 1154
-if$ -- 9712
+            1188 strings with 26109 characters,
+and the built_in function-call counts, 51702 in all, are:
+= -- 4826
+> -- 2768
+< -- 53
++ -- 989
+- -- 976
+* -- 4964
+:= -- 9150
+add.period$ -- 348
+call.type$ -- 115
+change.case$ -- 1061
+chr.to.int$ -- 114
+cite$ -- 118
+duplicate$ -- 1622
+empty$ -- 3300
+format.name$ -- 1161
+if$ -- 9791
 int.to.chr$ -- 2
 int.to.str$ -- 0
-missing$ -- 120
-newline$ -- 576
-num.names$ -- 342
-pop$ -- 813
+missing$ -- 121
+newline$ -- 581
+num.names$ -- 345
+pop$ -- 817
 preamble$ -- 1
-purify$ -- 1056
+purify$ -- 1063
 quote$ -- 0
-skip$ -- 1196
+skip$ -- 1207
 stack$ -- 0
-substring$ -- 3488
-swap$ -- 121
+substring$ -- 3525
+swap$ -- 122
 text.length$ -- 1
 text.prefix$ -- 0
 top$ -- 0
-type$ -- 672
+type$ -- 678
 warning$ -- 3
-while$ -- 371
+while$ -- 375
 width$ -- 0
-write$ -- 1492
+write$ -- 1505
 (There were 46 warnings)
