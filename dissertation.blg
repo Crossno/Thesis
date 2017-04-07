@@ -11,93 +11,50 @@ A level-1 auxiliary file: chapters/Hydrodynamic_theory_of_transport.aux
 A level-1 auxiliary file: chapters/Magneto-thermal_transport.aux
 A level-1 auxiliary file: chapters/Conclusions_and_future_work.aux
 A level-1 auxiliary file: chapters/appendixA.aux
-The style file: apalike2.bst
-Database file #1: references.bib
-Warning--I didn't find a database entry for "einstein_investigations_2011"
-Warning--I didn't find a database entry for "johnson_thermal_1927"
-Warning--I didn't find a database entry for "rice"
-Warning--I didn't find a database entry for "fig:JNT_500measurements"
-Warning--I didn't find a database entry for "fig:schematic_matching"
-Warning--I didn't find a database entry for "fig:S11_3Rs"
-Warning--I didn't find a database entry for "?"
-Warning--I didn't find a database entry for "weinreb's_talk??"
-Warning--I didn't find a database entry for "Glattli:1997"
-Warning--I didn't find a database entry for "Glattli:1997p7350"
-Warning--I didn't find a database entry for "DiCarlo:2006p2620"
-Warning--I didn't find a database entry for "Henny:1999p2790"
-Warning--I didn't find a database entry for "Brophy:1965p2623"
-Warning--I didn't find a database entry for "*Klein:1978p2616"
-Warning--I didn't find a database entry for "Sampietro:2000p2679"
-Warning--I didn't find a database entry for "kittel_introduction_2004"
-Warning--I didn't find a database entry for "??"
-Warning--I didn't find a database entry for "prober"
-Warning--I didn't find a database entry for "mckitterick??"
-Warning--I didn't find a database entry for "franz_ueber_1853"
-Warning--I didn't find a database entry for "lorenz_bestimmung_1872"
-Warning--I didn't find a database entry for "sommerfeld"
-Warning--I didn't find a database entry for "mckitterick_prospects_2015"
-Warning--I didn't find a database entry for "steinbach_observation_1996"
-Warning--I didn't find a database entry for "de_jong_semiclassical_1996"
-Warning--I didn't find a database entry for "martinez??"
-Warning--I didn't find a database entry for "shaffique"
-Warning--I didn't find a database entry for "flexure"
-Warning--I didn't find a database entry for "sohier_phonon-limited_2014"
-Warning--I didn't find a database entry for "bloch_zum_1930"
-Warning--I didn't find a database entry for "gruneisen_abhangigkeit_1933"
-Warning--I didn't find a database entry for "stormer_observation_1990"
-Warning--I didn't find a database entry for "low_cooling_2012"
-Warning--I didn't find a database entry for "tielrooij_out--plane_2017"
-Warning--I didn't find a database entry for "schmidt_photon-mediated_2004"
-Warning--I didn't find a database entry for "yigen_wiedemann-franz_2014"
-Warning--I didn't find a database entry for "weber_observation_437"
-Warning--I didn't find a database entry for "yang_doppler_153"
-Warning--I didn't find a database entry for "pines"
-Warning--I didn't find a database entry for "dsz"
-Warning--I didn't find a database entry for "geim2005"
-Warning--I didn't find a database entry for "kim2005"
-Warning--I didn't find a database entry for "lucas"
-Warning--empty journal in cooper_anomalous_323
-Warning--empty journal in mckitterick_electron-phonon_2015
-Warning--empty publisher in nolas_thermal_2004
-You've used 115 entries,
-            2229 wiz_defined-function locations,
-            1188 strings with 26109 characters,
-and the built_in function-call counts, 51702 in all, are:
-= -- 4826
-> -- 2768
-< -- 53
-+ -- 989
-- -- 976
-* -- 4964
-:= -- 9150
-add.period$ -- 348
-call.type$ -- 115
-change.case$ -- 1061
-chr.to.int$ -- 114
-cite$ -- 118
-duplicate$ -- 1622
-empty$ -- 3300
-format.name$ -- 1161
-if$ -- 9791
-int.to.chr$ -- 2
+White space in argument---line 39 of file dissertation.aux
+ : \bibstyle{apalike2,
+ :                     unsrtnat}
+I'm skipping whatever remains of this command
+I found no style file---while reading file dissertation.aux
+You've used 143 entries,
+            0 wiz_defined-function locations,
+            237 strings with 4067 characters,
+and the built_in function-call counts, 0 in all, are:
+= -- 0
+> -- 0
+< -- 0
++ -- 0
+- -- 0
+* -- 0
+:= -- 0
+add.period$ -- 0
+call.type$ -- 0
+change.case$ -- 0
+chr.to.int$ -- 0
+cite$ -- 0
+duplicate$ -- 0
+empty$ -- 0
+format.name$ -- 0
+if$ -- 0
+int.to.chr$ -- 0
 int.to.str$ -- 0
-missing$ -- 121
-newline$ -- 581
-num.names$ -- 345
-pop$ -- 817
-preamble$ -- 1
-purify$ -- 1063
+missing$ -- 0
+newline$ -- 0
+num.names$ -- 0
+pop$ -- 0
+preamble$ -- 0
+purify$ -- 0
 quote$ -- 0
-skip$ -- 1207
+skip$ -- 0
 stack$ -- 0
-substring$ -- 3525
-swap$ -- 122
-text.length$ -- 1
+substring$ -- 0
+swap$ -- 0
+text.length$ -- 0
 text.prefix$ -- 0
 top$ -- 0
-type$ -- 678
-warning$ -- 3
-while$ -- 375
+type$ -- 0
+warning$ -- 0
+while$ -- 0
 width$ -- 0
-write$ -- 1505
-(There were 46 warnings)
+write$ -- 0
+(There were 2 error messages)

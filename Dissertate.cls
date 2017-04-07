@@ -73,6 +73,9 @@
 \RequirePackage{verbatim}
 
 %stuff I added
+\usepackage{tocstyle} %for long chapters in toc
+\usetocstyle{standard}
+\settocfeature{raggedhook}{\raggedright}
 \usepackage[export]{adjustbox} %aligning figures
 \usepackage{sidecap}
 \usepackage{bm} % bold math
@@ -317,8 +320,9 @@
     \input{endmatter/personalize}
     \clearpage
     \begin{spacing}{\dcompressedspacing}
-        \bibliography{references}
-        \addcontentsline{toc}{chapter}{References}
+        \addcontentsline{toc}{chapter}{References}      
+		%\bibliographystyle{unsrtnat} %added to make references appear in order
         \bibliographystyle{apalike2}
+        \bibliography{references}
     \end{spacing}
 }

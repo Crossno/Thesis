@@ -1,4 +1,4 @@
-This is XeTeX, Version 3.14159265-2.6-0.99996 (TeX Live 2016) (preloaded format=xelatex 2017.3.13)  4 APR 2017 21:00
+This is XeTeX, Version 3.14159265-2.6-0.99996 (TeX Live 2016) (preloaded format=xelatex 2017.3.13)  6 APR 2017 19:21
 entering extended mode
  restricted \write18 enabled.
  %&-line parsing enabled.
@@ -148,6 +148,29 @@ Package: verbatim 2014/10/28 v1.5q LaTeX2e package for verbatim enhancements
 \verbatim@line=\toks17
 \verbatim@in@stream=\read1
 )
+(/usr/local/texlive/2016/texmf-dist/tex/latex/koma-script/tocstyle.sty
+Package: tocstyle 2016/04/12 v0.2h-alpha KOMA-Script package (versatile toc sty
+les)
+
+
+Package tocstyle Warning: THIS IS AN ALPHA VERSION!
+(tocstyle)                USAGE OF THIS VERSION IS ON YOUR OWN RISK!
+(tocstyle)                EVERYTHING MAY HAPPEN!
+(tocstyle)                EVERYTHING MAY CHANGE IN FUTURE!
+(tocstyle)                THERE IS NO SUPPORT, IF YOU USE THIS PACKAGE!
+(tocstyle)                Maybe it would be better, not to load this package.
+
+\tocstyle@indentstyle=\count96
+Package tocstyle Info: no tocstyle.cfg found on input line 956.
+)
+exclude: 
+exclude: 
+exclude: 
+exclude: 
+exclude: 
+exclude: 
+exclude: 
+exclude: 
 (/usr/local/texlive/2016/texmf-dist/tex/latex/adjustbox/adjustbox.sty
 Package: adjustbox 2012/05/21 v1.0 Adjusting TeX boxes (trim, clip, ...)
 
@@ -159,7 +182,7 @@ Package: xkeyval 2014/12/03 v2.7a package option processing (HA)
 \XKV@toks=\toks18
 \XKV@tempa@toks=\toks19
 )
-\XKV@depth=\count96
+\XKV@depth=\count97
 File: xkeyval.tex 2014/12/03 v2.7a key=value parser (HA)
 ))
 (/usr/local/texlive/2016/texmf-dist/tex/latex/adjustbox/adjcalc.sty
@@ -189,12 +212,12 @@ File: tc-xetex.def 2012/05/13 v1.0 Clipping driver for xetex
 
 (/usr/local/texlive/2016/texmf-dist/tex/latex/ifoddpage/ifoddpage.sty
 Package: ifoddpage 2016/04/23 v1.1 Conditionals for odd/even page detection
-\c@checkoddpage=\count97
+\c@checkoddpage=\count98
 )
 (/usr/local/texlive/2016/texmf-dist/tex/latex/varwidth/varwidth.sty
 Package: varwidth 2009/03/30 ver 0.92;  Variable-width minipages
 \@vwid@box=\box29
-\sift@deathcycles=\count98
+\sift@deathcycles=\count99
 \@vwid@loff=\dimen137
 \@vwid@roff=\dimen138
 ))
@@ -208,7 +231,7 @@ Package: ifthen 2014/09/29 v1.1c Standard LaTeX ifthen package (DPC)
 \SC@CAPWD=\dimen140
 \SC@tempdima=\dimen141
 \SC@tempdimb=\dimen142
-\c@SC@C=\count99
+\c@SC@C=\count100
 \SC@BOX=\box30
 )
 (/usr/local/texlive/2016/texmf-dist/tex/latex/tools/bm.sty
@@ -240,13 +263,13 @@ LaTeX Info: Redefining \boldsymbol on input line 28.
 (/usr/local/texlive/2016/texmf-dist/tex/latex/amsmath/amsopn.sty
 Package: amsopn 2016/03/08 v2.02 operator names
 )
-\inf@bad=\count100
+\inf@bad=\count101
 LaTeX Info: Redefining \frac on input line 213.
-\uproot@=\count101
-\leftroot@=\count102
+\uproot@=\count102
+\leftroot@=\count103
 LaTeX Info: Redefining \overline on input line 375.
-\classnum@=\count103
-\DOTSCASE@=\count104
+\classnum@=\count104
+\DOTSCASE@=\count105
 LaTeX Info: Redefining \ldots on input line 472.
 LaTeX Info: Redefining \dots on input line 475.
 LaTeX Info: Redefining \cdots on input line 596.
@@ -255,15 +278,15 @@ LaTeX Info: Redefining \cdots on input line 596.
 \big@size=\dimen145
 LaTeX Font Info:    Redeclaring font encoding OML on input line 712.
 LaTeX Font Info:    Redeclaring font encoding OMS on input line 713.
-\macc@depth=\count105
-\c@MaxMatrixCols=\count106
+\macc@depth=\count106
+\c@MaxMatrixCols=\count107
 \dotsspace@=\muskip10
-\c@parentequation=\count107
-\dspbrk@lvl=\count108
+\c@parentequation=\count108
+\dspbrk@lvl=\count109
 \tag@help=\toks21
-\row@=\count109
-\column@=\count110
-\maxfields@=\count111
+\row@=\count110
+\column@=\count111
+\maxfields@=\count112
 \andhelp@=\toks22
 \eqnshift@=\dimen146
 \alignsep@=\dimen147
@@ -362,9 +385,9 @@ Package etexcmds Info: Could not find \expanded.
 ))))
 (/usr/local/texlive/2016/texmf-dist/tex/latex/bigfoot/perpage.sty
 Package: perpage 2014/10/25 2.0 Reset/sort counters per page
-\c@abspage=\count112
+\c@abspage=\count113
 )
-\c@pp@a@footnote=\count113
+\c@pp@a@footnote=\count114
 
 (/usr/local/texlive/2016/texmf-dist/tex/latex/graphics/color.sty
 Package: color 2016/07/10 v1.1e Standard LaTeX Color (DPC)
@@ -436,13 +459,13 @@ Package: hycolor 2016/05/16 v1.8 Color options for hyperref/bookmark (HO)
 Package: auxhook 2016/05/16 v1.4 Hooks for auxiliary files (HO)
 )
 \@linkdim=\dimen152
-\Hy@linkcounter=\count114
-\Hy@pagecounter=\count115
+\Hy@linkcounter=\count115
+\Hy@pagecounter=\count116
 
 (/usr/local/texlive/2016/texmf-dist/tex/latex/hyperref/pd1enc.def
 File: pd1enc.def 2017/03/14 v6.85a Hyperref: PDFDocEncoding definition (HO)
 )
-\Hy@SavedSpaceFactor=\count116
+\Hy@SavedSpaceFactor=\count117
 
 (/usr/local/texlive/2016/texmf-dist/tex/latex/latexconfig/hyperref.cfg
 File: hyperref.cfg 2002/06/06 v1.2 hyperref configuration of TeXLive
@@ -454,7 +477,7 @@ Package hyperref Info: Plain pages OFF on input line 4513.
 Package hyperref Info: Backreferencing OFF on input line 4518.
 Package hyperref Info: Implicit mode ON; LaTeX internals redefined.
 Package hyperref Info: Bookmarks ON on input line 4751.
-\c@Hy@tempcnt=\count117
+\c@Hy@tempcnt=\count118
 
 (/usr/local/texlive/2016/texmf-dist/tex/latex/url/url.sty
 \Urlmuskip=\muskip11
@@ -462,7 +485,7 @@ Package: url 2013/09/16  ver 3.4  Verb mode for urls, etc.
 )
 LaTeX Info: Redefining \url on input line 5104.
 \XeTeXLinkMargin=\dimen153
-\Fld@menulength=\count118
+\Fld@menulength=\count119
 \Field@Width=\dimen154
 \Fld@charsize=\dimen155
 Package hyperref Info: Hyper figures OFF on input line 6358.
@@ -474,9 +497,9 @@ Package hyperref Info: Link coloring with OCG OFF on input line 6383.
 Package hyperref Info: PDF/A mode OFF on input line 6388.
 LaTeX Info: Redefining \ref on input line 6428.
 LaTeX Info: Redefining \pageref on input line 6432.
-\Hy@abspage=\count119
-\c@Item=\count120
-\c@Hfootnote=\count121
+\Hy@abspage=\count120
+\c@Item=\count121
+\c@Hfootnote=\count122
 )
 
 Package hyperref Message: Driver (autodetected): hxetex.
@@ -492,10 +515,10 @@ Package: stringenc 2016/05/16 v1.11 Convert strings between diff. encodings (HO
 )
 )
 \pdfm@box=\box33
-\c@Hy@AnnotLevel=\count122
-\HyField@AnnotCount=\count123
-\Fld@listcount=\count124
-\c@bookmark@seq@number=\count125
+\c@Hy@AnnotLevel=\count123
+\HyField@AnnotCount=\count124
+\Fld@listcount=\count125
+\c@bookmark@seq@number=\count126
 
 (/usr/local/texlive/2016/texmf-dist/tex/latex/oberdiek/rerunfilecheck.sty
 Package: rerunfilecheck 2016/05/16 v1.8 Rerun checks for auxiliary files (HO)
@@ -528,17 +551,17 @@ Package: expl3 2017/03/18 v7019 L3 programming layer (loader)
 
 (/usr/local/texlive/2016/texmf-dist/tex/latex/l3kernel/expl3-code.tex
 Package: expl3 2017/03/18 v7019 L3 programming layer (code)
-\c_max_int=\count126
-\l_tmpa_int=\count127
-\l_tmpb_int=\count128
-\g_tmpa_int=\count129
-\g_tmpb_int=\count130
-\g__prg_map_int=\count131
-\c_log_iow=\count132
-\l_iow_line_count_int=\count133
-\l__iow_line_target_int=\count134
-\l__iow_one_indent_int=\count135
-\l__iow_indent_int=\count136
+\c_max_int=\count127
+\l_tmpa_int=\count128
+\l_tmpb_int=\count129
+\g_tmpa_int=\count130
+\g_tmpb_int=\count131
+\g__prg_map_int=\count132
+\c_log_iow=\count133
+\l_iow_line_count_int=\count134
+\l__iow_line_target_int=\count135
+\l__iow_one_indent_int=\count136
+\l__iow_indent_int=\count137
 \c_zero_dim=\dimen156
 \c_max_dim=\dimen157
 \l_tmpa_dim=\dimen158
@@ -557,27 +580,27 @@ Package: expl3 2017/03/18 v7019 L3 programming layer (code)
 \l_tmpb_muskip=\muskip15
 \g_tmpa_muskip=\muskip16
 \g_tmpb_muskip=\muskip17
-\l_keys_choice_int=\count137
-\c__fp_leading_shift_int=\count138
-\c__fp_middle_shift_int=\count139
-\c__fp_trailing_shift_int=\count140
-\c__fp_big_leading_shift_int=\count141
-\c__fp_big_middle_shift_int=\count142
-\c__fp_big_trailing_shift_int=\count143
-\c__fp_Bigg_leading_shift_int=\count144
-\c__fp_Bigg_middle_shift_int=\count145
-\c__fp_Bigg_trailing_shift_int=\count146
-\l__sort_length_int=\count147
-\l__sort_min_int=\count148
-\l__sort_top_int=\count149
-\l__sort_max_int=\count150
-\l__sort_true_max_int=\count151
-\l__sort_block_int=\count152
-\l__sort_begin_int=\count153
-\l__sort_end_int=\count154
-\l__sort_A_int=\count155
-\l__sort_B_int=\count156
-\l__sort_C_int=\count157
+\l_keys_choice_int=\count138
+\c__fp_leading_shift_int=\count139
+\c__fp_middle_shift_int=\count140
+\c__fp_trailing_shift_int=\count141
+\c__fp_big_leading_shift_int=\count142
+\c__fp_big_middle_shift_int=\count143
+\c__fp_big_trailing_shift_int=\count144
+\c__fp_Bigg_leading_shift_int=\count145
+\c__fp_Bigg_middle_shift_int=\count146
+\c__fp_Bigg_trailing_shift_int=\count147
+\l__sort_length_int=\count148
+\l__sort_min_int=\count149
+\l__sort_top_int=\count150
+\l__sort_max_int=\count151
+\l__sort_true_max_int=\count152
+\l__sort_block_int=\count153
+\l__sort_begin_int=\count154
+\l__sort_end_int=\count155
+\l__sort_A_int=\count156
+\l__sort_B_int=\count157
+\l__sort_C_int=\count158
 \c_empty_box=\box34
 \l_tmpa_box=\box35
 \l_tmpb_box=\box36
@@ -625,25 +648,25 @@ File: l3xdvidpfmx.def 2017/03/18 v7019 L3 Experimental driver: xdvipdfmx
 ))
 (/usr/local/texlive/2016/texmf-dist/tex/latex/l3packages/xparse/xparse.sty
 Package: xparse 2017/03/18 v7019 L3 Experimental document command parser
-\l__xparse_current_arg_int=\count158
-\g__xparse_grabber_int=\count159
-\l__xparse_m_args_int=\count160
-\l__xparse_mandatory_args_int=\count161
-\l__xparse_v_nesting_int=\count162
+\l__xparse_current_arg_int=\count159
+\g__xparse_grabber_int=\count160
+\l__xparse_m_args_int=\count161
+\l__xparse_mandatory_args_int=\count162
+\l__xparse_v_nesting_int=\count163
 )
 Package: fontspec 2017/02/12 v2.6 Font selection for XeLaTeX and LuaLaTeX
 
 (/usr/local/texlive/2016/texmf-dist/tex/latex/fontspec/fontspec-xetex.sty
 Package: fontspec-xetex 2017/02/12 v2.6 Font selection for XeLaTeX and LuaLaTeX
 
-\l__fontspec_script_int=\count163
-\l__fontspec_language_int=\count164
-\l__fontspec_strnum_int=\count165
-\l__fontspec_tmp_int=\count166
-\l__fontspec_em_int=\count167
-\l__fontspec_emdef_int=\count168
-\l__fontspec_strong_int=\count169
-\l__fontspec_strongdef_int=\count170
+\l__fontspec_script_int=\count164
+\l__fontspec_language_int=\count165
+\l__fontspec_strnum_int=\count166
+\l__fontspec_tmp_int=\count167
+\l__fontspec_em_int=\count168
+\l__fontspec_emdef_int=\count169
+\l__fontspec_strong_int=\count170
+\l__fontspec_strongdef_int=\count171
 \l__fontspec_tmpa_dim=\dimen187
 \l__fontspec_tmpb_dim=\dimen188
 \l__fontspec_tmpc_dim=\dimen189
@@ -821,11 +844,11 @@ LaTeX Info: Redefining \- on input line 3707.
 . Defining command \liningnums with sig. 'm' on line 3806.
 .................................................
 ))
-\c@eu@=\count171
-\c@eu@i=\count172
-\c@mkern=\count173
+\c@eu@=\count172
+\c@eu@i=\count173
+\c@mkern=\count174
 )
-\g__fontspec_family_EBGaramond_int=\count174
+\g__fontspec_family_EBGaramond_int=\count175
 .................................................
 . fontspec info: "no-font-shape"
 . 
@@ -851,21 +874,21 @@ LaTeX Info: Redefining \- on input line 3707.
 . - 'bold italic small caps'  (bx/itsc) with NFSS spec.: <->"EB
 . Garamond/BI/OT:script=latn;language=DFLT;+smcp;"
 .................................................
-LaTeX Font Info:    Redeclaring math alphabet \mathrm on input line 100.
+LaTeX Font Info:    Redeclaring math alphabet \mathrm on input line 103.
 LaTeX Font Info:    Overwriting math alphabet `\mathrm' in version `bold'
 (Font)                  TU/EBGaramond(0)/m/n --> TU/EBGaramond(0)/bx/n on input
- line 100.
-LaTeX Font Info:    Redeclaring math alphabet \mathit on input line 100.
+ line 103.
+LaTeX Font Info:    Redeclaring math alphabet \mathit on input line 103.
 LaTeX Font Info:    Overwriting math alphabet `\mathit' in version `normal'
 (Font)                  OT1/cmr/m/it --> TU/EBGaramond(0)/m/it on input line 10
-0.
+3.
 LaTeX Font Info:    Overwriting math alphabet `\mathit' in version `bold'
 (Font)                  OT1/cmr/bx/it --> TU/EBGaramond(0)/m/it on input line 1
-00.
-LaTeX Font Info:    Redeclaring math alphabet \mathbf on input line 100.
+03.
+LaTeX Font Info:    Redeclaring math alphabet \mathbf on input line 103.
 LaTeX Font Info:    Overwriting math alphabet `\mathit' in version `bold'
 (Font)                  TU/EBGaramond(0)/m/it --> TU/EBGaramond(0)/bx/it on inp
-ut line 100.
+ut line 103.
 \symOperators:m:n=\mathgroup9
 .................................................
 . fontspec info: "no-font-shape"
@@ -894,9 +917,9 @@ ut line 100.
 . Garamond/BI/OT:script=latn;language=DFLT;+onum;+liga;+smcp;mapping=tex-text;"
 
 .................................................
-LaTeX Info: Redefining \rmfamily on input line 104.
+LaTeX Info: Redefining \rmfamily on input line 107.
 LaTeX Font Info:    Font shape `TU/EBGaramond(1)/m/n' will be
-(Font)              scaled to size 12.0pt on input line 104.
+(Font)              scaled to size 12.0pt on input line 107.
 .................................................
 . fontspec info: "no-font-shape"
 . 
@@ -928,7 +951,7 @@ LaTeX Font Info:    Font shape `TU/EBGaramond(1)/m/n' will be
 . 
 . Lato Regular scale = 0.8094761101403867.
 .................................................
-\g__fontspec_family_LatoRegular_int=\count175
+\g__fontspec_family_LatoRegular_int=\count176
 .................................................
 . fontspec info: "set-scale"
 . 
@@ -970,13 +993,13 @@ LaTeX Font Info:    Font shape `TU/EBGaramond(1)/m/n' will be
 . Bold/I/OT:script=latn;language=DFLT;mapping=tex-text;"
 . - 'bold italic small caps'  (bx/itsc) with NFSS spec.: 
 .................................................
-LaTeX Info: Redefining \sffamily on input line 106.
+LaTeX Info: Redefining \sffamily on input line 109.
 .................................................
 . fontspec info: "set-scale"
 . 
 . Source Code Pro scale = 0.8541671633725133.
 .................................................
-\g__fontspec_family_SourceCodePro_int=\count176
+\g__fontspec_family_SourceCodePro_int=\count177
 .................................................
 . fontspec info: "no-font-shape"
 . 
@@ -1024,7 +1047,7 @@ LaTeX Info: Redefining \sffamily on input line 106.
 . \fontdimen 2\font =1\fontdimen 2\font \fontdimen 3\font =0\fontdimen 3\font
 . \fontdimen 4\font =0\fontdimen 4\font \fontdimen 7\font =0\fontdimen 2\font 
 .................................................
-LaTeX Info: Redefining \ttfamily on input line 107.
+LaTeX Info: Redefining \ttfamily on input line 110.
 
 (/usr/local/texlive/2016/texmf-dist/tex/latex/caption/caption.sty
 Package: caption 2016/02/21 v3.3-144 Customizing captions (AR)
@@ -1045,18 +1068,18 @@ Package caption Info: We need package `newfloat' on input line 292.
 (/usr/local/texlive/2016/texmf-dist/tex/latex/caption/newfloat.sty
 Package: newfloat 2015/09/17 v1.1-109 Defining new floating environments (AR)
 )
-\c@ContinuedFloat=\count177
+\c@ContinuedFloat=\count178
 Package caption Info: hyperref package is loaded.
 Package caption Info: sidecap package is loaded.
 )
 (/usr/local/texlive/2016/texmf-dist/tex/latex/microtype/microtype.sty
 Package: microtype 2016/05/14 v2.6a Micro-typographical refinements (RS)
 \MT@toks=\toks31
-\MT@count=\count178
+\MT@count=\count179
 LaTeX Info: Redefining \textls on input line 774.
 \MT@outer@kern=\dimen197
 LaTeX Info: Redefining \textmicrotypecontext on input line 1310.
-\MT@listname@count=\count179
+\MT@listname@count=\count180
 
 (/usr/local/texlive/2016/texmf-dist/tex/latex/microtype/microtype-xetex.def
 File: microtype-xetex.def 2016/05/14 v2.6a Definitions specific to xetex (RS)
@@ -1129,8 +1152,8 @@ Package tocloft Info: The document has chapter divisions on input line 44.
 \cftbeforefigskip=\skip110
 \cftfigindent=\skip111
 \cftfignumwidth=\skip112
-\c@lofdepth=\count180
-\c@lotdepth=\count181
+\c@lofdepth=\count181
+\c@lotdepth=\count182
 \cftbeforelottitleskip=\skip113
 \cftafterlottitleskip=\skip114
 \cftbeforetabskip=\skip115
@@ -1139,30 +1162,27 @@ Package tocloft Info: The document has chapter divisions on input line 44.
 )
 (/usr/local/texlive/2016/texmf-dist/tex/latex/appendix/appendix.sty
 Package: appendix 2009/09/02 v1.2b extra appendix facilities
-\c@@pps=\count182
-\c@@ppsavesec=\count183
-\c@@ppsaveapp=\count184
+\c@@pps=\count183
+\c@@ppsavesec=\count184
+\c@@ppsaveapp=\count185
 )
 (/usr/local/texlive/2016/texmf-dist/tex/latex/natbib/natbib.sty
 Package: natbib 2010/09/13 8.31b (PWD, AO)
 \bibhang=\skip118
 \bibsep=\skip119
 LaTeX Info: Redefining \cite on input line 694.
-\c@NAT@ctr=\count185
+\c@NAT@ctr=\count186
 )
 (/usr/local/texlive/2016/texmf-dist/tex/latex/quotchap/quotchap.sty
 Package: quotchap 2012/10/20 v1.1 Decorative Chapter Headings with Quotes
 \@quotebox=\box51
 )
 \mybibindent=\skip120
-Package hyperref Info: Option `colorlinks' set `true' on input line 217.
+Package hyperref Info: Option `colorlinks' set `true' on input line 221.
 )
 (./dissertation.aux (./chapters/introduction.aux)
-(./chapters/Johnson_noise_thermometry.aux
-
-LaTeX Warning: Label `fig:auto_noise_vs_T' multiply defined.
-
-) (./chapters/Electronic_cooling_pathways_in_graphene.aux)
+(./chapters/Johnson_noise_thermometry.aux)
+(./chapters/Electronic_cooling_pathways_in_graphene.aux)
 (./chapters/Thermal_conductance_via_electrical_noise.aux)
 (./chapters/Thermal_conductance_in_high_density_graphene.aux)
 (./chapters/The_Dirac_fluid.aux)
@@ -1226,6 +1246,34 @@ LaTeX Font Info:    ... okay on input line 7.
 
 ABD: EverySelectfont initializing macros
 LaTeX Info: Redefining \selectfont on input line 7.
+LaTeX Font Info:    Font shape `TU/EBGaramond(1)/m/n' will be
+(Font)              scaled to size 14.4pt on input line 7.
+
+
+LaTeX Font Warning: Font shape `TU/EBGaramond(1)/bx/n' undefined
+(Font)              using `TU/EBGaramond(1)/m/n' instead on input line 7.
+
+Package tocstyle Info: prepare \l@part for redefinition on input line 7.
+LaTeX Font Info:    Font shape `TU/EBGaramond(1)/bx/n' will be
+(Font)              scaled to size 14.4pt on input line 7.
+LaTeX Font Info:    Try loading font information for U+msa on input line 7.
+(/usr/local/texlive/2016/texmf-dist/tex/latex/amsfonts/umsa.fd
+File: umsa.fd 2013/01/14 v3.01 AMS symbols A
+)
+LaTeX Font Info:    Try loading font information for U+msb on input line 7.
+
+(/usr/local/texlive/2016/texmf-dist/tex/latex/amsfonts/umsb.fd
+File: umsb.fd 2013/01/14 v3.01 AMS symbols B
+)
+LaTeX Font Info:    Font shape `TU/EBGaramond(1)/m/sc' will be
+(Font)              scaled to size 12.0pt on input line 7.
+Package tocstyle Info: prepare \l@chapter for redefinition on input line 7.
+LaTeX Font Info:    Font shape `TU/EBGaramond(1)/bx/n' will be
+(Font)              scaled to size 12.0pt on input line 7.
+Package tocstyle Info: prepare \l@section for redefinition on input line 7.
+Package tocstyle Info: prepare \l@subsection for redefinition on input line 7.
+Package tocstyle Info: prepare \l@table for redefinition on input line 7.
+Package tocstyle Info: prepare \l@figure for redefinition on input line 7.
 \AtBeginShipoutBox=\box52
 Package hyperref Info: Link coloring ON on input line 7.
 
@@ -1235,7 +1283,7 @@ Package: nameref 2016/05/21 v2.44 Cross-referencing by name of section
 (/usr/local/texlive/2016/texmf-dist/tex/generic/oberdiek/gettitlestring.sty
 Package: gettitlestring 2016/05/16 v1.5 Cleanup title references (HO)
 )
-\c@section@level=\count186
+\c@section@level=\count187
 )
 LaTeX Info: Redefining \ref on input line 7.
 LaTeX Info: Redefining \pageref on input line 7.
@@ -1266,8 +1314,6 @@ Package microtype Info: Loading generic settings for font family
 (./frontmatter/personalize.tex)
 LaTeX Font Info:    Font shape `TU/EBGaramond(1)/m/n' will be
 (Font)              scaled to size 24.88pt on input line 10.
-LaTeX Font Info:    Font shape `TU/EBGaramond(1)/m/sc' will be
-(Font)              scaled to size 12.0pt on input line 10.
 
 (/usr/local/texlive/2016/texmf-dist/tex/generic/oberdiek/se-ascii-print.def
 File: se-ascii-print.def 2016/05/16 v1.11 stringenc: Printable ASCII characters
@@ -1299,60 +1345,365 @@ File: t1ppl.fd 2001/06/04 font definitions for T1/ppl.
 File: mt-ppl.cfg 2005/11/16 v1.6 microtype config. file: Palatino (RS)
 )
 (./dissertation.toc
-
-LaTeX Font Warning: Font shape `TU/EBGaramond(1)/bx/n' undefined
-(Font)              using `TU/EBGaramond(1)/m/n' instead on input line 1.
-
+number indent by \l@... (toc, 0):  0.0pt
+text indent by \l@... (toc, 0):  18.0pt
+number indent by parent (toc, 0):  0.0pt
+text indent calculated (toc, 0): 12.96478pt
+number indent calculated (toc, 0): 0.0pt
+LaTeX Font Info:    Font shape `TU/EBGaramond(1)/bx/n' will be
+(Font)              scaled to size 10.95pt on input line 1.
+number indent by \l@... (toc, 0):  0.0pt
+text indent by \l@... (toc, 0):  18.0pt
+number indent by parent (toc, 0):  0.0pt
+text indent calculated (toc, 0): 12.96478pt
+number indent calculated (toc, 0): 0.0pt
+number indent by \l@... (toc, 1):  18.0pt
+text indent by \l@... (toc, 1):  27.60004pt
+number indent by parent (toc, 1):  12.96478pt
+text indent calculated (toc, 1): 20.87068pt
+number indent calculated (toc, 1): 12.96478pt
 (/usr/local/texlive/2016/texmf-dist/tex/latex/microtype/mt-cmr.cfg
 File: mt-cmr.cfg 2013/05/19 v2.2 microtype config. file: Computer Modern Roman 
 (RS)
 )
-LaTeX Font Info:    Try loading font information for U+msa on input line 1.
-
-(/usr/local/texlive/2016/texmf-dist/tex/latex/amsfonts/umsa.fd
-File: umsa.fd 2013/01/14 v3.01 AMS symbols A
-)
 (/usr/local/texlive/2016/texmf-dist/tex/latex/microtype/mt-msa.cfg
 File: mt-msa.cfg 2006/02/04 v1.1 microtype config. file: AMS symbols (a) (RS)
-)
-LaTeX Font Info:    Try loading font information for U+msb on input line 1.
-
-(/usr/local/texlive/2016/texmf-dist/tex/latex/amsfonts/umsb.fd
-File: umsb.fd 2013/01/14 v3.01 AMS symbols B
 )
 (/usr/local/texlive/2016/texmf-dist/tex/latex/microtype/mt-msb.cfg
 File: mt-msb.cfg 2005/06/01 v1.0 microtype config. file: AMS symbols (b) (RS)
 )
-LaTeX Font Info:    Font shape `TU/EBGaramond(1)/bx/n' will be
-(Font)              scaled to size 10.95pt on input line 1.
- [4
+number indent by \l@... (toc, 1):  18.0pt
+text indent by \l@... (toc, 1):  27.60004pt
+number indent by parent (toc, 1):  12.96478pt
+text indent calculated (toc, 1): 20.87068pt
+number indent calculated (toc, 1): 12.96478pt
+number indent by \l@... (toc, 1):  18.0pt
+text indent by \l@... (toc, 1):  27.60004pt
+number indent by parent (toc, 1):  12.96478pt
+text indent calculated (toc, 1): 20.87068pt
+number indent calculated (toc, 1): 12.96478pt
+number indent by \l@... (toc, 1):  18.0pt
+text indent by \l@... (toc, 1):  27.60004pt
+number indent by parent (toc, 1):  12.96478pt
+text indent calculated (toc, 1): 20.87068pt
+number indent calculated (toc, 1): 12.96478pt
+number indent by \l@... (toc, 1):  18.0pt
+text indent by \l@... (toc, 1):  27.60004pt
+number indent by parent (toc, 1):  12.96478pt
+text indent calculated (toc, 1): 20.87068pt
+number indent calculated (toc, 1): 12.96478pt
+number indent by \l@... (toc, 1):  18.0pt
+text indent by \l@... (toc, 1):  27.60004pt
+number indent by parent (toc, 1):  12.96478pt
+text indent calculated (toc, 1): 20.87068pt
+number indent calculated (toc, 1): 12.96478pt
+number indent by \l@... (toc, 2):  45.60004pt
+text indent by \l@... (toc, 2):  38.39996pt
+number indent by parent (toc, 2):  33.83546pt
+text indent calculated (toc, 2): 26.55374pt
+number indent calculated (toc, 2): 33.83546pt
+number indent by \l@... (toc, 2):  45.60004pt
+text indent by \l@... (toc, 2):  38.39996pt
+number indent by parent (toc, 2):  33.83546pt
+text indent calculated (toc, 2): 26.55374pt
+number indent calculated (toc, 2): 33.83546pt
+number indent by \l@... (toc, 1):  18.0pt
+text indent by \l@... (toc, 1):  27.60004pt
+number indent by parent (toc, 1):  12.96478pt
+text indent calculated (toc, 1): 20.87068pt
+number indent calculated (toc, 1): 12.96478pt
+number indent by \l@... (toc, 1):  18.0pt
+text indent by \l@... (toc, 1):  27.60004pt
+number indent by parent (toc, 1):  12.96478pt
+text indent calculated (toc, 1): 20.87068pt
+number indent calculated (toc, 1): 12.96478pt
+number indent by \l@... (toc, 1):  18.0pt
+text indent by \l@... (toc, 1):  27.60004pt
+number indent by parent (toc, 1):  12.96478pt
+text indent calculated (toc, 1): 20.87068pt
+number indent calculated (toc, 1): 12.96478pt
+number indent by \l@... (toc, 2):  45.60004pt
+text indent by \l@... (toc, 2):  38.39996pt
+number indent by parent (toc, 2):  33.83546pt
+text indent calculated (toc, 2): 26.55374pt
+number indent calculated (toc, 2): 33.83546pt
+number indent by \l@... (toc, 0):  0.0pt
+text indent by \l@... (toc, 0):  18.0pt
+number indent by parent (toc, 0):  0.0pt
+text indent calculated (toc, 0): 12.96478pt
+number indent calculated (toc, 0): 0.0pt
+number indent by \l@... (toc, 1):  18.0pt
+text indent by \l@... (toc, 1):  27.60004pt
+number indent by parent (toc, 1):  12.96478pt
+text indent calculated (toc, 1): 20.87068pt
+number indent calculated (toc, 1): 12.96478pt
+number indent by \l@... (toc, 2):  45.60004pt
+text indent by \l@... (toc, 2):  38.39996pt
+number indent by parent (toc, 2):  33.83546pt
+text indent calculated (toc, 2): 26.55374pt
+number indent calculated (toc, 2): 33.83546pt
+number indent by \l@... (toc, 2):  45.60004pt
+text indent by \l@... (toc, 2):  38.39996pt
+number indent by parent (toc, 2):  33.83546pt
+text indent calculated (toc, 2): 26.55374pt
+number indent calculated (toc, 2): 33.83546pt
+number indent by \l@... (toc, 1):  18.0pt
+text indent by \l@... (toc, 1):  27.60004pt
+number indent by parent (toc, 1):  12.96478pt
+text indent calculated (toc, 1): 20.87068pt
+number indent calculated (toc, 1): 12.96478pt
+number indent by \l@... (toc, 2):  45.60004pt
+text indent by \l@... (toc, 2):  38.39996pt
+number indent by parent (toc, 2):  33.83546pt
+text indent calculated (toc, 2): 26.55374pt
+number indent calculated (toc, 2): 33.83546pt
+number indent by \l@... (toc, 2):  45.60004pt
+text indent by \l@... (toc, 2):  38.39996pt
+number indent by parent (toc, 2):  33.83546pt
+text indent calculated (toc, 2): 26.55374pt
+number indent calculated (toc, 2): 33.83546pt
+number indent by \l@... (toc, 2):  45.60004pt
+text indent by \l@... (toc, 2):  38.39996pt
+number indent by parent (toc, 2):  33.83546pt
+text indent calculated (toc, 2): 26.55374pt
+number indent calculated (toc, 2): 33.83546pt
+number indent by \l@... (toc, 2):  45.60004pt
+text indent by \l@... (toc, 2):  38.39996pt
+number indent by parent (toc, 2):  33.83546pt
+text indent calculated (toc, 2): 26.55374pt
+number indent calculated (toc, 2): 33.83546pt
+number indent by \l@... (toc, 1):  18.0pt
+text indent by \l@... (toc, 1):  27.60004pt
+number indent by parent (toc, 1):  12.96478pt
+text indent calculated (toc, 1): 20.87068pt
+number indent calculated (toc, 1): 12.96478pt
+number indent by \l@... (toc, 1):  18.0pt
+text indent by \l@... (toc, 1):  27.60004pt
+number indent by parent (toc, 1):  12.96478pt
+text indent calculated (toc, 1): 20.87068pt
+number indent calculated (toc, 1): 12.96478pt
+number indent by \l@... (toc, 0):  0.0pt
+text indent by \l@... (toc, 0):  18.0pt
+number indent by parent (toc, 0):  0.0pt
+text indent calculated (toc, 0): 12.96478pt
+number indent calculated (toc, 0): 0.0pt
+number indent by \l@... (toc, 1):  18.0pt
+text indent by \l@... (toc, 1):  27.60004pt
+number indent by parent (toc, 1):  12.96478pt
+text indent calculated (toc, 1): 20.87068pt
+number indent calculated (toc, 1): 12.96478pt
+number indent by \l@... (toc, 2):  45.60004pt
+text indent by \l@... (toc, 2):  38.39996pt
+number indent by parent (toc, 2):  33.83546pt
+text indent calculated (toc, 2): 26.55374pt
+number indent calculated (toc, 2): 33.83546pt
+number indent by \l@... (toc, 2):  45.60004pt
+text indent by \l@... (toc, 2):  38.39996pt
+number indent by parent (toc, 2):  33.83546pt
+text indent calculated (toc, 2): 26.55374pt
+number indent calculated (toc, 2): 33.83546pt
+number indent by \l@... (toc, 1):  18.0pt
+text indent by \l@... (toc, 1):  27.60004pt
+number indent by parent (toc, 1):  12.96478pt
+text indent calculated (toc, 1): 20.87068pt
+number indent calculated (toc, 1): 12.96478pt
+number indent by \l@... (toc, 1):  18.0pt
+text indent by \l@... (toc, 1):  27.60004pt
+number indent by parent (toc, 1):  12.96478pt
+text indent calculated (toc, 1): 20.87068pt
+number indent calculated (toc, 1): 12.96478pt
+number indent by \l@... (toc, 1):  18.0pt
+text indent by \l@... (toc, 1):  27.60004pt
+number indent by parent (toc, 1):  12.96478pt
+text indent calculated (toc, 1): 20.87068pt
+number indent calculated (toc, 1): 12.96478pt
+number indent by \l@... (toc, 0):  0.0pt
+text indent by \l@... (toc, 0):  18.0pt
+number indent by parent (toc, 0):  0.0pt
+text indent calculated (toc, 0): 12.96478pt
+number indent calculated (toc, 0): 0.0pt
+number indent by \l@... (toc, 1):  18.0pt
+text indent by \l@... (toc, 1):  27.60004pt
+number indent by parent (toc, 1):  12.96478pt
+text indent calculated (toc, 1): 20.87068pt
+number indent calculated (toc, 1): 12.96478pt
+[4
 
 ]
-Overfull \hbox (29.35017pt too wide) in paragraph at lines 38--38
- [][] [][][]\TU/EBGaramond(1)/bx/n/10.95 Observation of the Dirac fluid and the
- breakdown of the Wiedemann-Franz law in graphene[][] []  
- []
-
-
-Overfull \hbox (7.83347pt too wide) in paragraph at lines 43--43
- [][] [][][]\TU/EBGaramond(1)/bx/n/10.95 Transport in inhomogeneous quantum cri
-tical fluids and in the Dirac fluid in graphene[][] []  
- []
-
+number indent by \l@... (toc, 1):  18.0pt
+text indent by \l@... (toc, 1):  27.60004pt
+number indent by parent (toc, 1):  12.96478pt
+text indent calculated (toc, 1): 20.87068pt
+number indent calculated (toc, 1): 12.96478pt
+number indent by \l@... (toc, 0):  0.0pt
+text indent by \l@... (toc, 0):  18.0pt
+number indent by parent (toc, 0):  0.0pt
+text indent calculated (toc, 0): 12.96478pt
+number indent calculated (toc, 0): 0.0pt
+number indent by \l@... (toc, 1):  18.0pt
+text indent by \l@... (toc, 1):  27.60004pt
+number indent by parent (toc, 1):  12.96478pt
+text indent calculated (toc, 1): 20.87068pt
+number indent calculated (toc, 1): 12.96478pt
+number indent by \l@... (toc, 1):  18.0pt
+text indent by \l@... (toc, 1):  27.60004pt
+number indent by parent (toc, 1):  12.96478pt
+text indent calculated (toc, 1): 20.87068pt
+number indent calculated (toc, 1): 12.96478pt
+number indent by \l@... (toc, 1):  18.0pt
+text indent by \l@... (toc, 1):  27.60004pt
+number indent by parent (toc, 1):  12.96478pt
+text indent calculated (toc, 1): 20.87068pt
+number indent calculated (toc, 1): 12.96478pt
+number indent by \l@... (toc, 1):  18.0pt
+text indent by \l@... (toc, 1):  27.60004pt
+number indent by parent (toc, 1):  12.96478pt
+text indent calculated (toc, 1): 20.87068pt
+number indent calculated (toc, 1): 12.96478pt
+number indent by \l@... (toc, 1):  18.0pt
+text indent by \l@... (toc, 1):  27.60004pt
+number indent by parent (toc, 1):  12.96478pt
+text indent calculated (toc, 1): 20.87068pt
+number indent calculated (toc, 1): 12.96478pt
+number indent by \l@... (toc, 0):  0.0pt
+text indent by \l@... (toc, 0):  18.0pt
+number indent by parent (toc, 0):  0.0pt
+text indent calculated (toc, 0): 12.96478pt
+number indent calculated (toc, 0): 0.0pt
+number indent by \l@... (toc, 1):  18.0pt
+text indent by \l@... (toc, 1):  27.60004pt
+number indent by parent (toc, 1):  12.96478pt
+text indent calculated (toc, 1): 20.87068pt
+number indent calculated (toc, 1): 12.96478pt
+number indent by \l@... (toc, 2):  45.60004pt
+text indent by \l@... (toc, 2):  38.39996pt
+number indent by parent (toc, 2):  33.83546pt
+text indent calculated (toc, 2): 26.55374pt
+number indent calculated (toc, 2): 33.83546pt
+number indent by \l@... (toc, 2):  45.60004pt
+text indent by \l@... (toc, 2):  38.39996pt
+number indent by parent (toc, 2):  33.83546pt
+text indent calculated (toc, 2): 26.55374pt
+number indent calculated (toc, 2): 33.83546pt
+number indent by \l@... (toc, 1):  18.0pt
+text indent by \l@... (toc, 1):  27.60004pt
+number indent by parent (toc, 1):  12.96478pt
+text indent calculated (toc, 1): 20.87068pt
+number indent calculated (toc, 1): 12.96478pt
+number indent by \l@... (toc, 1):  18.0pt
+text indent by \l@... (toc, 1):  27.60004pt
+number indent by parent (toc, 1):  12.96478pt
+text indent calculated (toc, 1): 20.87068pt
+number indent calculated (toc, 1): 12.96478pt
+number indent by \l@... (toc, 2):  45.60004pt
+text indent by \l@... (toc, 2):  38.39996pt
+number indent by parent (toc, 2):  33.83546pt
+text indent calculated (toc, 2): 26.55374pt
+number indent calculated (toc, 2): 33.83546pt
+number indent by \l@... (toc, 2):  45.60004pt
+text indent by \l@... (toc, 2):  38.39996pt
+number indent by parent (toc, 2):  33.83546pt
+text indent calculated (toc, 2): 26.55374pt
+number indent calculated (toc, 2): 33.83546pt
+number indent by \l@... (toc, 1):  18.0pt
+text indent by \l@... (toc, 1):  27.60004pt
+number indent by parent (toc, 1):  12.96478pt
+text indent calculated (toc, 1): 20.87068pt
+number indent calculated (toc, 1): 12.96478pt
+number indent by \l@... (toc, 1):  18.0pt
+text indent by \l@... (toc, 1):  27.60004pt
+number indent by parent (toc, 1):  12.96478pt
+text indent calculated (toc, 1): 20.87068pt
+number indent calculated (toc, 1): 12.96478pt
+number indent by \l@... (toc, 2):  45.60004pt
+text indent by \l@... (toc, 2):  38.39996pt
+number indent by parent (toc, 2):  33.83546pt
+text indent calculated (toc, 2): 26.55374pt
+number indent calculated (toc, 2): 33.83546pt
+number indent by \l@... (toc, 1):  18.0pt
+text indent by \l@... (toc, 1):  27.60004pt
+number indent by parent (toc, 1):  12.96478pt
+text indent calculated (toc, 1): 20.87068pt
+number indent calculated (toc, 1): 12.96478pt
+number indent by \l@... (toc, 1):  18.0pt
+text indent by \l@... (toc, 1):  27.60004pt
+number indent by parent (toc, 1):  12.96478pt
+text indent calculated (toc, 1): 20.87068pt
+number indent calculated (toc, 1): 12.96478pt
+number indent by \l@... (toc, 0):  0.0pt
+text indent by \l@... (toc, 0):  18.0pt
+number indent by parent (toc, 0):  0.0pt
+text indent calculated (toc, 0): 12.96478pt
+number indent calculated (toc, 0): 0.0pt
+number indent by \l@... (toc, 0):  0.0pt
+text indent by \l@... (toc, 0):  18.0pt
+number indent by parent (toc, 0):  0.0pt
+text indent calculated (toc, 0): 12.96478pt
+number indent calculated (toc, 0): 0.0pt
+number indent by \l@... (toc, 0):  0.0pt
+text indent by \l@... (toc, 0):  18.0pt
+number indent by parent (toc, 0):  0.0pt
+text indent calculated (toc, 0): 12.96478pt
+number indent calculated (toc, 0): 0.0pt
+number indent by \l@... (toc, 1):  18.0pt
+text indent by \l@... (toc, 1):  27.60004pt
+number indent by parent (toc, 1):  12.96478pt
+text indent calculated (toc, 1): 20.87068pt
+number indent calculated (toc, 1): 12.96478pt
+number indent by \l@... (toc, 2):  45.60004pt
+text indent by \l@... (toc, 2):  38.39996pt
+number indent by parent (toc, 2):  33.83546pt
+text indent calculated (toc, 2): 26.55374pt
+number indent calculated (toc, 2): 33.83546pt
+number indent by \l@... (toc, 1):  18.0pt
+text indent by \l@... (toc, 1):  27.60004pt
+number indent by parent (toc, 1):  12.96478pt
+text indent calculated (toc, 1): 20.87068pt
+number indent calculated (toc, 1): 12.96478pt
+number indent by \l@... (toc, 1):  18.0pt
+text indent by \l@... (toc, 1):  27.60004pt
+number indent by parent (toc, 1):  12.96478pt
+text indent calculated (toc, 1): 20.87068pt
+number indent calculated (toc, 1): 12.96478pt
+number indent by \l@... (toc, 1):  18.0pt
+text indent by \l@... (toc, 1):  27.60004pt
+number indent by parent (toc, 1):  12.96478pt
+text indent calculated (toc, 1): 20.87068pt
+number indent calculated (toc, 1): 12.96478pt
+number indent by \l@... (toc, 1):  18.0pt
+text indent by \l@... (toc, 1):  27.60004pt
+number indent by parent (toc, 1):  12.96478pt
+text indent calculated (toc, 1): 20.87068pt
+number indent calculated (toc, 1): 12.96478pt
+number indent by \l@... (toc, 2):  45.60004pt
+text indent by \l@... (toc, 2):  38.39996pt
+number indent by parent (toc, 2):  33.83546pt
+text indent calculated (toc, 2): 26.55374pt
+number indent calculated (toc, 2): 33.83546pt
+number indent by \l@... (toc, 2):  45.60004pt
+text indent by \l@... (toc, 2):  38.39996pt
+number indent by parent (toc, 2):  33.83546pt
+text indent calculated (toc, 2): 26.55374pt
+number indent calculated (toc, 2): 33.83546pt
+number indent by \l@... (toc, 0):  0.0pt
+text indent by \l@... (toc, 0):  18.0pt
+number indent by parent (toc, 0):  0.0pt
+text indent calculated (toc, 0): 12.96478pt
+number indent calculated (toc, 0): 0.0pt
 )
 \tf@toc=\write4
 \openout4 = `dissertation.toc'.
 
- [5] [6] (./frontmatter/dedication.tex) [7
+ [5] (./frontmatter/dedication.tex) [6
 
-] (./frontmatter/thanks.tex)
-[8
+] (./frontmatter/thanks.tex) [7
 
 
 ]
 \openout2 = `chapters/introduction.aux'.
 
- (./chapters/introduction.tex
+
+(./chapters/introduction.tex
 Chapter 0.
 ) [1
 
@@ -1376,10 +1727,6 @@ but in
  []
 
 Chapter 1.
-
-Package natbib Warning: Citation `einstein_investigations_2011' on page 2 undef
-ined on input line 10.
-
 LaTeX Font Info:    Font shape `TU/EBGaramond(1)/m/n' will be
 (Font)              scaled to size 8.0pt on input line 10.
 LaTeX Font Info:    Font shape `TU/EBGaramond(1)/m/n' will be
@@ -1391,8 +1738,8 @@ LaTeX Font Info:    Font shape `TU/EBGaramond(1)/m/n' will be
 
 Underfull \hbox (badness 10000) in paragraph at lines 10--10
 [][][]\TU/EBGaramond(1)/m/n/10 Here a linear system is one where the force acti
-ng on a particle is proportional to its velocity $\OML/cmm/m/it/10 F=v \OT1/cmr
-/m/n/10 =
+ng on a particle is proportional to its velocity — i.e.$\OML/cmm/m/it/10 F=v$ \
+TU/EBGaramond(1)/m/n/10 is
  []
 
 [2
@@ -1400,22 +1747,12 @@ ng on a particle is proportional to its velocity $\OML/cmm/m/it/10 F=v \OT1/cmr
 
 
 ]
-
-Package natbib Warning: Citation `johnson_thermal_1927' on page 3 undefined on 
-input line 14.
-
 LaTeX Font Info:    Font shape `TU/EBGaramond(1)/m/sc' will be
 (Font)              scaled to size 14.4pt on input line 16.
-
-Package natbib Warning: Citation `johnson_thermal_1927' on page 3 undefined on 
-input line 17.
-
-[3]
+ [3]
 File: figures/Johnson_noise_thermometry/Nyquist_resistors.png Graphic file (typ
 e QTm)
  <use  "figures/Johnson_noise_thermometry/Nyquist_resistors.png" >
-LaTeX Font Info:    Font shape `TU/EBGaramond(1)/bx/n' will be
-(Font)              scaled to size 12.0pt on input line 24.
 LaTeX Font Info:    Font shape `TU/LatoRegular(0)/bx/n' will be
 (Font)              scaled to size 9.5907pt on input line 24.
 Package microtype Info: Loading generic settings for font family
@@ -1429,115 +1766,75 @@ LaTeX Font Info:    Font shape `TU/LatoRegular(0)/m/n' will be
 LaTeX Font Info:    Font shape `TU/LatoRegular(0)/m/n' will be
 (Font)              scaled to size 8.09479pt on input line 24.
 
-Overfull \hbox (2.3542pt too wide) in paragraph at lines 20--28
- \TU/EBGaramond(1)/bx/n/10.95 This derivation holds regardless of the conductor
-, be it an electrolytic solution or a piece of graphene 
- []
-
-
+[4]
 Underfull \hbox (badness 10000) in paragraph at lines 35--35
 [][][]\TU/EBGaramond(1)/m/n/10 This is why mean squared error is often a useful
  metric. If errors are unbiased and Gaussian distributed
  []
 
-[4] [5] [6] [7]
-Underfull \hbox (badness 2368) in paragraph at lines 91--91
-[][][]\TU/EBGaramond(1)/m/n/10 this is also a nice proof for why $\OML/cmm/m/it
-/10 ^^@$ \TU/EBGaramond(1)/m/n/10 in any 2 port device must be symmetric, $\OML
-/cmm/m/it/10 ^^@[] \OT1/cmr/m/n/10 = \OML/cmm/m/it/10 ^^@[]$\TU/EBGaramond(1)/m
-/n/10 . If this was not
+[5] [6] [7]
+Underfull \hbox (badness 10000) in paragraph at lines 89--89
+\TU/EBGaramond(1)/m/n/10 this was not true, we could place the device between t
+wo resistors in thermal equilibrium and one would heat
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 91--91
-\TU/EBGaramond(1)/m/n/10 true, we could place the device between two resistors 
-in thermal equilibrium and one would heat the other.
+Underfull \hbox (badness 10000) in paragraph at lines 89--89
+\TU/EBGaramond(1)/m/n/10 the other. Two-port devices which report asymmetric co
+efficients often include internally terminated third
  []
 
 File: figures/Johnson_noise_thermometry/Schematic_Autocorrelation.png Graphic f
 ile (type QTm)
 <use  "figures/Johnson_noise_thermometry/Schematic_Autocorrelation.png" >
-
-LaTeX Warning: Reference `fig:JNT_autocorrelation_schematic' on page 8 undefine
-d on input line 103.
-
+[8]
 File: figures/Johnson_noise_thermometry/Miteq_spec.png Graphic file (type QTm)
-<use  "figures/Johnson_noise_thermometry/Miteq_spec.png" > [8]
-
-LaTeX Warning: Reference `fig:autocorrelation_schematic' on page 9 undefined on
- input line 111.
-
+ <use  "figures/Johnson_noise_thermometry/Miteq_spec.png" >
 File: figures/Johnson_noise_thermometry/Miteq_BP_spec.png Graphic file (type QT
 m)
-<use  "figures/Johnson_noise_thermometry/Miteq_BP_spec.png" > [9]
-Overfull \hbox (0.33575pt too wide) in paragraph at lines 118--120
-\TU/EBGaramond(1)/bx/n/10.95 combo can convert the power to a DC voltage. Each 
-technique has its own advantages/disadvantages 
- []
 
-[10] [11]
+<use  "figures/Johnson_noise_thermometry/Miteq_BP_spec.png" > [9] [10] [11]
 File: figures/Johnson_noise_thermometry/PE8000-50.png Graphic file (type QTm)
- <use  "figures/Johnson_noise_thermometry/PE8000-50.png" > [12]
+
+<use  "figures/Johnson_noise_thermometry/PE8000-50.png" > [12]
 File: figures/Johnson_noise_thermometry/Auto_noise_vs_T.png Graphic file (type 
 QTm)
 
 <use  "figures/Johnson_noise_thermometry/Auto_noise_vs_T.png" >
-
-Package natbib Warning: Citation `rice' on page 13 undefined on input line 147.
-
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 147--147
+Underfull \hbox (badness 10000) in paragraph at lines 143--143
 [][][]\TU/EBGaramond(1)/m/n/10 The effective noise bandwidth is defined as the 
 width of a perfect square band that passes the same noise
  []
 
-
-Package natbib Warning: Citation `fig:JNT_500measurements' on page 13 undefined
- on input line 147.
-
 File: figures/Johnson_noise_thermometry/500_measurements.png Graphic file (type
  QTm)
 <use  "figures/Johnson_noise_thermometry/500_measurements.png" > [13]
-Underfull \hbox (badness 10000) in paragraph at lines 155--155
+Underfull \hbox (badness 10000) in paragraph at lines 151--151
 [][][]\TU/EBGaramond(1)/m/n/10 It should be noted that the system noise tempera
 ture can be quite different from an amplifiers intrinsic
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 155--155
+Underfull \hbox (badness 10000) in paragraph at lines 151--151
 \TU/EBGaramond(1)/m/n/10 noise temperature which often assumes a perfectly matc
-hed input impedance. See the section “effective noise
+hed input impedance. See the section [][]1.7[][] for more
  []
 
 [14]
 File: figures/Johnson_noise_thermometry/histograms.png Graphic file (type QTm)
- <use  "figures/Johnson_noise_thermometry/histograms.png" >
-Overfull \hbox (0.7628pt too wide) in paragraph at lines 162--169
-\TU/EBGaramond(1)/bx/n/10.95 studying hot it fluctuates about the mean. Fig. []
-[]1.8[][] compares two histograms, both containing 20,000 
- []
-
-[15]
+ <use  "figures/Johnson_noise_thermometry/histograms.png" > [15]
 File: figures/Johnson_noise_thermometry/schematic_matching.png Graphic file (ty
 pe QTm)
- <use  "figures/Johnson_noise_thermometry/schematic_matching.png" >
 
-Package natbib Warning: Citation `fig:schematic_matching' on page 16 undefined 
-on input line 180.
-
-[16]
+<use  "figures/Johnson_noise_thermometry/schematic_matching.png" > [16]
 File: figures/Johnson_noise_thermometry/Impedance_matching2.png Graphic file (t
 ype QTm)
- <use  "figures/Johnson_noise_thermometry/Impedance_matching2.png" >
-Underfull \hbox (badness 10000) in paragraph at lines 202--202
+
+<use  "figures/Johnson_noise_thermometry/Impedance_matching2.png" >
+Underfull \hbox (badness 10000) in paragraph at lines 198--198
 [][][]\TU/EBGaramond(1)/m/n/10 stray inductance is also possible (particularly 
 if long wire bonds are necessary) but are usually negligible
  []
-
-
-LaTeX Warning: Reference `fig:picture_gimmick2' on page 17 undefined on input l
-ine 202.
 
 File: figures/Johnson_noise_thermometry/picture_gimmick1.jpg Graphic file (type
  QTm)
@@ -1557,22 +1854,12 @@ QTm)
 File: figures/Johnson_noise_thermometry/S11vsR.png Graphic file (type QTm)
 
 <use  "figures/Johnson_noise_thermometry/S11vsR.png" > [20]
-
-Package natbib Warning: Citation `fig:S11_3Rs' on page 21 undefined on input li
-ne 235.
-
 File: figures/Johnson_noise_thermometry/S11_3Rs.png Graphic file (type QTm)
+
 <use  "figures/Johnson_noise_thermometry/S11_3Rs.png" > [21]
-LaTeX Font Info:    Font shape `TU/EBGaramond(1)/bx/n' will be
-(Font)              scaled to size 10.0pt on input line 243.
-
-
-Package natbib Warning: Citation `?' on page 22 undefined on input line 243.
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 243--243
-[][][]\TU/EBGaramond(1)/bx/n/10 This is a well known solution to a similar prob
-lem in audio recording. Multi-stage impedance transforms
+Underfull \hbox (badness 10000) in paragraph at lines 239--239
+[][][]\TU/EBGaramond(1)/m/n/10 This is a well known solution to a similar probl
+em in audio recording. Multi-stage impedance transforms
  []
 
 File: figures/Johnson_noise_thermometry/schematic_double_matching.png Graphic f
@@ -1595,88 +1882,36 @@ le (type QTm)
 
 <use  "figures/Johnson_noise_thermometry/picture_matching_ceramic.jpg" >
 [24] [25] [26] [27]
-Underfull \hbox (badness 10000) in paragraph at lines 310--310
-[][][]\TU/EBGaramond(1)/bx/n/10 Eqn. [][]1.24[][] approximates the external fil
-ter function as a perfect square filter of bandwidth $\OML/cmm/m/it/10 ^^Af$\TU
-/EBGaramond(1)/bx/n/10 . For the
+Underfull \hbox (badness 10000) in paragraph at lines 307--307
+[][][]\TU/EBGaramond(1)/m/n/10 Eqn. [][]1.24[][] approximates the external filt
+er function as a perfect square filter of bandwidth $\OML/cmm/m/it/10 ^^Af$\TU/
+EBGaramond(1)/m/n/10 . For the
  []
 
 File: figures/Johnson_noise_thermometry/schematic_noise_IV.png Graphic file (ty
 pe QTm)
-<use  "figures/Johnson_noise_thermometry/schematic_noise_IV.png" >
-
-Package natbib Warning: Citation `weinreb's_talk??' on page 28 undefined on inp
-ut line 321.
-
-[28]
+<use  "figures/Johnson_noise_thermometry/schematic_noise_IV.png" > [28]
 File: figures/Johnson_noise_thermometry/Vn_vs_R.png Graphic file (type QTm)
- <use  "figures/Johnson_noise_thermometry/Vn_vs_R.png" > [29] [30]
-Underfull \hbox (badness 10000) in paragraph at lines 352--352
-[][][]\TU/EBGaramond(1)/bx/n/10 negative $\OML/cmm/m/it/10 T[]$ \TU/EBGaramond(
-1)/bx/n/10 is where the linear fit intercepts the horizontal axis; also given b
-y the offset divided by the
+
+<use  "figures/Johnson_noise_thermometry/Vn_vs_R.png" > [29] [30]
+Underfull \hbox (badness 10000) in paragraph at lines 348--348
+[][][]\TU/EBGaramond(1)/m/n/10 negative $\OML/cmm/m/it/10 T[]$ \TU/EBGaramond(1
+)/m/n/10 is where the linear fit intercepts the horizontal axis; also given by 
+the offset divided by the
  []
-
-
-LaTeX Warning: Reference `fig:JNT_G_Tn_vs_R' on page 31 undefined on input line
- 352.
 
 File: figures/Johnson_noise_thermometry/Vn_vs_T.png Graphic file (type QTm)
 <use  "figures/Johnson_noise_thermometry/Vn_vs_T.png" >
 File: figures/Johnson_noise_thermometry/G_Tn_vs_R.png Graphic file (type QTm)
 
-<use  "figures/Johnson_noise_thermometry/G_Tn_vs_R.png" > [31]
-
-Package natbib Warning: Citation `Glattli:1997' on page 32 undefined on input l
-ine 369.
-
-
-Package natbib Warning: Citation `Glattli:1997p7350' on page 32 undefined on in
-put line 369.
-
-
-Package natbib Warning: Citation `DiCarlo:2006p2620' on page 32 undefined on in
-put line 369.
-
-
-Package natbib Warning: Citation `Henny:1999p2790' on page 32 undefined on inpu
-t line 369.
-
-
-Package natbib Warning: Citation `Brophy:1965p2623' on page 32 undefined on inp
-ut line 369.
-
-
-Package natbib Warning: Citation `*Klein:1978p2616' on page 32 undefined on inp
-ut line 369.
-
-[32] [33]
+<use  "figures/Johnson_noise_thermometry/G_Tn_vs_R.png" > [31] [32] [33]
 File: figures/Johnson_noise_thermometry/Schematic_Crosscorrelation.png Graphic 
 file (type QTm)
 
 <use  "figures/Johnson_noise_thermometry/Schematic_Crosscorrelation.png" >
-
-Package natbib Warning: Citation `Brophy:1965p2623' on page 34 undefined on inp
-ut line 383.
-
-
-Package natbib Warning: Citation `*Klein:1978p2616' on page 34 undefined on inp
-ut line 383.
-
-
-Package natbib Warning: Citation `Sampietro:2000p2679' on page 34 undefined on 
-input line 383.
-
-
-Package natbib Warning: Citation `DiCarlo:2006p2620' on page 34 undefined on in
-put line 383.
-
-
-LaTeX Warning: Reference `fig:cross_noise_vs_T' on page 34 undefined on input l
-ine 383.
-
 File: figures/Johnson_noise_thermometry/Cross_noise_vs_T.png Graphic file (type
  QTm)
+
 <use  "figures/Johnson_noise_thermometry/Cross_noise_vs_T.png" > [34]
 File: figures/Johnson_noise_thermometry/cross_sensitivity.png Graphic file (typ
 e QTm)
@@ -1690,129 +1925,27 @@ File: figures/Johnson_noise_thermometry/4terminal.png Graphic file (type QTm)
 
 (./chapters/Electronic_cooling_pathways_in_graphene.tex
 Chapter 2.
-
-Package natbib Warning: Citation `kittel_introduction_2004' on page 38 undefine
-d on input line 9.
-
-
-Package natbib Warning: Citation `??' on page 38 undefined on input line 9.
-
-
-Package natbib Warning: Citation `prober' on page 38 undefined on input line 9.
-
-
-
-Package natbib Warning: Citation `mckitterick??' on page 38 undefined on input 
-line 9.
-
 [38
 
 
 
 ]
-
-Package natbib Warning: Citation `franz_ueber_1853' on page 39 undefined on inp
-ut line 13.
-
-
-Package natbib Warning: Citation `lorenz_bestimmung_1872' on page 39 undefined 
-on input line 13.
-
 File: figures/electronic_cooling/WF_in_metals.png Graphic file (type QTm)
-<use  "figures/electronic_cooling/WF_in_metals.png" >
-LaTeX Font Info:    Font shape `TU/LatoRegular(0)/m/it' will be
-(Font)              scaled to size 8.09479pt on input line 21.
+ <use  "figures/electronic_cooling/WF_in_metals.png" > [39] [40]
 
+LaTeX Font Warning: Command \sl invalid in math mode on input line 34.
 
-Package natbib Warning: Citation `sommerfeld' on page 39 undefined on input lin
-e 24.
-
-[39]
-
-Package natbib Warning: Citation `mckitterick_prospects_2015' on page 40 undefi
-ned on input line 28.
-
-[40]
-
-Package natbib Warning: Citation `steinbach_observation_1996' on page 41 undefi
-ned on input line 37.
-
-
-Package natbib Warning: Citation `de_jong_semiclassical_1996' on page 41 undefi
-ned on input line 37.
-
-
-LaTeX Font Warning: Command \sl invalid in math mode on input line 39.
-
-[41]
-
-Package natbib Warning: Citation `martinez??' on page 42 undefined on input lin
-e 45.
-
-[42]
-
-Package natbib Warning: Citation `??' on page 43 undefined on input line 65.
-
-
-Package natbib Warning: Citation `shaffique' on page 43 undefined on input line
- 65.
-
-
-Package natbib Warning: Citation `flexure' on page 43 undefined on input line 6
-5.
-
-
-Package natbib Warning: Citation `sohier_phonon-limited_2014' on page 43 undefi
-ned on input line 65.
-
-
-Package natbib Warning: Citation `bloch_zum_1930' on page 43 undefined on input
- line 68.
-
-
-Package natbib Warning: Citation `gruneisen_abhangigkeit_1933' on page 43 undef
-ined on input line 68.
-
-[43]
-
-Package natbib Warning: Citation `stormer_observation_1990' on page 44 undefine
-d on input line 72.
-
-[44]
+[41] [42] [43] [44]
 File: figures/electronic_cooling/Viljas2010_conduction.png Graphic file (type Q
 Tm)
- <use  "figures/electronic_cooling/Viljas2010_conduction.png" >
 
-Package natbib Warning: Citation `low_cooling_2012' on page 45 undefined on inp
-ut line 96.
-
-
-Package natbib Warning: Citation `tielrooij_out--plane_2017' on page 45 undefin
-ed on input line 96.
-
-
-Package natbib Warning: Citation `sohier_phonon-limited_2014' on page 45 undefi
-ned on input line 96.
-
-[45]
-
-Package natbib Warning: Citation `schmidt_photon-mediated_2004' on page 46 unde
-fined on input line 99.
-
-
-Package natbib Warning: Citation `mckitterick_prospects_2015' on page 46 undefi
-ned on input line 99.
-
-
-Package natbib Warning: Citation `mckitterick_prospects_2015' on page 46 undefi
-ned on input line 99.
-
-[46]
+<use  "figures/electronic_cooling/Viljas2010_conduction.png" > [45] [46]
 File: figures/electronic_cooling/Thermal_diagram.png Graphic file (type QTm)
- <use  "figures/electronic_cooling/Thermal_diagram.png" >
-Underfull \hbox (badness 10000) in paragraph at lines 109--109
-[][][]\TU/EBGaramond(1)/bx/n/10 The ratio of the lattice conductance to the ele
-ctron-phonon conductance is geometry dependent. In long
+
+<use  "figures/electronic_cooling/Thermal_diagram.png" >
+Underfull \hbox (badness 10000) in paragraph at lines 104--104
+[][][]\TU/EBGaramond(1)/m/n/10 The ratio of the lattice conductance to the elec
+tron-phonon conductance is geometry dependent. In long
  []
 
 [47]) [48]
@@ -1873,8 +2006,8 @@ QTm)
 
 <use  "figures/thermal_via_noise/Schematic_Joule_heating.png" >
 Underfull \hbox (badness 10000) in paragraph at lines 217--217
-[][][]\TU/EBGaramond(1)/bx/n/10 It is because of this need to pass a DC current
- through the matching network and into the sample that
+[][][]\TU/EBGaramond(1)/m/n/10 It is because of this need to pass a DC current 
+through the matching network and into the sample that
  []
 
 [61]
@@ -1912,12 +2045,7 @@ File: figures/high_density_graphene/picture_aria.jpg Graphic file (type QTm)
 <use  "figures/high_density_graphene/picture_aria.jpg" >
 File: figures/high_density_graphene/mobility.png Graphic file (type QTm)
 
-<use  "figures/high_density_graphene/mobility.png" > [65]
-
-Package natbib Warning: Citation `schoelkopf_radio-frequency_1998' on page 66 u
-ndefined on input line 34.
-
-[66]
+<use  "figures/high_density_graphene/mobility.png" > [65] [66]
 Invalid UTF-8 byte or sequence at line 38 replaced by U+FFFD.
 Invalid UTF-8 byte or sequence at line 38 replaced by U+FFFD.
 Invalid UTF-8 byte or sequence at line 38 replaced by U+FFFD.
@@ -1927,7 +2055,8 @@ Invalid UTF-8 byte or sequence at line 38 replaced by U+FFFD.
 Invalid UTF-8 byte or sequence at line 38 replaced by U+FFFD.
 Invalid UTF-8 byte or sequence at line 38 replaced by U+FFFD.
 File: figures/high_density_graphene/matching.eps Graphic file (type eps)
- <figures/high_density_graphene/matching.eps>
+
+<figures/high_density_graphene/matching.eps>
 Invalid UTF-8 byte or sequence at line 45 replaced by U+FFFD.
 Invalid UTF-8 byte or sequence at line 45 replaced by U+FFFD.
 Invalid UTF-8 byte or sequence at line 45 replaced by U+FFFD.
@@ -1944,6 +2073,9 @@ File: figures/high_density_graphene/Gth_lin.png Graphic file (type QTm)
 File: figures/high_density_graphene/Gth_log.png Graphic file (type QTm)
 
 <use  "figures/high_density_graphene/Gth_log.png" >
+Missing character: There is no   in font cmr10!
+Missing character: There is no   in font cmr10!
+
 Overfull \hbox (3.24844pt too wide) in paragraph at lines 53--61
 \TU/EBGaramond(1)/bx/n/10.95 Wiedemann-Franz law. The dashed line in the left p
 anel of Fig. [][]4.6[][] shows the theoretical Wiedemann- 
@@ -1952,21 +2084,8 @@ anel of Fig. [][]4.6[][] shows the theoretical Wiedemann-
 [68]
 Missing character: There is no − in font cmr8!
 Missing character: There is no − in font cmr8!
-
-
-Package natbib Warning: Citation `sohier_phonon-limited_2014' on page 69 undefi
-ned on input line 64.
-
-
-Package natbib Warning: Citation `tielrooij_out--plane_2017' on page 69 undefin
-ed on input line 64.
-
-
-Package natbib Warning: Citation `schiefele_temperature_2012' on page 69 undefi
-ned on input line 64.
-
 File: figures/high_density_graphene/EPh.pdf Graphic file (type QTm)
-<use  "figures/high_density_graphene/EPh.pdf" >) [69] [70]
+ <use  "figures/high_density_graphene/EPh.pdf" > [69]) [70]
 \openout2 = `chapters/The_Dirac_fluid.aux'.
 
 
@@ -1979,10 +2098,8 @@ Chapter 5.
 ]
 File: figures/Dirac_fluid/charge_puddles.png Graphic file (type QTm)
  <use  "figures/Dirac_fluid/charge_puddles.png" > [72] [73]
-
-Package natbib Warning: Citation `??' on page 74 undefined on input line 16.
-
 File: figures/Dirac_fluid/temperature_regimes.png Graphic file (type QTm)
+
 <use  "figures/Dirac_fluid/temperature_regimes.png" >
 Overfull \hbox (78.55458pt too wide) in paragraph at lines 27--27
 |[]\TU/EBGaramond(1)/m/sc/14.4 Observation of the Dirac fluid and the breakdown
@@ -1996,18 +2113,9 @@ File: figures/Dirac_fluid/Fig1.pdf Graphic file (type QTm)
 LaTeX Font Warning: Font shape `TU/EBGaramond(0)/bx/n' undefined
 (Font)              using `TU/EBGaramond(0)/m/n' instead on input line 49.
 
-[78]
-
-Package natbib Warning: Citation `yigen_wiedemann-franz_2014' on page 79 undefi
-ned on input line 53.
-
-[79]
-
-Package natbib Warning: Citation `yigen_wiedemann-franz_2014' on page 80 undefi
-ned on input line 56.
-
+[78] [79]
 File: figures/Dirac_fluid/Fig2.pdf Graphic file (type QTm)
-<use  "figures/Dirac_fluid/Fig2.pdf" > [80] [81]
+ <use  "figures/Dirac_fluid/Fig2.pdf" > [80] [81]
 File: figures/Dirac_fluid/Fig3.pdf Graphic file (type QTm)
 
 <use  "figures/Dirac_fluid/Fig3.pdf" >
@@ -2102,25 +2210,16 @@ ds and
 
 
 Underfull \hbox (badness 10000) in paragraph at lines 32--32
-[][][]\TU/EBGaramond(1)/bx/n/10 Below we have assumed that the charge of the qu
-asiparticles is $\OMS/cmsy/m/n/10 ^^F\OML/cmm/m/it/10 e$\TU/EBGaramond(1)/bx/n/
-10 , with $\OML/cmm/m/it/10 e$ \TU/EBGaramond(1)/bx/n/10 the charge of the elec
-tron –
+[][][]\TU/EBGaramond(1)/m/n/10 Below we have assumed that the charge of the qua
+siparticles is $\OMS/cmsy/m/n/10 ^^F\OML/cmm/m/it/10 e$\TU/EBGaramond(1)/m/n/10
+ , with $\OML/cmm/m/it/10 e$ \TU/EBGaramond(1)/m/n/10 the charge of the electro
+n –
  []
 
 [90] [91]
-
-Package natbib Warning: Citation `weber_observation_437' on page 92 undefined o
-n input line 37.
-
-
-Package natbib Warning: Citation `yang_doppler_153' on page 92 undefined on inp
-ut line 37.
-
-
 Underfull \hbox (badness 10000) in paragraph at lines 40--40
-[][][]\TU/EBGaramond(1)/bx/n/10 Quantum dynamics in one dimension, which is oft
-en integrable, is described using very different tech-
+[][][]\TU/EBGaramond(1)/m/n/10 Quantum dynamics in one dimension, which is ofte
+n integrable, is described using very different tech-
  []
 
 [92] [93] [94] [95]
@@ -2138,8 +2237,8 @@ Overfull \hbox (90.33751pt too wide) in paragraph at lines 72--73
 
 
 Underfull \hbox (badness 10000) in paragraph at lines 78--78
-[][][]\TU/EBGaramond(1)/bx/n/10 See [[], []] for a theory of electrical conduct
-ivity in charge puddle dominated graphene at low tempera-
+[][][]\TU/EBGaramond(1)/m/n/10 See [[], []] for a theory of electrical conducti
+vity in charge puddle dominated graphene at low tempera-
  []
 
 [96]
@@ -2154,52 +2253,33 @@ Overfull \hbox (1.27989pt too wide) in paragraph at lines 127--127
  local conservation laws, up to external sources. 
  []
 
-[103]
-
-Package natbib Warning: Citation `pines' on page 104 undefined on input line 14
-1.
-
-[104]
-
-Package natbib Warning: Citation `dsz' on page 105 undefined on input line 143.
-
-
-
+[103] [104]
 Underfull \hbox (badness 10000) in paragraph at lines 153--153
-[][][]\TU/EBGaramond(1)/bx/n/10 It is qualitatively similar to the bipolar diff
-usion effect [[], []] – however, in hydrodynamics the quasi-
+[][][]\TU/EBGaramond(1)/m/n/10 It is qualitatively similar to the bipolar diffu
+sion effect [[], []] – however, in hydrodynamics the
  []
 
 
 Underfull \hbox (badness 10000) in paragraph at lines 153--153
-\TU/EBGaramond(1)/bx/n/10 particle lifetimes are limited by $\U/msb/m/n/10 ~\OM
-L/cmm/m/it/10 =k[]T$\TU/EBGaramond(1)/bx/n/10 , whereas in the bipolar diffusio
-n effect these lifetimes are parametri-
+\TU/EBGaramond(1)/m/n/10 quasiparticle lifetimes are limited by $\U/msb/m/n/10 
+~\OML/cmm/m/it/10 =k[]T$\TU/EBGaramond(1)/m/n/10 , whereas in the bipolar diffu
+sion effect these lifetimes are para-
  []
 
 [105]
 Underfull \hbox (badness 10000) in paragraph at lines 156--156
-[][][]\TU/EBGaramond(1)/bx/n/10 The application of a constant $\OML/cmm/m/it/10
- ^^P[]$ \TU/EBGaramond(1)/bx/n/10 on a periodic space is the reason why we cann
-ot talk about driving the
+[][][]\TU/EBGaramond(1)/m/n/10 The application of a constant $\OML/cmm/m/it/10 
+^^P[]$ \TU/EBGaramond(1)/m/n/10 on a periodic space is the reason why we cannot
+ talk about driving the
  []
 
 
 Underfull \hbox (badness 10000) in paragraph at lines 156--156
-\TU/EBGaramond(1)/bx/n/10 system with a constant temperature gradient, since th
-e temperature is a periodic function in space. One can
+\TU/EBGaramond(1)/m/n/10 system with a constant temperature gradient, since the
+ temperature is a periodic function in space. One can
  []
 
-[106] [107] [108] [109]
-
-Package natbib Warning: Citation `geim2005' on page 110 undefined on input line
- 202.
-
-
-Package natbib Warning: Citation `kim2005' on page 110 undefined on input line 
-202.
-
-[110]
+[106] [107] [108] [109] [110]
 LaTeX Font Info:    Font shape `TU/EBGaramond(1)/m/it' will be
 (Font)              scaled to size 10.95pt on input line 205.
  [111] [112] [113] [114] [115]
@@ -2223,23 +2303,23 @@ File: figures/hydro_theory/kappaTC4plot.pdf Graphic file (type QTm)
 
 <use  "figures/hydro_theory/kappaTC4plot.pdf" > [118]
 Underfull \hbox (badness 10000) in paragraph at lines 298--298
-[][][]\TU/EBGaramond(1)/bx/n/10 We have used theoretically predicted values of 
-$\OML/cmm/m/it/10 C[]$ \TU/EBGaramond(1)/bx/n/10 and $\OML/cmm/m/it/10 C[]$ \TU
-/EBGaramond(1)/bx/n/10 [[]], and assumed that the Dirac fluid ends
+[][][]\TU/EBGaramond(1)/m/n/10 We have used theoretically predicted values of $
+\OML/cmm/m/it/10 C[]$ \TU/EBGaramond(1)/m/n/10 and $\OML/cmm/m/it/10 C[]$ \TU/E
+BGaramond(1)/m/n/10 [[]], and assumed that the Dirac fluid ends
  []
 
 [119] [120] [121]
 Underfull \hbox (badness 10000) in paragraph at lines 309--309
-[][][]\TU/EBGaramond(1)/bx/n/10 The hydrodynamic description of transport reduc
-es to a diffusion equation for the conserved electrical
+[][][]\TU/EBGaramond(1)/m/n/10 The hydrodynamic description of transport reduce
+s to a diffusion equation for the conserved electrical
  []
 
 [122]
 Underfull \hbox (badness 2213) in paragraph at lines 318--318
-[][][]\TU/EBGaramond(1)/bx/n/10 As there is no large Fermi surface with $\OML/c
-mm/m/it/10 ^^V \OMS/cmsy/m/n/10 ^^] \OML/cmm/m/it/10 k[]T$\TU/EBGaramond(1)/bx/
-n/10 , no further corrections to $\OML/cmm/m/it/10 a$ \TU/EBGaramond(1)/bx/n/10
- are necessary, as in usual
+[][][]\TU/EBGaramond(1)/m/n/10 As there is no large Fermi surface with $\OML/cm
+m/m/it/10 ^^V \OMS/cmsy/m/n/10 ^^] \OML/cmm/m/it/10 k[]T$\TU/EBGaramond(1)/m/n/
+10 , no further corrections to $\OML/cmm/m/it/10 a$ \TU/EBGaramond(1)/m/n/10 ar
+e necessary, as in usual
  []
 
 [123]
@@ -2277,12 +2357,7 @@ Appendix A.
 
 
 
-] [131] [132] [133] [134] [135]
-
-Package natbib Warning: Citation `lucas' on page 136 undefined on input line 72
-.
-
-[136] [137] [138] [139]
+] [131] [132] [133] [134] [135] [136] [137] [138] [139]
 Package microtype Info: Loading generic settings for font family
 (microtype)             `cmss' (encoding: OT1).
 (microtype)             For optimal results, create family-specific settings.
@@ -2321,25 +2396,17 @@ Missing character: There is no
 
 
 
-]
-Underfull \hbox (badness 1097) in paragraph at lines 112--115
-[]\TU/EBGaramond(1)/bx/n/10.95 Cooper, R. A. & al, e. (323).  Anomalous critica
-lity in the electrical resistivity of 
- []
-
-[146] [147] [148]
-Invalid UTF-8 byte or sequence at line 302 replaced by U+FFFD.
+] [146] [147] [148]
+[149]
+Invalid UTF-8 byte or sequence at line 373 replaced by U+FFFD.
 Missing character: There is no � in font EB Garamond 12 Regular/OT:script=latn;
 language=DFLT;+onum;+liga;mapping=tex-text;!
- [149] [150] [151] [152] [153])
-
-Package natbib Warning: There were undefined citations.
-
+ [150] [151] [152] [153] [154] [155] [156])
 Package atveryend Info: Empty hook `BeforeClearDocument' on input line 50.
-[154]
+ [157]
 Package atveryend Info: Empty hook `AfterLastShipout' on input line 50.
- (./dissertation.aux (./chapters/introduction.aux)
-(./chapters/Johnson_noise_thermometry.aux)
+ (./dissertation.aux
+(./chapters/introduction.aux) (./chapters/Johnson_noise_thermometry.aux)
 (./chapters/Electronic_cooling_pathways_in_graphene.aux)
 (./chapters/Thermal_conductance_via_electrical_noise.aux)
 (./chapters/Thermal_conductance_in_high_density_graphene.aux)
@@ -2353,20 +2420,14 @@ Package atveryend Info: Empty hook `AtEndAfterFileList' on input line 50.
 
 LaTeX Font Warning: Some font shapes were not available, defaults substituted.
 
-
-LaTeX Warning: There were undefined references.
-
-
-LaTeX Warning: There were multiply-defined labels.
-
  ) 
 Here is how much of TeX's memory you used:
- 25590 strings out of 493068
- 472847 string characters out of 6135636
- 630805 words of memory out of 5000000
- 28964 multiletter control sequences out of 15000+600000
+ 25843 strings out of 493068
+ 479995 string characters out of 6135636
+ 639516 words of memory out of 5000000
+ 29213 multiletter control sequences out of 15000+600000
  24662 words of font info for 131 fonts, out of 8000000 for 9000
  1347 hyphenation exceptions out of 8191
- 60i,17n,119p,10427b,699s stack positions out of 5000i,500n,10000p,200000b,80000s
+ 60i,17n,119p,10427b,763s stack positions out of 5000i,500n,10000p,200000b,80000s
 
-Output written on dissertation.pdf (162 pages).
+Output written on dissertation.pdf (164 pages).
