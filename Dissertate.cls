@@ -321,8 +321,8 @@
     \clearpage
     \begin{spacing}{\dcompressedspacing}
         \addcontentsline{toc}{chapter}{References}      
-		%\bibliographystyle{unsrtnat} %added to make references appear in order
-        \bibliographystyle{apalike2}
+		\bibliographystyle{unsrtnat} %added to make references appear in order
+        %\bibliographystyle{apalike2}
         \bibliography{references}
     \end{spacing}
 }

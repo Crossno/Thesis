@@ -1,4 +1,4 @@
-This is XeTeX, Version 3.14159265-2.6-0.99996 (TeX Live 2016) (preloaded format=xelatex 2017.3.13)  6 APR 2017 19:21
+This is XeTeX, Version 3.14159265-2.6-0.99996 (TeX Live 2016) (preloaded format=xelatex 2017.3.13)  7 APR 2017 21:13
 entering extended mode
  restricted \write18 enabled.
  %&-line parsing enabled.
@@ -1178,7 +1178,7 @@ Package: quotchap 2012/10/20 v1.1 Decorative Chapter Headings with Quotes
 \@quotebox=\box51
 )
 \mybibindent=\skip120
-Package hyperref Info: Option `colorlinks' set `true' on input line 221.
+Package hyperref Info: Option `colorlinks' set `true' on input line 220.
 )
 (./dissertation.aux (./chapters/introduction.aux)
 (./chapters/Johnson_noise_thermometry.aux)
@@ -1635,6 +1635,26 @@ text indent by \l@... (toc, 0):  18.0pt
 number indent by parent (toc, 0):  0.0pt
 text indent calculated (toc, 0): 12.96478pt
 number indent calculated (toc, 0): 0.0pt
+number indent by \l@... (toc, 1):  18.0pt
+text indent by \l@... (toc, 1):  27.60004pt
+number indent by parent (toc, 1):  12.96478pt
+text indent calculated (toc, 1): 20.87068pt
+number indent calculated (toc, 1): 12.96478pt
+number indent by \l@... (toc, 1):  18.0pt
+text indent by \l@... (toc, 1):  27.60004pt
+number indent by parent (toc, 1):  12.96478pt
+text indent calculated (toc, 1): 20.87068pt
+number indent calculated (toc, 1): 12.96478pt
+number indent by \l@... (toc, 1):  18.0pt
+text indent by \l@... (toc, 1):  27.60004pt
+number indent by parent (toc, 1):  12.96478pt
+text indent calculated (toc, 1): 20.87068pt
+number indent calculated (toc, 1): 12.96478pt
+number indent by \l@... (toc, 1):  18.0pt
+text indent by \l@... (toc, 1):  27.60004pt
+number indent by parent (toc, 1):  12.96478pt
+text indent calculated (toc, 1): 20.87068pt
+number indent calculated (toc, 1): 12.96478pt
 number indent by \l@... (toc, 0):  0.0pt
 text indent by \l@... (toc, 0):  18.0pt
 number indent by parent (toc, 0):  0.0pt
@@ -1685,6 +1705,7 @@ text indent by \l@... (toc, 2):  38.39996pt
 number indent by parent (toc, 2):  33.83546pt
 text indent calculated (toc, 2): 26.55374pt
 number indent calculated (toc, 2): 33.83546pt
+[5]
 number indent by \l@... (toc, 0):  0.0pt
 text indent by \l@... (toc, 0):  18.0pt
 number indent by parent (toc, 0):  0.0pt
@@ -1694,9 +1715,9 @@ number indent calculated (toc, 0): 0.0pt
 \tf@toc=\write4
 \openout4 = `dissertation.toc'.
 
- [5] (./frontmatter/dedication.tex) [6
+ [6] (./frontmatter/dedication.tex) [7
 
-] (./frontmatter/thanks.tex) [7
+] (./frontmatter/thanks.tex) [8
 
 
 ]
@@ -1952,6 +1973,11 @@ tron-phonon conductance is geometry dependent. In long
 \openout2 = `chapters/Thermal_conductance_via_electrical_noise.aux'.
 
  (./chapters/Thermal_conductance_via_electrical_noise.tex
+Underfull \hbox (badness 10000) in paragraph at lines 3--4
+[]\TU/EBGaramond(1)/m/it/10 Since the dawn of time, man hath sought to make thi
+ngs
+ []
+
 Chapter 3.
 [49
 
@@ -1960,7 +1986,7 @@ Chapter 3.
 ]
 File: figures/thermal_via_noise/thermal_diagram.png Graphic file (type QTm)
  <use  "figures/thermal_via_noise/thermal_diagram.png" > [50] [51] [52]
-Overfull \hbox (4.67776pt too wide) in paragraph at lines 55--57
+Overfull \hbox (4.67776pt too wide) in paragraph at lines 60--62
 \TU/EBGaramond(1)/bx/n/10.95 solving Eqn. [][]3.1.1[][] using this form for the
  solution with the boundary conditions $\OML/cmm/m/it/10.95 ^^AT\OT1/cmr/m/n/10
 .95 (0) = \OML/cmm/m/it/10.95 ^^AT\OT1/cmr/m/n/10.95 (\OML/cmm/m/it/10.95 L\OT1
@@ -1971,7 +1997,7 @@ Overfull \hbox (4.67776pt too wide) in paragraph at lines 55--57
 File: figures/thermal_via_noise/picture_temperature_profile.png Graphic file (t
 ype QTm)
  <use  "figures/thermal_via_noise/picture_temperature_profile.png" >
-Overfull \hbox (1.36507pt too wide) in paragraph at lines 79--81
+Overfull \hbox (1.36507pt too wide) in paragraph at lines 84--86
 \TU/EBGaramond(1)/bx/n/10.95 All the information about the heating profile is c
 ontained in the factor of 12. — i.e for a two-terminal 
  []
@@ -1982,7 +2008,7 @@ File: figures/thermal_via_noise/wedge.png Graphic file (type QTm)
 Missing character: There is no ^^R in font EB Garamond 12 Regular/OT:script=lat
 n;language=DFLT;!
  [55]
-Overfull \hbox (0.81026pt too wide) in paragraph at lines 119--121
+Overfull \hbox (0.81026pt too wide) in paragraph at lines 124--126
 \TU/EBGaramond(1)/bx/n/10.95 The mean temperature and the Johnson noise tempera
 ture can be calculated by integrating Eqn. [][]3.20[][] 
  []
@@ -1990,22 +2016,22 @@ ture can be calculated by integrating Eqn. [][]3.20[][]
 [56]
 
 Package hyperref Warning: Token not allowed in a PDF string (Unicode):
-(hyperref)                removing `math shift' on input line 131.
+(hyperref)                removing `math shift' on input line 136.
 
 
 Package hyperref Warning: Token not allowed in a PDF string (Unicode):
-(hyperref)                removing `\beta' on input line 131.
+(hyperref)                removing `\beta' on input line 136.
 
 
 Package hyperref Warning: Token not allowed in a PDF string (Unicode):
-(hyperref)                removing `math shift' on input line 131.
+(hyperref)                removing `math shift' on input line 136.
 
 [57] [58] [59] [60]
 File: figures/thermal_via_noise/Schematic_Joule_heating.png Graphic file (type 
 QTm)
 
 <use  "figures/thermal_via_noise/Schematic_Joule_heating.png" >
-Underfull \hbox (badness 10000) in paragraph at lines 217--217
+Underfull \hbox (badness 10000) in paragraph at lines 222--222
 [][][]\TU/EBGaramond(1)/m/n/10 It is because of this need to pass a DC current 
 through the matching network and into the sample that
  []
@@ -2329,22 +2355,53 @@ File: figures/hydro_theory/ephsketchplot.pdf Graphic file (type QTm)
 \openout2 = `chapters/Magneto-thermal_transport.aux'.
 
  (./chapters/Magneto-thermal_transport.tex
-Underfull \hbox (badness 10000) in paragraph at lines 3--4
-[]\TU/EBGaramond(1)/m/it/10 Since the dawn of time, man hath sought to make thi
-ngs
- []
-
 Chapter 7.
-) [128
+[128
 
 
 
 ]
+File: figures/magneto/Hall_T_V.png Graphic file (type QTm)
+ <use  "figures/magneto/Hall_T_V.png" >
+File: figures/magneto/100x.jpg Graphic file (type QTm)
+
+<use  "figures/magneto/100x.jpg" >
+File: figures/magneto/R.png Graphic file (type QTm)
+ <use  "figures/magneto/R.png" >
+File: figures/magneto/Fan_R.png Graphic file (type QTm)
+
+<use  "figures/magneto/Fan_R.png" >
+File: figures/magneto/mobility_mfp_1K.png Graphic file (type QTm)
+
+<use  "figures/magneto/mobility_mfp_1K.png" >
+File: figures/magneto/picture_matching_ceramic.jpg Graphic file (type QTm)
+
+<use  "figures/magneto/picture_matching_ceramic.jpg" >
+File: figures/magneto/S11_plot.png Graphic file (type QTm)
+
+<use  "figures/magneto/S11_plot.png" >
+File: figures/magneto/Fan_VNdc.png Graphic file (type QTm)
+ <use  "figures/magneto/Fan_VNdc.png" >
+File: figures/magneto/Fan_DT.png Graphic file (type QTm)
+
+<use  "figures/magneto/Fan_DT.png" > [129] [130] [131] [132]
+File: figures/magneto/High_density.png Graphic file (type QTm)
+
+<use  "figures/magneto/High_density.png" >
+File: figures/magneto/Low_density.png Graphic file (type QTm)
+
+<use  "figures/magneto/Low_density.png" >
+File: figures/magneto/Fan_L.png Graphic file (type QTm)
+ <use  "figures/magneto/Fan_L.png" >
+File: figures/magneto/L_n_Ha.png Graphic file (type QTm)
+
+<use  "figures/magneto/L_n_Ha.png" >) [133] [134] [135] [136]
 \openout2 = `chapters/Conclusions_and_future_work.aux'.
 
- (./chapters/Conclusions_and_future_work.tex
+
+(./chapters/Conclusions_and_future_work.tex
 Chapter 8.
-) [129
+) [137
 
 
 
@@ -2353,16 +2410,16 @@ Chapter 8.
 
  (./chapters/appendixA.tex
 Appendix A.
-[130
+[138
 
 
 
-] [131] [132] [133] [134] [135] [136] [137] [138] [139]
+] [139] [140] [141] [142] [143] [144] [145] [146] [147]
 Package microtype Info: Loading generic settings for font family
 (microtype)             `cmss' (encoding: OT1).
 (microtype)             For optimal results, create family-specific settings.
 (microtype)             See the microtype manual for details.
- [140]
+ [148]
 Overfull \hbox (8.29147pt too wide) in paragraph at lines 135--137
 \TU/EBGaramond(1)/bx/n/10.95 with $[]$ a constant, $[]\OT1/cmr/m/n/10.95 (\OML/
 cmm/m/it/10.95 n[]; n[]\OT1/cmr/m/n/10.95 )$ \TU/EBGaramond(1)/bx/n/10.95 unifo
@@ -2371,7 +2428,7 @@ rmly distributed on $\OT1/cmr/m/n/10.95 [\OMS/cmsy/m/n/10.95 ^^@\OML/cmm/m/it/1
 t/10.95 c \OT1/cmr/m/n/10.95 = []$\TU/EBGaramond(1)/bx/n/10.95 , 
  []
 
-[141]
+[149]
 File: figures/appendix/finitesizeplot2.pdf Graphic file (type QTm)
  <use  "figures/appendix/finitesizeplot2.pdf" >
 Overfull \hbox (90.33751pt too wide) in paragraph at lines 144--145
@@ -2384,29 +2441,33 @@ Overfull \hbox (90.33751pt too wide) in paragraph at lines 151--152
  [][] 
  []
 
-[142]
+[150]
 File: figures/appendix/spectralplot.pdf Graphic file (type QTm)
- <use  "figures/appendix/spectralplot.pdf" > [143]
+ <use  "figures/appendix/spectralplot.pdf" > [151]
 Missing character: There is no 
  in font EB Garamond 12 Regular/OT:script=latn;language=DFLT;!
 Missing character: There is no 
  in font EB Garamond 12 Regular/OT:script=latn;language=DFLT;!
-) [144]
-(./endmatter/personalize.tex) (./dissertation.bbl [145
+) [152]
+(./endmatter/personalize.tex) (./dissertation.bbl
+LaTeX Font Info:    Font shape `TU/SourceCodePro(0)/m/n' will be
+(Font)              scaled to size 9.35316pt on input line 22.
+Package microtype Info: Loading generic settings for font family
+(microtype)             `SourceCodePro' (encoding: TU).
+(microtype)             For optimal results, create family-specific settings.
+(microtype)             See the microtype manual for details.
+ [153
 
 
 
-] [146] [147] [148]
-[149]
-Invalid UTF-8 byte or sequence at line 373 replaced by U+FFFD.
-Missing character: There is no � in font EB Garamond 12 Regular/OT:script=latn;
-language=DFLT;+onum;+liga;mapping=tex-text;!
- [150] [151] [152] [153] [154] [155] [156])
+] [154] [155] [156]
+[157] [158] [159] [160] [161] [162] [163] [164] [165] [166] [167] [168])
 Package atveryend Info: Empty hook `BeforeClearDocument' on input line 50.
- [157]
+
+[169]
 Package atveryend Info: Empty hook `AfterLastShipout' on input line 50.
- (./dissertation.aux
-(./chapters/introduction.aux) (./chapters/Johnson_noise_thermometry.aux)
+ (./dissertation.aux (./chapters/introduction.aux)
+(./chapters/Johnson_noise_thermometry.aux)
 (./chapters/Electronic_cooling_pathways_in_graphene.aux)
 (./chapters/Thermal_conductance_via_electrical_noise.aux)
 (./chapters/Thermal_conductance_in_high_density_graphene.aux)
@@ -2422,12 +2483,12 @@ LaTeX Font Warning: Some font shapes were not available, defaults substituted.
 
  ) 
 Here is how much of TeX's memory you used:
- 25843 strings out of 493068
- 479995 string characters out of 6135636
- 639516 words of memory out of 5000000
- 29213 multiletter control sequences out of 15000+600000
- 24662 words of font info for 131 fonts, out of 8000000 for 9000
+ 25890 strings out of 493068
+ 480894 string characters out of 6135636
+ 645466 words of memory out of 5000000
+ 29245 multiletter control sequences out of 15000+600000
+ 24670 words of font info for 132 fonts, out of 8000000 for 9000
  1347 hyphenation exceptions out of 8191
  60i,17n,119p,10427b,763s stack positions out of 5000i,500n,10000p,200000b,80000s
 
-Output written on dissertation.pdf (164 pages).
+Output written on dissertation.pdf (177 pages).

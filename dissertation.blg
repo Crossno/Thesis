@@ -11,50 +11,46 @@ A level-1 auxiliary file: chapters/Hydrodynamic_theory_of_transport.aux
 A level-1 auxiliary file: chapters/Magneto-thermal_transport.aux
 A level-1 auxiliary file: chapters/Conclusions_and_future_work.aux
 A level-1 auxiliary file: chapters/appendixA.aux
-White space in argument---line 39 of file dissertation.aux
- : \bibstyle{apalike2,
- :                     unsrtnat}
-I'm skipping whatever remains of this command
-I found no style file---while reading file dissertation.aux
+The style file: unsrtnat.bst
+Database file #1: references.bib
 You've used 143 entries,
-            0 wiz_defined-function locations,
-            237 strings with 4067 characters,
-and the built_in function-call counts, 0 in all, are:
-= -- 0
-> -- 0
-< -- 0
-+ -- 0
-- -- 0
-* -- 0
-:= -- 0
-add.period$ -- 0
-call.type$ -- 0
-change.case$ -- 0
-chr.to.int$ -- 0
-cite$ -- 0
-duplicate$ -- 0
-empty$ -- 0
-format.name$ -- 0
-if$ -- 0
-int.to.chr$ -- 0
-int.to.str$ -- 0
-missing$ -- 0
-newline$ -- 0
-num.names$ -- 0
-pop$ -- 0
-preamble$ -- 0
-purify$ -- 0
+            2481 wiz_defined-function locations,
+            1573 strings with 39365 characters,
+and the built_in function-call counts, 64858 in all, are:
+= -- 5474
+> -- 3983
+< -- 63
++ -- 1488
+- -- 1201
+* -- 6176
+:= -- 10901
+add.period$ -- 700
+call.type$ -- 143
+change.case$ -- 282
+chr.to.int$ -- 142
+cite$ -- 143
+duplicate$ -- 2725
+empty$ -- 5266
+format.name$ -- 1418
+if$ -- 13335
+int.to.chr$ -- 2
+int.to.str$ -- 144
+missing$ -- 150
+newline$ -- 992
+num.names$ -- 431
+pop$ -- 771
+preamble$ -- 1
+purify$ -- 143
 quote$ -- 0
-skip$ -- 0
+skip$ -- 1425
 stack$ -- 0
-substring$ -- 0
-swap$ -- 0
-text.length$ -- 0
+substring$ -- 3091
+swap$ -- 402
+text.length$ -- 1
 text.prefix$ -- 0
 top$ -- 0
-type$ -- 0
+type$ -- 977
 warning$ -- 0
-while$ -- 0
+while$ -- 479
 width$ -- 0
-write$ -- 0
-(There were 2 error messages)
+write$ -- 2409

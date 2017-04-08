@@ -1,0 +1,1306 @@
+\begin{thebibliography}{143}
+\providecommand{\natexlab}[1]{#1}
+\providecommand{\url}[1]{\texttt{#1}}
+\expandafter\ifx\csname urlstyle\endcsname\relax
+  \providecommand{\doi}[1]{doi: #1}\else
+  \providecommand{\doi}{doi: \begingroup \urlstyle{rm}\Url}\fi
+
+\bibitem[Einstein(1956)]{einstein_investigations_1956}
+Albert Einstein.
+\newblock \emph{Investigations on the {Theory} of the {Brownian} {Movement}}.
+\newblock Courier Corporation, 1956.
+\newblock ISBN 978-0-486-60304-9.
+\newblock Google-Books-ID: AOIVupH\_hboC.
+
+\bibitem[Kubo(1966)]{kubo_fluctuation-dissipation_1966}
+R.~Kubo.
+\newblock The fluctuation-dissipation theorem.
+\newblock \emph{Reports on Progress in Physics}, 29\penalty0 (1):\penalty0 255,
+  1966.
+\newblock ISSN 0034-4885.
+\newblock \doi{10.1088/0034-4885/29/1/306}.
+\newblock URL \url{http://stacks.iop.org/0034-4885/29/i=1/a=306}.
+
+\bibitem[Callen and Welton(1951)]{callen_irreversibility_1951}
+Herbert~B. Callen and Theodore~A. Welton.
+\newblock Irreversibility and {Generalized} {Noise}.
+\newblock \emph{Physical Review}, 83\penalty0 (1):\penalty0 34--40, July 1951.
+\newblock \doi{10.1103/PhysRev.83.34}.
+\newblock URL \url{http://link.aps.org/doi/10.1103/PhysRev.83.34}.
+
+\bibitem[Nyquist(1928)]{nyquist_thermal_1928}
+H.~Nyquist.
+\newblock Thermal {Agitation} of {Electric} {Charge} in {Conductors}.
+\newblock \emph{Physical Review}, 32\penalty0 (1):\penalty0 110--113, July
+  1928.
+\newblock \doi{10.1103/PhysRev.32.110}.
+\newblock URL \url{http://link.aps.org/doi/10.1103/PhysRev.32.110}.
+
+\bibitem[Johnson(1927)]{johnson_thermal_1927}
+John~B Johnson.
+\newblock Thermal agitation of electricity in conductors.
+\newblock \emph{Nature}, 119\penalty0 (2984):\penalty0 50--51, 1927.
+
+\bibitem[Johnson(1928)]{johnson_thermal_1928}
+J.~B. Johnson.
+\newblock Thermal {Agitation} of {Electricity} in {Conductors}.
+\newblock \emph{Physical Review}, 32\penalty0 (1):\penalty0 97--109, July 1928.
+\newblock \doi{10.1103/PhysRev.32.97}.
+\newblock URL \url{http://link.aps.org/doi/10.1103/PhysRev.32.97}.
+
+\bibitem[Dicke(1946)]{dicke_measurement_1946}
+R.~H. Dicke.
+\newblock The {Measurement} of {Thermal} {Radiation} at {Microwave}
+  {Frequencies}.
+\newblock \emph{Review of Scientific Instruments}, 17\penalty0 (7):\penalty0
+  268--275, July 1946.
+\newblock ISSN 0034-6748.
+\newblock \doi{10.1063/1.1770483}.
+\newblock URL \url{http://aip.scitation.org/doi/abs/10.1063/1.1770483}.
+
+\bibitem[Schoelkopf et~al.(1997)Schoelkopf, Burke, Kozhevnikov, Prober, and
+  Rooks]{schoelkopf_frequency_1997}
+R.~J. Schoelkopf, P.~J. Burke, A.~A. Kozhevnikov, D.~E. Prober, and M.~J.
+  Rooks.
+\newblock Frequency {Dependence} of {Shot} {Noise} in a {Diffusive}
+  {Mesoscopic} {Conductor}.
+\newblock \emph{Physical Review Letters}, 78\penalty0 (17):\penalty0
+  3370--3373, April 1997.
+\newblock \doi{10.1103/PhysRevLett.78.3370}.
+\newblock URL \url{http://link.aps.org/doi/10.1103/PhysRevLett.78.3370}.
+
+\bibitem[Pozar(2011)]{pozar_microwave_2011}
+David~M. Pozar.
+\newblock \emph{Microwave {Engineering}}.
+\newblock Wiley, Hoboken, NJ, 4 edition edition, November 2011.
+\newblock ISBN 978-0-470-63155-3.
+
+\bibitem[Crossno et~al.(2015)Crossno, Liu, Ohki, Kim, and
+  Fong]{crossno_development_2015}
+Jesse Crossno, Xiaomeng Liu, Thomas~A. Ohki, Philip Kim, and Kin~Chung Fong.
+\newblock Development of high frequency and wide bandwidth {Johnson} noise
+  thermometry.
+\newblock \emph{Applied Physics Letters}, 106\penalty0 (2):\penalty0 023121,
+  January 2015.
+\newblock ISSN 0003-6951, 1077-3118.
+\newblock \doi{10.1063/1.4905926}.
+\newblock URL \url{http://arxiv.org/abs/1411.4596}.
+\newblock arXiv: 1411.4596.
+
+\bibitem[Rice(1944)]{rice_mathematical_1944}
+S.~O. Rice.
+\newblock Mathematical analysis of random noise.
+\newblock \emph{The Bell System Technical Journal}, 23\penalty0 (3):\penalty0
+  282--332, July 1944.
+\newblock ISSN 0005-8580.
+\newblock \doi{10.1002/j.1538-7305.1944.tb00874.x}.
+
+\bibitem[Horowitz and Hill(1989)]{horowitz_art_1989}
+Paul Horowitz and Winfield Hill.
+\newblock \emph{The {Art} of {Electronics}}.
+\newblock Cambridge University Press, Cambridge England ; New York, 2 edition
+  edition, July 1989.
+\newblock ISBN 978-0-521-37095-0.
+
+\bibitem[White et~al.(1996)White, Galleano, Actis, Brixy, Groot, Dubbeldam,
+  Reesink, Edler, Sakurai, Shepard, and Gallop]{white_status_1996}
+D.~R. White, R.~Galleano, A.~Actis, H.~Brixy, M.~De Groot, J.~Dubbeldam, A.~L.
+  Reesink, F.~Edler, H.~Sakurai, R.~L. Shepard, and J.~C. Gallop.
+\newblock The status of {Johnson} noise thermometry.
+\newblock \emph{Metrologia}, 33\penalty0 (4):\penalty0 325, 1996.
+\newblock ISSN 0026-1394.
+\newblock \doi{10.1088/0026-1394/33/4/6}.
+\newblock URL \url{http://stacks.iop.org/0026-1394/33/i=4/a=6}.
+
+\bibitem[Glattli et~al.(1997)Glattli, Jacques, Kumar, Pari, and
+  Saminadayar]{glattli_noise_1997}
+D.~C. Glattli, P.~Jacques, A.~Kumar, P.~Pari, and L.~Saminadayar.
+\newblock A noise detection scheme with 10 {mK} noise temperature resolution
+  for semiconductor single electron tunneling devices.
+\newblock \emph{Journal of Applied Physics}, 81:\penalty0 7350--7356, June
+  1997.
+\newblock ISSN 0021-8979.
+\newblock \doi{10.1063/1.365332}.
+\newblock URL \url{http://adsabs.harvard.edu/abs/1997JAP....81.7350G}.
+
+\bibitem[DiCarlo et~al.(2006)DiCarlo, Zhang, McClure, Marcus, Pfeiffer, and
+  West]{dicarlo_system_2006}
+L.~DiCarlo, Y.~Zhang, D.~T. McClure, C.~M. Marcus, L.~N. Pfeiffer, and K.~W.
+  West.
+\newblock System for measuring auto-and cross correlation of current noise at
+  low temperatures.
+\newblock \emph{Rev Sci Instrum}, 77\penalty0 (7):\penalty0 073906--073906--7,
+  2006.
+
+\bibitem[Henny et~al.(1999)Henny, Oberholzer, Strunk, and
+  Schönenberger]{henny_1/3-shot-noise_1999}
+M.~Henny, S.~Oberholzer, C.~Strunk, and C.~Schönenberger.
+\newblock 1/3-shot-noise suppression in diffusive nanowires.
+\newblock \emph{Physical Review B}, 59\penalty0 (4):\penalty0 2871, 1999.
+
+\bibitem[Brophy et~al.(1965)Brophy, Epstein, and
+  Webb]{brophy_correlatoramplifier_1965}
+James~J. Brophy, Max Epstein, and Samuel~L. Webb.
+\newblock Correlator‐{Amplifier} for {Very} {Low} {Level} {Signals}.
+\newblock \emph{Rev Sci Instrum}, 36\penalty0 (12):\penalty0 1803--1806, 1965.
+\newblock \doi{10.1063/1.1719469}.
+
+\bibitem[Klein et~al.(1979)Klein, Klempt, and Storm]{klein_measurement_1979}
+H.-H. Klein, G.~Klempt, and L.~Storm.
+\newblock Measurement of the {Thermodynamic} {Temperature} of 4 {He} at
+  {Various} {Vapour} {Pressures} by a {Noise} {Thermometer}.
+\newblock \emph{Metrologia}, 15\penalty0 (3):\penalty0 143, 1979.
+\newblock ISSN 0026-1394.
+\newblock \doi{10.1088/0026-1394/15/3/005}.
+\newblock URL \url{http://stacks.iop.org/0026-1394/15/i=3/a=005}.
+
+\bibitem[Sampietro et~al.(2000)Sampietro, Accomando, Fasoli, Ferrari, and
+  Gatti]{sampietro_high_2000}
+N.~Sampietro, Gianfranco Accomando, Luca Fasoli, Giorgio Ferrari, and Emilio
+  Gatti.
+\newblock High sensitivity noise measurement with a correlation spectrum
+  analyzer.
+\newblock \emph{Instrumentation and Measurement, IEEE Transactions on},
+  49\penalty0 (4):\penalty0 820--822, 2000.
+
+\bibitem[Ashcroft and Mermin(1976)]{ashcroft_solid_1976}
+Neil~W. Ashcroft and N.~David Mermin.
+\newblock \emph{Solid {State} {Physics}}.
+\newblock Brooks Cole, New York, 1 edition edition, January 1976.
+\newblock ISBN 978-0-03-083993-1.
+
+\bibitem[McKitterick et~al.(2013)McKitterick, Prober, and
+  Karasik]{mckitterick_performance_2013}
+Christopher McKitterick, Daniel Prober, and Boris Karasik.
+\newblock Performance of graphene thermal photon detectors.
+\newblock \emph{J Appl Phys}, 113\penalty0 (4):\penalty0 044512--044512--6,
+  2013.
+
+\bibitem[McKitterick et~al.(2016)McKitterick, Prober, and
+  Rooks]{mckitterick_electron-phonon_2016}
+Christopher~B. McKitterick, Daniel~E. Prober, and Michael~J. Rooks.
+\newblock Electron-phonon cooling in large monolayer graphene devices.
+\newblock \emph{Physical Review B}, 93\penalty0 (7):\penalty0 075410, February
+  2016.
+\newblock \doi{10.1103/PhysRevB.93.075410}.
+\newblock URL \url{https://link.aps.org/doi/10.1103/PhysRevB.93.075410}.
+
+\bibitem[Franz and Wiedemann(1853)]{franz_ueber_1853}
+R.~Franz and G.~Wiedemann.
+\newblock Ueber die {Wärme}-{Leitungsfähigkeit} der {Metalle}.
+\newblock \emph{Annalen der Physik}, 165\penalty0 (8):\penalty0 497--531,
+  January 1853.
+\newblock ISSN 1521-3889.
+\newblock \doi{10.1002/andp.18531650802}.
+\newblock URL
+  \url{http://onlinelibrary.wiley.com/doi/10.1002/andp.18531650802/abstract}.
+
+\bibitem[Lorenz(1872)]{lorenz_bestimmung_1872}
+L.~Lorenz.
+\newblock Bestimmung der {Wärmegrade} in absolutem {Maasse}.
+\newblock \emph{Annalen der Physik}, 223\penalty0 (11):\penalty0 429--452,
+  January 1872.
+\newblock ISSN 1521-3889.
+\newblock \doi{10.1002/andp.18722231107}.
+\newblock URL
+  \url{http://onlinelibrary.wiley.com/doi/10.1002/andp.18722231107/abstract}.
+
+\bibitem[Kumar et~al.(1993)Kumar, Prasad, and Pohl]{kumar_experimental_1993}
+G.~S. Kumar, G.~Prasad, and R.~O. Pohl.
+\newblock Experimental determinations of the {Lorenz} number.
+\newblock \emph{Journal of Materials Science}, 28\penalty0 (16):\penalty0
+  4261--4272, August 1993.
+\newblock ISSN 0022-2461, 1573-4803.
+\newblock \doi{10.1007/BF01154931}.
+\newblock URL \url{https://link.springer.com/article/10.1007/BF01154931}.
+
+\bibitem[Sommerfeld(1927)]{sommerfeld_zur_1927}
+A.~Sommerfeld.
+\newblock Zur {Elektronentheorie} der {Metalle}.
+\newblock \emph{Naturwissenschaften}, 15\penalty0 (41):\penalty0 825--832,
+  October 1927.
+\newblock ISSN 0028-1042, 1432-1904.
+\newblock \doi{10.1007/BF01505083}.
+\newblock URL \url{https://link.springer.com/article/10.1007/BF01505083}.
+
+\bibitem[Steinbach et~al.(1996)Steinbach, Martinis, and
+  Devoret]{steinbach_observation_1996}
+Andrew~H. Steinbach, John~M. Martinis, and Michel~H. Devoret.
+\newblock Observation of {Hot}-{Electron} {Shot} {Noise} in a {Metallic}
+  {Resistor}.
+\newblock \emph{Physical Review Letters}, 76\penalty0 (20):\penalty0
+  3806--3809, May 1996.
+\newblock \doi{10.1103/PhysRevLett.76.3806}.
+\newblock URL \url{https://link.aps.org/doi/10.1103/PhysRevLett.76.3806}.
+
+\bibitem[Blanter and Buttiker(2000)]{blanter_shot_2000}
+Ya~M. Blanter and M.~Buttiker.
+\newblock Shot {Noise} in {Mesoscopic} {Conductors}.
+\newblock \emph{Physics Reports}, 336\penalty0 (1-2):\penalty0 1--166,
+  September 2000.
+\newblock ISSN 03701573.
+\newblock \doi{10.1016/S0370-1573(99)00123-4}.
+\newblock URL \url{http://arxiv.org/abs/cond-mat/9910158}.
+\newblock arXiv: cond-mat/9910158.
+
+\bibitem[de~Jong and Beenakker(1996)]{de_jong_semiclassical_1996}
+M.~J.~M. de~Jong and C.~W.~J. Beenakker.
+\newblock Semiclassical theory of shot noise in mesoscopic conductors.
+\newblock \emph{Physica A: Statistical Mechanics and its Applications},
+  230\penalty0 (1):\penalty0 219--248, August 1996.
+\newblock ISSN 0378-4371.
+\newblock \doi{10.1016/0378-4371(96)00068-4}.
+\newblock URL
+  \url{http://www.sciencedirect.com/science/article/pii/0378437196000684}.
+
+\bibitem[Viljas and Heikkilä(2010)]{viljas_electron-phonon_2010}
+J.~K. Viljas and T.~T. Heikkilä.
+\newblock Electron-phonon heat transfer in monolayer and bilayer graphene.
+\newblock \emph{Physical Review B}, 81\penalty0 (24):\penalty0 245404, June
+  2010.
+\newblock \doi{10.1103/PhysRevB.81.245404}.
+\newblock URL \url{http://link.aps.org/doi/10.1103/PhysRevB.81.245404}.
+
+\bibitem[Bistritzer and MacDonald(2009)]{bistritzer_electronic_2009}
+R.~Bistritzer and A.~H. MacDonald.
+\newblock Electronic {Cooling} in {Graphene}.
+\newblock \emph{Physical Review Letters}, 102\penalty0 (20):\penalty0 206410,
+  May 2009.
+\newblock \doi{10.1103/PhysRevLett.102.206410}.
+\newblock URL \url{http://link.aps.org/doi/10.1103/PhysRevLett.102.206410}.
+
+\bibitem[Song et~al.(2012)Song, Reizer, and
+  Levitov]{song_disorder-assisted_2012}
+Justin C.~W. Song, Michael~Y. Reizer, and Leonid~S. Levitov.
+\newblock Disorder-{Assisted} {Electron}-{Phonon} {Scattering} and {Cooling}
+  {Pathways} in {Graphene}.
+\newblock \emph{Physical Review Letters}, 109\penalty0 (10):\penalty0 106602,
+  September 2012.
+\newblock \doi{10.1103/PhysRevLett.109.106602}.
+\newblock URL \url{http://link.aps.org/doi/10.1103/PhysRevLett.109.106602}.
+
+\bibitem[Chen and Clerk(2012)]{chen_electron-phonon_2012}
+Wei Chen and Aashish~A. Clerk.
+\newblock Electron-phonon mediated heat flow in disordered graphene.
+\newblock \emph{Physical Review B}, 86\penalty0 (12):\penalty0 125443,
+  September 2012.
+\newblock \doi{10.1103/PhysRevB.86.125443}.
+\newblock URL \url{http://link.aps.org/doi/10.1103/PhysRevB.86.125443}.
+
+\bibitem[Sohier et~al.(2014)Sohier, Calandra, Park, Bonini, Marzari, and
+  Mauri]{sohier_phonon-limited_2014}
+Thibault Sohier, Matteo Calandra, Cheol-Hwan Park, Nicola Bonini, Nicola
+  Marzari, and Francesco Mauri.
+\newblock Phonon-limited resistivity of graphene by first-principles
+  calculations: {Electron}-phonon interactions, strain-induced gauge field, and
+  {Boltzmann} equation.
+\newblock \emph{Physical Review B}, 90\penalty0 (12):\penalty0 125414,
+  September 2014.
+\newblock \doi{10.1103/PhysRevB.90.125414}.
+\newblock URL \url{https://link.aps.org/doi/10.1103/PhysRevB.90.125414}.
+
+\bibitem[Tielrooij et~al.(2017)Tielrooij, Hesp, Principi, Lundeberg, Pogna,
+  Banszerus, Mics, Massicotte, Schmidt, Davydovskaya, Watanabe, Taniguchi,
+  Bonn, Turchinovich, Stampfer, Cerullo, Polini, and
+  Koppens]{tielrooij_out--plane_2017}
+K.~J. Tielrooij, N.~C.~H. Hesp, A.~Principi, M.~Lundeberg, E.~A.~A. Pogna,
+  L.~Banszerus, Z.~Mics, M.~Massicotte, P.~Schmidt, D.~Davydovskaya,
+  K.~Watanabe, T.~Taniguchi, M.~Bonn, D.~Turchinovich, C.~Stampfer, G.~Cerullo,
+  M.~Polini, and F.~H.~L. Koppens.
+\newblock Out-of-plane heat transfer in van der {Waals} stacks:
+  electron-hyperbolic phonon coupling.
+\newblock \emph{arXiv:1702.03766 [cond-mat]}, February 2017.
+\newblock URL \url{http://arxiv.org/abs/1702.03766}.
+\newblock arXiv: 1702.03766.
+
+\bibitem[Schiefele et~al.(2012)Schiefele, Sols, and
+  Guinea]{schiefele_temperature_2012}
+Jürgen Schiefele, Fernando Sols, and Francisco Guinea.
+\newblock Temperature dependence of the conductivity of graphene on boron
+  nitride.
+\newblock \emph{Physical Review B}, 85\penalty0 (19):\penalty0 195420, May
+  2012.
+\newblock \doi{10.1103/PhysRevB.85.195420}.
+\newblock URL \url{https://link.aps.org/doi/10.1103/PhysRevB.85.195420}.
+
+\bibitem[Bloch(1930)]{bloch_zum_1930}
+F.~Bloch.
+\newblock Zum elektrischen {Widerstandsgesetz} bei tiefen {Temperaturen}.
+\newblock \emph{Zeitschrift für Physik}, 59\penalty0 (3-4):\penalty0 208--214,
+  March 1930.
+\newblock ISSN 0044-3328.
+\newblock \doi{10.1007/BF01341426}.
+\newblock URL \url{https://link.springer.com/article/10.1007/BF01341426}.
+
+\bibitem[Grüneisen(1933)]{gruneisen_abhangigkeit_1933}
+E.~Grüneisen.
+\newblock Die {Abhängigkeit} des elektrischen {Widerstandes} reiner {Metalle}
+  von der {Temperatur}.
+\newblock \emph{Annalen der Physik}, 408\penalty0 (5):\penalty0 530--540,
+  January 1933.
+\newblock ISSN 1521-3889.
+\newblock \doi{10.1002/andp.19334080504}.
+\newblock URL
+  \url{http://onlinelibrary.wiley.com/doi/10.1002/andp.19334080504/abstract}.
+
+\bibitem[Stormer et~al.(1990)Stormer, Pfeiffer, Baldwin, and
+  West]{stormer_observation_1990}
+H.~L. Stormer, L.~N. Pfeiffer, K.~W. Baldwin, and K.~W. West.
+\newblock Observation of a {Bloch}-{Gr}{\textbackslash}"uneisen regime in
+  two-dimensional electron transport.
+\newblock \emph{Physical Review B}, 41\penalty0 (2):\penalty0 1278--1281,
+  January 1990.
+\newblock \doi{10.1103/PhysRevB.41.1278}.
+\newblock URL \url{https://link.aps.org/doi/10.1103/PhysRevB.41.1278}.
+
+\bibitem[Efetov and Kim(2010)]{efetov_controlling_2010}
+Dmitri~K. Efetov and Philip Kim.
+\newblock Controlling {Electron}-{Phonon} {Interactions} in {Graphene} at
+  {Ultrahigh} {Carrier} {Densities}.
+\newblock \emph{Physical Review Letters}, 105\penalty0 (25):\penalty0 256805,
+  December 2010.
+\newblock \doi{10.1103/PhysRevLett.105.256805}.
+\newblock URL \url{https://link.aps.org/doi/10.1103/PhysRevLett.105.256805}.
+
+\bibitem[Fong et~al.(2013)Fong, Wollman, Ravi, Chen, Clerk, Shaw, Leduc, and
+  Schwab]{fong_measurement_2013}
+Kin~Chung Fong, Emma~E. Wollman, Harish Ravi, Wei Chen, Aashish~A. Clerk, M.~D.
+  Shaw, H.~G. Leduc, and K.~C. Schwab.
+\newblock Measurement of the {Electronic} {Thermal} {Conductance} {Channels}
+  and {Heat} {Capacity} of {Graphene} at {Low} {Temperature}.
+\newblock \emph{Physical Review X}, 3\penalty0 (4):\penalty0 041008, October
+  2013.
+\newblock \doi{10.1103/PhysRevX.3.041008}.
+\newblock URL \url{http://link.aps.org/doi/10.1103/PhysRevX.3.041008}.
+
+\bibitem[Betz et~al.(2013)Betz, Jhang, Pallecchi, Ferreira, Fève, Berroir, and
+  Plaçais]{betz_supercollision_2013}
+A.~C. Betz, S.~H. Jhang, E.~Pallecchi, R.~Ferreira, G.~Fève, J.-M. Berroir,
+  and B.~Plaçais.
+\newblock Supercollision cooling in undoped graphene.
+\newblock \emph{Nature Physics}, 9\penalty0 (2):\penalty0 109--112, February
+  2013.
+\newblock ISSN 1745-2473.
+\newblock \doi{10.1038/nphys2494}.
+\newblock URL
+  \url{http://www.nature.com/nphys/journal/v9/n2/abs/nphys2494.html}.
+
+\bibitem[Graham et~al.(2013)Graham, Shi, Ralph, Park, and
+  McEuen]{graham_photocurrent_2013}
+Matt~W. Graham, Su-Fei Shi, Daniel~C. Ralph, Jiwoong Park, and Paul~L. McEuen.
+\newblock Photocurrent measurements of supercollision cooling in graphene.
+\newblock \emph{Nature Physics}, 9\penalty0 (2):\penalty0 103--108, February
+  2013.
+\newblock ISSN 1745-2473.
+\newblock \doi{10.1038/nphys2493}.
+\newblock URL
+  \url{http://www.nature.com/nphys/journal/v9/n2/abs/nphys2493.html}.
+
+\bibitem[Kubakaddi(2009)]{kubakaddi_interaction_2009}
+S.~S. Kubakaddi.
+\newblock Interaction of massless {Dirac} electrons with acoustic phonons in
+  graphene at low temperatures.
+\newblock \emph{Physical Review B}, 79\penalty0 (7):\penalty0 075417, February
+  2009.
+\newblock \doi{10.1103/PhysRevB.79.075417}.
+\newblock URL \url{http://link.aps.org/doi/10.1103/PhysRevB.79.075417}.
+
+\bibitem[Low et~al.(2012)Low, Perebeinos, Kim, Freitag, and
+  Avouris]{low_cooling_2012}
+Tony Low, Vasili Perebeinos, Raseong Kim, Marcus Freitag, and Phaedon Avouris.
+\newblock Cooling of photoexcited carriers in graphene by internal and
+  substrate phonons.
+\newblock \emph{Physical Review B}, 86\penalty0 (4):\penalty0 045413, July
+  2012.
+\newblock \doi{10.1103/PhysRevB.86.045413}.
+\newblock URL \url{https://link.aps.org/doi/10.1103/PhysRevB.86.045413}.
+
+\bibitem[Schmidt et~al.(2004)Schmidt, Schoelkopf, and
+  Cleland]{schmidt_photon-mediated_2004}
+D.~R. Schmidt, R.~J. Schoelkopf, and A.~N. Cleland.
+\newblock Photon-{Mediated} {Thermal} {Relaxation} of {Electrons} in
+  {Nanostructures}.
+\newblock \emph{Physical Review Letters}, 93\penalty0 (4):\penalty0 045901,
+  July 2004.
+\newblock \doi{10.1103/PhysRevLett.93.045901}.
+\newblock URL \url{https://link.aps.org/doi/10.1103/PhysRevLett.93.045901}.
+
+\bibitem[McKitterick(2015)]{mckitterick_prospects_2015}
+Christopher~Burt McKitterick.
+\newblock \emph{Prospects for {Ultra}-sensitive {Terahertz} {Photon}
+  {Detection} with {Graphene}}.
+\newblock PhD thesis, Yale University, 2015.
+\newblock URL
+  \url{http://proberlab.yale.edu/sites/default/files/files/McKitterick_Thesis.pdf}.
+
+\bibitem[Seol et~al.(2010)Seol, Jo, Moore, Lindsay, Aitken, Pettes, Li, Yao,
+  Huang, Broido, Mingo, Ruoff, and Shi]{seol_two-dimensional_2010}
+Jae~Hun Seol, Insun Jo, Arden~L. Moore, Lucas Lindsay, Zachary~H. Aitken,
+  Michael~T. Pettes, Xuesong Li, Zhen Yao, Rui Huang, David Broido, Natalio
+  Mingo, Rodney~S. Ruoff, and Li~Shi.
+\newblock Two-{Dimensional} {Phonon} {Transport} in {Supported} {Graphene}.
+\newblock \emph{Science}, 328\penalty0 (5975):\penalty0 213--216, April 2010.
+\newblock ISSN 0036-8075, 1095-9203.
+\newblock \doi{10.1126/science.1184014}.
+\newblock URL \url{http://science.sciencemag.org/content/328/5975/213}.
+
+\bibitem[Yiğen and Champagne(2014)]{yigen_wiedemannfranz_2014}
+S.~Yiğen and A.~R. Champagne.
+\newblock Wiedemann–{Franz} {Relation} and {Thermal}-{Transistor} {Effect} in
+  {Suspended} {Graphene}.
+\newblock \emph{Nano Letters}, 14\penalty0 (1):\penalty0 289--293, January
+  2014.
+\newblock ISSN 1530-6984.
+\newblock \doi{10.1021/nl403967z}.
+\newblock URL \url{http://dx.doi.org/10.1021/nl403967z}.
+
+\bibitem[Wang et~al.(2013)Wang, Meric, Huang, Gao, Gao, Tran, Taniguchi,
+  Watanabe, Campos, Muller, Guo, Kim, Hone, Shepard, and
+  Dean]{wang_one-dimensional_2013}
+L.~Wang, I.~Meric, P.~Y. Huang, Q.~Gao, Y.~Gao, H.~Tran, T.~Taniguchi,
+  K.~Watanabe, L.~M. Campos, D.~A. Muller, J.~Guo, P.~Kim, J.~Hone, K.~L.
+  Shepard, and C.~R. Dean.
+\newblock One-{Dimensional} {Electrical} {Contact} to a {Two}-{Dimensional}
+  {Material} - {Supplementary} {Materials}.
+\newblock \emph{Science}, 342\penalty0 (6158):\penalty0 614--617, November
+  2013.
+\newblock \doi{10.1126/science.1244358}.
+
+\bibitem[Fong and Schwab(2012)]{fong_ultrasensitive_2012}
+Kin~Chung Fong and K.~C. Schwab.
+\newblock Ultrasensitive and {Wide}-{Bandwidth} {Thermal} {Measurements} of
+  {Graphene} at {Low} {Temperatures}.
+\newblock \emph{Physical Review X}, 2\penalty0 (3):\penalty0 031006, July 2012.
+\newblock \doi{10.1103/PhysRevX.2.031006}.
+\newblock URL \url{http://link.aps.org/doi/10.1103/PhysRevX.2.031006}.
+
+\bibitem[Schoelkopf et~al.(1998)Schoelkopf, Wahlgren, Kozhevnikov, Delsing, and
+  Prober]{schoelkopf_radio-frequency_1998}
+R.~J. Schoelkopf, P.~Wahlgren, A.~A. Kozhevnikov, P.~Delsing, and D.~E. Prober.
+\newblock The radio-frequency single-electron transistor ({RF}-{SET}): {A} fast
+  and ultrasensitive electrometer.
+\newblock \emph{Science}, 280\penalty0 (5367):\penalty0 1238--1242, January
+  1998.
+
+\bibitem[Xue et~al.(2011)Xue, Sanchez-Yamagishi, Bulmash, Jacquod, Deshpande,
+  Watanabe, Taniguchi, Jarillo-Herrero, and LeRoy]{xue_scanning_2011}
+Jiamin Xue, Javier Sanchez-Yamagishi, Danny Bulmash, Philippe Jacquod, Aparna
+  Deshpande, K.~Watanabe, T.~Taniguchi, Pablo Jarillo-Herrero, and Brian~J.
+  LeRoy.
+\newblock Scanning tunnelling microscopy and spectroscopy of ultra-flat
+  graphene on hexagonal boron nitride.
+\newblock \emph{Nature Materials}, 10\penalty0 (4):\penalty0 282--285, April
+  2011.
+\newblock ISSN 1476-1122.
+\newblock \doi{10.1038/nmat2968}.
+\newblock URL
+  \url{http://www.nature.com/nmat/journal/v10/n4/full/nmat2968.html}.
+
+\bibitem[Adam et~al.(2017)Adam, Ho, Yudhistira, and
+  Chakraborty]{adam_theoretical_2017}
+Shaffique Adam, Derek Ho, Indra Yudhistira, and Nilotpal Chakraborty.
+\newblock Theoretical study of the criteria and consequences of hydrodynamic
+  electron flow in graphene.
+\newblock In \emph{Bulletin of the {American} {Physical} {Society}}, New
+  Orleans, 2017. American Physical Society.
+\newblock URL \url{http://meetings.aps.org/Meeting/MAR17/Session/X30.8}.
+
+\bibitem[Kadanoff and Martin(1963)]{kadanoff_hydrodynamic_1963}
+L.~P. Kadanoff and P.~C. Martin.
+\newblock Hydrodynamic equations and correlation functions.
+\newblock \emph{Annals of Physics}, 24:\penalty0 419--469, 1963.
+
+\bibitem[Jong and Molenkamp(1995)]{jong_hydrodynamic_1995}
+M.~J. M.~De Jong and L.~W. Molenkamp.
+\newblock Hydrodynamic electron flow in high-mobility wires.
+\newblock \emph{Physical Review B}, 51\penalty0 (19):\penalty0 13389--13402,
+  1995.
+
+\bibitem[Cao et~al.(2011)Cao, Elliott, Joseph, Wu, Petricka, Schäfer, and
+  Thomas]{cao_universal_2011}
+C.~Cao, E.~Elliott, J.~Joseph, H.~Wu, J.~Petricka, T.~Schäfer, and J.~E.
+  Thomas.
+\newblock Universal {Quantum} {Viscosity} in a {Unitary} {Fermi} {Gas}.
+\newblock \emph{Science}, 331\penalty0 (6013):\penalty0 58--61, January 2011.
+\newblock ISSN 0036-8075, 1095-9203.
+\newblock \doi{10.1126/science.1195219}.
+\newblock URL \url{http://science.sciencemag.org/content/331/6013/58}.
+
+\bibitem[Shuryak(2004)]{shuryak_why_2004}
+E.~Shuryak.
+\newblock Why does the quark-gluon plasma at {RHIC} behave as a nearly ideal
+  fluid?
+\newblock \emph{Progress in Particle and Nuclear Physics}, 53:\penalty0
+  273--303, 2004.
+
+\bibitem[Müller and Sachdev(2008)]{muller_collective_2008}
+Markus Müller and Subir Sachdev.
+\newblock Collective cyclotron motion of the relativistic plasma in graphene.
+\newblock \emph{Physical Review B}, 78\penalty0 (11), 2008.
+
+\bibitem[Foster and Aleiner(2009)]{foster_slow_2009}
+M.~Foster and I.~Aleiner.
+\newblock Slow imbalance relaxation and thermoelectric transport in graphene.
+\newblock \emph{Physical Review B}, 79\penalty0 (8):\penalty0 085415, 2009.
+
+\bibitem[Apostolov et~al.(2014)Apostolov, Levchenko, and
+  Andreev]{apostolov_hydrodynamic_2014}
+S.~S. Apostolov, A.~Levchenko, and A.~V. Andreev.
+\newblock Hydrodynamic {Coulomb} drag of strongly correlated electron liquids.
+\newblock \emph{Physical Review B}, 89\penalty0 (12):\penalty0 121104, 2014.
+
+\bibitem[Narozhny et~al.(2015)Narozhny, Gornyi, Titov, Schütt, and
+  Mirlin]{narozhny_hydrodynamics_2015}
+B.~Narozhny, I.~Gornyi, M.~Titov, M.~Schütt, and A.~Mirlin.
+\newblock Hydrodynamics in graphene: {Linear}-response transport.
+\newblock \emph{Physical Review B}, 91:\penalty0 035414, 2015.
+
+\bibitem[Novoselov et~al.(2005)Novoselov, Geim, Morozov, Jiang, Katsnelson,
+  Grigorieva, Dubonos, and Firsov]{novoselov_two-dimensional_2005}
+K.~S. Novoselov, A.~K. Geim, S.~V. Morozov, D.~Jiang, M.~I. Katsnelson, I.~V.
+  Grigorieva, S.~V. Dubonos, and A.~A. Firsov.
+\newblock Two-dimensional gas of massless {Dirac} fermions in graphene.
+\newblock \emph{Nature}, 438\penalty0 (7065):\penalty0 197--200, November 2005.
+\newblock ISSN 0028-0836.
+\newblock \doi{10.1038/nature04233}.
+\newblock URL
+  \url{http://www.nature.com/nature/journal/v438/n7065/full/nature04233.html}.
+
+\bibitem[Zhang et~al.(2005)Zhang, Tan, Stormer, and
+  Kim]{zhang_experimental_2005}
+Yuanbo Zhang, Yan-Wen Tan, Horst~L. Stormer, and Philip Kim.
+\newblock Experimental observation of the quantum {Hall} effect and {Berry}'s
+  phase in graphene.
+\newblock \emph{Nature}, 438\penalty0 (7065):\penalty0 201--204, November 2005.
+\newblock ISSN 0028-0836.
+\newblock \doi{10.1038/nature04235}.
+\newblock URL
+  \url{http://www.nature.com/nature/journal/v438/n7065/full/nature04235.html}.
+
+\bibitem[Siegel et~al.(2013)Siegel, Regan, Fedorov, Zettl, and
+  Lanzara]{siegel_charge-carrier_2013}
+D.~Siegel, W.~Regan, A.~Fedorov, A.~Zettl, and A.~Lanzara.
+\newblock Charge-{Carrier} {Screening} in {Single}-{Layer} {Graphene}.
+\newblock \emph{Physical Review Letters}, 110\penalty0 (14):\penalty0 146802,
+  2013.
+
+\bibitem[Sheehy and Schmalian(2007)]{sheehy_quantum_2007}
+D.~Sheehy and J.~Schmalian.
+\newblock Quantum {Critical} {Scaling} in {Graphene}.
+\newblock \emph{Physical Review Letters}, 99\penalty0 (22):\penalty0 226803,
+  2007.
+
+\bibitem[Keimer and Sachdev(2011)]{keimer_quantum_2011}
+B.~Keimer and S.~Sachdev.
+\newblock Quantum {Criticality}.
+\newblock \emph{Physics Today}, 64:\penalty0 29, 2011.
+
+\bibitem[Lui et~al.(2010)Lui, Mak, Shan, and Heinz]{lui_ultrafast_2010}
+C.~H. Lui, K.~F. Mak, J.~Shan, and T.~F. Heinz.
+\newblock Ultrafast {Photoluminescence} from {Graphene}.
+\newblock \emph{Physical Review Letters}, 105\penalty0 (12):\penalty0 127404,
+  2010.
+
+\bibitem[Breusing et~al.(2009)Breusing, Ropers, and
+  Elsaesser]{breusing_ultrafast_2009}
+Markus Breusing, Claus Ropers, and Thomas Elsaesser.
+\newblock Ultrafast {Carrier} {Dynamics} in {Graphite}.
+\newblock \emph{Physical Review Letters}, 102\penalty0 (8):\penalty0 086809,
+  February 2009.
+\newblock \doi{10.1103/PhysRevLett.102.086809}.
+\newblock URL \url{https://link.aps.org/doi/10.1103/PhysRevLett.102.086809}.
+
+\bibitem[Tielrooij et~al.(2013)Tielrooij, Song, Jensen, Centeno, Pesquera,
+  Elorza, Bonn, Levitov, and Koppens]{tielrooij_photoexcitation_2013}
+K.~J. Tielrooij, J.~C.~W. Song, S.~A. Jensen, A.~Centeno, A.~Pesquera,
+  A.~Zurutuza Elorza, M.~Bonn, L.~S. Levitov, and F.~H.~L. Koppens.
+\newblock Photoexcitation cascade and multiple hot-carrier generation in
+  graphene.
+\newblock \emph{Nature Physics}, 9:\penalty0 248, 2013.
+
+\bibitem[Johannsen et~al.(2013)Johannsen, Ulstrup, Cilento, Crepaldi,
+  Zacchigna, Cacho, Turcu, Springate, Fromm, Raidel, Seyller, Parmigiani,
+  Grioni, and Hofmann]{johannsen_direct_2013}
+Jens~Christian Johannsen, Søren Ulstrup, Federico Cilento, Alberto Crepaldi,
+  Michele Zacchigna, Cephise Cacho, I.~C.~Edmond Turcu, Emma Springate, Felix
+  Fromm, Christian Raidel, Thomas Seyller, Fulvio Parmigiani, Marco Grioni, and
+  Philip Hofmann.
+\newblock Direct {View} of {Hot} {Carrier} {Dynamics} in {Graphene}.
+\newblock \emph{Physical Review Letters}, 111\penalty0 (2):\penalty0 027403,
+  July 2013.
+\newblock \doi{10.1103/PhysRevLett.111.027403}.
+\newblock URL \url{https://link.aps.org/doi/10.1103/PhysRevLett.111.027403}.
+
+\bibitem[Müller et~al.(2009)Müller, Schmalian, and
+  Fritz]{muller_graphene:_2009}
+M.~Müller, J.~Schmalian, and L.~Fritz.
+\newblock Graphene: {A} {Nearly} {Perfect} {Fluid}.
+\newblock \emph{Physical Review Letters}, 103\penalty0 (2):\penalty0 025301,
+  July 2009.
+
+\bibitem[Müller et~al.(2008)Müller, Fritz, and
+  Sachdev]{muller_quantum-critical_2008}
+Markus Müller, Lars Fritz, and Subir Sachdev.
+\newblock Quantum-critical relativistic magnetotransport in graphene.
+\newblock \emph{Physical Review B}, 78\penalty0 (11):\penalty0 115406,
+  September 2008.
+\newblock \doi{10.1103/PhysRevB.78.115406}.
+\newblock URL \url{https://link.aps.org/doi/10.1103/PhysRevB.78.115406}.
+
+\bibitem[Wakeham et~al.(2011)Wakeham, Bangura, Xu, Mercure, Greenblatt, and
+  Hussey]{wakeham_gross_2011}
+N.~Wakeham, A.~F. Bangura, X.~Xu, J.-F. Mercure, M.~Greenblatt, and N.~E.
+  Hussey.
+\newblock Gross violation of the {Wiedemann}-{Franz} law in a
+  quasi-one-dimensional conductor.
+\newblock \emph{Nature Communications}, 2, 2011.
+
+\bibitem[Smith et~al.(2008)Smith, Sutherland, Lonzarich, Saxena, Kimura,
+  Takashima, Nohara, and Takagi]{smith_marginal_2008}
+R.~P. Smith, M.~Sutherland, G.~G. Lonzarich, S.~S. Saxena, N.~Kimura,
+  S.~Takashima, M.~Nohara, and H.~Takagi.
+\newblock Marginal breakdown of the {Fermi}-liquid state on the border of
+  metallic ferromagnetism.
+\newblock \emph{Nature}, 455\penalty0 (7217):\penalty0 1220--1223, 2008.
+
+\bibitem[Pfau and al(2012)]{pfau_thermal_2012}
+H.~Pfau and et~al.
+\newblock Thermal and electrical transport across a magnetic quantum critical
+  point.
+\newblock \emph{Nature}, 484\penalty0 (7395):\penalty0 493--497, 2012.
+
+\bibitem[Hill et~al.(2001)Hill, Proust, Taillefer, Fournier, and
+  Greene]{hill_breakdown_2001}
+R.~W. Hill, C.~Proust, L.~Taillefer, P.~Fournier, and R.~L. Greene.
+\newblock Breakdown of {Fermi}-liquid theory in a copper-oxide superconductor.
+\newblock \emph{Nature}, 414\penalty0 (6865):\penalty0 711--715, 2001.
+
+\bibitem[Fritz et~al.(2008)Fritz, Schmalian, Müller, and
+  Sachdev]{fritz_quantum_2008}
+Lars Fritz, Jörg Schmalian, Markus Müller, and Subir Sachdev.
+\newblock Quantum critical transport in clean graphene.
+\newblock \emph{Physical Review B}, 78\penalty0 (8):\penalty0 085416, 2008.
+
+\bibitem[Adam et~al.(2007)Adam, Hwang, Galitski, and
+  Sarma]{adam_self-consistent_2007}
+Shaffique Adam, E.~H. Hwang, V.~M. Galitski, and S.~Das Sarma.
+\newblock A self-consistent theory for graphene transport.
+\newblock \emph{Proceedings of the National Academy of Sciences}, 104\penalty0
+  (47):\penalty0 18392--18397, November 2007.
+\newblock ISSN 0027-8424, 1091-6490.
+\newblock \doi{10.1073/pnas.0704772104}.
+\newblock URL \url{http://www.pnas.org/content/104/47/18392}.
+
+\bibitem[Martin et~al.(2008)Martin, Akerman, Ulbricht, Lohmann, Smet, von
+  Klitzing, and Yacoby]{martin_observation_2008}
+J.~Martin, N.~Akerman, G.~Ulbricht, T.~Lohmann, J.~H. Smet, K.~von Klitzing,
+  and A.~Yacoby.
+\newblock Observation of electron–hole puddles in graphene using a scanning
+  single-electron transistor.
+\newblock \emph{Nature Physics}, 4\penalty0 (2):\penalty0 144--148, February
+  2008.
+\newblock ISSN 1745-2473.
+\newblock \doi{10.1038/nphys781}.
+\newblock URL
+  \url{http://www.nature.com/nphys/journal/v4/n2/full/nphys781.html}.
+
+\bibitem[Zhang et~al.(2009)Zhang, Brar, Girit, Zettl, and
+  Crommie]{zhang_origin_2009}
+Yuanbo Zhang, Victor~W. Brar, Caglar Girit, Alex Zettl, and Michael~F. Crommie.
+\newblock Origin of spatial charge inhomogeneity in graphene.
+\newblock \emph{Nature Physics}, 5\penalty0 (10):\penalty0 722--726, October
+  2009.
+\newblock ISSN 1745-2473.
+\newblock \doi{10.1038/nphys1365}.
+\newblock URL
+  \url{http://www.nature.com/nphys/journal/v5/n10/abs/nphys1365.html}.
+
+\bibitem[Dean and al(2010)]{dean_boron_2010}
+C.~R. Dean and et~al.
+\newblock Boron nitride substrates for high-quality graphene electronics.
+\newblock \emph{Nature Nanotechnology}, 5\penalty0 (10):\penalty0 722--726,
+  2010.
+
+\bibitem[Couto et~al.(2014)Couto, Costanzo, Engels, Ki, Watanabe, Taniguchi,
+  Stampfer, Guinea, and Morpurgo]{couto_random_2014}
+N.~J.~G. Couto, D.~Costanzo, S.~Engels, D.-K. Ki, K.~Watanabe, T.~Taniguchi,
+  C.~Stampfer, F.~Guinea, and A.~F. Morpurgo.
+\newblock Random {Strain} {Fluctuations} as {Dominant} {Disorder} {Source} for
+  {High}-{Quality} {On}-{Substrate} {Graphene} {Devices}.
+\newblock \emph{Physical Review X}, 4\penalty0 (4):\penalty0 041019, 2014.
+
+\bibitem[Betz et~al.(2012)Betz, Vialla, Brunel, Voisin, Picher, Cavanna,
+  Madouri, Fève, Berroir, and Plaçais]{betz_hot_2012}
+AC~Betz, F~Vialla, D~Brunel, C~Voisin, M~Picher, A~Cavanna, A~Madouri, G~Fève,
+  J-M Berroir, and B~Plaçais.
+\newblock Hot electron cooling by acoustic phonons in graphene.
+\newblock \emph{Physical Review Letters}, 109\penalty0 (5):\penalty0 56805,
+  2012.
+
+\bibitem[Laitinen et~al.(2014)Laitinen, Oksanen, Fay, Cox, Tomi, Virtanen, and
+  Hakonen]{laitinen_electron-phonon_2014}
+A.~Laitinen, M.~Oksanen, A.~Fay, D.~Cox, M.~Tomi, P.~Virtanen, and P.~J.
+  Hakonen.
+\newblock Electron-phonon coupling in suspended graphene: supercollisions by
+  ripples.
+\newblock \emph{Nano Letters}, 14:\penalty0 3009--3013, 2014.
+
+\bibitem[Hartnoll et~al.(2007)Hartnoll, Kovtun, Müller, and
+  Sachdev]{hartnoll_theory_2007}
+Sean~A. Hartnoll, Pavel~K. Kovtun, Markus Müller, and Subir Sachdev.
+\newblock Theory of the {Nernst} effect near quantum phase transitions in
+  condensed matter and in dyonic black holes.
+\newblock \emph{Physical Review B}, 76\penalty0 (14):\penalty0 144502, October
+  2007.
+\newblock \doi{10.1103/PhysRevB.76.144502}.
+\newblock URL \url{https://link.aps.org/doi/10.1103/PhysRevB.76.144502}.
+
+\bibitem[Lucas(2015{\natexlab{a}})]{lucas_hydrodynamic_2015}
+Andrew Lucas.
+\newblock Hydrodynamic transport in strongly coupled disordered quantum field
+  theories.
+\newblock \emph{New Journal of Physics}, 17\penalty0 (11):\penalty0 113007,
+  October 2015{\natexlab{a}}.
+\newblock ISSN 1367-2630.
+\newblock \doi{10.1088/1367-2630/17/11/113007}.
+\newblock URL \url{http://arxiv.org/abs/1506.02662}.
+\newblock arXiv: 1506.02662.
+
+\bibitem[Lucas et~al.(2016)Lucas, Crossno, Fong, Kim, and
+  Sachdev]{lucas_transport_2016}
+Andrew Lucas, Jesse Crossno, Kin~Chung Fong, Philip Kim, and Subir Sachdev.
+\newblock Transport in inhomogeneous quantum critical fluids and in the {Dirac}
+  fluid in graphene.
+\newblock \emph{Physical Review B}, 93\penalty0 (7):\penalty0 075426, February
+  2016.
+\newblock \doi{10.1103/PhysRevB.93.075426}.
+\newblock URL \url{https://link.aps.org/doi/10.1103/PhysRevB.93.075426}.
+
+\bibitem[Kovtun et~al.(2005)Kovtun, Son, and Starinets]{kovtun_viscosity_2005}
+P.~ K. Kovtun, D.~T. Son, and A.~O. Starinets.
+\newblock Viscosity in {Strongly} {Interacting} {Quantum} {Field} {Theories}
+  from {Black} {Hole} {Physics}.
+\newblock \emph{Physical Review Letters}, 94\penalty0 (11):\penalty0 111601,
+  March 2005.
+\newblock \doi{10.1103/PhysRevLett.94.111601}.
+\newblock URL \url{https://link.aps.org/doi/10.1103/PhysRevLett.94.111601}.
+
+\bibitem[Principi et~al.(2015)Principi, Vignale, Carrega, and
+  Polini]{principi_bulk_2015}
+Alessandro Principi, Giovanni Vignale, Matteo Carrega, and Marco Polini.
+\newblock Bulk and shear viscosities of the 2d electron liquid in a doped
+  graphene sheet.
+\newblock \emph{arXiv.org}, 2015.
+\newblock arXiv: 1506.06030v1.
+
+\bibitem[Crossno et~al.(2016)Crossno, Shi, Wang, Liu, Harzheim, Lucas, Sachdev,
+  Kim, Taniguchi, Watanabe, Ohki, and Fong]{crossno_observation_2016}
+Jesse Crossno, Jing~K. Shi, Ke~Wang, Xiaomeng Liu, Achim Harzheim, Andrew
+  Lucas, Subir Sachdev, Philip Kim, Takashi Taniguchi, Kenji Watanabe,
+  Thomas~A. Ohki, and Kin~Chung Fong.
+\newblock Observation of the {Dirac} fluid and the breakdown of the
+  {Wiedemann}-{Franz} law in graphene.
+\newblock \emph{Science}, 351\penalty0 (6277):\penalty0 1058--1061, March 2016.
+\newblock ISSN 0036-8075, 1095-9203.
+\newblock \doi{10.1126/science.aad0343}.
+\newblock URL \url{http://science.sciencemag.org/content/351/6277/1058}.
+
+\bibitem[Bandurin et~al.(2016)Bandurin, Torre, Kumar, Shalom, Tomadin,
+  Principi, Auton, Khestanova, Novoselov, Grigorieva, Ponomarenko, Geim, and
+  Polini]{bandurin_negative_2016}
+D.~A. Bandurin, I.~Torre, R.~Krishna Kumar, M.~Ben Shalom, A.~Tomadin,
+  A.~Principi, G.~H. Auton, E.~Khestanova, K.~S. Novoselov, I.~V. Grigorieva,
+  L.~A. Ponomarenko, A.~K. Geim, and M.~Polini.
+\newblock Negative local resistance caused by viscous electron backflow in
+  graphene.
+\newblock \emph{Science}, 351\penalty0 (6277):\penalty0 1055--1058, March 2016.
+\newblock ISSN 0036-8075, 1095-9203.
+\newblock \doi{10.1126/science.aad0201}.
+\newblock URL \url{http://science.sciencemag.org/content/351/6277/1055}.
+
+\bibitem[Moll et~al.(2016)Moll, Kushwaha, Nandi, Schmidt, and
+  Mackenzie]{moll_evidence_2016}
+Philip J.~W. Moll, Pallavi Kushwaha, Nabhanila Nandi, Burkhard Schmidt, and
+  Andrew~P. Mackenzie.
+\newblock Evidence for hydrodynamic electron flow in {PdCoO}2.
+\newblock \emph{Science}, 351\penalty0 (6277):\penalty0 1061--1064, March 2016.
+\newblock ISSN 0036-8075, 1095-9203.
+\newblock \doi{10.1126/science.aac8385}.
+\newblock URL \url{http://science.sciencemag.org/content/351/6277/1061}.
+
+\bibitem[Zaanen(2016)]{zaanen_electrons_2016}
+Jan Zaanen.
+\newblock Electrons go with the flow in exotic material systems.
+\newblock \emph{Science}, 351\penalty0 (6277):\penalty0 1026--1027, March 2016.
+\newblock ISSN 0036-8075, 1095-9203.
+\newblock \doi{10.1126/science.aaf2487}.
+\newblock URL \url{http://science.sciencemag.org/content/351/6277/1026}.
+
+\bibitem[Briskot et~al.(2015)Briskot, Schütt, Gornyi, Titov, Narozhny, and
+  Mirlin]{briskot_collision-dominated_2015}
+U.~Briskot, M.~Schütt, I.~V. Gornyi, M.~Titov, B.~N. Narozhny, and A.~D.
+  Mirlin.
+\newblock Collision-dominated nonlinear hydrodynamics in graphene.
+\newblock \emph{Physical Review B}, 92\penalty0 (11):\penalty0 115426,
+  September 2015.
+\newblock \doi{10.1103/PhysRevB.92.115426}.
+\newblock URL \url{https://link.aps.org/doi/10.1103/PhysRevB.92.115426}.
+
+\bibitem[Pines(1994)]{pines_theory_1994}
+David Pines.
+\newblock \emph{Theory {Of} {Quantum} {Liquids}: {Normal} {Fermi} {Liquids}}.
+\newblock Westview Press, Reading, Mass, March 1994.
+\newblock ISBN 978-0-201-40774-7.
+
+\bibitem[Weber et~al.(2005)Weber, Gedik, Moore, Orenstein, Stephens, and
+  Awschalom]{weber_observation_2005}
+C.~P. Weber, N.~Gedik, J.~E. Moore, J.~Orenstein, J.~Stephens, and D.~D.
+  Awschalom.
+\newblock Observation of spin {Coulomb} drag in a two-dimensional electron gas.
+\newblock \emph{Nature}, 437\penalty0 (7063):\penalty0 1330--1333, October
+  2005.
+\newblock ISSN 0028-0836.
+\newblock \doi{10.1038/nature04206}.
+\newblock URL
+  \url{http://www.nature.com/nature/journal/v437/n7063/full/nature04206.html}.
+
+\bibitem[Yang et~al.(2012)Yang, Koralek, Orenstein, Tibbetts, Reno, and
+  Lilly]{yang_doppler_2012}
+Luyi Yang, J.~D. Koralek, J.~Orenstein, D.~R. Tibbetts, J.~L. Reno, and M.~P.
+  Lilly.
+\newblock Doppler velocimetry of spin propagation in a two-dimensional electron
+  gas.
+\newblock \emph{Nature Physics}, 8\penalty0 (2):\penalty0 153--157, February
+  2012.
+\newblock ISSN 1745-2473.
+\newblock \doi{10.1038/nphys2157}.
+\newblock URL
+  \url{http://www.nature.com/nphys/journal/v8/n2/abs/nphys2157.html}.
+
+\bibitem[Andreev et~al.(2011)Andreev, Kivelson, and
+  Spivak]{andreev_hydrodynamic_2011}
+A.~V. Andreev, Steven~A. Kivelson, and B.~Spivak.
+\newblock Hydrodynamic {Description} of {Transport} in {Strongly} {Correlated}
+  {Electron} {Systems}.
+\newblock \emph{Physical Review Letters}, 106\penalty0 (25):\penalty0 256804,
+  June 2011.
+\newblock \doi{10.1103/PhysRevLett.106.256804}.
+\newblock URL \url{https://link.aps.org/doi/10.1103/PhysRevLett.106.256804}.
+
+\bibitem[Mendoza et~al.(2011)Mendoza, Herrmann, and
+  Succi]{mendoza_preturbulent_2011}
+M.~Mendoza, H.~J. Herrmann, and S.~Succi.
+\newblock Preturbulent {Regimes} in {Graphene} {Flow}.
+\newblock \emph{Physical Review Letters}, 106\penalty0 (15):\penalty0 156601,
+  April 2011.
+\newblock \doi{10.1103/PhysRevLett.106.156601}.
+\newblock URL \url{https://link.aps.org/doi/10.1103/PhysRevLett.106.156601}.
+
+\bibitem[Tomadin et~al.(2014)Tomadin, Vignale, and
+  Polini]{tomadin_corbino_2014}
+Andrea Tomadin, Giovanni Vignale, and Marco Polini.
+\newblock Corbino {Disk} {Viscometer} for 2d {Quantum} {Electron} {Liquids}.
+\newblock \emph{Physical Review Letters}, 113\penalty0 (23):\penalty0 235901,
+  December 2014.
+\newblock \doi{10.1103/PhysRevLett.113.235901}.
+\newblock URL \url{https://link.aps.org/doi/10.1103/PhysRevLett.113.235901}.
+
+\bibitem[Principi and Vignale(2015)]{principi_violation_2015}
+Alessandro Principi and Giovanni Vignale.
+\newblock Violation of the {Wiedemann}-{Franz} {Law} in {Hydrodynamic}
+  {Electron} {Liquids}.
+\newblock \emph{Physical Review Letters}, 115\penalty0 (5):\penalty0 056603,
+  July 2015.
+\newblock \doi{10.1103/PhysRevLett.115.056603}.
+\newblock URL \url{https://link.aps.org/doi/10.1103/PhysRevLett.115.056603}.
+
+\bibitem[Torre et~al.(2015)Torre, Tomadin, Geim, and
+  Polini]{torre_nonlocal_2015}
+Iacopo Torre, Andrea Tomadin, Andre~K. Geim, and Marco Polini.
+\newblock Nonlocal transport and the hydrodynamic shear viscosity in graphene.
+\newblock \emph{Physical Review B}, 92\penalty0 (16):\penalty0 165433, October
+  2015.
+\newblock \doi{10.1103/PhysRevB.92.165433}.
+\newblock URL \url{https://link.aps.org/doi/10.1103/PhysRevB.92.165433}.
+
+\bibitem[Levitov and Falkovich(2016)]{levitov_electron_2016}
+Leonid Levitov and Gregory Falkovich.
+\newblock Electron viscosity, current vortices and negative nonlocal resistance
+  in graphene.
+\newblock \emph{Nature Physics}, 12\penalty0 (7):\penalty0 672--676, July 2016.
+\newblock ISSN 1745-2473.
+\newblock \doi{10.1038/nphys3667}.
+\newblock URL
+  \url{http://www.nature.com/nphys/journal/v12/n7/full/nphys3667.html}.
+
+\bibitem[Marel et~al.(2003)Marel, Molegraaf, Zaanen, Nussinov, Carbone,
+  Damascelli, Eisaki, Greven, Kes, and Li]{marel_quantum_2003}
+D.~van~der Marel, H.~J.~A. Molegraaf, J.~Zaanen, Z.~Nussinov, F.~Carbone,
+  A.~Damascelli, H.~Eisaki, M.~Greven, P.~H. Kes, and M.~Li.
+\newblock Quantum critical behaviour in a high-{Tc} superconductor.
+\newblock \emph{Nature}, 425\penalty0 (6955):\penalty0 271--274, September
+  2003.
+\newblock ISSN 0028-0836.
+\newblock \doi{10.1038/nature01978}.
+\newblock URL
+  \url{http://www.nature.com/nature/journal/v425/n6955/full/nature01978.html}.
+
+\bibitem[Cooper et~al.(2009)Cooper, Wang, Vignolle, Lipscombe, Hayden, Tanabe,
+  Adachi, Koike, Nohara, Takagi, Proust, and Hussey]{cooper_anomalous_2009}
+R.~A. Cooper, Y.~Wang, B.~Vignolle, O.~J. Lipscombe, S.~M. Hayden, Y.~Tanabe,
+  T.~Adachi, Y.~Koike, M.~Nohara, H.~Takagi, Cyril Proust, and N.~E. Hussey.
+\newblock Anomalous {Criticality} in the {Electrical} {Resistivity} of
+  {La}2–{xSrxCuO}4.
+\newblock \emph{Science}, 323\penalty0 (5914):\penalty0 603--607, January 2009.
+\newblock ISSN 0036-8075, 1095-9203.
+\newblock \doi{10.1126/science.1165015}.
+\newblock URL \url{http://science.sciencemag.org/content/323/5914/603}.
+
+\bibitem[Li et~al.(2009)Li, Luican, and Andrei]{li_scanning_2009}
+Guohong Li, Adina Luican, and Eva~Y. Andrei.
+\newblock Scanning {Tunneling} {Spectroscopy} of {Graphene} on {Graphite}.
+\newblock \emph{Physical Review Letters}, 102\penalty0 (17):\penalty0 176804,
+  April 2009.
+\newblock \doi{10.1103/PhysRevLett.102.176804}.
+\newblock URL \url{https://link.aps.org/doi/10.1103/PhysRevLett.102.176804}.
+
+\bibitem[Damle and Sachdev(1997)]{damle_nonzero-temperature_1997}
+Kedar Damle and Subir Sachdev.
+\newblock Nonzero-temperature transport near quantum critical points.
+\newblock \emph{Physical Review B}, 56\penalty0 (14):\penalty0 8714--8733,
+  October 1997.
+\newblock \doi{10.1103/PhysRevB.56.8714}.
+\newblock URL \url{https://link.aps.org/doi/10.1103/PhysRevB.56.8714}.
+
+\bibitem[Sachdev(2011)]{sachdev_quantum_2011}
+Subir Sachdev.
+\newblock \emph{Quantum {Phase} {Transitions}}.
+\newblock Cambridge University Press, Cambridge ; New York, 2 edition edition,
+  May 2011.
+\newblock ISBN 978-0-521-51468-2.
+
+\bibitem[Davison et~al.(2014)Davison, Schalm, and
+  Zaanen]{davison_holographic_2014}
+Richard~A. Davison, Koenraad Schalm, and Jan Zaanen.
+\newblock Holographic duality and the resistivity of strange metals.
+\newblock \emph{Physical Review B}, 89\penalty0 (24):\penalty0 245116, June
+  2014.
+\newblock \doi{10.1103/PhysRevB.89.245116}.
+\newblock URL \url{https://link.aps.org/doi/10.1103/PhysRevB.89.245116}.
+
+\bibitem[Blake et~al.(2014)Blake, Tong, and Vegh]{blake_holographic_2014}
+Mike Blake, David Tong, and David Vegh.
+\newblock Holographic {Lattices} {Give} the {Graviton} an {Effective} {Mass}.
+\newblock \emph{Physical Review Letters}, 112\penalty0 (7):\penalty0 071602,
+  February 2014.
+\newblock \doi{10.1103/PhysRevLett.112.071602}.
+\newblock URL \url{https://link.aps.org/doi/10.1103/PhysRevLett.112.071602}.
+
+\bibitem[Balasubramanian and Herzog(2014)]{balasubramanian_losing_2014}
+Koushik Balasubramanian and Christopher~P. Herzog.
+\newblock Losing forward momentum holographically.
+\newblock \emph{Classical and Quantum Gravity}, 31\penalty0 (12):\penalty0
+  125010, 2014.
+\newblock ISSN 0264-9381.
+\newblock \doi{10.1088/0264-9381/31/12/125010}.
+\newblock URL \url{http://stacks.iop.org/0264-9381/31/i=12/a=125010}.
+
+\bibitem[Lucas et~al.(2014)Lucas, Sachdev, and
+  Schalm]{lucas_scale-invariant_2014}
+Andrew Lucas, Subir Sachdev, and Koenraad Schalm.
+\newblock Scale-invariant hyperscaling-violating holographic theories and the
+  resistivity of strange metals with random-field disorder.
+\newblock \emph{Physical Review D}, 89\penalty0 (6):\penalty0 066018, March
+  2014.
+\newblock \doi{10.1103/PhysRevD.89.066018}.
+\newblock URL \url{https://link.aps.org/doi/10.1103/PhysRevD.89.066018}.
+
+\bibitem[Lucas(2015{\natexlab{b}})]{lucas_conductivity_2015}
+Andrew Lucas.
+\newblock Conductivity of a strange metal: from holography to memory functions.
+\newblock \emph{Journal of High Energy Physics}, 2015\penalty0 (3):\penalty0
+  71, March 2015{\natexlab{b}}.
+\newblock ISSN 1029-8479.
+\newblock \doi{10.1007/JHEP03(2015)071}.
+\newblock URL \url{https://link.springer.com/article/10.1007/JHEP03(2015)071}.
+
+\bibitem[Davison and Goutéraux(2015)]{davison_dissecting_2015}
+Richard~A. Davison and Blaise Goutéraux.
+\newblock Dissecting holographic conductivities.
+\newblock \emph{Journal of High Energy Physics}, 2015\penalty0 (9):\penalty0
+  90, September 2015.
+\newblock ISSN 1029-8479.
+\newblock \doi{10.1007/JHEP09(2015)090}.
+\newblock URL \url{https://link.springer.com/article/10.1007/JHEP09(2015)090}.
+
+\bibitem[Blake(2015)]{blake_momentum_2015}
+Mike Blake.
+\newblock Momentum relaxation from the fluid/gravity correspondence.
+\newblock \emph{Journal of High Energy Physics}, 2015\penalty0 (9):\penalty0
+  10, September 2015.
+\newblock ISSN 1029-8479.
+\newblock \doi{10.1007/JHEP09(2015)010}.
+\newblock URL \url{https://link.springer.com/article/10.1007/JHEP09(2015)010}.
+
+\bibitem[Donos and Gauntlett(2015)]{donos_navier-stokes_2015}
+Aristomenis Donos and Jerome~P. Gauntlett.
+\newblock Navier-{Stokes} equations on black hole horizons and {DC}
+  thermoelectric conductivity.
+\newblock \emph{Physical Review D}, 92\penalty0 (12):\penalty0 121901, December
+  2015.
+\newblock \doi{10.1103/PhysRevD.92.121901}.
+\newblock URL \url{https://link.aps.org/doi/10.1103/PhysRevD.92.121901}.
+
+\bibitem[Grozdanov et~al.(2015)Grozdanov, Lucas, Sachdev, and
+  Schalm]{grozdanov_absence_2015}
+Sašo Grozdanov, Andrew Lucas, Subir Sachdev, and Koenraad Schalm.
+\newblock Absence of {Disorder}-{Driven} {Metal}-{Insulator} {Transitions} in
+  {Simple} {Holographic} {Models}.
+\newblock \emph{Physical Review Letters}, 115\penalty0 (22):\penalty0 221601,
+  November 2015.
+\newblock \doi{10.1103/PhysRevLett.115.221601}.
+\newblock URL \url{https://link.aps.org/doi/10.1103/PhysRevLett.115.221601}.
+
+\bibitem[Rossi and Das~Sarma(2008)]{rossi_ground_2008}
+Enrico Rossi and S.~Das~Sarma.
+\newblock Ground {State} of {Graphene} in the {Presence} of {Random} {Charged}
+  {Impurities}.
+\newblock \emph{Physical Review Letters}, 101\penalty0 (16):\penalty0 166803,
+  October 2008.
+\newblock \doi{10.1103/PhysRevLett.101.166803}.
+\newblock URL \url{https://link.aps.org/doi/10.1103/PhysRevLett.101.166803}.
+
+\bibitem[Rossi et~al.(2009)Rossi, Adam, and Das~Sarma]{rossi_effective_2009}
+Enrico Rossi, S.~Adam, and S.~Das~Sarma.
+\newblock Effective medium theory for disordered two-dimensional graphene.
+\newblock \emph{Physical Review B}, 79\penalty0 (24):\penalty0 245423, June
+  2009.
+\newblock \doi{10.1103/PhysRevB.79.245423}.
+\newblock URL \url{https://link.aps.org/doi/10.1103/PhysRevB.79.245423}.
+
+\bibitem[Efimkin and Galitski(2014)]{efimkin_strongly_2014}
+Dmitry~K. Efimkin and Victor Galitski.
+\newblock Strongly interacting {Dirac} liquid on the surface of a topological
+  {Kondo} insulator.
+\newblock \emph{Physical Review B}, 90\penalty0 (8):\penalty0 081113, August
+  2014.
+\newblock \doi{10.1103/PhysRevB.90.081113}.
+\newblock URL \url{https://link.aps.org/doi/10.1103/PhysRevB.90.081113}.
+
+\bibitem[Lu et~al.(2015)Lu, Wang, Ye, Ran, Fu, Joannopoulos, and
+  Soljačić]{lu_experimental_2015}
+Ling Lu, Zhiyu Wang, Dexin Ye, Lixin Ran, Liang Fu, John~D. Joannopoulos, and
+  Marin Soljačić.
+\newblock Experimental observation of {Weyl} points.
+\newblock \emph{Science}, 349\penalty0 (6248):\penalty0 622--624, August 2015.
+\newblock ISSN 0036-8075, 1095-9203.
+\newblock \doi{10.1126/science.aaa9273}.
+\newblock URL \url{http://science.sciencemag.org/content/349/6248/622}.
+
+\bibitem[Xu et~al.(2015)Xu, Belopolski, Alidoust, Neupane, Bian, Zhang, Sankar,
+  Chang, Yuan, Lee, Huang, Zheng, Ma, Sanchez, Wang, Bansil, Chou, Shibayev,
+  Lin, Jia, and Hasan]{xu_discovery_2015}
+Su-Yang Xu, Ilya Belopolski, Nasser Alidoust, Madhab Neupane, Guang Bian,
+  Chenglong Zhang, Raman Sankar, Guoqing Chang, Zhujun Yuan, Chi-Cheng Lee,
+  Shin-Ming Huang, Hao Zheng, Jie Ma, Daniel~S. Sanchez, BaoKai Wang, Arun
+  Bansil, Fangcheng Chou, Pavel~P. Shibayev, Hsin Lin, Shuang Jia, and M.~Zahid
+  Hasan.
+\newblock Discovery of a {Weyl} fermion semimetal and topological {Fermi} arcs.
+\newblock \emph{Science}, 349\penalty0 (6248):\penalty0 613--617, August 2015.
+\newblock ISSN 0036-8075, 1095-9203.
+\newblock \doi{10.1126/science.aaa9297}.
+\newblock URL \url{http://science.sciencemag.org/content/349/6248/613}.
+
+\bibitem[Lv et~al.(2015)Lv, Weng, Fu, Wang, Miao, Ma, Richard, Huang, Zhao,
+  Chen, Fang, Dai, Qian, and Ding]{lv_experimental_2015}
+B. Q. Lv, H. M. Weng, B. B. Fu, X. P. Wang, H.~Miao, J.~Ma, P.~Richard,
+  X. C. Huang, L. X. Zhao, G. F. Chen, Z.~Fang, X.~Dai, T.~Qian, and
+  H.~Ding.
+\newblock Experimental {Discovery} of {Weyl} {Semimetal} {TaAs}.
+\newblock \emph{Physical Review X}, 5\penalty0 (3):\penalty0 031013, July 2015.
+\newblock \doi{10.1103/PhysRevX.5.031013}.
+\newblock URL \url{https://link.aps.org/doi/10.1103/PhysRevX.5.031013}.
+
+\bibitem[Nielsen and Ninomiya(1983)]{nielsen_adler-bell-jackiw_1983}
+H.~B. Nielsen and Masao Ninomiya.
+\newblock The {Adler}-{Bell}-{Jackiw} anomaly and {Weyl} fermions in a crystal.
+\newblock \emph{Physics Letters B}, 130\penalty0 (6):\penalty0 389--396,
+  November 1983.
+\newblock ISSN 0370-2693.
+\newblock \doi{10.1016/0370-2693(83)91529-0}.
+\newblock URL
+  \url{http://www.sciencedirect.com/science/article/pii/0370269383915290}.
+
+\bibitem[Son and Spivak(2013)]{son_chiral_2013}
+D.~T. Son and B.~Z. Spivak.
+\newblock Chiral anomaly and classical negative magnetoresistance of {Weyl}
+  metals.
+\newblock \emph{Physical Review B}, 88\penalty0 (10):\penalty0 104412,
+  September 2013.
+\newblock \doi{10.1103/PhysRevB.88.104412}.
+\newblock URL \url{https://link.aps.org/doi/10.1103/PhysRevB.88.104412}.
+
+\bibitem[Nolas and Goldsmid(2004)]{nolas_thermal_2004}
+G.~S. Nolas and H.~J. Goldsmid.
+\newblock Thermal {Conductivity} of {Semiconductors}.
+\newblock In Terry~M. Tritt, editor, \emph{Thermal {Conductivity}}, Physics of
+  {Solids} and {Liquids}, pages 105--121. Springer US, 2004.
+\newblock ISBN 978-0-306-48327-1 978-0-387-26017-4.
+\newblock URL \url{http://link.springer.com/chapter/10.1007/0-387-26017-X_4}.
+\newblock DOI: 10.1007/0-387-26017-X\_4.
+
+\bibitem[Yoshino and Murata(2015)]{yoshino_significant_2015}
+H.~Yoshino and K.~Murata.
+\newblock Significant enhancement of electronic thermal conductivity of
+  two-dimensional zero-gap systems by bipolar-diffusion effect.
+\newblock \emph{Journal of the Physical Society of Japan}, 84\penalty0
+  (2):\penalty0 024601, January 2015.
+\newblock ISSN 0031-9015.
+\newblock \doi{10.7566/JPSJ.84.024601}.
+\newblock URL \url{http://journals.jps.jp/doi/abs/10.7566/JPSJ.84.024601}.
+
+\bibitem[Hartnoll(2009)]{hartnoll_lectures_2009}
+Sean~A. Hartnoll.
+\newblock Lectures on holographic methods for condensed matter physics.
+\newblock \emph{Classical and Quantum Gravity}, 26\penalty0 (22):\penalty0
+  224002, 2009.
+\newblock ISSN 0264-9381.
+\newblock \doi{10.1088/0264-9381/26/22/224002}.
+\newblock URL \url{http://stacks.iop.org/0264-9381/26/i=22/a=224002}.
+
+\bibitem[Vafek(2007)]{vafek_anomalous_2007}
+Oskar Vafek.
+\newblock Anomalous {Thermodynamics} of {Coulomb}-{Interacting} {Massless}
+  {Dirac} {Fermions} in {Two} {Spatial} {Dimensions}.
+\newblock \emph{Physical Review Letters}, 98\penalty0 (21):\penalty0 216401,
+  May 2007.
+\newblock \doi{10.1103/PhysRevLett.98.216401}.
+\newblock URL \url{https://link.aps.org/doi/10.1103/PhysRevLett.98.216401}.
+
+\bibitem[Hwang and Das~Sarma(2009)]{hwang_screening-induced_2009}
+E.~H. Hwang and S.~Das~Sarma.
+\newblock Screening-induced temperature-dependent transport in two-dimensional
+  graphene.
+\newblock \emph{Physical Review B}, 79\penalty0 (16):\penalty0 165404, April
+  2009.
+\newblock \doi{10.1103/PhysRevB.79.165404}.
+\newblock URL \url{https://link.aps.org/doi/10.1103/PhysRevB.79.165404}.
+
+\bibitem[Lucas and Sachdev(2015)]{lucas_memory_2015}
+Andrew Lucas and Subir Sachdev.
+\newblock Memory matrix theory of magnetotransport in strange metals.
+\newblock \emph{Physical Review B}, 91\penalty0 (19):\penalty0 195122, May
+  2015.
+\newblock \doi{10.1103/PhysRevB.91.195122}.
+\newblock URL \url{https://link.aps.org/doi/10.1103/PhysRevB.91.195122}.
+
+\bibitem[Luzum and Romatschke(2008)]{luzum_conformal_2008}
+Matthew Luzum and Paul Romatschke.
+\newblock Conformal relativistic viscous hydrodynamics: {Applications} to
+  {RHIC} results at
+  \${\textbackslash}sqrt\{\{s\}\_\{{\textbackslash}mathit\{{nn}\}\}\}=200\$
+  {GeV}.
+\newblock \emph{Physical Review C}, 78\penalty0 (3):\penalty0 034915, September
+  2008.
+\newblock \doi{10.1103/PhysRevC.78.034915}.
+\newblock URL \url{https://link.aps.org/doi/10.1103/PhysRevC.78.034915}.
+
+\bibitem[Huard et~al.(2008)Huard, Stander, Sulpizio, and
+  Goldhaber-Gordon]{huard_evidence_2008}
+B.~Huard, N.~Stander, J.~A. Sulpizio, and D.~Goldhaber-Gordon.
+\newblock Evidence of the role of contacts on the observed electron-hole
+  asymmetry in graphene.
+\newblock \emph{Physical Review B}, 78\penalty0 (12):\penalty0 121402,
+  September 2008.
+\newblock \doi{10.1103/PhysRevB.78.121402}.
+\newblock URL \url{https://link.aps.org/doi/10.1103/PhysRevB.78.121402}.
+
+\bibitem[Kirkpatrick(1971)]{kirkpatrick_classical_1971}
+Scott Kirkpatrick.
+\newblock Classical {Transport} in {Disordered} {Media}: {Scaling} and
+  {Effective}-{Medium} {Theories}.
+\newblock \emph{Physical Review Letters}, 27\penalty0 (25):\penalty0
+  1722--1725, December 1971.
+\newblock \doi{10.1103/PhysRevLett.27.1722}.
+\newblock URL \url{https://link.aps.org/doi/10.1103/PhysRevLett.27.1722}.
+
+\bibitem[Derrida and Vannimenus(1982)]{derrida_transfer-matrix_1982}
+B.~Derrida and J.~Vannimenus.
+\newblock A transfer-matrix approach to random resistor networks.
+\newblock \emph{Journal of Physics A: Mathematical and General}, 15\penalty0
+  (10):\penalty0 L557, 1982.
+\newblock ISSN 0305-4470.
+\newblock \doi{10.1088/0305-4470/15/10/007}.
+\newblock URL \url{http://stacks.iop.org/0305-4470/15/i=10/a=007}.
+
+\bibitem[Hwang and Das~Sarma(2008)]{hwang_acoustic_2008}
+E.~H. Hwang and S.~Das~Sarma.
+\newblock Acoustic phonon scattering limited carrier mobility in
+  two-dimensional extrinsic graphene.
+\newblock \emph{Physical Review B}, 77\penalty0 (11):\penalty0 115449, March
+  2008.
+\newblock \doi{10.1103/PhysRevB.77.115449}.
+\newblock URL \url{https://link.aps.org/doi/10.1103/PhysRevB.77.115449}.
+
+\bibitem[Bolotin et~al.(2008)Bolotin, Sikes, Jiang, Klima, Fudenberg, Hone,
+  Kim, and Stormer]{bolotin_ultrahigh_2008}
+K.~I. Bolotin, K.~J. Sikes, Z.~Jiang, M.~Klima, G.~Fudenberg, J.~Hone, P.~Kim,
+  and H.~L. Stormer.
+\newblock Ultrahigh electron mobility in suspended graphene.
+\newblock \emph{Solid State Communications}, 146\penalty0 (9–10):\penalty0
+  351--355, June 2008.
+\newblock ISSN 0038-1098.
+\newblock \doi{10.1016/j.ssc.2008.02.024}.
+\newblock URL
+  \url{http://www.sciencedirect.com/science/article/pii/S0038109808001178}.
+
+\bibitem[Mayorov et~al.(2012)Mayorov, Elias, Mukhin, Morozov, Ponomarenko,
+  Novoselov, Geim, and Gorbachev]{mayorov_how_2012}
+Alexander~S. Mayorov, Daniel~C. Elias, Ivan~S. Mukhin, Sergey~V. Morozov,
+  Leonid~A. Ponomarenko, Kostya~S. Novoselov, A.~K. Geim, and Roman~V.
+  Gorbachev.
+\newblock How {Close} {Can} {One} {Approach} the {Dirac} {Point} in {Graphene}
+  {Experimentally}?
+\newblock \emph{Nano Letters}, 12\penalty0 (9):\penalty0 4629--4634, September
+  2012.
+\newblock ISSN 1530-6984.
+\newblock \doi{10.1021/nl301922d}.
+\newblock URL \url{http://dx.doi.org/10.1021/nl301922d}.
+
+\bibitem[Horng et~al.(2011)Horng, Chen, Geng, Girit, Zhang, Hao, Bechtel,
+  Martin, Zettl, Crommie, Shen, and Wang]{horng_drude_2011}
+Jason Horng, Chi-Fan Chen, Baisong Geng, Caglar Girit, Yuanbo Zhang, Zhao Hao,
+  Hans~A. Bechtel, Michael Martin, Alex Zettl, Michael~F. Crommie, Y.~Ron Shen,
+  and Feng Wang.
+\newblock Drude conductivity of {Dirac} fermions in graphene.
+\newblock \emph{Physical Review B}, 83\penalty0 (16):\penalty0 165113, April
+  2011.
+\newblock \doi{10.1103/PhysRevB.83.165113}.
+\newblock URL \url{https://link.aps.org/doi/10.1103/PhysRevB.83.165113}.
+
+\bibitem[Ghahari et~al.(2016)Ghahari, Xie, Taniguchi, Watanabe, Foster, and
+  Kim]{ghahari_enhanced_2016}
+Fereshte Ghahari, Hong-Yi Xie, Takashi Taniguchi, Kenji Watanabe, Matthew~S.
+  Foster, and Philip Kim.
+\newblock Enhanced {Thermoelectric} {Power} in {Graphene}: {Violation} of the
+  {Mott} {Relation} by {Inelastic} {Scattering}.
+\newblock \emph{Physical Review Letters}, 116\penalty0 (13):\penalty0 136802,
+  March 2016.
+\newblock \doi{10.1103/PhysRevLett.116.136802}.
+\newblock URL \url{https://link.aps.org/doi/10.1103/PhysRevLett.116.136802}.
+
+\bibitem[Trefethen(2001)]{trefethen_spectral_2001}
+Lloyd~N. Trefethen.
+\newblock \emph{Spectral {Methods} in {MATLAB}}.
+\newblock SIAM: Society for Industrial and Applied Mathematics, Philadelphia,
+  PA, 62026th edition edition, February 2001.
+\newblock ISBN 978-0-89871-465-4.
+
+\bibitem[Smith et~al.(2004)Smith, Bjorstad, and Gropp]{smith_domain_2004}
+Barry Smith, Petter Bjorstad, and William Gropp.
+\newblock \emph{Domain {Decomposition}: {Parallel} {Multilevel} {Methods} for
+  {Elliptic} {Partial} {Differential} {Equations}}.
+\newblock Cambridge University Press, Cambridge, March 2004.
+\newblock ISBN 978-0-521-60286-0.
+
+\end{thebibliography}

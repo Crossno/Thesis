@@ -53,14 +53,18 @@
 \contentsline {section}{\numberline {6.6}Phonons in Graphene}{122}{section.6.6}
 \contentsline {section}{\numberline {6.7}Conclusions}{125}{section.6.7}
 \contentsline {chapter}{\numberline {7}Magneto-thermal transport}{128}{chapter.7}
-\contentsline {chapter}{\numberline {8}Conclusions and future work}{129}{chapter.8}
-\contentsline {chapter}{Appendix \numberline {A}}{130}{Appendix.1.A}
-\contentsline {section}{\numberline {A.1}Thermodynamics}{130}{section.1.A.1}
-\contentsline {subsection}{\numberline {A.1.1}Thermodynamics of Disordered Fluids}{132}{subsection.1.A.1.1}
-\contentsline {section}{\numberline {A.2}Rescaling Symmetries of dc Transport}{135}{section.1.A.2}
-\contentsline {section}{\numberline {A.3}Weak Disorder}{136}{section.1.A.3}
-\contentsline {section}{\numberline {A.4}Equations of State of the Dirac Fluid}{139}{section.1.A.4}
-\contentsline {section}{\numberline {A.5}Numerical Methods}{140}{section.1.A.5}
-\contentsline {subsection}{\numberline {A.5.1}Finite Size Effects}{142}{subsection.1.A.5.1}
-\contentsline {subsection}{\numberline {A.5.2}Dimensional Analysis}{143}{subsection.1.A.5.2}
-\contentsline {chapter}{References}{145}{equation.1.A.5.28e}
+\contentsline {section}{\numberline {7.1}Classical Hall Effect}{129}{section.7.1}
+\contentsline {section}{\numberline {7.2}Sample characteristics}{133}{section.7.2}
+\contentsline {section}{\numberline {7.3}Electrical noise in high fields}{133}{section.7.3}
+\contentsline {section}{\numberline {7.4}Magneto-thermal conductance}{133}{section.7.4}
+\contentsline {chapter}{\numberline {8}Conclusions and future work}{137}{chapter.8}
+\contentsline {chapter}{Appendix \numberline {A}}{138}{Appendix.1.A}
+\contentsline {section}{\numberline {A.1}Thermodynamics}{138}{section.1.A.1}
+\contentsline {subsection}{\numberline {A.1.1}Thermodynamics of Disordered Fluids}{140}{subsection.1.A.1.1}
+\contentsline {section}{\numberline {A.2}Rescaling Symmetries of dc Transport}{143}{section.1.A.2}
+\contentsline {section}{\numberline {A.3}Weak Disorder}{144}{section.1.A.3}
+\contentsline {section}{\numberline {A.4}Equations of State of the Dirac Fluid}{147}{section.1.A.4}
+\contentsline {section}{\numberline {A.5}Numerical Methods}{148}{section.1.A.5}
+\contentsline {subsection}{\numberline {A.5.1}Finite Size Effects}{150}{subsection.1.A.5.1}
+\contentsline {subsection}{\numberline {A.5.2}Dimensional Analysis}{151}{subsection.1.A.5.2}
+\contentsline {chapter}{References}{153}{equation.1.A.5.28e}
