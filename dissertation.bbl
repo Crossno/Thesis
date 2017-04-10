@@ -1,4 +1,4 @@
-\begin{thebibliography}{143}
+\begin{thebibliography}{150}
 \providecommand{\natexlab}[1]{#1}
 \providecommand{\url}[1]{\texttt{#1}}
 \expandafter\ifx\csname urlstyle\endcsname\relax
@@ -10,7 +10,6 @@ Albert Einstein.
 \newblock \emph{Investigations on the {Theory} of the {Brownian} {Movement}}.
 \newblock Courier Corporation, 1956.
 \newblock ISBN 978-0-486-60304-9.
-\newblock Google-Books-ID: AOIVupH\_hboC.
 
 \bibitem[Kubo(1966)]{kubo_fluctuation-dissipation_1966}
 R.~Kubo.
@@ -1288,6 +1287,63 @@ Fereshte Ghahari, Hong-Yi Xie, Takashi Taniguchi, Kenji Watanabe, Matthew~S.
   March 2016.
 \newblock \doi{10.1103/PhysRevLett.116.136802}.
 \newblock URL \url{https://link.aps.org/doi/10.1103/PhysRevLett.116.136802}.
+
+\bibitem[Mazur and de~Groot(1953)]{mazur_onsagers_1953}
+P.~Mazur and S.~R. de~Groot.
+\newblock On onsager's relations in a magnetic field.
+\newblock \emph{Physica}, 19\penalty0 (1):\penalty0 961--970, January 1953.
+\newblock ISSN 0031-8914.
+\newblock \doi{10.1016/S0031-8914(53)80108-4}.
+\newblock URL
+  \url{http://www.sciencedirect.com/science/article/pii/S0031891453801084}.
+
+\bibitem[Smrcka and Streda(1977)]{smrcka_transport_1977}
+L.~Smrcka and P.~Streda.
+\newblock Transport coefficients in strong magnetic fields.
+\newblock \emph{Journal of Physics C: Solid State Physics}, 10\penalty0
+  (12):\penalty0 2153, 1977.
+\newblock ISSN 0022-3719.
+\newblock \doi{10.1088/0022-3719/10/12/021}.
+\newblock URL \url{http://stacks.iop.org/0022-3719/10/i=12/a=021}.
+
+\bibitem[Zuev et~al.(2009)Zuev, Chang, and Kim]{zuev_thermoelectric_2009}
+Yuri~M. Zuev, Willy Chang, and Philip Kim.
+\newblock Thermoelectric and {Magnetothermoelectric} {Transport} {Measurements}
+  of {Graphene}.
+\newblock \emph{Physical Review Letters}, 102\penalty0 (9):\penalty0 096807,
+  March 2009.
+\newblock \doi{10.1103/PhysRevLett.102.096807}.
+\newblock URL \url{https://link.aps.org/doi/10.1103/PhysRevLett.102.096807}.
+
+\bibitem[Dóra and Thalmeier(2007)]{dora_magnetotransport_2007}
+Balázs Dóra and Peter Thalmeier.
+\newblock Magnetotransport and thermoelectricity in {Landau}-quantized
+  disordered graphene.
+\newblock \emph{Physical Review B}, 76\penalty0 (3):\penalty0 035402, July
+  2007.
+\newblock \doi{10.1103/PhysRevB.76.035402}.
+\newblock URL \url{https://link.aps.org/doi/10.1103/PhysRevB.76.035402}.
+
+\bibitem[Long et~al.(2011)Long, Zhang, and Sun]{long_quantum_2011}
+Wen Long, Hui Zhang, and Qing-feng Sun.
+\newblock Quantum thermal {Hall} effect in graphene.
+\newblock \emph{Physical Review B}, 84\penalty0 (7):\penalty0 075416, August
+  2011.
+\newblock \doi{10.1103/PhysRevB.84.075416}.
+\newblock URL \url{https://link.aps.org/doi/10.1103/PhysRevB.84.075416}.
+
+\bibitem[Gusynin and Sharapov(2005)]{gusynin_magnetic_2005}
+V.~P. Gusynin and S.~G. Sharapov.
+\newblock Magnetic oscillations in planar systems with the {Dirac}-like
+  spectrum of quasiparticle excitations. {II}. {Transport} properties.
+\newblock \emph{Physical Review B}, 71\penalty0 (12):\penalty0 125124, March
+  2005.
+\newblock \doi{10.1103/PhysRevB.71.125124}.
+\newblock URL \url{https://link.aps.org/doi/10.1103/PhysRevB.71.125124}.
+
+\bibitem[noa(2017)]{noauthor_comsol_2017}
+{COMSOL} {Multiphysics}®, 2017.
+\newblock URL \url{www.comsol.com}.
 
 \bibitem[Trefethen(2001)]{trefethen_spectral_2001}
 Lloyd~N. Trefethen.

@@ -82,7 +82,7 @@
 \usepackage{amsmath, amsthm}
 \usepackage{isomath}
 \usepackage{perpage} %the perpage package
-\MakePerPage{footnote} %the perpage package command
+\MakePerPage[2]{footnote} %reset footnote counter to 2 on every page
 \def\sL{\mathcal{L}}
 \def\sG{\mathcal{G}}
 \def\Watt{\mathrm{W}}

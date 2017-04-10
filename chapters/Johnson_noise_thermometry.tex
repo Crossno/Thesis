@@ -91,6 +91,7 @@ With this new formulation the importance of minimizing $\Gamma$ become apparent.
 As can be seen from Eqn.~\ref{eq:NyquistPower}, the larger the measurement bandwidth $\Delta f$ the larger noise signal. In practice, measurement bandwidths are often limited by either the impedance matching circuitry or the amplifier bandwidth; operating at higher frequencies increases typically increases both these limiting bandwidths.
 
 \section{An autocorrelation RF noise thermometer}
+\label{section:autocorrelation}
 \begin{figure}
 \centering
 \includegraphics[width=\textwidth]{figures/Johnson_noise_thermometry/Schematic_Autocorrelation.png}
@@ -337,6 +338,7 @@ Eqn.~\ref{eq:Tn_effective_full} is what determines uncertainty, and therefore th
 \end{figure}
 
 \section{Calibration}
+\label{section:calibration}
 \newthought{Circuit losses and couplings are difficult to calculate a priori}, and while $T_n$ can be modulated away in a differential measurement, the generalize gain $\mathcal{G}(\Gamma)$ must be calibrated. If the output voltage is written in the form of Eqn.~\ref{eq:power_output} then $\mathcal{G}$ is given by:
 \begin{equation}
 \mathcal{G}(\Gamma) = \frac{dV_{out}}{dT}\bigg\rvert_{~\Gamma}

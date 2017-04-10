@@ -13,44 +13,46 @@ A level-1 auxiliary file: chapters/Conclusions_and_future_work.aux
 A level-1 auxiliary file: chapters/appendixA.aux
 The style file: unsrtnat.bst
 Database file #1: references.bib
-You've used 143 entries,
+Warning--I didn't find a database entry for "??"
+You've used 150 entries,
             2481 wiz_defined-function locations,
-            1573 strings with 39365 characters,
-and the built_in function-call counts, 64858 in all, are:
-= -- 5474
-> -- 3983
-< -- 63
-+ -- 1488
-- -- 1201
-* -- 6176
-:= -- 10901
-add.period$ -- 700
-call.type$ -- 143
-change.case$ -- 282
-chr.to.int$ -- 142
-cite$ -- 143
-duplicate$ -- 2725
-empty$ -- 5266
-format.name$ -- 1418
-if$ -- 13335
+            1620 strings with 40778 characters,
+and the built_in function-call counts, 67532 in all, are:
+= -- 5727
+> -- 4085
+< -- 67
++ -- 1530
+- -- 1229
+* -- 6410
+:= -- 11316
+add.period$ -- 733
+call.type$ -- 150
+change.case$ -- 296
+chr.to.int$ -- 149
+cite$ -- 151
+duplicate$ -- 2853
+empty$ -- 5519
+format.name$ -- 1460
+if$ -- 13912
 int.to.chr$ -- 2
-int.to.str$ -- 144
-missing$ -- 150
-newline$ -- 992
-num.names$ -- 431
-pop$ -- 771
+int.to.str$ -- 151
+missing$ -- 156
+newline$ -- 1039
+num.names$ -- 449
+pop$ -- 813
 preamble$ -- 1
-purify$ -- 143
+purify$ -- 150
 quote$ -- 0
-skip$ -- 1425
+skip$ -- 1500
 stack$ -- 0
-substring$ -- 3091
-swap$ -- 402
+substring$ -- 3215
+swap$ -- 421
 text.length$ -- 1
 text.prefix$ -- 0
 top$ -- 0
-type$ -- 977
+type$ -- 1026
 warning$ -- 0
-while$ -- 479
+while$ -- 498
 width$ -- 0
-write$ -- 2409
+write$ -- 2523
+(There was 1 warning)
