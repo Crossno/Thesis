@@ -230,6 +230,7 @@
 	% \listoffigures % optional
 	\dedicationpage
 	\acknowledgments
+	\previouswork
 }
 
 \renewcommand{\maketitle}{
@@ -312,6 +313,14 @@
 	\pagenumbering{arabic}
 }
 
+\newcommand{\previouswork}{
+	\chapter*{Previous publications}
+	\noindent
+    \begin{spacing}{\dnormalspacing}
+    	\input{frontmatter/previouswork}
+    \end{spacing}
+	\vspace*{\fill} \newpage
+}
 
 \renewcommand{\backmatter}{
     \begin{appendices}

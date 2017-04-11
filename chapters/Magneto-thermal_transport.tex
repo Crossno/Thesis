@@ -122,28 +122,28 @@ With the device matched and the circuit calibrated, we can measure the total out
 
 \section{Magneto-thermal conductance}
 \label{section:magneto-thermal_conductance}
-\newthought{While injecting heat into the electronic system}, the steady state temperature rise provides information on how efficiently the system transports thermal energy to the bath. Applying the methodology of chapter~\ref{ch:thermal_conductance_via_electrical_noise}, a differential heating current applies a peak power of $P_0$ to the graphene device and the peak-to-peak differential Johnson noise temperature $\DTJN$ is measured. When the device's thermal conductance is large, $\DTJN$ is reduced, while an enhancement of $\DTJN$ signifies a reduction of the thermal conductance. Fig.~\ref{fig:m_DT} shows the differential (quasi-steady state) electronic temperature rise of a square, two-terminal graphene (described in section~\ref{section:Giorgio}) for a heating power $P_0 = 0.4~n\Watt$. Much of the heating behavior can be understood via the Wiedemann-Franz law; at low field and high density, $\DTJN$ is found to be small as the electrical conductivity (and therefore the thermal conductivity) is large, while at higher fields, $\DTJN$ is larger due to magnetoresistance affecting the thermal conductivity. At lower density, we find quantum oscillation in the thermal signal and a drastic reduction of $\DTJN$ in quantum Hall states.
-\begin{SCfigure}
+\newthought{While injecting heat into the electronic system}, the steady state temperature rise provides information on how efficiently the system transports thermal energy to the bath. Applying the methodology of chapter~\ref{ch:thermal_conductance_via_electrical_noise}, a differential heating current applies a peak power of $P_0$ to the graphene device and the peak-to-peak differential Johnson noise temperature $\DTJN$ is measured\footnote{Calibration of these differential measures only requires the use of generalized gain, $\mathcal{G}$. Any fluctuations in the background noise are averaged out and $T_n$ is only important in that it determines how long you must average to reach the desired precision.}. When the device's thermal conductance is large, $\DTJN$ is reduced, while an enhancement of $\DTJN$ signifies a reduction of the thermal conductance. Fig.~\ref{fig:m_DT} shows the differential (quasi-steady state) electronic temperature rise of a square, two-terminal graphene device (described in section~\ref{section:Giorgio}) for a heating power $P_0 = 0.4~n\Watt$. Much of the qualitative heating behavior can be understood via the Wiedemann-Franz law; at low field and high density $\DTJN$ is found to be small, as the electrical conductivity (and therefore the thermal conductivity) is large, while at higher fields, $\DTJN$ is larger due to magnetoresistance affecting the thermal conductivity. At lower density, we find quantum oscillation in the thermal signal and a drastic reduction of $\DTJN$ in quantum Hall states.
+\begin{figure}
 \centering
 \includegraphics[width=100mm]{figures/magneto/Fan_DT.png}
 \caption{Differential Johnson noise temperature rise of a graphene device in response to a differential heating power of $0.4~nW$ as a function of carrier density and magnetic field at $T_b=1.7~K$. At low field and high density, the electronic thermal conductivity is high in accordance with the Wiedemann-Franz law resulting in a small temperature rise. As the field increases, so too does the electrical resistance and thus the thermal resistance and the steady state temperature rise. However, the appearance of quantum effects results in a drastic reduction $\DTJN$ due to the  ballistic nature of the conduction channel.}
 \label{fig:m_DT}
-\end{SCfigure}
+\end{figure}
 
-We can define a thermal resistance, $R_{th}$, as the inverse of the thermal conductance defined in chapter~\ref{ch:thermal_conductance_via_electrical_noise},
+To analyze this quantitatively, we can define a thermal resistance ($R_{th}$) as the inverse of the thermal conductance defined in chapter~\ref{ch:thermal_conductance_via_electrical_noise},
 \begin{equation}
 R_{th} \equiv \frac{\DTJN}{P_0}
 \end{equation}
-Its important to note that $R_{th}$ is not the traditional thermal resistance which describes the total
+Its important to note that $R_{th}$ is not the traditional thermal resistance, which describes the total
 heat current flowing through a material in response to a spatial temperature gradient; it is instead
 a generalized thermal resistance describing the heat power transferred between the electronic
 system and the bath under Joule heating. For a diffusive system\footnote{Here a diffusive system is defined as one where the elastic mean free path of charge carriers is smaller than all other relevant length scales in the problem} dominated by Wiedemann-Franz electronic cooling, the thermal resistance in the linear response regime is given by:
 \begin{equation}\label{eq:Rth}
-R_{th} = \frac{R}{12\sL_0~T_b}
+R_{th} = \frac{R}{12\sL~T_b}
 \end{equation}
-where $\sL_0$ is the Lorenz ratio and $T_b$ is the bath temperature. Eqn.~\ref{eq:Rth} is derived in section~\ref{section:beta} and holds under the following assumptions:
+where $\sL$ is the Lorenz ratio and $T_b$ is the bath temperature. Eqn.~\ref{eq:Rth} is derived in section~\ref{section:beta} and holds under the following assumptions:
 \begin{enumerate}
-\item Heat conduction is provided entirely by electron diffusion of the form $\hat\kappa \propto \hat\sigma$\footnote{The constant of proportionality is defined as $\sL T_b$ by convention}
+\item Heat conduction is provided entirely by electron diffusion of the form $\hat\kappa \propto \hat\sigma$, where the constant of proportionality is defined as $\sL T_b$ by convention
 \item The transport coefficients are spatially uniform
 \item The device has only two electrical terminals which serve as thermal reservoirs and sources of Joule heating current
 \item The elastic mean free path of the charge carriers is the shorter than all other relevant length scales in the system
@@ -155,26 +155,43 @@ where $\sL_0$ is the Lorenz ratio and $T_b$ is the bath temperature. Eqn.~\ref{e
 \label{fig:m_high_density}
 \end{figure}
 
-Fig.~\ref{fig:m_high_density} compares $R$ and $R_{th}$ for graphene with a large carrier density ($n\approx -1.6\times10^{12}cm^{-2}$) as a function of magnetic field strength at $10~K$. For fields up to a few Tesla, we find that, while $R_{th}$ qualitatively tracks the field dependence of $R$, the measured Lorenz ratio, $\sL\equiv \frac{1}{12~T_b} (R/R_{th})$, has a small field dependence, even in the so-called ``classical" regime, in stark contrast to the predictions of Eqns.~\ref{eq:Rth} and \ref{eq:WF_gen}. In high field, where landau quantization becomes relevant, the behavior of $R_{th}$ begins to significantly deviate from that of $R$, eventually decreasing with field and tending toward zero. At low density this behavior is even more pronounced as quantum effects enter as low as $0.5~T$. Fig.~\ref{fig:m_low_density} shows similar measured to Fig.~\ref{fig:m_high_density} for a carrier density of $n\approx-1.2\times10^{11}cm^{-2}$. Unlike the high density data shown in Fig.~\ref{fig:m_high_density}, at low density,$R_{th}$ decreases with magnetic field for low fields even though $R$ increases. For all densities $\sL$ increases with field at low field.
+Fig.~\ref{fig:m_high_density} compares $R$ and $R_{th}$ for graphene with a large carrier density ($n\approx -1.6\times10^{12}cm^{-2}$) as a function of magnetic field strength at $10~K$. For fields up to a few Tesla, we find that, while $R_{th}$ qualitatively tracks the field dependence of $R$, the measured Lorenz ratio, $\sL\equiv \frac{1}{12~T_b} (R/R_{th})$, has a small field dependence, even in the so-called ``classical" regime, in stark contrast to the predictions of Eqns.~\ref{eq:Rth} and \ref{eq:WF_gen}. In high field, where landau quantization becomes relevant, the behavior of $R_{th}$ begins to significantly deviate from that of $R$, eventually decreasing with field and tending towards zero. 
 \begin{figure}
 \centering
 \includegraphics[width=100mm]{figures/magneto/low_density.png}
 \caption{(\textbf{upper}) Comparison of the thermal resistance $R_{th}\equiv \DTJN/P_0$ (blue) and the electrical resistance $R$ (red) for monolayer graphene with a carrier (hole) density of $n\approx-1.2\times10^{11}cm^{-2}$. At low field, $R$ increases while $R_{th}$ decreases with quantum oscillations appearing in the thermal data around $0.3~T$. In the $\nu=2$ quantum Hall state, the electrical data shown a plateau at the expected $\frac{1}{2} h/e$ while the thermal resistance drops close to zero. At the magnetic field strength corresponding to other filling fractions, $\nu=10$, $6$, $1$, and $2/3$, the thermal signal shows a similar drop toward zero even though the electrical plateaus are not present. (\textbf{lower}) The measured Lorenz ratio $\sL \equiv (R/R_{th})(1/12T_b)$ normalized to the Sommerfeld value.}
 \label{fig:m_low_density}
 \end{figure}
-
+At low density this behavior is even more pronounced as quantum effects enter as low as $0.5~T$. Fig.~\ref{fig:m_low_density} shows similar measurements to Fig.~\ref{fig:m_high_density} for a lower carrier density of $n\approx-1.2\times10^{11}cm^{-2}$. Unlike the high density data shown in Fig.~\ref{fig:m_high_density}, at low density, $R_{th}$ decreases with magnetic field for low fields even though $R$ increases. For all densities $\sL$ monotonically increases with field until quantum oscillations are seen. At fields and densities where the electrical data shows well developed plateaus, the thermal signal drops to near zero and the measured $\sL$ diverges as a result of the ballistic nature of quantum Hall states. In fact, this combination of Johnson noise thermometry and Joule heating is particularly suited to the detection of quantum modulations of the density of states; this is readily seen in Fig.\ref{fig:m_low_density} where, although not fully developed electrically, the thermal signal shows several more integer states, including the symmetry broken state $\nu=1$ and the fractional state $\nu = 2/3$. The sensitivity of this technique to quantum effects results from its intimate connection to changes in entropy and carrier thermalization length. Fig.~\ref{fig:m_L} shows the entire thermal fan diagram at $T_b=1.7~K$.
 \begin{figure}
 \centering
 \includegraphics[width=100mm]{figures/magneto/Fan_L.png}
-\caption{caption}
+\caption{The measured Lorenz ratio $\sL \equiv (R/R_{th})(1/12T_b)$ of a square graphene device normalized to the Sommerfeld value as a function of carrier density and magnetic field at $T_b=1.7~K$. Color axis shown on a log scale. Quantum Hall states appear as lines of large Lorenz number}
 \label{fig:m_L}
 \end{figure}
 
+\section{Cyclotron radius}
+\newthought{Given the apparent violation} of Eqn.~\ref{eq:Rth} at finite magnetic field, it stands to reason that one of the four assumptions listed above must be violated in graphene. The most obvious of which is the assumption that the elastic mean free path is shorter than all other relevant length scales. In the presence of a magnetic field, electrons in two-dimensional conductors travel along cyclotron orbits of radius 
+\begin{equation}
+r_c=\frac{m^*v_F}{e~B}
+\end{equation}
+where $v_F$ is the Fermi velocity and $m^*$ is dynamical mass of the charge carrier. Unlike traditional conductors with parabolic dispersions, the dynamical mass graphene is a function of the Fermi energy ($E_F$) and given by the relativistic form 
+\begin{align}
+m^* &= E_F/v_F^2 \\
+ &= \hbar\sqrt{\pi n}/v_F
+\end{align}
+thus the cyclotron radius can be written as a function of carrier density and magnetic field, as:
+\begin{align}
+r_c &= \frac{\hbar\sqrt{\pi n}}{e~B} \\
+ &= l_B^2\sqrt{\pi n}
+\end{align}
+where $l_B = \sqrt\hbar/eB$ is the magnetic length. 
+
 \begin{figure}
 \centering
-\includegraphics[width=100mm]{figures/magneto/L_n_Ha.png}
-\caption{caption}
-\label{fig:m_L_n_Ha}
+\includegraphics[width=100mm]{figures/magneto/r_cyc.png}
+\caption{Characteristic cyclotron radius $l^*(n)$ at which $\sL$ begins to deviate from $\sL_0$. Large cyclotron radius corresponds to small magnetic field. (\textbf{insets}) plot two representative examples of how $l^*$ is extracted; a linear fit to the log of $\sL$ vs cyclotron radius ($\r_c$) is extrapolate to the constant, low field value $\sL(B\approx0)$. Red shaded region represents $50\%$ convince intervals of the fits. These values can be directly compared to the quasiparticle elastic mean free path estimated by the zero field conductance in Fig.~\ref{fig:m_mobility}.}
+\label{fig:m_cyc}
 \end{figure}
+As we increase magnetic field for a fixed carrier density, we can quantitatively define a characteristic cyclotron radius ($l^*$) at which $\sL$ begins to deviate from $/SL_0$ by extrapolating a linear fit of the log of $\sL(r_c)$ to the constant low field value $\sL(B\approx0)$. The insets of Fig.~\ref{fig:m_cyc} show two representative examples of this procedure. $l^*(n)$ is the relevant magnetic length at which we see violations of eqn.~\ref{eq:Rth} for a given density. The main panel of Fig.~\ref{fig:m_cyc} plots $l^*$ as a function of electron density. The values found should be quantitatively compared to the elastic mean free path of the charge carriers which is estimated from the zero field conductance in Fig.~\ref{fig:m_mobility}. Essentially, the mean free path imposes a length cutoff for variations of the local temperature --- i.e the temperature cannot equilibrate at scales shorter than the mean-free path, since over these length scales electrons move ballistically. The strong agreement between the data in Figs.~\ref{fig:m_cyc} and \ref{fig:m_mobility} (rms normalized error of $23\%$) is evidence that the deviations of $\sL$ from $\sL_0$ are due to relevant dynamics occurring on a length scale where electrons are ballistic. This is taken to an extreme in the limit of quantum Hall where conduction occurs only on ballistic edge channels and hence the measured Lorenz ratio diverges.
 
-cyclotron radius equals the mfp
