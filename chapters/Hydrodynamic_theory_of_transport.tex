@@ -7,7 +7,7 @@ Turn a switch and the light goes on. The layman's perception is that this is lik
 \chapter{Hydrodynamic framework}
 \label{ch:hydrodynamic_framework}
 
-As electron-electron interactions begin to dominate over electron-impurity and electron-phonon scattering, new theoretical tools are needed to effectively model heat and charge transport. One such method, described in detail below, is to abandon the idea of quasiparticles altogether and instead rely on tracking macroscopically conserved quantities such as energy, momentum, and charge (hydrodynamics). The difficulty with this technique is the inclusion of momentum relaxing scattering event, such as those due to impurities. It is possible to include these effects to first order by modeling the hydrodynamic equations in the presence of a non-uniform (but slowly varying) potential similar that shown by ref.\cite{xue_scanning_2011} to exist in graphene. While this method has been applied with much success to describe the Dirac fluid in graphene, it is worth noting that, for the devices described in chapter~\ref{ch:the_Dirac_fluid}, the electron-electron scattering rate is of the same order as other relevant scatting rates in the system; as such, a Boltzmann approach with the inclusion of an inter-particle scattering time is feasible~\cite{adam_theoretical_2017} (Fig.~\ref{fig:Boltzmann_vs_hydro} illustrates the regimes applicable to the two frameworks).
+In exotic materials, as electron-electron interactions begin to dominate over electron-impurity and electron-phonon scattering, new theoretical tools are needed to effectively model heat and charge transport. One such method, described in detail below, is to abandon the idea of quasiparticles altogether and instead rely on tracking macroscopically conserved quantities such as energy, momentum, and charge (hydrodynamics). The difficulty with this technique is the inclusion of momentum relaxing scattering events, such as those due to impurities. It is possible to include these effects to first order by modeling the hydrodynamic equations in the presence of a non-uniform (but slowly varying) potential similar that shown~\cite{xue_scanning_2011} to exist in graphene. While this method has been applied with much success to describe the Dirac fluid, it is worth noting that, for the devices described in chapter~\ref{ch:the_Dirac_fluid}, the electron-electron scattering rate is of the same order as other relevant scatting rates in the system; as such, a Boltzmann approach with the inclusion of an inter-particle scattering time is feasible~\cite{adam_theoretical_2017} (Fig.~\ref{fig:Boltzmann_vs_hydro} illustrates the regimes applicable to the two frameworks).
 
 \begin{figure}
 \centering
@@ -20,7 +20,7 @@ As electron-electron interactions begin to dominate over electron-impurity and e
 \begin{figure}
 \centering
 \includegraphics[width = 130mm]{figures/hydro_theory/Boltzmann.png}
-\caption{Illustration of a few common theoretical frameworks used to model electron flow in solids and their capabilities in models systems with various electron-electron interaction strength. Taken from ref.~\cite{adam_theoretical_2017} adapted from ref.~\cite{briskot_collision-dominated_2015} with permission from S. Adam}
+\caption{Illustration of a few common theoretical frameworks used to model electron flow in solids and their capabilities to models systems with various electron-electron interaction strengths. Taken from ref.~\cite{adam_theoretical_2017} adapted from ref.~\cite{briskot_collision-dominated_2015} with permission from S. Adam}
 \label{fig:Boltzmann_vs_hydro}
 \end{figure}
 
@@ -62,14 +62,14 @@ $\mathcal{L}(n)$ can be parametrically larger than $\mathcal{L}_{\mathrm{WF}}$ (
 
 \begin{figure}
 \centering
-\includegraphics[width=7in]{figures/hydro_theory/mainfigplot.pdf}
+\includegraphics[width=\textwidth]{figures/hydro_theory/mainfigplot.pdf}
 \caption{A comparison of our hydrodynamic theory of transport with the experimental results of \cite{crossno_observation_2016} in clean samples of graphene at $T=75$ K.   We study the electrical and thermal conductances at various charge densities $n$ near the charge neutrality point.  Experimental data is shown as circular red data markers, and numerical results of our theory, averaged over 30 disorder realizations, are shown as the solid blue line.   Our theory assumes the equations of state described in (\ref{eq:AL_numericmain}) with the parameters $C_0\approx 11$, $C_2\approx 9$,  $C_4\approx 200$,  $\eta_0\approx 110$, $\sigma_0\approx 1.7$,  and (\ref{eq:AL_numericmain2}) with $u_0 \approx 0.13$.   The yellow shaded region shows where Fermi liquid behavior is observed and the Wiedemann-Franz law is restored, and our hydrodynamic theory is not valid in or near this regime.   We also show the predictions of (\ref{eq:AL_hkmseq}) as dashed purple lines, and have chosen the 3 parameter fit to be optimized for $\kappa(n)$. }
 \label{fig:AL_mainfig}
 \end{figure}
 
 \begin{figure}
 \centering
-\includegraphics[width=7in]{figures/hydro_theory/mainfigTplot.pdf}
+\includegraphics[width=\textwidth]{figures/hydro_theory/mainfigTplot.pdf}
 \caption{A comparison of our hydrodynamic theory of transport with the experimental results of \cite{crossno_observation_2016} in clean samples of graphene at the charge neutrality point ($n=0$).  We use no new fit parameters compared to Figure \ref{fig:AL_mainfig}. The yellow shaded region denotes where Fermi liquid behavior is observed; the purple shaded region denotes the likely onset of electron-phonon coupling.}
 \label{fig:AL_mainfigT}
 \end{figure}
@@ -79,7 +79,7 @@ In this paper, we argue that there are two related reasons for the breakdown of 
 
 \begin{figure}[t]
 \centering
-\includegraphics[width=3.3in]{figures/hydro_theory/hydrofig.pdf}
+\includegraphics[width=80mm]{figures/hydro_theory/hydrofig.pdf}
 \caption{A cartoon of a nearly quantum critical fluid where our hydrodynamic description of transport is sensible.   The local chemical potential $\mu(\mathbf{x})$ always obeys $|\mu| \ll k_{\mathrm{B}}T$,  and so the entropy density $s/k_{\mathrm{B}}$ is much larger than the charge density $|n|$;  both electrons and holes are everywhere excited, and the energy density $\epsilon$ does not fluctuate as much relative to the mean.  Near charge neutrality the local charge density flips sign repeatedly.   The correlation length of disorder $\xi$ is much larger than $l_{\mathrm{ee}}$, the electron-electron interaction length.}
 \label{fig:AL_hydrofig}
 \end{figure}
@@ -89,7 +89,7 @@ Figure \ref{fig:AL_hydrofig} shows a cartoon of the regime of validity of our hy
 Although the focus of this paper is on the Dirac fluid in graphene, this is because of the experimental motivation for this work.   Our theory has broader validity, and we will introduce it in the more general context of transport in a disordered electronic fluid near a quantum critical point with manifest Lorentz invariance, with the microscopic Fermi velocity $v_{\mathrm{F}}$ playing the role of the speed of light.  The Dirac fluid is not strictly Lorentz invariant, but we will justify the validity of our approach even in this system.   While the Dirac fluid in graphene is currently the only experimentally realized strongly interacting condensed matter system with evidence for electronic hydrodynamics \cite{crossno_observation_2016},  in the future surface states in topological insulators in three spatial dimensions  may host strongly interacting electron fluids \cite{efimkin_strongly_2014}.  Strongly interacting three dimensional materials including Weyl semimetals \cite{lu_experimental_2015, xu_discovery_2015, lv_experimental_2015} may also give rise to novel phenomena relevant for transport \cite{nielsen_adler-bell-jackiw_1983,son_chiral_2013}.
 
 \subsection{Outline}
-The outline of this paper is as follows.  We briefly review the definitions of transport coefficients in Section \ref{section:AL_sectransco}.   In Section \ref{section:AL_sechydro} we develop a theory of hydrodynamic transport in the electron fluid, assuming that it is Lorentz invariant.  We discuss the peculiar case of the Dirac fluid in graphene in Section \ref{section:AL_secgraphene}, and argue that deviations from Lorentz invariance are small.   We describe the results of our numerical simulations of this theory in Section \ref{section:AL_secnum}, and directly compare our simulations with recent experimental data from graphene \cite{crossno_observation_2016}.  The experimentally relevant effects of phonons are qualitatively described in Section \ref{section:AL_secphonon}.  We conclude the paper with a discussion of future experimental directions.   Appendices contain technical details of our theory.
+The outline of this paper is as follows.  We briefly review the definitions of transport coefficients in Section \ref{section:AL_sectransco}.   In Section \ref{section:AL_sechydro} we develop a theory of hydrodynamic transport in the electron fluid, assuming that it is Lorentz invariant.  We discuss the peculiar case of the Dirac fluid in graphene in Section \ref{section:AL_secgraphene}, and argue that deviations from Lorentz invariance are small.   We describe the results of our numerical simulations of this theory in Section \ref{section:AL_secnum}, and directly compare our simulations with recent experimental data from graphene \cite{crossno_observation_2016}.  The experimentally relevant effects of phonons are qualitatively described in Section \ref{section:AL_secphonon}.  We conclude the paper with a discussion of future experimental directions.  Appendix\ref{Appen_theory} contains technical details of our theory.
 
 In this paper we use index notation for vectors and tensors.  Latin indices $ij\cdots$ run over spatial coordinates $x$ and $y$;  Greek indices $\mu\nu\cdots$ run over time $t$ as well.   We will denote the time-like coordinate of $A^\mu$ as $A^t$.  Indices are raised and lowered with the Minkowski metric $\eta^{\mu\nu} \equiv \mathrm{diag}(-1,1,1)$.  The Einstein summation convention is always employed.
 
@@ -252,7 +252,7 @@ An example of our numerical results is shown in Figure \ref{fig:AL_viscfig}, whe
 
 \begin{figure}[t]
 \centering
-\includegraphics[width=7in]{figures/hydro_theory/viscosityplot.pdf}
+\includegraphics[width=\textwidth]{figures/hydro_theory/viscosityplot.pdf}
 \caption{Numerical computations of transport coefficients with $C_1=C_2=\sigma_0=1$ and $C_4=0$.   The top row has $u_0=0.2$, and the bottom row has $u_0=0.002$.   Solid lines are our theoretical results (using the particular disorder realizations studied) and the circular markers are numerical results.   Averages are taken over 20 disorder realizations.  $T_0=75$ K and we employ the value of $v_{\mathrm{F}}$ in graphene.  }
 \label{fig:AL_viscfig}
 \end{figure}
@@ -261,7 +261,7 @@ We also show the consequences of a non-zero $C_4$ in Figure \ref{fig:AL_c4fig}. 
 
 \begin{figure}[t]
 \centering
-\includegraphics[width=7in]{figures/hydro_theory/c4plot.pdf}
+\includegraphics[width=\textwidth]{figures/hydro_theory/c4plot.pdf}
 \caption{Numerical computations of transport coefficients with varying $C_4$, $C_1=\sigma_0=1$, $\eta_0=3$, $C_2=0.2$ and $u_0=0.2$.    The sharp change in behavior when $C_4<0$ is a consequence of $n(\mu)$ not being monotonically increasing at large $\mu$.    Averages are taken over 20 disorder realizations.  $T_0=75$ K and we employ the value of $v_{\mathrm{F}}$ in graphene.  }
 \label{fig:AL_c4fig}
 \end{figure}

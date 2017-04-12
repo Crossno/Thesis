@@ -73,6 +73,7 @@
 \RequirePackage{verbatim}
 
 %stuff I added
+\usepackage{changepage} %to indent paragraphs
 \usepackage{tocstyle} %for long chapters in toc
 \usetocstyle{standard}
 \settocfeature{raggedhook}{\raggedright}
@@ -258,7 +259,7 @@
 	\newpage
 	\thispagestyle{empty}
 	\vspace*{\fill}
-	\scshape \noindent \small \copyright \small 2014\hspace{3pt}-- \theauthor \\
+	\scshape \noindent \small \copyright \small 2017\hspace{3pt}-- \theauthor \\
 	\noindent all rights reserved.
 	\vspace*{\fill}
 	\newpage
@@ -266,11 +267,11 @@
 }
 
 \newcommand{\abstractpage}{
-    \pdfbookmark{Abstract}{Abstract}
 	\newpage
 	\pagenumbering{roman}
 	\setcounter{page}{3}
 	\pagestyle{fancy}
+	\phantomsection
 	\lhead{Dissertation advisor: Professor \@advisor} \rhead{\@author}
 	\renewcommand{\headrulewidth}{0.0pt}
 	\vspace*{35pt}
@@ -281,6 +282,9 @@
 	\end{center}
     \begin{spacing}{\dnormalspacing}
     	\input{frontmatter/abstract}
+    	\addtocontents{toc}{~\hfill\textbf{Page}\par}
+    	\def\toclevel@section{0}
+    	\addcontentsline{toc}{section}{Abstract}
     \end{spacing}
 	\vspace*{\fill}
 	\newpage \lhead{} \rhead{}
@@ -295,7 +299,6 @@
 \newcommand{\dedicationpage}{
     \cleardoublepage
     \phantomsection
-    \pdfbookmark{Dedication}{Dedication}
 	\newpage \thispagestyle{fancy} \vspace*{\fill}
 	\scshape \noindent \input{frontmatter/dedication}
 	\vspace*{\fill} \newpage \rm
@@ -303,28 +306,35 @@
 }
 
 \newcommand{\acknowledgments}{
-	\chapter*{Acknowledgments}
+	%\section*{Acknowledgments}
 	\noindent
+	\phantomsection
     \begin{spacing}{\dnormalspacing}
     	\input{frontmatter/thanks}
+    	\def\toclevel@section{0}
+    	\addcontentsline{toc}{section}{Acknowledgments} 
+    \end{spacing}
+	\vspace*{\fill} \newpage
+}
+
+\newcommand{\previouswork}{
+	%\section*{Previous publications}
+	\noindent
+	\phantomsection
+    \begin{spacing}{\dnormalspacing}
+    	\def\toclevel@section{0}
+    	\addcontentsline{toc}{section}{Citations to previous publications} 
+    	\input{frontmatter/previouswork}
     \end{spacing}
 	\vspace*{\fill} \newpage
 	\setcounter{page}{1}
 	\pagenumbering{arabic}
 }
 
-\newcommand{\previouswork}{
-	\chapter*{Previous publications}
-	\noindent
-    \begin{spacing}{\dnormalspacing}
-    	\input{frontmatter/previouswork}
-    \end{spacing}
-	\vspace*{\fill} \newpage
-}
-
 \renewcommand{\backmatter}{
     \begin{appendices}
-        \include{chapters/appendixA}
+        \include{chapters/RF_cryostats_and_circuitry}
+        \include{chapters/appendix_theory}
     \end{appendices}
     \input{endmatter/personalize}
     \clearpage

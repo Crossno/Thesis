@@ -1,4 +1,4 @@
-\begin{thebibliography}{150}
+\begin{thebibliography}{151}
 \providecommand{\natexlab}[1]{#1}
 \providecommand{\url}[1]{\texttt{#1}}
 \expandafter\ifx\csname urlstyle\endcsname\relax
@@ -504,6 +504,18 @@ Shaffique Adam, Derek Ho, Indra Yudhistira, and Nilotpal Chakraborty.
   Orleans, 2017. American Physical Society.
 \newblock URL \url{http://meetings.aps.org/Meeting/MAR17/Session/X30.8}.
 
+\bibitem[Crossno et~al.(2016)Crossno, Shi, Wang, Liu, Harzheim, Lucas, Sachdev,
+  Kim, Taniguchi, Watanabe, Ohki, and Fong]{crossno_observation_2016}
+Jesse Crossno, Jing~K. Shi, Ke~Wang, Xiaomeng Liu, Achim Harzheim, Andrew
+  Lucas, Subir Sachdev, Philip Kim, Takashi Taniguchi, Kenji Watanabe,
+  Thomas~A. Ohki, and Kin~Chung Fong.
+\newblock Observation of the {Dirac} fluid and the breakdown of the
+  {Wiedemann}-{Franz} law in graphene.
+\newblock \emph{Science}, 351\penalty0 (6277):\penalty0 1058--1061, March 2016.
+\newblock ISSN 0036-8075, 1095-9203.
+\newblock \doi{10.1126/science.aad0343}.
+\newblock URL \url{http://science.sciencemag.org/content/351/6277/1058}.
+
 \bibitem[Kadanoff and Martin(1963)]{kadanoff_hydrodynamic_1963}
 L.~P. Kadanoff and P.~C. Martin.
 \newblock Hydrodynamic equations and correlation functions.
@@ -792,17 +804,42 @@ Alessandro Principi, Giovanni Vignale, Matteo Carrega, and Marco Polini.
 \newblock \emph{arXiv.org}, 2015.
 \newblock arXiv: 1506.06030v1.
 
-\bibitem[Crossno et~al.(2016)Crossno, Shi, Wang, Liu, Harzheim, Lucas, Sachdev,
-  Kim, Taniguchi, Watanabe, Ohki, and Fong]{crossno_observation_2016}
-Jesse Crossno, Jing~K. Shi, Ke~Wang, Xiaomeng Liu, Achim Harzheim, Andrew
-  Lucas, Subir Sachdev, Philip Kim, Takashi Taniguchi, Kenji Watanabe,
-  Thomas~A. Ohki, and Kin~Chung Fong.
-\newblock Observation of the {Dirac} fluid and the breakdown of the
-  {Wiedemann}-{Franz} law in graphene.
-\newblock \emph{Science}, 351\penalty0 (6277):\penalty0 1058--1061, March 2016.
-\newblock ISSN 0036-8075, 1095-9203.
-\newblock \doi{10.1126/science.aad0343}.
-\newblock URL \url{http://science.sciencemag.org/content/351/6277/1058}.
+\bibitem[Nolas and Goldsmid(2004)]{nolas_thermal_2004}
+G.~S. Nolas and H.~J. Goldsmid.
+\newblock Thermal {Conductivity} of {Semiconductors}.
+\newblock In Terry~M. Tritt, editor, \emph{Thermal {Conductivity}}, Physics of
+  {Solids} and {Liquids}, pages 105--121. Springer US, 2004.
+\newblock ISBN 978-0-306-48327-1 978-0-387-26017-4.
+\newblock URL \url{http://link.springer.com/chapter/10.1007/0-387-26017-X_4}.
+\newblock DOI: 10.1007/0-387-26017-X\_4.
+
+\bibitem[Goldsmid(1956)]{goldsmid_thermal_1956}
+H.~J. Goldsmid.
+\newblock The {Thermal} {Conductivity} of {Bismuth} {Telluride}.
+\newblock \emph{Proceedings of the Physical Society. Section B}, 69\penalty0
+  (2):\penalty0 203, 1956.
+\newblock ISSN 0370-1301.
+\newblock \doi{10.1088/0370-1301/69/2/310}.
+\newblock URL \url{http://stacks.iop.org/0370-1301/69/i=2/a=310}.
+
+\bibitem[Yoshino and Murata(2015)]{yoshino_significant_2015}
+H.~Yoshino and K.~Murata.
+\newblock Significant enhancement of electronic thermal conductivity of
+  two-dimensional zero-gap systems by bipolar-diffusion effect.
+\newblock \emph{Journal of the Physical Society of Japan}, 84\penalty0
+  (2):\penalty0 024601, January 2015.
+\newblock ISSN 0031-9015.
+\newblock \doi{10.7566/JPSJ.84.024601}.
+\newblock URL \url{http://journals.jps.jp/doi/abs/10.7566/JPSJ.84.024601}.
+
+\bibitem[Hwang and Das~Sarma(2009)]{hwang_screening-induced_2009}
+E.~H. Hwang and S.~Das~Sarma.
+\newblock Screening-induced temperature-dependent transport in two-dimensional
+  graphene.
+\newblock \emph{Physical Review B}, 79\penalty0 (16):\penalty0 165404, April
+  2009.
+\newblock \doi{10.1103/PhysRevB.79.165404}.
+\newblock URL \url{https://link.aps.org/doi/10.1103/PhysRevB.79.165404}.
 
 \bibitem[Bandurin et~al.(2016)Bandurin, Torre, Kumar, Shalom, Tomadin,
   Principi, Auton, Khestanova, Novoselov, Grigorieva, Ponomarenko, Geim, and
@@ -1139,25 +1176,6 @@ D.~T. Son and B.~Z. Spivak.
 \newblock \doi{10.1103/PhysRevB.88.104412}.
 \newblock URL \url{https://link.aps.org/doi/10.1103/PhysRevB.88.104412}.
 
-\bibitem[Nolas and Goldsmid(2004)]{nolas_thermal_2004}
-G.~S. Nolas and H.~J. Goldsmid.
-\newblock Thermal {Conductivity} of {Semiconductors}.
-\newblock In Terry~M. Tritt, editor, \emph{Thermal {Conductivity}}, Physics of
-  {Solids} and {Liquids}, pages 105--121. Springer US, 2004.
-\newblock ISBN 978-0-306-48327-1 978-0-387-26017-4.
-\newblock URL \url{http://link.springer.com/chapter/10.1007/0-387-26017-X_4}.
-\newblock DOI: 10.1007/0-387-26017-X\_4.
-
-\bibitem[Yoshino and Murata(2015)]{yoshino_significant_2015}
-H.~Yoshino and K.~Murata.
-\newblock Significant enhancement of electronic thermal conductivity of
-  two-dimensional zero-gap systems by bipolar-diffusion effect.
-\newblock \emph{Journal of the Physical Society of Japan}, 84\penalty0
-  (2):\penalty0 024601, January 2015.
-\newblock ISSN 0031-9015.
-\newblock \doi{10.7566/JPSJ.84.024601}.
-\newblock URL \url{http://journals.jps.jp/doi/abs/10.7566/JPSJ.84.024601}.
-
 \bibitem[Hartnoll(2009)]{hartnoll_lectures_2009}
 Sean~A. Hartnoll.
 \newblock Lectures on holographic methods for condensed matter physics.
@@ -1175,15 +1193,6 @@ Oskar Vafek.
   May 2007.
 \newblock \doi{10.1103/PhysRevLett.98.216401}.
 \newblock URL \url{https://link.aps.org/doi/10.1103/PhysRevLett.98.216401}.
-
-\bibitem[Hwang and Das~Sarma(2009)]{hwang_screening-induced_2009}
-E.~H. Hwang and S.~Das~Sarma.
-\newblock Screening-induced temperature-dependent transport in two-dimensional
-  graphene.
-\newblock \emph{Physical Review B}, 79\penalty0 (16):\penalty0 165404, April
-  2009.
-\newblock \doi{10.1103/PhysRevB.79.165404}.
-\newblock URL \url{https://link.aps.org/doi/10.1103/PhysRevB.79.165404}.
 
 \bibitem[Lucas and Sachdev(2015)]{lucas_memory_2015}
 Andrew Lucas and Subir Sachdev.
