@@ -306,7 +306,7 @@
 }
 
 \newcommand{\acknowledgments}{
-	%\section*{Acknowledgments}
+	\chapter*{Acknowledgments}
 	\noindent
 	\phantomsection
     \begin{spacing}{\dnormalspacing}
@@ -318,7 +318,7 @@
 }
 
 \newcommand{\previouswork}{
-	%\section*{Previous publications}
+	\chapter*{Previous publications}
 	\noindent
 	\phantomsection
     \begin{spacing}{\dnormalspacing}
@@ -339,9 +339,10 @@
     \input{endmatter/personalize}
     \clearpage
     \begin{spacing}{\dcompressedspacing}
+    	\bibliography{references}
         \addcontentsline{toc}{chapter}{References}      
 		\bibliographystyle{unsrtnat} %added to make references appear in order
         %\bibliographystyle{apalike2}
-        \bibliography{references}
+        \include{endmatter/colophon}
     \end{spacing}
 }

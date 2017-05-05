@@ -1,4 +1,4 @@
-This is XeTeX, Version 3.14159265-2.6-0.99996 (TeX Live 2016) (preloaded format=xelatex 2017.3.13)  11 APR 2017 22:33
+This is XeTeX, Version 3.14159265-2.6-0.99996 (TeX Live 2016) (preloaded format=xelatex 2017.3.13)  4 MAY 2017 12:28
 entering extended mode
  restricted \write18 enabled.
  %&-line parsing enabled.
@@ -1194,7 +1194,8 @@ Package hyperref Info: Option `colorlinks' set `true' on input line 221.
 (./chapters/The_Dirac_fluid.aux)
 (./chapters/Hydrodynamic_theory_of_transport.aux)
 (./chapters/Magneto-thermal_transport.aux)
-(./chapters/RF_cryostats_and_circuitry.aux) (./chapters/appendix_theory.aux))
+(./chapters/RF_cryostats_and_circuitry.aux) (./chapters/appendix_theory.aux)
+(./endmatter/colophon.aux))
 \openout1 = `dissertation.aux'.
 
 LaTeX Font Info:    Checking defaults for OML/cmm/m/it on input line 7.
@@ -1774,27 +1775,22 @@ number indent calculated (toc, 0): 0.0pt
 
  [7] (./frontmatter/dedication.tex) [8
 
-] (./frontmatter/thanks.tex) [9
+] (./frontmatter/thanks.tex [9
 
-]
-(./frontmatter/previouswork.tex
+
+] [10])
+[11] [12] (./frontmatter/previouswork.tex
 Overfull \hbox (12.27325pt too wide) in paragraph at lines 19--20
 []\TU/EBGaramond(1)/bx/n/10.95 “Transport in inhomogeneous quantum critical flu
 ids and in the Dirac fluid in graphene”. 
  []
 
-) [10]
+) [13
+
+]
 \openout2 = `chapters/Overview.aux'.
 
  (./chapters/Overview.tex
-Chapter 0.
-) [1
-
-
-] [2]
-\openout2 = `chapters/Johnson_noise_thermometry.aux'.
-
- (./chapters/Johnson_noise_thermometry.tex
 LaTeX Font Info:    Font shape `TU/EBGaramond(1)/m/n' will be
 (Font)              scaled to size 10.0pt on input line 2.
 LaTeX Font Info:    Font shape `TU/EBGaramond(1)/m/sl' in size <10> not availab
@@ -1805,11 +1801,30 @@ LaTeX Font Info:    Font shape `TU/EBGaramond(1)/m/it' will be
 (Font)              scaled to size 10.0pt on input line 2.
 
 Underfull \hbox (badness 10000) in paragraph at lines 3--4
+[]\TU/EBGaramond(1)/m/it/10 Sometimes science is a lot more art than science. A
+ lot of
+ []
+
+Chapter 1.
+
+Overfull \hbox (10.77475pt too wide) in paragraph at lines 7--8
+\TU/EBGaramond(1)/bx/n/10.95 quires a new thermometry technique capable of deal
+ing with the challenges unique to low-dimensional 
+ []
+
+[1
+
+
+] [2] [3]) [4]
+\openout2 = `chapters/Johnson_noise_thermometry.aux'.
+
+ (./chapters/Johnson_noise_thermometry.tex
+Underfull \hbox (badness 10000) in paragraph at lines 3--4
 []\TU/EBGaramond(1)/m/it/10 In theory, theory and practice are the same thing, 
 but in
  []
 
-Chapter 1.
+Chapter 2.
 LaTeX Font Info:    Font shape `TU/EBGaramond(1)/m/n' will be
 (Font)              scaled to size 8.0pt on input line 10.
 LaTeX Font Info:    Font shape `TU/EBGaramond(1)/m/n' will be
@@ -1821,14 +1836,14 @@ ng on a particle is proportional to its velocity — i.e.$\OML/cmm/m/it/10 F=v$ 
 TU/EBGaramond(1)/m/n/10 is
  []
 
-[3
+[5
 
 
 
 ]
 LaTeX Font Info:    Font shape `TU/EBGaramond(1)/m/sc' will be
 (Font)              scaled to size 14.4pt on input line 16.
- [4]
+ [6]
 File: figures/Johnson_noise_thermometry/Nyquist_resistors.png Graphic file (typ
 e QTm)
  <use  "figures/Johnson_noise_thermometry/Nyquist_resistors.png" >
@@ -1845,13 +1860,13 @@ LaTeX Font Info:    Font shape `TU/LatoRegular(0)/m/n' will be
 LaTeX Font Info:    Font shape `TU/LatoRegular(0)/m/n' will be
 (Font)              scaled to size 8.09479pt on input line 24.
 
-[5]
+[7]
 Underfull \hbox (badness 10000) in paragraph at lines 35--35
 [][][]\TU/EBGaramond(1)/m/n/10 This is why mean squared error is often a useful
  metric. If errors are unbiased and Gaussian distributed
  []
 
-[6] [7] [8]
+[8] [9] [10]
 Underfull \hbox (badness 10000) in paragraph at lines 88--88
 \TU/EBGaramond(1)/m/n/10 this was not true, we could place the device between t
 wo resistors in thermal equilibrium and one would heat
@@ -1863,24 +1878,24 @@ Underfull \hbox (badness 10000) in paragraph at lines 88--88
 efficients often include internally terminated third
  []
 
-[9]
+[11]
 File: figures/Johnson_noise_thermometry/Schematic_Autocorrelation.png Graphic f
 ile (type QTm)
  <use  "figures/Johnson_noise_thermometry/Schematic_Autocorrelation.png" >
 File: figures/Johnson_noise_thermometry/Miteq_spec.png Graphic file (type QTm)
 
-<use  "figures/Johnson_noise_thermometry/Miteq_spec.png" > [10]
+<use  "figures/Johnson_noise_thermometry/Miteq_spec.png" > [12]
 File: figures/Johnson_noise_thermometry/Miteq_BP_spec.png Graphic file (type QT
 m)
 
-<use  "figures/Johnson_noise_thermometry/Miteq_BP_spec.png" > [11] [12]
+<use  "figures/Johnson_noise_thermometry/Miteq_BP_spec.png" > [13] [14]
 File: figures/Johnson_noise_thermometry/PE8000-50.png Graphic file (type QTm)
 
 <use  "figures/Johnson_noise_thermometry/PE8000-50.png" >
 File: figures/Johnson_noise_thermometry/Auto_noise_vs_T.png Graphic file (type 
 QTm)
 
-<use  "figures/Johnson_noise_thermometry/Auto_noise_vs_T.png" > [13] [14]
+<use  "figures/Johnson_noise_thermometry/Auto_noise_vs_T.png" > [15] [16]
 Underfull \hbox (badness 10000) in paragraph at lines 143--143
 [][][]\TU/EBGaramond(1)/m/n/10 The effective noise bandwidth is defined as the 
 width of a perfect square band that passes the same noise
@@ -1897,20 +1912,20 @@ ture can be quite different from an amplifiers intrinsic
 
 Underfull \hbox (badness 10000) in paragraph at lines 151--151
 \TU/EBGaramond(1)/m/n/10 noise temperature which often assumes a perfectly matc
-hed input impedance. See the section [][]1.7[][] for more
+hed input impedance. See the section [][]2.7[][] for more
  []
 
-[15]
+[17]
 File: figures/Johnson_noise_thermometry/histograms.png Graphic file (type QTm)
- <use  "figures/Johnson_noise_thermometry/histograms.png" > [16]
+ <use  "figures/Johnson_noise_thermometry/histograms.png" > [18]
 File: figures/Johnson_noise_thermometry/schematic_matching.png Graphic file (ty
 pe QTm)
 
-<use  "figures/Johnson_noise_thermometry/schematic_matching.png" > [17]
+<use  "figures/Johnson_noise_thermometry/schematic_matching.png" > [19]
 File: figures/Johnson_noise_thermometry/Impedance_matching2.png Graphic file (t
 ype QTm)
 
-<use  "figures/Johnson_noise_thermometry/Impedance_matching2.png" > [18]
+<use  "figures/Johnson_noise_thermometry/Impedance_matching2.png" > [20]
 Underfull \hbox (badness 10000) in paragraph at lines 199--199
 [][][]\TU/EBGaramond(1)/m/n/10 stray inductance is also possible (particularly 
 if long wire bonds are necessary) but is usually negligible for
@@ -1926,17 +1941,17 @@ File: figures/Johnson_noise_thermometry/picture_gimmick2.jpg Graphic file (type
 File: figures/Johnson_noise_thermometry/gimmick_tuning.png Graphic file (type Q
 Tm)
 
-<use  "figures/Johnson_noise_thermometry/gimmick_tuning.png" > [19]
+<use  "figures/Johnson_noise_thermometry/gimmick_tuning.png" > [21]
 File: figures/Johnson_noise_thermometry/Matched_spectra.png Graphic file (type 
 QTm)
 
 <use  "figures/Johnson_noise_thermometry/Matched_spectra.png" >
 File: figures/Johnson_noise_thermometry/S11vsR.png Graphic file (type QTm)
 
-<use  "figures/Johnson_noise_thermometry/S11vsR.png" > [20] [21]
+<use  "figures/Johnson_noise_thermometry/S11vsR.png" > [22] [23]
 File: figures/Johnson_noise_thermometry/S11_3Rs.png Graphic file (type QTm)
 
-<use  "figures/Johnson_noise_thermometry/S11_3Rs.png" > [22]
+<use  "figures/Johnson_noise_thermometry/S11_3Rs.png" > [24]
 Underfull \hbox (badness 10000) in paragraph at lines 240--240
 [][][]\TU/EBGaramond(1)/m/n/10 This is a well known solution to a similar probl
 em in audio recording. Multi-stage impedance transforms
@@ -1945,7 +1960,7 @@ em in audio recording. Multi-stage impedance transforms
 File: figures/Johnson_noise_thermometry/schematic_double_matching.png Graphic f
 ile (type QTm)
 <use  "figures/Johnson_noise_thermometry/schematic_double_matching.png" >
-[23]
+[25]
 File: figures/Johnson_noise_thermometry/Z_doubleTank.png Graphic file (type QTm
 )
  <use  "figures/Johnson_noise_thermometry/Z_doubleTank.png" >
@@ -1956,69 +1971,69 @@ m)
 File: figures/Johnson_noise_thermometry/S11vsR_double2.png Graphic file (type Q
 Tm)
 
-<use  "figures/Johnson_noise_thermometry/S11vsR_double2.png" > [24]
+<use  "figures/Johnson_noise_thermometry/S11vsR_double2.png" > [26]
 File: figures/Johnson_noise_thermometry/picture_matching_ceramic.jpg Graphic fi
 le (type QTm)
 
 <use  "figures/Johnson_noise_thermometry/picture_matching_ceramic.jpg" >
-[25] [26] [27] [28]
+[27] [28] [29] [30]
 Underfull \hbox (badness 10000) in paragraph at lines 308--308
-[][][]\TU/EBGaramond(1)/m/n/10 Eqn. [][]1.24[][] approximates the external filt
+[][][]\TU/EBGaramond(1)/m/n/10 Eqn. [][]2.24[][] approximates the external filt
 er function as a perfect square filter of bandwidth $\OML/cmm/m/it/10 ^^Af$\TU/
 EBGaramond(1)/m/n/10 . For the
  []
 
 File: figures/Johnson_noise_thermometry/schematic_noise_IV.png Graphic file (ty
 pe QTm)
-<use  "figures/Johnson_noise_thermometry/schematic_noise_IV.png" > [29]
+<use  "figures/Johnson_noise_thermometry/schematic_noise_IV.png" > [31]
 File: figures/Johnson_noise_thermometry/Vn_vs_R.png Graphic file (type QTm)
 
-<use  "figures/Johnson_noise_thermometry/Vn_vs_R.png" > [30]
+<use  "figures/Johnson_noise_thermometry/Vn_vs_R.png" > [32]
 File: figures/Johnson_noise_thermometry/Vn_vs_T.png Graphic file (type QTm)
 
-<use  "figures/Johnson_noise_thermometry/Vn_vs_T.png" > [31]
+<use  "figures/Johnson_noise_thermometry/Vn_vs_T.png" > [33]
 File: figures/Johnson_noise_thermometry/G_Tn_vs_R.png Graphic file (type QTm)
 
-<use  "figures/Johnson_noise_thermometry/G_Tn_vs_R.png" > [32]
+<use  "figures/Johnson_noise_thermometry/G_Tn_vs_R.png" > [34]
 Underfull \hbox (badness 10000) in paragraph at lines 362--362
 [][][]\TU/EBGaramond(1)/m/n/10 negative $\OML/cmm/m/it/10 T[]$ \TU/EBGaramond(1
 )/m/n/10 is where the linear fit intercepts the horizontal axis; also given by 
 the offset divided by the
  []
 
-[33]
+[35]
 File: figures/Johnson_noise_thermometry/Schematic_Crosscorrelation.png Graphic 
 file (type QTm)
 
 <use  "figures/Johnson_noise_thermometry/Schematic_Crosscorrelation.png" >
-[34]
+[36]
 File: figures/Johnson_noise_thermometry/Cross_noise_vs_T.png Graphic file (type
  QTm)
  <use  "figures/Johnson_noise_thermometry/Cross_noise_vs_T.png" >
 File: figures/Johnson_noise_thermometry/cross_sensitivity.png Graphic file (typ
 e QTm)
 
-<use  "figures/Johnson_noise_thermometry/cross_sensitivity.png" > [35] [36]
+<use  "figures/Johnson_noise_thermometry/cross_sensitivity.png" > [37] [38]
 File: figures/Johnson_noise_thermometry/4terminal.png Graphic file (type QTm)
 
-<use  "figures/Johnson_noise_thermometry/4terminal.png" > [37]) [38]
+<use  "figures/Johnson_noise_thermometry/4terminal.png" > [39]) [40]
 \openout2 = `chapters/Electronic_cooling_pathways_in_graphene.aux'.
 
 
 (./chapters/Electronic_cooling_pathways_in_graphene.tex
-Chapter 2.
-[39
+Chapter 3.
+[41
 
 
 
 ]
 File: figures/electronic_cooling/WF_in_metals.png Graphic file (type QTm)
- <use  "figures/electronic_cooling/WF_in_metals.png" > [40] [41] [42]
-[43] [44] [45]
+ <use  "figures/electronic_cooling/WF_in_metals.png" > [42] [43] [44]
+[45] [46] [47]
 File: figures/electronic_cooling/Viljas2010_conduction.png Graphic file (type Q
 Tm)
  <use  "figures/electronic_cooling/Viljas2010_conduction.png" >
-[46] [47]
+[48] [49]
 File: figures/electronic_cooling/Thermal_diagram.png Graphic file (type QTm)
  <use  "figures/electronic_cooling/Thermal_diagram.png" >
 Underfull \hbox (badness 10000) in paragraph at lines 102--102
@@ -2026,7 +2041,7 @@ Underfull \hbox (badness 10000) in paragraph at lines 102--102
 tron-phonon conductance is geometry dependent. In long
  []
 
-[48] [49]) [50]
+[50] [51]) [52]
 \openout2 = `chapters/Thermal_conductance_via_electrical_noise.aux'.
 
  (./chapters/Thermal_conductance_via_electrical_noise.tex
@@ -2035,19 +2050,19 @@ Underfull \hbox (badness 10000) in paragraph at lines 3--4
 ngs
  []
 
-Chapter 3.
-[51
+Chapter 4.
+[53
 
 
 
 ]
 File: figures/thermal_via_noise/thermal_diagram.png Graphic file (type QTm)
- <use  "figures/thermal_via_noise/thermal_diagram.png" > [52] [53] [54]
-[55]
+ <use  "figures/thermal_via_noise/thermal_diagram.png" > [54] [55] [56]
+[57]
 File: figures/thermal_via_noise/picture_temperature_profile.png Graphic file (t
 ype QTm)
  <use  "figures/thermal_via_noise/picture_temperature_profile.png" >
-[56]
+[58]
 Overfull \hbox (1.36507pt too wide) in paragraph at lines 85--87
 \TU/EBGaramond(1)/bx/n/10.95 All the information about the heating profile is c
 ontained in the factor of 12. — i.e for a two-terminal 
@@ -2059,15 +2074,15 @@ Overfull \hbox (19.36385pt too wide) in paragraph at lines 85--87
 the electronic conductance follows the Wiedemann- 
  []
 
-[57]
+[59]
 File: figures/thermal_via_noise/wedge.png Graphic file (type QTm)
- <use  "figures/thermal_via_noise/wedge.png" > [58]
-Overfull \hbox (0.81026pt too wide) in paragraph at lines 125--127
+ <use  "figures/thermal_via_noise/wedge.png" > [60]
+Overfull \hbox (2.12425pt too wide) in paragraph at lines 125--127
 \TU/EBGaramond(1)/bx/n/10.95 The mean temperature and the Johnson noise tempera
-ture can be calculated by integrating Eqn. [][]3.20[][] 
+ture can be calculated by integrating Eqn. [][]4.20[][] 
  []
 
-[59]
+[61]
 
 Package hyperref Warning: Token not allowed in a PDF string (Unicode):
 (hyperref)                removing `math shift' on input line 139.
@@ -2080,35 +2095,35 @@ Package hyperref Warning: Token not allowed in a PDF string (Unicode):
 Package hyperref Warning: Token not allowed in a PDF string (Unicode):
 (hyperref)                removing `math shift' on input line 139.
 
-[60] [61] [62]
-Overfull \hbox (2.22838pt too wide) in paragraph at lines 185--187
+[62] [63] [64]
+Overfull \hbox (4.85638pt too wide) in paragraph at lines 185--187
 \TU/EBGaramond(1)/bx/n/10.95 Here we have used $\OML/cmm/m/it/10.95 P[] \OT1/cm
 r/m/n/10.95 = \OML/cmm/m/it/10.95 V[]=R \OT1/cmr/m/n/10.95 = 1\OML/cmm/m/it/10.
 95 =R$ \TU/EBGaramond(1)/bx/n/10.95 (assuming our voltage units). Combining Eqn
-. [][]3.29[][] and [][]3.30[][] 
+. [][]4.29[][] and [][]4.30[][] 
  []
 
-[63]
+[65]
 File: figures/thermal_via_noise/Schematic_Joule_heating.png Graphic file (type 
 QTm)
- <use  "figures/thermal_via_noise/Schematic_Joule_heating.png" > [64]
+ <use  "figures/thermal_via_noise/Schematic_Joule_heating.png" > [66]
 Underfull \hbox (badness 10000) in paragraph at lines 226--226
 [][][]\TU/EBGaramond(1)/m/n/10 It is because of this need to pass a DC current 
 through the matching network and into the sample that
  []
 
-[65]
+[67]
 File: figures/thermal_via_noise/quadratic_Joule_heating.png Graphic file (type 
 QTm)
  <use  "figures/thermal_via_noise/quadratic_Joule_heating.png" >
 File: figures/thermal_via_noise/kappa.png Graphic file (type QTm)
 
-<use  "figures/thermal_via_noise/kappa.png" >) [66] [67]
+<use  "figures/thermal_via_noise/kappa.png" >) [68] [69]
 \openout2 = `chapters/Thermal_conductance_in_high_density_graphene.aux'.
 
 
 (./chapters/Thermal_conductance_in_high_density_graphene.tex
-Chapter 4.
+Chapter 5.
 File: figures/high_density_graphene/Fong_picture.png Graphic file (type QTm)
 <use  "figures/high_density_graphene/Fong_picture.png" >
 File: figures/high_density_graphene/Fong_Gth.png Graphic file (type QTm)
@@ -2122,7 +2137,7 @@ File: figures/high_density_graphene/Yigen_picture.png Graphic file (type QTm)
 <use  "figures/high_density_graphene/Yigen_picture.png" >
 File: figures/high_density_graphene/Yigen_Gth.png Graphic file (type QTm)
 
-<use  "figures/high_density_graphene/Yigen_Gth.png" > [68
+<use  "figures/high_density_graphene/Yigen_Gth.png" > [70
 
 
 
@@ -2132,7 +2147,7 @@ File: figures/high_density_graphene/picture_aria.jpg Graphic file (type QTm)
 <use  "figures/high_density_graphene/picture_aria.jpg" >
 File: figures/high_density_graphene/mobility.png Graphic file (type QTm)
 
-<use  "figures/high_density_graphene/mobility.png" > [69] [70]
+<use  "figures/high_density_graphene/mobility.png" > [71] [72]
 Invalid UTF-8 byte or sequence at line 38 replaced by U+FFFD.
 Invalid UTF-8 byte or sequence at line 38 replaced by U+FFFD.
 Invalid UTF-8 byte or sequence at line 38 replaced by U+FFFD.
@@ -2153,7 +2168,7 @@ Invalid UTF-8 byte or sequence at line 45 replaced by U+FFFD.
 Invalid UTF-8 byte or sequence at line 45 replaced by U+FFFD.
 File: figures/high_density_graphene/noise.eps Graphic file (type eps)
 
-<figures/high_density_graphene/noise.eps> [71]
+<figures/high_density_graphene/noise.eps> [73]
 File: figures/high_density_graphene/Gth_lin.png Graphic file (type QTm)
 
 <use  "figures/high_density_graphene/Gth_lin.png" >
@@ -2163,44 +2178,44 @@ File: figures/high_density_graphene/Gth_log.png Graphic file (type QTm)
 Missing character: There is no   in font cmr10!
 Missing character: There is no   in font cmr10!
 
-Overfull \hbox (3.24844pt too wide) in paragraph at lines 53--61
+Overfull \hbox (1.79208pt too wide) in paragraph at lines 53--61
 \TU/EBGaramond(1)/bx/n/10.95 Wiedemann-Franz law. The dashed line in the left p
-anel of Fig. [][]4.6[][] shows the theoretical Wiedemann- 
+anel of Fig. [][]5.6[][] shows the theoretical Wiedemann- 
  []
 
-[72]
+[74]
 File: figures/high_density_graphene/EPh.pdf Graphic file (type QTm)
- <use  "figures/high_density_graphene/EPh.pdf" >) [73] [74]
+ <use  "figures/high_density_graphene/EPh.pdf" >) [75] [76]
 \openout2 = `chapters/The_Dirac_fluid.aux'.
 
 
 (./chapters/The_Dirac_fluid.tex
-Chapter 5.
-[75
+Chapter 6.
+[77
 
 
 
 ]
 File: figures/Dirac_fluid/charge_puddles.png Graphic file (type QTm)
- <use  "figures/Dirac_fluid/charge_puddles.png" > [76] [77]
+ <use  "figures/Dirac_fluid/charge_puddles.png" > [78] [79]
 File: figures/Dirac_fluid/temperature_regimes.png Graphic file (type QTm)
 
-<use  "figures/Dirac_fluid/temperature_regimes.png" > [78]
-Overfull \hbox (78.55458pt too wide) in paragraph at lines 28--28
+<use  "figures/Dirac_fluid/temperature_regimes.png" > [80]
+Overfull \hbox (0.69379pt too wide) in paragraph at lines 28--28
 |[]\TU/EBGaramond(1)/m/sc/14.4 Observation of the Dirac fluid and the breakdown
- of the Wiedemann-
+ of the
  []
 
-[79]
+[81]
 File: figures/Dirac_fluid/Fig1.pdf Graphic file (type QTm)
- <use  "figures/Dirac_fluid/Fig1.pdf" > [80] [81]
+ <use  "figures/Dirac_fluid/Fig1.pdf" > [82] [83]
 
 LaTeX Font Warning: Font shape `TU/EBGaramond(0)/bx/n' undefined
 (Font)              using `TU/EBGaramond(0)/m/n' instead on input line 50.
 
-[82] [83]
+[84] [85]
 File: figures/Dirac_fluid/Fig2.pdf Graphic file (type QTm)
- <use  "figures/Dirac_fluid/Fig2.pdf" > [84] [85]
+ <use  "figures/Dirac_fluid/Fig2.pdf" > [86] [87]
 File: figures/Dirac_fluid/Fig3.pdf Graphic file (type QTm)
 
 <use  "figures/Dirac_fluid/Fig3.pdf" >
@@ -2213,13 +2228,13 @@ c
 
 LaTeX Font Info:    Font shape `TU/EBGaramond(1)/m/n' will be
 (Font)              scaled to size 6.0pt on input line 84.
-[86] [87] [88] [89]
-Overfull \hbox (10.65858pt too wide) in paragraph at lines 100--100
+[88] [89] [90] [91]
+Overfull \hbox (12.5306pt too wide) in paragraph at lines 100--100
 |[]\TU/EBGaramond(1)/m/sc/14.4 Optimizing samples for high frequency thermal co
 nductiv-
  []
 
-[90]
+[92]
 .................................................
 . fontspec info: "no-font-shape"
 . 
@@ -2253,7 +2268,7 @@ text;"
 .................................................
 LaTeX Font Info:    Font shape `TU/EBGaramond(3)/m/n' will be
 (Font)              scaled to size 12.0pt on input line 111.
- [91]
+ [93]
 Invalid UTF-8 byte or sequence at line 132 replaced by U+FFFD.
 Invalid UTF-8 byte or sequence at line 132 replaced by U+FFFD.
 Invalid UTF-8 byte or sequence at line 132 replaced by U+FFFD.
@@ -2261,10 +2276,10 @@ Invalid UTF-8 byte or sequence at line 132 replaced by U+FFFD.
 Invalid UTF-8 byte or sequence at line 132 replaced by U+FFFD.
 Invalid UTF-8 byte or sequence at line 132 replaced by U+FFFD.
 File: figures/Dirac_fluid/S1.eps Graphic file (type eps)
- <figures/Dirac_fluid/S1.eps> [92] [93]
+ <figures/Dirac_fluid/S1.eps> [94] [95]
 File: figures/Dirac_fluid/LorenzComparison.pdf Graphic file (type QTm)
 
-<use  "figures/Dirac_fluid/LorenzComparison.pdf" > [94]
+<use  "figures/Dirac_fluid/LorenzComparison.pdf" > [96]
 Overfull \hbox (3.33337pt too wide) in paragraph at lines 169--170
 []\TU/EBGaramond(1)/bx/n/10.95 Working under the theory of [[]], $\OML/cmm/m/it
 /10.95 ^^\\OT1/cmr/m/n/10.95 ([]) \OMS/cmsy/m/n/10.95 ^^X j[]j$\TU/EBGaramond(1
@@ -2272,7 +2287,7 @@ Overfull \hbox (3.33337pt too wide) in paragraph at lines 169--170
 m/m/it/10.95 =\OMS/cmsy/m/n/10.95 L[] ^^Y 
  []
 
-) [95]
+) [97]
 \openout2 = `chapters/Hydrodynamic_theory_of_transport.aux'.
 
  (./chapters/Hydrodynamic_theory_of_transport.tex
@@ -2287,8 +2302,8 @@ Underfull \hbox (badness 10000) in paragraph at lines 3--4
 e water
  []
 
-Chapter 6.
-[96
+Chapter 7.
+[98
 
 
 
@@ -2298,7 +2313,7 @@ File: figures/hydro_theory/cartoon_hydro.png Graphic file (type QTm)
 File: figures/hydro_theory/Boltzmann.png Graphic file (type QTm)
 
 <use  "figures/hydro_theory/Boltzmann.png" >
-Overfull \hbox (1.3418pt too wide) in paragraph at lines 31--31
+Overfull \hbox (0.9242pt too wide) in paragraph at lines 31--31
 |[]\TU/EBGaramond(1)/m/sc/14.4 Transport in inhomogeneous quantum critical flui
 ds and
  []
@@ -2311,13 +2326,13 @@ siparticles is $\OMS/cmsy/m/n/10 ^^F\OML/cmm/m/it/10 e$\TU/EBGaramond(1)/m/n/10
 n –
  []
 
-[97] [98]
+[99] [100]
 Underfull \hbox (badness 10000) in paragraph at lines 40--40
 [][][]\TU/EBGaramond(1)/m/n/10 Quantum dynamics in one dimension, which is ofte
 n integrable, is described using very different tech-
  []
 
-[99] [100] [101] [102]
+[101] [102] [103] [104]
 File: figures/hydro_theory/mainfigplot.pdf Graphic file (type QTm)
  <use  "figures/hydro_theory/mainfigplot.pdf" >
 File: figures/hydro_theory/mainfigTplot.pdf Graphic file (type QTm)
@@ -2328,10 +2343,10 @@ Underfull \hbox (badness 10000) in paragraph at lines 78--78
 vity in charge puddle dominated graphene at low tempera-
  []
 
-[103]
+[105]
 File: figures/hydro_theory/hydrofig.pdf Graphic file (type QTm)
- <use  "figures/hydro_theory/hydrofig.pdf" > [104] [105] [106] [107]
-[108] [109]
+ <use  "figures/hydro_theory/hydrofig.pdf" > [106] [107] [108] [109]
+[110] [111]
 LaTeX Font Info:    Font shape `TU/EBGaramond(1)/m/n' will be
 (Font)              scaled to size 5.0pt on input line 125.
 
@@ -2340,7 +2355,7 @@ Overfull \hbox (1.27989pt too wide) in paragraph at lines 127--127
  local conservation laws, up to external sources. 
  []
 
-[110] [111]
+[112] [113]
 Underfull \hbox (badness 10000) in paragraph at lines 153--153
 [][][]\TU/EBGaramond(1)/m/n/10 It is qualitatively similar to the bipolar diffu
 sion effect [[], []] – however, in hydrodynamics the quasi-
@@ -2353,7 +2368,7 @@ Underfull \hbox (badness 10000) in paragraph at lines 153--153
 effect these lifetimes are parametri-
  []
 
-[112]
+[114]
 Underfull \hbox (badness 10000) in paragraph at lines 156--156
 [][][]\TU/EBGaramond(1)/m/n/10 The application of a constant $\OML/cmm/m/it/10 
 ^^P[]$ \TU/EBGaramond(1)/m/n/10 on a periodic space is the reason why we cannot
@@ -2366,35 +2381,35 @@ Underfull \hbox (badness 10000) in paragraph at lines 156--156
  temperature is a periodic function in space. One can
  []
 
-[113] [114] [115] [116] [117]
+[115] [116] [117] [118] [119]
 LaTeX Font Info:    Font shape `TU/EBGaramond(1)/m/it' will be
 (Font)              scaled to size 10.95pt on input line 205.
- [118] [119] [120] [121] [122]
+ [120] [121] [122] [123] [124]
 File: figures/hydro_theory/viscosityplot.pdf Graphic file (type QTm)
 
-<use  "figures/hydro_theory/viscosityplot.pdf" > [123]
+<use  "figures/hydro_theory/viscosityplot.pdf" > [125]
 File: figures/hydro_theory/c4plot.pdf Graphic file (type QTm)
 
-<use  "figures/hydro_theory/c4plot.pdf" > [124]
+<use  "figures/hydro_theory/c4plot.pdf" > [126]
 File: figures/hydro_theory/Tscaleplot.pdf Graphic file (type QTm)
 
 <use  "figures/hydro_theory/Tscaleplot.pdf" >
 File: figures/hydro_theory/kappaTC4plot.pdf Graphic file (type QTm)
 
-<use  "figures/hydro_theory/kappaTC4plot.pdf" > [125]
+<use  "figures/hydro_theory/kappaTC4plot.pdf" > [127]
 Underfull \hbox (badness 10000) in paragraph at lines 298--298
 [][][]\TU/EBGaramond(1)/m/n/10 We have used theoretically predicted values of $
 \OML/cmm/m/it/10 C[]$ \TU/EBGaramond(1)/m/n/10 and $\OML/cmm/m/it/10 C[]$ \TU/E
 BGaramond(1)/m/n/10 [[]], and assumed that the Dirac fluid ends
  []
 
-[126] [127]
+[128] [129]
 Underfull \hbox (badness 10000) in paragraph at lines 309--309
 [][][]\TU/EBGaramond(1)/m/n/10 The hydrodynamic description of transport reduce
 s to a diffusion equation for the conserved electrical
  []
 
-[128]
+[130]
 Underfull \hbox (badness 2213) in paragraph at lines 318--318
 [][][]\TU/EBGaramond(1)/m/n/10 As there is no large Fermi surface with $\OML/cm
 m/m/it/10 ^^V \OMS/cmsy/m/n/10 ^^] \OML/cmm/m/it/10 k[]T$\TU/EBGaramond(1)/m/n/
@@ -2402,25 +2417,19 @@ m/m/it/10 ^^V \OMS/cmsy/m/n/10 ^^] \OML/cmm/m/it/10 k[]T$\TU/EBGaramond(1)/m/n/
 e necessary, as in usual
  []
 
-[129] [130]
+[131] [132]
 File: figures/hydro_theory/ephsketchplot.pdf Graphic file (type QTm)
- <use  "figures/hydro_theory/ephsketchplot.pdf" > [131] [132])
-[133] [134]
+ <use  "figures/hydro_theory/ephsketchplot.pdf" > [133] [134])
+[135] [136]
 \openout2 = `chapters/Magneto-thermal_transport.aux'.
 
  (./chapters/Magneto-thermal_transport.tex
-Chapter 7.
+Chapter 8.
 
-Package natbib Warning: Citation `??' on page 135 undefined on input line 6.
-
-
-Package natbib Warning: Citation `??' on page 135 undefined on input line 6.
+Package natbib Warning: Citation `??' on page 137 undefined on input line 6.
 
 
-Package natbib Warning: Citation `??' on page 135 undefined on input line 6.
-
-
-Package natbib Warning: Citation `??' on page 135 undefined on input line 6.
+Package natbib Warning: Citation `??' on page 137 undefined on input line 6.
 
 
 Underfull \hbox (badness 10000) in paragraph at lines 6--6
@@ -2434,14 +2443,14 @@ Underfull \hbox (badness 10000) in paragraph at lines 6--6
 stic), and the temperature rise is small compared to the
  []
 
-[135
+[137
 
 
 
-] [136]
+] [138]
 Underfull \hbox (badness 10000) in paragraph at lines 19--19
 [][][]\TU/EBGaramond(1)/m/n/10 Let $[]$ and $[]\OML/cmm/m/it/10 ^^K$ \TU/EBGara
-mond(1)/m/n/10 be the two offdiagonal terms of eqn. [][]7.1[][]. Time reversal 
+mond(1)/m/n/10 be the two offdiagonal terms of eqn. [][]8.1[][]. Time reversal 
 symmetry and thus Onsager reci-
  []
 
@@ -2451,23 +2460,23 @@ Underfull \hbox (badness 10000) in paragraph at lines 19--19
 OML/cmm/m/it/10 ^^K$ \TU/EBGaramond(1)/m/n/10 to be antisymmetric and thus
  []
 
-[137]
+[139]
 File: figures/magneto/Hall_profiles.png Graphic file (type QTm)
- <use  "figures/magneto/Hall_profiles.png" > [138] [139]
+ <use  "figures/magneto/Hall_profiles.png" > [140] [141]
 File: figures/magneto/100x_crop.jpg Graphic file (type QTm)
 
 <use  "figures/magneto/100x_crop.jpg" >
 File: figures/magneto/R.png Graphic file (type QTm)
  <use  "figures/magneto/R.png" >
-[140] [141]
+[142] [143]
 File: figures/magneto/Fan_R_cuts.png Graphic file (type QTm)
  <use  "figures/magneto/Fan_R_cuts.png" >
 File: figures/magneto/mobility_mfp_1K.png Graphic file (type QTm)
 
-<use  "figures/magneto/mobility_mfp_1K.png" > [142]
+<use  "figures/magneto/mobility_mfp_1K.png" > [144]
 File: figures/magneto/picture_matching_ceramic.jpg Graphic file (type QTm)
 
-<use  "figures/magneto/picture_matching_ceramic.jpg" > [143]
+<use  "figures/magneto/picture_matching_ceramic.jpg" > [145]
 File: figures/magneto/S11_plot.png Graphic file (type QTm)
 
 <use  "figures/magneto/S11_plot.png" >
@@ -2475,7 +2484,7 @@ File: figures/magneto/G_Tn.png Graphic file (type QTm)
  <use  "figures/magneto/G_Tn.png" >
 File: figures/magneto/Fan_VNdc.png Graphic file (type QTm)
 
-<use  "figures/magneto/Fan_VNdc.png" > [144] [145]
+<use  "figures/magneto/Fan_VNdc.png" > [146] [147]
 Underfull \hbox (badness 10000) in paragraph at lines 125--125
 [][][]\TU/EBGaramond(1)/m/n/10 Calibration of these differential measures only 
 requires the use of generalized gain, $\OMS/cmsy/m/n/10 G$\TU/EBGaramond(1)/m/n
@@ -2490,7 +2499,7 @@ how long you must
  []
 
 File: figures/magneto/Fan_DT.png Graphic file (type QTm)
-<use  "figures/magneto/Fan_DT.png" > [146] [147] [148]
+<use  "figures/magneto/Fan_DT.png" > [148] [149] [150]
 Underfull \hbox (badness 10000) in paragraph at lines 140--140
 [][][]\TU/EBGaramond(1)/m/n/10 Here a diffusive system is defined as one where 
 the elastic mean free path of charge carriers is smaller than
@@ -2503,37 +2512,37 @@ File: figures/magneto/low_density.png Graphic file (type QTm)
 <use  "figures/magneto/low_density.png" >
 File: figures/magneto/Fan_L.png Graphic file (type QTm)
  <use  "figures/magneto/Fan_L.png" >
-[149] [150] [151] [152] [153]
+[151] [152] [153] [154] [155]
 File: figures/magneto/r_cyc.png Graphic file (type QTm)
  <use  "figures/magneto/r_cyc.png" >
 
 LaTeX Warning: Command \r invalid in math mode on input line 193.
 
 Missing character: There is no ̊ in font cmmi7!
-[154]) [155]
+[156]) [157]
 \openout2 = `chapters/RF_cryostats_and_circuitry.aux'.
 
  (./chapters/RF_cryostats_and_circuitry.tex
 Appendix A.
-) [156
+) [158
 
 
 
-] [157]
+] [159]
 \openout2 = `chapters/appendix_theory.aux'.
 
  (./chapters/appendix_theory.tex
 Appendix B.
-[158
+[160
 
 
 
-] [159] [160] [161] [162] [163] [164] [165] [166] [167]
+] [161] [162] [163] [164] [165] [166] [167] [168] [169]
 Package microtype Info: Loading generic settings for font family
 (microtype)             `cmss' (encoding: OT1).
 (microtype)             For optimal results, create family-specific settings.
 (microtype)             See the microtype manual for details.
- [168]
+ [170]
 Overfull \hbox (8.29147pt too wide) in paragraph at lines 135--137
 \TU/EBGaramond(1)/bx/n/10.95 with $[]$ a constant, $[]\OT1/cmr/m/n/10.95 (\OML/
 cmm/m/it/10.95 n[]; n[]\OT1/cmr/m/n/10.95 )$ \TU/EBGaramond(1)/bx/n/10.95 unifo
@@ -2542,7 +2551,7 @@ rmly distributed on $\OT1/cmr/m/n/10.95 [\OMS/cmsy/m/n/10.95 ^^@\OML/cmm/m/it/1
 t/10.95 c \OT1/cmr/m/n/10.95 = []$\TU/EBGaramond(1)/bx/n/10.95 , 
  []
 
-[169]
+[171]
 File: figures/appendix/finitesizeplot2.pdf Graphic file (type QTm)
  <use  "figures/appendix/finitesizeplot2.pdf" >
 Overfull \hbox (90.33751pt too wide) in paragraph at lines 144--145
@@ -2555,14 +2564,14 @@ Overfull \hbox (90.33751pt too wide) in paragraph at lines 151--152
  [][] 
  []
 
-[170]
+[172]
 File: figures/appendix/spectralplot.pdf Graphic file (type QTm)
- <use  "figures/appendix/spectralplot.pdf" > [171]
+ <use  "figures/appendix/spectralplot.pdf" > [173]
 Missing character: There is no 
  in font EB Garamond 12 Regular/OT:script=latn;language=DFLT;!
 Missing character: There is no 
  in font EB Garamond 12 Regular/OT:script=latn;language=DFLT;!
-) [172]
+) [174]
 (./endmatter/personalize.tex) (./dissertation.bbl
 LaTeX Font Info:    Font shape `TU/SourceCodePro(0)/m/n' will be
 (Font)              scaled to size 9.35316pt on input line 21.
@@ -2570,20 +2579,24 @@ Package microtype Info: Loading generic settings for font family
 (microtype)             `SourceCodePro' (encoding: TU).
 (microtype)             For optimal results, create family-specific settings.
 (microtype)             See the microtype manual for details.
- [173
+ [175
 
 
 
-] [174] [175] [176]
-[177] [178] [179] [180] [181] [182] [183] [184] [185] [186] [187] [188]
-[189])
+] [176] [177] [178]
+[179] [180] [181] [182] [183] [184] [185] [186] [187] [188] [189] [190]
+[191]) [192]
+\openout2 = `endmatter/colophon.aux'.
+
+ (./endmatter/colophon.tex
+File: endmatter/group.jpg Graphic file (type QTm)
+ <use  "endmatter/group.jpg" >) [193]
 
 Package natbib Warning: There were undefined citations.
 
-Package atveryend Info: Empty hook `BeforeClearDocument' on input line 50.
-[190]
-Package atveryend Info: Empty hook `AfterLastShipout' on input line 50.
- (./dissertation.aux (./chapters/Overview.aux)
+Package atveryend Info: Empty hook `BeforeClearDocument' on input line 32.
+Package atveryend Info: Empty hook `AfterLastShipout' on input line 32.
+(./dissertation.aux (./chapters/Overview.aux)
 (./chapters/Johnson_noise_thermometry.aux)
 (./chapters/Electronic_cooling_pathways_in_graphene.aux)
 (./chapters/Thermal_conductance_via_electrical_noise.aux)
@@ -2591,21 +2604,22 @@ Package atveryend Info: Empty hook `AfterLastShipout' on input line 50.
 (./chapters/The_Dirac_fluid.aux)
 (./chapters/Hydrodynamic_theory_of_transport.aux)
 (./chapters/Magneto-thermal_transport.aux)
-(./chapters/RF_cryostats_and_circuitry.aux) (./chapters/appendix_theory.aux))
-Package atveryend Info: Empty hook `AtVeryEndDocument' on input line 50.
-Package atveryend Info: Empty hook `AtEndAfterFileList' on input line 50.
+(./chapters/RF_cryostats_and_circuitry.aux) (./chapters/appendix_theory.aux)
+(./endmatter/colophon.aux))
+Package atveryend Info: Empty hook `AtVeryEndDocument' on input line 32.
+Package atveryend Info: Empty hook `AtEndAfterFileList' on input line 32.
 
 
 LaTeX Font Warning: Some font shapes were not available, defaults substituted.
 
  ) 
 Here is how much of TeX's memory you used:
- 25970 strings out of 493068
- 482427 string characters out of 6135636
- 653328 words of memory out of 5000000
- 29320 multiletter control sequences out of 15000+600000
+ 25983 strings out of 493068
+ 482686 string characters out of 6135636
+ 654074 words of memory out of 5000000
+ 29325 multiletter control sequences out of 15000+600000
  24654 words of font info for 130 fonts, out of 8000000 for 9000
  1347 hyphenation exceptions out of 8191
  60i,17n,119p,10427b,777s stack positions out of 5000i,500n,10000p,200000b,80000s
 
-Output written on dissertation.pdf (200 pages).
+Output written on dissertation.pdf (206 pages).
