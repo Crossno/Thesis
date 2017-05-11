@@ -2,7 +2,7 @@
 \chapter{Hydrodynamic framework}
 \label{appen:theory}
 \section{Thermodynamics}\label{appthermo}
-In this appendix and in every subsequent appendix, we will work in units where $\hbar=k_{\mathrm{B}}=v_{\mathrm{F}}=e=1$.     It is straightforward using dimensional analysis to restore these units.  
+\newthought{In this appendix and in every subsequent appendix}, we will work in units where $\hbar=k_{\mathrm{B}}=v_{\mathrm{F}}=e=1$.     It is straightforward using dimensional analysis to restore these units.  
 
 We consider the equations of state of the relativistic plasma in a relativistic strongly interacting fluid in $d=2$.    Without specific microscopic details, these are very general facts about relativistic plasmas without an intrinsic mass scale (or gap).  The discussion generalizes straightforwardly to other $d$.    The only relevant energy scales are the temperature $T$ and the chemical potential $\mu$.     We have the general Gibbs-Duhem relation:\begin{equation} \label{eq:AL_duhem}
 \epsilon + P = \mu n + Ts,
@@ -26,7 +26,7 @@ We also require that $C_0,C_2\ge 0$, so that $s\ge 0$ and that $n/\mu$ is positi
 %In $d\ne 2$, assuming $B=0$,  a straightforward calculation analogous to the above gives $\epsilon=dP$.   This implies that the stress-energy tensor is traceless with respect to the Minkowski metric in every dimension.   This is a general consequence of relativistic scale invariance.
 
 \subsection{Thermodynamics of Disordered Fluids}
-Already at this point we can make interesting predictions about the thermodynamics of the strongly interacting hydrodynamic regime in graphene.   For concreteness, let us suppose that the background chemical potential is \begin{equation}
+\newthought{Already at this point} we can make interesting predictions about the thermodynamics of the strongly interacting hydrodynamic regime in graphene.   For concreteness, let us suppose that the background chemical potential is \begin{equation}
 \mu_0(\mathbf{x}) = \bar\mu_0 + \hat\mu(\mathbf{x}),
 \end{equation}
 with $\bar\mu_0$ a constant and $\hat\mu$ a zero-mean random function;  for simplicity, suppose that $\hat\mu$ is evenly distributed about zero, and has a disorder correlation length of $\xi\gtrsim l_{\mathrm{ee}}$, so that the hydrodynamic description applies.   In this case, spatially averaging over $\mu_0$, we find \begin{equation}
@@ -55,7 +55,7 @@ We thus see that the quadratic dependence in $c(n)$ gives us an independent meas
 In the above argument, there is no reason a priori why to truncate the Taylor expansion to neglect $C_4$ and higher order corrections, beyond appealing to the weak disorder limit.   In particular, inclusion of $C_4$ complicates our ability to obtain an accurate measure of $\bar\mu_0$ from $n$.    The argument above is simply meant to give a flavor for the constraints on measurable quantities imposed by scale invariant thermodynamics.   A more systematic treatment is likely necessary to make quantitative contact with future experiments.
 
 \section{Rescaling Symmetries of dc Transport}\label{apprescale}
-Solutions to (\ref{eq:AL_bigeq}) are invariant, up to global rescalings, under certain rescalings of the linearized hydrodynamic equations of motion.   These symmetries are, assuming $\lambda>0$ is a constant scaling parameter:  
+\newthought{Solutions to (\ref{eq:AL_bigeq}) are invariant}, up to global rescalings, under certain rescalings of the linearized hydrodynamic equations of motion.   These symmetries are, assuming $\lambda>0$ is a constant scaling parameter:  
 \begin{subequations}\begin{align}
 \eta &\rightarrow \lambda^2 \eta, \;\; x \rightarrow \lambda x; \\
 \eta &\rightarrow \lambda \eta, \;\; \sigma \rightarrow \lambda \sigma, \;\; \alpha \rightarrow \lambda\alpha, \;\; \kappa \rightarrow \lambda\kappa, \;\; P \rightarrow \lambda P; \\
@@ -67,7 +67,7 @@ Everything not listed is invariant.  $\zeta$ and $\eta$ have the same scalings, 
 These rescalings are useful to help us compare simulations to experimental data from graphene.  The latter three rescalings can be used to help fix the overall magnitude of $\kappa$ and $\sigma$, as well as the values of $n$, as measured in experiment.    These are exactly analogous to the symmetries of the Navier-Stokes equation, which allow us to reduce all such hydrodynamic problems to a universal equation, up to a single dimensionless parameter.   \cite{crossno_observation_2016} neither measured the viscosity directly nor the charge puddle size, and the first scaling above implies that we cannot determine viscosity alone.  So, as mentioned in the main text, we assume that $\xi = l_{\mathrm{ee}}$,  the shortest possible value of $\xi$ for which hydrodynamics seems sensible.   
 
 \section{Weak Disorder}\label{appmom}
-Many analytic results can be obtained in the limit where the disorder strength is ``small".   We provide detailed derivations of all such results in this appendix.    We introduce disorder as in (\ref{eq:AL_pertlimit}).    Below we denote $n_0 = n(\bar\mu_0)$, etc.
+\newthought{Many analytic results can be obtained} in the limit where the disorder strength is ``small".   We provide detailed derivations of all such results in this appendix.    We introduce disorder as in (\ref{eq:AL_pertlimit}).    Below we denote $n_0 = n(\bar\mu_0)$, etc.
 
 The perturbative solution is found exactly as was done in \cite{lucas_hydrodynamic_2015}:   we split the velocity field into a constant piece $\bar v_i \sim u^{-2}$, and a fluctuating zero-mean piece $\hat v_i \sim u^{-1}$;  similarly, $ \mu \sim  T \sim u^{-1}$.   It proves convenient to work in Fourier space.   At $\mathrm{O}(u^{-1})$, the momentum conservation equation becomes \begin{equation}
 -\mathrm{i}k_i \left(n_0  \mu(\mathbf{k})+s_0 T(\mathbf{k})\right) = \eta_0 k^2  \hat v_i(\mathbf{k}) + \zeta_0 k_ik_j  \hat v_j(\mathbf{k}),
@@ -112,7 +112,7 @@ We cannot take the naive limit where $\sigma_{\textsc{q}0}\sim u^{-2}$ in order 
  
 
 \section{Equations of State of the Dirac Fluid}\label{apprun}
-The thermodynamics of graphene is similar to that presented in Appendix \ref{appthermo}, with some minor differences.    Perturbative computations and renormalization group arguments, valid as $T\rightarrow 0$, give \cite{vafek_anomalous_2007, sheehy_quantum_2007} \begin{subequations}\label{eq:AL_cb}\begin{align}
+\newthought{The thermodynamics of graphene} is similar to that presented in Appendix \ref{appthermo}, with some minor differences.    Perturbative computations and renormalization group arguments, valid as $T\rightarrow 0$, give \cite{vafek_anomalous_2007, sheehy_quantum_2007} \begin{subequations}\label{eq:AL_cb}\begin{align}
 C_0 &= \frac{9\zeta(3)}{\pi} \left(\frac{\alpha_{\mathrm{eff}}}{\alpha_0}\right)^2 \approx 3.44 \left(\frac{\alpha}{\alpha_0}\right)^2, \\
 C_2 &= \frac{4\log 2}{\pi}  \left(\frac{\alpha_{\mathrm{eff}}}{\alpha_0}\right)^2 \approx 0.88 \left(\frac{\alpha}{\alpha_0}\right)^2.
 \end{align}\end{subequations}
@@ -125,7 +125,7 @@ As noted above, these theoretical computations of the thermodynamic coefficients
    
 
 \section{Numerical Methods}\label{appfin}
-We solved the hydrodynamic equations (\ref{eq:AL_bigeq}) on a periodic domain of size $L\times L$, employing pseudospectral methods \cite{trefethen_spectral_2001} using a basis of $N$ Fourier modes in each direction, with $25 \lesssim N \lesssim 43$.   For simplicity, we set $T_0=1$, as this can be restored straightforwardly by dimensional analysis.   Our numerical methods involves approximating continuous partial differential equations in the form \begin{equation}
+\newthought{We solved the hydrodynamic equations} (\ref{eq:AL_bigeq}) on a periodic domain of size $L\times L$, employing pseudospectral methods \cite{trefethen_spectral_2001} using a basis of $N$ Fourier modes in each direction, with $25 \lesssim N \lesssim 43$.   For simplicity, we set $T_0=1$, as this can be restored straightforwardly by dimensional analysis.   Our numerical methods involves approximating continuous partial differential equations in the form \begin{equation}
 \mathsf{L} \mathbf{u} = \mathbf{s}.
 \end{equation}
  $\mathbf{u}$ contains the linear response fields $\mu$, $T$, $v_x$ and $v_y$, evaluated on a uniformly distributed discrete grid, and $\mathbf{s}$ contains the source terms, linear in $E_i$ and $\zeta_i$, evaluated at the same points.   $\mathsf{L}$ is a matrix with two zero eigenvectors, which correspond to constant shifts in $\mu$ and $T$ respectively.  We thus remove two rows of $\mathsf{L}$ and replace them with constraints that $\mu(\mathbf{0}) = T(\mathbf{0}) = 0$.  A simple matrix inversion thus gives $\mathbf{u} = \mathsf{L}^{-1}\mathbf{s}$.   Inverting this $(4N^2-2)\times (4N^2-2)$ matrix four times (once for sources $E_{x,y}$ and $\zeta_{x,y}$) limits the size of the domain we can analyze.   More complicated algorithms exist \cite{smith_domain_2004} to solve such problems but we did not find finite size effects to qualitatively alter our comparison to experimental data, as we discuss below.
@@ -137,7 +137,7 @@ with $\bar\mu_0$ a constant, $\hat\mu_0(n_x,n_y)$ uniformly distributed on $[-c,
  
  
 \subsection{Finite Size Effects}
-The first source of finite size effects is simply related to the fact that we only have a finite number of disorder modes.   Averaging over a large number of ensemble samples allows us to approximately, but not exactly, undo this effect:  see Figures \ref{fig:AL_finitesize2plot} and  \ref{fig:AL_finitesizeplot}.   In both cases,  we used $8k+3$ grid points in each direction for various $k$.   To the best of our knowledge, in all numerical simulations we have studied, it appears as though the result converges to a finite fixed answer as $k\rightarrow \infty$.  However, residual error from finite size effects may lead to some error in our estimation of the thermodynamic and hydrodynamic coefficients of the Dirac fluid in graphene.
+\newthought{The first source of finite size effects} is simply related to the fact that we only have a finite number of disorder modes.   Averaging over a large number of ensemble samples allows us to approximately, but not exactly, undo this effect:  see Figures \ref{fig:AL_finitesize2plot} and  \ref{fig:AL_finitesizeplot}.   In both cases,  we used $8k+3$ grid points in each direction for various $k$.   To the best of our knowledge, in all numerical simulations we have studied, it appears as though the result converges to a finite fixed answer as $k\rightarrow \infty$.  However, residual error from finite size effects may lead to some error in our estimation of the thermodynamic and hydrodynamic coefficients of the Dirac fluid in graphene.
 
 \begin{figure}[t]
 \centering
@@ -166,7 +166,7 @@ The other source of finite size effects is related to the finite number of grid 
 Methods are known to improve our simple algorithms, which can reduce both types of finite size effects discussed above.   Given the preliminary nature of the experiments to which we compare our simulations, we have found the numerical errors described above tolerable.
 
 \subsection{Dimensional Analysis}
-We have performed numerical computations in dimensionless units,   since we can trivially restore the units to our numerical results via dimensional analysis.   Setting $\hbar=k_{\mathrm{B}}=e=v_{\mathrm{F}}=T_0=1$ completely non-dimensionalizes the problem, while setting no dimensionless parameters to unity.    We can now trivially restore the units as follows:  \begin{subequations}\begin{align}
+\newthought{We have performed numerical computations} in dimensionless units,   since we can trivially restore the units to our numerical results via dimensional analysis.   Setting $\hbar=k_{\mathrm{B}}=e=v_{\mathrm{F}}=T_0=1$ completely non-dimensionalizes the problem, while setting no dimensionless parameters to unity.    We can now trivially restore the units as follows:  \begin{subequations}\begin{align}
 L &= \frac{\hbar v_{\mathrm{F}}}{k_{\mathrm{B}}T_0} \times L_{\mathrm{numerics}} \sim (100 \; \mathrm{nm}) \times L_{\mathrm{numerics}} \\
 \mu &= k_{\mathrm{B}}T_0  \times \mu_{\mathrm{numerics}} \sim (5\; \mathrm{meV}) \times \mu_{\mathrm{numerics}}, \\
 \sigma &= \frac{e^2}{\hbar}  \times \sigma_{\mathrm{numerics}} \sim (0.25\; \mathrm{k\Omega}^{-1}) \times \sigma_{\mathrm{numerics}}, \\

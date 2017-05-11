@@ -1,4 +1,4 @@
-This is XeTeX, Version 3.14159265-2.6-0.99996 (TeX Live 2016) (preloaded format=xelatex 2017.3.13)  10 MAY 2017 21:09
+This is XeTeX, Version 3.14159265-2.6-0.99996 (TeX Live 2016) (preloaded format=xelatex 2017.3.13)  11 MAY 2017 12:12
 entering extended mode
  restricted \write18 enabled.
  %&-line parsing enabled.
@@ -1319,7 +1319,7 @@ Package microtype Info: Loading generic settings for font family
 
 (./frontmatter/personalize.tex)
 LaTeX Font Info:    Font shape `TU/EBGaramond(1)/m/n' will be
-(Font)              scaled to size 24.88pt on input line 10.
+(Font)              scaled to size 24.88pt on input line 13.
 
 (/usr/local/texlive/2016/texmf-dist/tex/generic/oberdiek/se-ascii-print.def
 File: se-ascii-print.def 2016/05/16 v1.11 stringenc: Printable ASCII characters
@@ -1329,12 +1329,12 @@ File: se-ascii-print.def 2016/05/16 v1.11 stringenc: Printable ASCII characters
 
 ]
 LaTeX Font Info:    Font shape `TU/EBGaramond(1)/m/sc' will be
-(Font)              scaled to size 10.95pt on input line 10.
+(Font)              scaled to size 10.95pt on input line 13.
 LaTeX Font Info:    Font shape `TU/EBGaramond(1)/m/n' will be
-(Font)              scaled to size 10.95pt on input line 10.
+(Font)              scaled to size 10.95pt on input line 13.
  [2]
 LaTeX Font Info:    Font shape `TU/EBGaramond(1)/m/n' will be
-(Font)              scaled to size 17.28pt on input line 10.
+(Font)              scaled to size 17.28pt on input line 13.
  (./frontmatter/abstract.tex
 (/usr/local/texlive/2016/texmf-dist/tex/latex/microtype/mt-cmr.cfg
 File: mt-cmr.cfg 2013/05/19 v2.2 microtype config. file: Computer Modern Roman 
@@ -1353,7 +1353,7 @@ Package Fancyhdr Warning: \headheight is too small (5.0pt):
  This may cause the page layout to be inconsistent, however.
 
 [3]) [4]
-LaTeX Font Info:    Try loading font information for T1+ppl on input line 10.
+LaTeX Font Info:    Try loading font information for T1+ppl on input line 13.
  (/usr/local/texlive/2016/texmf-dist/tex/latex/psnfss/t1ppl.fd
 File: t1ppl.fd 2001/06/04 font definitions for T1/ppl.
 )
@@ -1773,13 +1773,13 @@ number indent calculated (toc, 0): 0.0pt
 
 
 ] [10])
-[11] [12] (./frontmatter/previouswork.tex
+[11] (./frontmatter/previouswork.tex
 Overfull \hbox (12.27325pt too wide) in paragraph at lines 19--20
 []\TU/EBGaramond(1)/bx/n/10.95 “Transport in inhomogeneous quantum critical flu
 ids and in the Dirac fluid in graphene”. 
  []
 
-) [13
+) [12
 
 ]
 \openout2 = `chapters/Overview.aux'.
@@ -2528,8 +2528,8 @@ File: figures/appendix/cryostats/Leiden_lines.jpg Graphic file (type QTm)
 <use  "figures/appendix/cryostats/Leiden_lines.jpg" >
 Underfull \hbox (badness 10000) in paragraph at lines 105--105
 [][][]\TU/EBGaramond(1)/m/n/10 While most stages sink well, the $\OT1/cmr/m/n/1
-0 50 []\OML/cmm/m/it/10 K$ \TU/EBGaramond(1)/m/n/10 stage is in the OVC and the
-refore has to thermalize through a SS
+0 50 []\OML/cmm/m/it/10 K$ \TU/EBGaramond(1)/m/n/10 stage is in the OVC and, th
+erefore, has to thermalize through a SS
  []
 
 File: figures/appendix/cryostats/Leiden_bellows_open.jpg Graphic file (type QTm
@@ -2550,12 +2550,12 @@ Appendix B.
 
 
 
-] [177] [178] [179] [180] [181] [182] [183] [184] [185]
+] [177] [178] [179] [180] [181] [182] [183] [184] [185] [186]
 Package microtype Info: Loading generic settings for font family
 (microtype)             `cmss' (encoding: OT1).
 (microtype)             For optimal results, create family-specific settings.
 (microtype)             See the microtype manual for details.
- [186]
+
 Overfull \hbox (8.29147pt too wide) in paragraph at lines 135--137
 \TU/EBGaramond(1)/bx/n/10.95 with $[]$ a constant, $[]\OT1/cmr/m/n/10.95 (\OML/
 cmm/m/it/10.95 n[]; n[]\OT1/cmr/m/n/10.95 )$ \TU/EBGaramond(1)/bx/n/10.95 unifo
@@ -2577,7 +2577,7 @@ Missing character: There is no
  in font EB Garamond 12 Regular/OT:script=latn;language=DFLT;!
 Missing character: There is no 
  in font EB Garamond 12 Regular/OT:script=latn;language=DFLT;!
-) [190]
+ [190]) [191]
 (./endmatter/personalize.tex) (./dissertation.bbl
 LaTeX Font Info:    Font shape `TU/SourceCodePro(0)/m/n' will be
 (Font)              scaled to size 9.35316pt on input line 21.
@@ -2585,21 +2585,21 @@ Package microtype Info: Loading generic settings for font family
 (microtype)             `SourceCodePro' (encoding: TU).
 (microtype)             For optimal results, create family-specific settings.
 (microtype)             See the microtype manual for details.
- [191
+ [192
 
 
 
-] [192] [193] [194]
-[195] [196] [197] [198] [199] [200] [201] [202] [203] [204] [205] [206]
-[207] [208]) [209]
+] [193] [194] [195]
+[196] [197] [198] [199] [200] [201] [202] [203] [204] [205] [206] [207]
+[208] [209]) [210]
 \openout2 = `endmatter/colophon.aux'.
 
  (./endmatter/colophon.tex
 File: endmatter/group.jpg Graphic file (type QTm)
  <use  "endmatter/group.jpg" >)
-[210]
-Package atveryend Info: Empty hook `BeforeClearDocument' on input line 32.
-Package atveryend Info: Empty hook `AfterLastShipout' on input line 32.
+[211]
+Package atveryend Info: Empty hook `BeforeClearDocument' on input line 35.
+Package atveryend Info: Empty hook `AfterLastShipout' on input line 35.
  (./dissertation.aux (./chapters/Overview.aux)
 (./chapters/Johnson_noise_thermometry.aux)
 (./chapters/Electronic_cooling_pathways_in_graphene.aux)
@@ -2609,18 +2609,18 @@ Package atveryend Info: Empty hook `AfterLastShipout' on input line 32.
 (./chapters/Hydrodynamic_theory_of_transport.aux)
 (./chapters/Magneto-thermal_transport.aux) (./appendices/cryostats.aux)
 (./appendices/theory.aux) (./endmatter/colophon.aux))
-Package atveryend Info: Empty hook `AtVeryEndDocument' on input line 32.
-Package atveryend Info: Empty hook `AtEndAfterFileList' on input line 32.
+Package atveryend Info: Empty hook `AtVeryEndDocument' on input line 35.
+Package atveryend Info: Empty hook `AtEndAfterFileList' on input line 35.
 
 
 LaTeX Font Warning: Some font shapes were not available, defaults substituted.
 
  ) 
 Here is how much of TeX's memory you used:
- 26048 strings out of 493068
- 484344 string characters out of 6135636
- 660708 words of memory out of 5000000
- 29374 multiletter control sequences out of 15000+600000
+ 26049 strings out of 493068
+ 484354 string characters out of 6135636
+ 660824 words of memory out of 5000000
+ 29375 multiletter control sequences out of 15000+600000
  24654 words of font info for 130 fonts, out of 8000000 for 9000
  1347 hyphenation exceptions out of 8191
  60i,17n,119p,10427b,793s stack positions out of 5000i,500n,10000p,200000b,80000s

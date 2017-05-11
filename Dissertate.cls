@@ -234,6 +234,20 @@
 	\previouswork
 }
 
+\newcommand{\includeDAC}{
+	\newgeometry{left=0in, right=0in, top=0in, bottom=0in}
+	\thispagestyle{empty}
+	\vspace*{\fill}
+	\begin{center}
+  		\includegraphics[width=5.5in]{DAC_clipped.pdf}
+	\end{center}
+	\vspace*{\fill}
+	\newpage
+	~
+	\newpage
+	\restoregeometry
+}
+
 \renewcommand{\maketitle}{
     \pagenumbering{roman}
     \setcounter{page}{1}
@@ -281,10 +295,10 @@
     	\scshape Abstract \\ \rm
 	\end{center}
     \begin{spacing}{\dnormalspacing}
-    	\input{frontmatter/abstract}
     	\addtocontents{toc}{~\hfill\textbf{Page}\par}
     	\def\toclevel@section{0}
     	\addcontentsline{toc}{section}{Abstract}
+    	\input{frontmatter/abstract}
     \end{spacing}
 	\vspace*{\fill}
 	\newpage \lhead{} \rhead{}
@@ -310,11 +324,11 @@
 	\noindent
 	\phantomsection
     \begin{spacing}{\dnormalspacing}
-    	\input{frontmatter/thanks}
     	\def\toclevel@section{0}
     	\addcontentsline{toc}{section}{Acknowledgments} 
+    	\input{frontmatter/thanks} 
     \end{spacing}
-	\vspace*{\fill} \newpage
+	%\vspace*{\fill} \newpage
 }
 
 \newcommand{\previouswork}{
