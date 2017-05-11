@@ -272,7 +272,7 @@
 	\setcounter{page}{3}
 	\pagestyle{fancy}
 	\phantomsection
-	\lhead{Dissertation advisor: Professor \@advisor} \rhead{\@author}
+	\lhead{Dissertation Advisor: Professor \@advisor} \rhead{\@author}
 	\renewcommand{\headrulewidth}{0.0pt}
 	\vspace*{35pt}
 	\begin{center}
@@ -333,8 +333,8 @@
 
 \renewcommand{\backmatter}{
     \begin{appendices}
-        \include{chapters/RF_cryostats_and_circuitry}
-        \include{chapters/appendix_theory}
+        \include{appendices/cryostats}
+        \include{appendices/theory}
     \end{appendices}
     \input{endmatter/personalize}
     \clearpage

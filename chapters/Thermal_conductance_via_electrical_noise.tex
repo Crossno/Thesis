@@ -83,7 +83,7 @@ Combining Eqs.~\ref{eq:heat_transfer} and \ref{eq:1Dconduction_Tave}, we obtain 
 \begin{equation}\label{eq:1Dconductance_Gth}
 \Gth \equiv \frac{P_0}{\DTJN} = \frac{12~W}{L} \kappa
 \end{equation}
-All the information about the heating profile is contained in the factor of 12. --- i.e for a two-terminal rectangular geometry under Joule heating ${\beta=12}$. If the electronic conductance follows the Wiedemann-Franz law, such that $\kappa=\sL\sigma T$, then Eqn.~\ref{eq:1Dconductance_Gth} becomes
+All the information about the heating profile is contained in the constant factor of $12$. --- i.e for a two-terminal rectangular geometry under Joule heating ${\beta=12}$. If the electronic conductance follows the Wiedemann-Franz law, such that $\kappa=\sL\sigma T$, then Eqn. \ref{eq:1Dconductance_Gth} becomes
 \begin{equation}\label{eq:1Dconductance_GthWF}
 \Gth = \frac{12W\sL\sigma T_\mathrm{b}}{L} = \frac{12\sL T_\mathrm{b}}{R}
 \end{equation}
@@ -123,7 +123,7 @@ Combining Eqns.~\ref{eq:wedge_contJ}~and~\ref{eq:wedge_contq} and solving using 
 \begin{equation}\label{eq:wedge_Tprofile}
 \Delta T(r) = \frac{V_0^2~\sigma}{2\kappa~\mathrm{ln}\left(r_1/r_2\right)^2}~\mathrm{ln}\left(\frac{r}{r_1}\right)\mathrm{ln}\left(\frac{r}{r_2}\right)
 \end{equation}
-The mean temperature and the Johnson noise temperature can be calculated by integrating Eqn.~\ref{eq:wedge_Tprofile} yielding,
+The mean temperature and the Johnson noise temperature can be calculated by integrating Eqn. \ref{eq:wedge_Tprofile} yielding,
 \begin{align}
 \DTave &= \int\limits_{r_1}^{r_2}T(r)~r~\mathrm{d}r \bigg/ \int\limits_{r_1}^{r_2}r~\mathrm{d}r \nonumber \\
  &=\frac{V_0^2~\sigma}{4~\kappa~\mathrm{ln}(r_2/r_1)}\left[\frac{r_1^1+r_2^2}{r_1^1+r_2^2}-\mathrm{ln}(r_2/r_1)\right] \\
@@ -183,7 +183,7 @@ From Eqn.~\ref{eq:brian_Tprofile} we can calculate the Johnson noise temperature
 \DTJN &= \frac{\int\mathrm{d}^2r\mathcal{P}(r)~T(r)}{P_0} \nonumber \\
 &= \frac{R}{2\sL T_\mathrm{b}}\int\mathrm{d}^2r\phi(r)\left[1-\phi(r)\right]\left[\hat\sigma\vec\nabla\phi(r)\right]\cdot\left[\vec\nabla\phi(r)\right]\label{eq:brian_TJN1}
 \end{align}
-Here we have used $P_0 = V^2/R = 1/R$ (assuming our voltage units). Combining Eqn.~\ref{eq:brian_Tprofile}~and~\ref{eq:brian_TJN1} we can write $\DTJN$ is terms of only the temperature profile:
+Here we have used $P_0 = V^2/R = 1/R$ (assuming our voltage units). Combining Eqn. \ref{eq:brian_Tprofile} and \ref{eq:brian_TJN1} we can write $\DTJN$ is terms of only the temperature profile:
 \begin{align}
 \DTJN &= \sL T_\mathrm{b}R\int\mathrm{d}^2rT(r)\vec\nabla\cdot(\hat\sigma\vec\nabla T) \nonumber \\
 &= \sL T_\mathrm{b}R\int\mathrm{d}^2r(\vec\nabla T(r))\cdot(\hat\sigma\vec\nabla T(r)).\label{eq:brian_TJN2}

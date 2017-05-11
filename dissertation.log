@@ -1,4 +1,4 @@
-This is XeTeX, Version 3.14159265-2.6-0.99996 (TeX Live 2016) (preloaded format=xelatex 2017.3.13)  4 MAY 2017 12:28
+This is XeTeX, Version 3.14159265-2.6-0.99996 (TeX Live 2016) (preloaded format=xelatex 2017.3.13)  10 MAY 2017 16:37
 entering extended mode
  restricted \write18 enabled.
  %&-line parsing enabled.
@@ -1193,9 +1193,8 @@ Package hyperref Info: Option `colorlinks' set `true' on input line 221.
 (./chapters/Thermal_conductance_in_high_density_graphene.aux)
 (./chapters/The_Dirac_fluid.aux)
 (./chapters/Hydrodynamic_theory_of_transport.aux)
-(./chapters/Magneto-thermal_transport.aux)
-(./chapters/RF_cryostats_and_circuitry.aux) (./chapters/appendix_theory.aux)
-(./endmatter/colophon.aux))
+(./chapters/Magneto-thermal_transport.aux) (./appendices/cryostats.aux)
+(./appendices/theory.aux))
 \openout1 = `dissertation.aux'.
 
 LaTeX Font Info:    Checking defaults for OML/cmm/m/it on input line 7.
@@ -1368,17 +1367,17 @@ LaTeX Font Info:    Font shape `TU/EBGaramond(1)/bx/n' will be
 number indent by \l@... (toc, 1):  18.0pt
 text indent by \l@... (toc, 1):  27.60004pt
 number indent by parent (toc, 1):  12.96478pt
-text indent calculated (toc, 1): 20.87068pt
+text indent calculated (toc, 1): 20.10419pt
 number indent calculated (toc, 1): 12.96478pt
 number indent by \l@... (toc, 1):  18.0pt
 text indent by \l@... (toc, 1):  27.60004pt
 number indent by parent (toc, 1):  12.96478pt
-text indent calculated (toc, 1): 20.87068pt
+text indent calculated (toc, 1): 20.10419pt
 number indent calculated (toc, 1): 12.96478pt
 number indent by \l@... (toc, 1):  18.0pt
 text indent by \l@... (toc, 1):  27.60004pt
 number indent by parent (toc, 1):  12.96478pt
-text indent calculated (toc, 1): 20.87068pt
+text indent calculated (toc, 1): 20.10419pt
 number indent calculated (toc, 1): 12.96478pt
 number indent by \l@... (toc, 0):  0.0pt
 text indent by \l@... (toc, 0):  18.0pt
@@ -1393,63 +1392,63 @@ number indent calculated (toc, 0): 0.0pt
 number indent by \l@... (toc, 1):  18.0pt
 text indent by \l@... (toc, 1):  27.60004pt
 number indent by parent (toc, 1):  12.96478pt
-text indent calculated (toc, 1): 20.87068pt
+text indent calculated (toc, 1): 20.10419pt
 number indent calculated (toc, 1): 12.96478pt
 number indent by \l@... (toc, 1):  18.0pt
 text indent by \l@... (toc, 1):  27.60004pt
 number indent by parent (toc, 1):  12.96478pt
-text indent calculated (toc, 1): 20.87068pt
+text indent calculated (toc, 1): 20.10419pt
 number indent calculated (toc, 1): 12.96478pt
 number indent by \l@... (toc, 1):  18.0pt
 text indent by \l@... (toc, 1):  27.60004pt
 number indent by parent (toc, 1):  12.96478pt
-text indent calculated (toc, 1): 20.87068pt
+text indent calculated (toc, 1): 20.10419pt
 number indent calculated (toc, 1): 12.96478pt
 number indent by \l@... (toc, 1):  18.0pt
 text indent by \l@... (toc, 1):  27.60004pt
 number indent by parent (toc, 1):  12.96478pt
-text indent calculated (toc, 1): 20.87068pt
+text indent calculated (toc, 1): 20.10419pt
 number indent calculated (toc, 1): 12.96478pt
 number indent by \l@... (toc, 1):  18.0pt
 text indent by \l@... (toc, 1):  27.60004pt
 number indent by parent (toc, 1):  12.96478pt
-text indent calculated (toc, 1): 20.87068pt
+text indent calculated (toc, 1): 20.10419pt
 number indent calculated (toc, 1): 12.96478pt
 number indent by \l@... (toc, 1):  18.0pt
 text indent by \l@... (toc, 1):  27.60004pt
 number indent by parent (toc, 1):  12.96478pt
-text indent calculated (toc, 1): 20.87068pt
+text indent calculated (toc, 1): 20.10419pt
 number indent calculated (toc, 1): 12.96478pt
 number indent by \l@... (toc, 2):  45.60004pt
 text indent by \l@... (toc, 2):  38.39996pt
-number indent by parent (toc, 2):  33.83546pt
+number indent by parent (toc, 2):  33.06897pt
 text indent calculated (toc, 2): 25.39304pt
-number indent calculated (toc, 2): 33.83546pt
+number indent calculated (toc, 2): 33.06897pt
 number indent by \l@... (toc, 2):  45.60004pt
 text indent by \l@... (toc, 2):  38.39996pt
-number indent by parent (toc, 2):  33.83546pt
+number indent by parent (toc, 2):  33.06897pt
 text indent calculated (toc, 2): 25.39304pt
-number indent calculated (toc, 2): 33.83546pt
+number indent calculated (toc, 2): 33.06897pt
 number indent by \l@... (toc, 1):  18.0pt
 text indent by \l@... (toc, 1):  27.60004pt
 number indent by parent (toc, 1):  12.96478pt
-text indent calculated (toc, 1): 20.87068pt
+text indent calculated (toc, 1): 20.10419pt
 number indent calculated (toc, 1): 12.96478pt
 number indent by \l@... (toc, 1):  18.0pt
 text indent by \l@... (toc, 1):  27.60004pt
 number indent by parent (toc, 1):  12.96478pt
-text indent calculated (toc, 1): 20.87068pt
+text indent calculated (toc, 1): 20.10419pt
 number indent calculated (toc, 1): 12.96478pt
 number indent by \l@... (toc, 1):  18.0pt
 text indent by \l@... (toc, 1):  27.60004pt
 number indent by parent (toc, 1):  12.96478pt
-text indent calculated (toc, 1): 20.87068pt
+text indent calculated (toc, 1): 20.10419pt
 number indent calculated (toc, 1): 12.96478pt
 number indent by \l@... (toc, 2):  45.60004pt
 text indent by \l@... (toc, 2):  38.39996pt
-number indent by parent (toc, 2):  33.83546pt
+number indent by parent (toc, 2):  33.06897pt
 text indent calculated (toc, 2): 25.39304pt
-number indent calculated (toc, 2): 33.83546pt
+number indent calculated (toc, 2): 33.06897pt
 number indent by \l@... (toc, 0):  0.0pt
 text indent by \l@... (toc, 0):  18.0pt
 number indent by parent (toc, 0):  0.0pt
@@ -1458,52 +1457,52 @@ number indent calculated (toc, 0): 0.0pt
 number indent by \l@... (toc, 1):  18.0pt
 text indent by \l@... (toc, 1):  27.60004pt
 number indent by parent (toc, 1):  12.96478pt
-text indent calculated (toc, 1): 20.87068pt
+text indent calculated (toc, 1): 20.10419pt
 number indent calculated (toc, 1): 12.96478pt
 number indent by \l@... (toc, 2):  45.60004pt
 text indent by \l@... (toc, 2):  38.39996pt
-number indent by parent (toc, 2):  33.83546pt
+number indent by parent (toc, 2):  33.06897pt
 text indent calculated (toc, 2): 25.39304pt
-number indent calculated (toc, 2): 33.83546pt
+number indent calculated (toc, 2): 33.06897pt
 number indent by \l@... (toc, 2):  45.60004pt
 text indent by \l@... (toc, 2):  38.39996pt
-number indent by parent (toc, 2):  33.83546pt
+number indent by parent (toc, 2):  33.06897pt
 text indent calculated (toc, 2): 25.39304pt
-number indent calculated (toc, 2): 33.83546pt
+number indent calculated (toc, 2): 33.06897pt
 number indent by \l@... (toc, 1):  18.0pt
 text indent by \l@... (toc, 1):  27.60004pt
 number indent by parent (toc, 1):  12.96478pt
-text indent calculated (toc, 1): 20.87068pt
+text indent calculated (toc, 1): 20.10419pt
 number indent calculated (toc, 1): 12.96478pt
 number indent by \l@... (toc, 2):  45.60004pt
 text indent by \l@... (toc, 2):  38.39996pt
-number indent by parent (toc, 2):  33.83546pt
+number indent by parent (toc, 2):  33.06897pt
 text indent calculated (toc, 2): 25.39304pt
-number indent calculated (toc, 2): 33.83546pt
+number indent calculated (toc, 2): 33.06897pt
 number indent by \l@... (toc, 2):  45.60004pt
 text indent by \l@... (toc, 2):  38.39996pt
-number indent by parent (toc, 2):  33.83546pt
+number indent by parent (toc, 2):  33.06897pt
 text indent calculated (toc, 2): 25.39304pt
-number indent calculated (toc, 2): 33.83546pt
+number indent calculated (toc, 2): 33.06897pt
 number indent by \l@... (toc, 2):  45.60004pt
 text indent by \l@... (toc, 2):  38.39996pt
-number indent by parent (toc, 2):  33.83546pt
+number indent by parent (toc, 2):  33.06897pt
 text indent calculated (toc, 2): 25.39304pt
-number indent calculated (toc, 2): 33.83546pt
+number indent calculated (toc, 2): 33.06897pt
 number indent by \l@... (toc, 2):  45.60004pt
 text indent by \l@... (toc, 2):  38.39996pt
-number indent by parent (toc, 2):  33.83546pt
+number indent by parent (toc, 2):  33.06897pt
 text indent calculated (toc, 2): 25.39304pt
-number indent calculated (toc, 2): 33.83546pt
+number indent calculated (toc, 2): 33.06897pt
 number indent by \l@... (toc, 1):  18.0pt
 text indent by \l@... (toc, 1):  27.60004pt
 number indent by parent (toc, 1):  12.96478pt
-text indent calculated (toc, 1): 20.87068pt
+text indent calculated (toc, 1): 20.10419pt
 number indent calculated (toc, 1): 12.96478pt
 number indent by \l@... (toc, 1):  18.0pt
 text indent by \l@... (toc, 1):  27.60004pt
 number indent by parent (toc, 1):  12.96478pt
-text indent calculated (toc, 1): 20.87068pt
+text indent calculated (toc, 1): 20.10419pt
 number indent calculated (toc, 1): 12.96478pt
 number indent by \l@... (toc, 0):  0.0pt
 text indent by \l@... (toc, 0):  18.0pt
@@ -1513,50 +1512,35 @@ number indent calculated (toc, 0): 0.0pt
 number indent by \l@... (toc, 1):  18.0pt
 text indent by \l@... (toc, 1):  27.60004pt
 number indent by parent (toc, 1):  12.96478pt
-text indent calculated (toc, 1): 20.87068pt
+text indent calculated (toc, 1): 20.10419pt
 number indent calculated (toc, 1): 12.96478pt
 number indent by \l@... (toc, 2):  45.60004pt
 text indent by \l@... (toc, 2):  38.39996pt
-number indent by parent (toc, 2):  33.83546pt
+number indent by parent (toc, 2):  33.06897pt
 text indent calculated (toc, 2): 25.39304pt
-number indent calculated (toc, 2): 33.83546pt
+number indent calculated (toc, 2): 33.06897pt
 number indent by \l@... (toc, 2):  45.60004pt
 text indent by \l@... (toc, 2):  38.39996pt
-number indent by parent (toc, 2):  33.83546pt
+number indent by parent (toc, 2):  33.06897pt
 text indent calculated (toc, 2): 25.39304pt
-number indent calculated (toc, 2): 33.83546pt
+number indent calculated (toc, 2): 33.06897pt
 [5
 
 ]
 number indent by \l@... (toc, 1):  18.0pt
 text indent by \l@... (toc, 1):  27.60004pt
 number indent by parent (toc, 1):  12.96478pt
-text indent calculated (toc, 1): 20.87068pt
+text indent calculated (toc, 1): 20.10419pt
 number indent calculated (toc, 1): 12.96478pt
 number indent by \l@... (toc, 1):  18.0pt
 text indent by \l@... (toc, 1):  27.60004pt
 number indent by parent (toc, 1):  12.96478pt
-text indent calculated (toc, 1): 20.87068pt
+text indent calculated (toc, 1): 20.10419pt
 number indent calculated (toc, 1): 12.96478pt
 number indent by \l@... (toc, 1):  18.0pt
 text indent by \l@... (toc, 1):  27.60004pt
 number indent by parent (toc, 1):  12.96478pt
-text indent calculated (toc, 1): 20.87068pt
-number indent calculated (toc, 1): 12.96478pt
-number indent by \l@... (toc, 0):  0.0pt
-text indent by \l@... (toc, 0):  18.0pt
-number indent by parent (toc, 0):  0.0pt
-text indent calculated (toc, 0): 12.96478pt
-number indent calculated (toc, 0): 0.0pt
-number indent by \l@... (toc, 1):  18.0pt
-text indent by \l@... (toc, 1):  27.60004pt
-number indent by parent (toc, 1):  12.96478pt
-text indent calculated (toc, 1): 20.87068pt
-number indent calculated (toc, 1): 12.96478pt
-number indent by \l@... (toc, 1):  18.0pt
-text indent by \l@... (toc, 1):  27.60004pt
-number indent by parent (toc, 1):  12.96478pt
-text indent calculated (toc, 1): 20.87068pt
+text indent calculated (toc, 1): 20.10419pt
 number indent calculated (toc, 1): 12.96478pt
 number indent by \l@... (toc, 0):  0.0pt
 text indent by \l@... (toc, 0):  18.0pt
@@ -1566,32 +1550,12 @@ number indent calculated (toc, 0): 0.0pt
 number indent by \l@... (toc, 1):  18.0pt
 text indent by \l@... (toc, 1):  27.60004pt
 number indent by parent (toc, 1):  12.96478pt
-text indent calculated (toc, 1): 20.87068pt
+text indent calculated (toc, 1): 20.10419pt
 number indent calculated (toc, 1): 12.96478pt
 number indent by \l@... (toc, 1):  18.0pt
 text indent by \l@... (toc, 1):  27.60004pt
 number indent by parent (toc, 1):  12.96478pt
-text indent calculated (toc, 1): 20.87068pt
-number indent calculated (toc, 1): 12.96478pt
-number indent by \l@... (toc, 1):  18.0pt
-text indent by \l@... (toc, 1):  27.60004pt
-number indent by parent (toc, 1):  12.96478pt
-text indent calculated (toc, 1): 20.87068pt
-number indent calculated (toc, 1): 12.96478pt
-number indent by \l@... (toc, 1):  18.0pt
-text indent by \l@... (toc, 1):  27.60004pt
-number indent by parent (toc, 1):  12.96478pt
-text indent calculated (toc, 1): 20.87068pt
-number indent calculated (toc, 1): 12.96478pt
-number indent by \l@... (toc, 1):  18.0pt
-text indent by \l@... (toc, 1):  27.60004pt
-number indent by parent (toc, 1):  12.96478pt
-text indent calculated (toc, 1): 20.87068pt
-number indent calculated (toc, 1): 12.96478pt
-number indent by \l@... (toc, 1):  18.0pt
-text indent by \l@... (toc, 1):  27.60004pt
-number indent by parent (toc, 1):  12.96478pt
-text indent calculated (toc, 1): 20.87068pt
+text indent calculated (toc, 1): 20.10419pt
 number indent calculated (toc, 1): 12.96478pt
 number indent by \l@... (toc, 0):  0.0pt
 text indent by \l@... (toc, 0):  18.0pt
@@ -1601,62 +1565,32 @@ number indent calculated (toc, 0): 0.0pt
 number indent by \l@... (toc, 1):  18.0pt
 text indent by \l@... (toc, 1):  27.60004pt
 number indent by parent (toc, 1):  12.96478pt
-text indent calculated (toc, 1): 20.87068pt
-number indent calculated (toc, 1): 12.96478pt
-number indent by \l@... (toc, 2):  45.60004pt
-text indent by \l@... (toc, 2):  38.39996pt
-number indent by parent (toc, 2):  33.83546pt
-text indent calculated (toc, 2): 25.39304pt
-number indent calculated (toc, 2): 33.83546pt
-number indent by \l@... (toc, 2):  45.60004pt
-text indent by \l@... (toc, 2):  38.39996pt
-number indent by parent (toc, 2):  33.83546pt
-text indent calculated (toc, 2): 25.39304pt
-number indent calculated (toc, 2): 33.83546pt
-number indent by \l@... (toc, 1):  18.0pt
-text indent by \l@... (toc, 1):  27.60004pt
-number indent by parent (toc, 1):  12.96478pt
-text indent calculated (toc, 1): 20.87068pt
+text indent calculated (toc, 1): 20.10419pt
 number indent calculated (toc, 1): 12.96478pt
 number indent by \l@... (toc, 1):  18.0pt
 text indent by \l@... (toc, 1):  27.60004pt
 number indent by parent (toc, 1):  12.96478pt
-text indent calculated (toc, 1): 20.87068pt
-number indent calculated (toc, 1): 12.96478pt
-number indent by \l@... (toc, 2):  45.60004pt
-text indent by \l@... (toc, 2):  38.39996pt
-number indent by parent (toc, 2):  33.83546pt
-text indent calculated (toc, 2): 25.39304pt
-number indent calculated (toc, 2): 33.83546pt
-number indent by \l@... (toc, 2):  45.60004pt
-text indent by \l@... (toc, 2):  38.39996pt
-number indent by parent (toc, 2):  33.83546pt
-text indent calculated (toc, 2): 25.39304pt
-number indent calculated (toc, 2): 33.83546pt
-number indent by \l@... (toc, 1):  18.0pt
-text indent by \l@... (toc, 1):  27.60004pt
-number indent by parent (toc, 1):  12.96478pt
-text indent calculated (toc, 1): 20.87068pt
+text indent calculated (toc, 1): 20.10419pt
 number indent calculated (toc, 1): 12.96478pt
 number indent by \l@... (toc, 1):  18.0pt
 text indent by \l@... (toc, 1):  27.60004pt
 number indent by parent (toc, 1):  12.96478pt
-text indent calculated (toc, 1): 20.87068pt
-number indent calculated (toc, 1): 12.96478pt
-number indent by \l@... (toc, 2):  45.60004pt
-text indent by \l@... (toc, 2):  38.39996pt
-number indent by parent (toc, 2):  33.83546pt
-text indent calculated (toc, 2): 25.39304pt
-number indent calculated (toc, 2): 33.83546pt
-number indent by \l@... (toc, 1):  18.0pt
-text indent by \l@... (toc, 1):  27.60004pt
-number indent by parent (toc, 1):  12.96478pt
-text indent calculated (toc, 1): 20.87068pt
+text indent calculated (toc, 1): 20.10419pt
 number indent calculated (toc, 1): 12.96478pt
 number indent by \l@... (toc, 1):  18.0pt
 text indent by \l@... (toc, 1):  27.60004pt
 number indent by parent (toc, 1):  12.96478pt
-text indent calculated (toc, 1): 20.87068pt
+text indent calculated (toc, 1): 20.10419pt
+number indent calculated (toc, 1): 12.96478pt
+number indent by \l@... (toc, 1):  18.0pt
+text indent by \l@... (toc, 1):  27.60004pt
+number indent by parent (toc, 1):  12.96478pt
+text indent calculated (toc, 1): 20.10419pt
+number indent calculated (toc, 1): 12.96478pt
+number indent by \l@... (toc, 1):  18.0pt
+text indent by \l@... (toc, 1):  27.60004pt
+number indent by parent (toc, 1):  12.96478pt
+text indent calculated (toc, 1): 20.10419pt
 number indent calculated (toc, 1): 12.96478pt
 number indent by \l@... (toc, 0):  0.0pt
 text indent by \l@... (toc, 0):  18.0pt
@@ -1666,32 +1600,62 @@ number indent calculated (toc, 0): 0.0pt
 number indent by \l@... (toc, 1):  18.0pt
 text indent by \l@... (toc, 1):  27.60004pt
 number indent by parent (toc, 1):  12.96478pt
-text indent calculated (toc, 1): 20.87068pt
+text indent calculated (toc, 1): 20.10419pt
+number indent calculated (toc, 1): 12.96478pt
+number indent by \l@... (toc, 2):  45.60004pt
+text indent by \l@... (toc, 2):  38.39996pt
+number indent by parent (toc, 2):  33.06897pt
+text indent calculated (toc, 2): 25.39304pt
+number indent calculated (toc, 2): 33.06897pt
+number indent by \l@... (toc, 2):  45.60004pt
+text indent by \l@... (toc, 2):  38.39996pt
+number indent by parent (toc, 2):  33.06897pt
+text indent calculated (toc, 2): 25.39304pt
+number indent calculated (toc, 2): 33.06897pt
+number indent by \l@... (toc, 1):  18.0pt
+text indent by \l@... (toc, 1):  27.60004pt
+number indent by parent (toc, 1):  12.96478pt
+text indent calculated (toc, 1): 20.10419pt
 number indent calculated (toc, 1): 12.96478pt
 number indent by \l@... (toc, 1):  18.0pt
 text indent by \l@... (toc, 1):  27.60004pt
 number indent by parent (toc, 1):  12.96478pt
-text indent calculated (toc, 1): 20.87068pt
+text indent calculated (toc, 1): 20.10419pt
+number indent calculated (toc, 1): 12.96478pt
+number indent by \l@... (toc, 2):  45.60004pt
+text indent by \l@... (toc, 2):  38.39996pt
+number indent by parent (toc, 2):  33.06897pt
+text indent calculated (toc, 2): 25.39304pt
+number indent calculated (toc, 2): 33.06897pt
+number indent by \l@... (toc, 2):  45.60004pt
+text indent by \l@... (toc, 2):  38.39996pt
+number indent by parent (toc, 2):  33.06897pt
+text indent calculated (toc, 2): 25.39304pt
+number indent calculated (toc, 2): 33.06897pt
+number indent by \l@... (toc, 1):  18.0pt
+text indent by \l@... (toc, 1):  27.60004pt
+number indent by parent (toc, 1):  12.96478pt
+text indent calculated (toc, 1): 20.10419pt
 number indent calculated (toc, 1): 12.96478pt
 number indent by \l@... (toc, 1):  18.0pt
 text indent by \l@... (toc, 1):  27.60004pt
 number indent by parent (toc, 1):  12.96478pt
-text indent calculated (toc, 1): 20.87068pt
+text indent calculated (toc, 1): 20.10419pt
+number indent calculated (toc, 1): 12.96478pt
+number indent by \l@... (toc, 2):  45.60004pt
+text indent by \l@... (toc, 2):  38.39996pt
+number indent by parent (toc, 2):  33.06897pt
+text indent calculated (toc, 2): 25.39304pt
+number indent calculated (toc, 2): 33.06897pt
+number indent by \l@... (toc, 1):  18.0pt
+text indent by \l@... (toc, 1):  27.60004pt
+number indent by parent (toc, 1):  12.96478pt
+text indent calculated (toc, 1): 20.10419pt
 number indent calculated (toc, 1): 12.96478pt
 number indent by \l@... (toc, 1):  18.0pt
 text indent by \l@... (toc, 1):  27.60004pt
 number indent by parent (toc, 1):  12.96478pt
-text indent calculated (toc, 1): 20.87068pt
-number indent calculated (toc, 1): 12.96478pt
-number indent by \l@... (toc, 1):  18.0pt
-text indent by \l@... (toc, 1):  27.60004pt
-number indent by parent (toc, 1):  12.96478pt
-text indent calculated (toc, 1): 20.87068pt
-number indent calculated (toc, 1): 12.96478pt
-number indent by \l@... (toc, 1):  18.0pt
-text indent by \l@... (toc, 1):  27.60004pt
-number indent by parent (toc, 1):  12.96478pt
-text indent calculated (toc, 1): 20.87068pt
+text indent calculated (toc, 1): 20.10419pt
 number indent calculated (toc, 1): 12.96478pt
 number indent by \l@... (toc, 0):  0.0pt
 text indent by \l@... (toc, 0):  18.0pt
@@ -1701,74 +1665,54 @@ number indent calculated (toc, 0): 0.0pt
 number indent by \l@... (toc, 1):  18.0pt
 text indent by \l@... (toc, 1):  27.60004pt
 number indent by parent (toc, 1):  12.96478pt
-text indent calculated (toc, 1): 20.87068pt
+text indent calculated (toc, 1): 20.10419pt
 number indent calculated (toc, 1): 12.96478pt
 number indent by \l@... (toc, 1):  18.0pt
 text indent by \l@... (toc, 1):  27.60004pt
 number indent by parent (toc, 1):  12.96478pt
-text indent calculated (toc, 1): 20.87068pt
+text indent calculated (toc, 1): 20.10419pt
+number indent calculated (toc, 1): 12.96478pt
+number indent by \l@... (toc, 1):  18.0pt
+text indent by \l@... (toc, 1):  27.60004pt
+number indent by parent (toc, 1):  12.96478pt
+text indent calculated (toc, 1): 20.10419pt
+number indent calculated (toc, 1): 12.96478pt
+number indent by \l@... (toc, 1):  18.0pt
+text indent by \l@... (toc, 1):  27.60004pt
+number indent by parent (toc, 1):  12.96478pt
+text indent calculated (toc, 1): 20.10419pt
+number indent calculated (toc, 1): 12.96478pt
+number indent by \l@... (toc, 1):  18.0pt
+text indent by \l@... (toc, 1):  27.60004pt
+number indent by parent (toc, 1):  12.96478pt
+text indent calculated (toc, 1): 20.10419pt
+number indent calculated (toc, 1): 12.96478pt
+number indent by \l@... (toc, 1):  18.0pt
+text indent by \l@... (toc, 1):  27.60004pt
+number indent by parent (toc, 1):  12.96478pt
+text indent calculated (toc, 1): 20.10419pt
+number indent calculated (toc, 1): 12.96478pt
+number indent by \l@... (toc, 0):  0.0pt
+text indent by \l@... (toc, 0):  18.0pt
+number indent by parent (toc, 0):  0.0pt
+text indent calculated (toc, 0): 12.96478pt
+number indent calculated (toc, 0): 0.0pt
+number indent by \l@... (toc, 1):  18.0pt
+text indent by \l@... (toc, 1):  27.60004pt
+number indent by parent (toc, 1):  12.96478pt
+text indent calculated (toc, 1): 20.10419pt
+number indent calculated (toc, 1): 12.96478pt
+number indent by \l@... (toc, 1):  18.0pt
+text indent by \l@... (toc, 1):  27.60004pt
+number indent by parent (toc, 1):  12.96478pt
+text indent calculated (toc, 1): 20.10419pt
 number indent calculated (toc, 1): 12.96478pt
 [6]
 number indent by \l@... (toc, 1):  18.0pt
 text indent by \l@... (toc, 1):  27.60004pt
 number indent by parent (toc, 1):  12.96478pt
-text indent calculated (toc, 1): 20.87068pt
+text indent calculated (toc, 1): 20.10419pt
 number indent calculated (toc, 1): 12.96478pt
-number indent by \l@... (toc, 1):  18.0pt
-text indent by \l@... (toc, 1):  27.60004pt
-number indent by parent (toc, 1):  12.96478pt
-text indent calculated (toc, 1): 20.87068pt
-number indent calculated (toc, 1): 12.96478pt
-number indent by \l@... (toc, 0):  0.0pt
-text indent by \l@... (toc, 0):  18.0pt
-number indent by parent (toc, 0):  0.0pt
-text indent calculated (toc, 0): 12.96478pt
-number indent calculated (toc, 0): 0.0pt
-number indent by \l@... (toc, 1):  18.0pt
-text indent by \l@... (toc, 1):  27.60004pt
-number indent by parent (toc, 1):  12.96478pt
-text indent calculated (toc, 1): 20.87068pt
-number indent calculated (toc, 1): 12.96478pt
-number indent by \l@... (toc, 2):  45.60004pt
-text indent by \l@... (toc, 2):  38.39996pt
-number indent by parent (toc, 2):  33.83546pt
-text indent calculated (toc, 2): 25.39304pt
-number indent calculated (toc, 2): 33.83546pt
-number indent by \l@... (toc, 1):  18.0pt
-text indent by \l@... (toc, 1):  27.60004pt
-number indent by parent (toc, 1):  12.96478pt
-text indent calculated (toc, 1): 20.87068pt
-number indent calculated (toc, 1): 12.96478pt
-number indent by \l@... (toc, 1):  18.0pt
-text indent by \l@... (toc, 1):  27.60004pt
-number indent by parent (toc, 1):  12.96478pt
-text indent calculated (toc, 1): 20.87068pt
-number indent calculated (toc, 1): 12.96478pt
-number indent by \l@... (toc, 1):  18.0pt
-text indent by \l@... (toc, 1):  27.60004pt
-number indent by parent (toc, 1):  12.96478pt
-text indent calculated (toc, 1): 20.87068pt
-number indent calculated (toc, 1): 12.96478pt
-number indent by \l@... (toc, 1):  18.0pt
-text indent by \l@... (toc, 1):  27.60004pt
-number indent by parent (toc, 1):  12.96478pt
-text indent calculated (toc, 1): 20.87068pt
-number indent calculated (toc, 1): 12.96478pt
-number indent by \l@... (toc, 2):  45.60004pt
-text indent by \l@... (toc, 2):  38.39996pt
-number indent by parent (toc, 2):  33.83546pt
-text indent calculated (toc, 2): 25.39304pt
-number indent calculated (toc, 2): 33.83546pt
-number indent by \l@... (toc, 2):  45.60004pt
-text indent by \l@... (toc, 2):  38.39996pt
-number indent by parent (toc, 2):  33.83546pt
-text indent calculated (toc, 2): 25.39304pt
-number indent calculated (toc, 2): 33.83546pt
-number indent by \l@... (toc, 0):  0.0pt
-text indent by \l@... (toc, 0):  18.0pt
-number indent by parent (toc, 0):  0.0pt
-text indent calculated (toc, 0): 12.96478pt
-number indent calculated (toc, 0): 0.0pt
 )
 \tf@toc=\write4
 \openout4 = `dissertation.toc'.
@@ -1815,7 +1759,11 @@ ing with the challenges unique to low-dimensional
 [1
 
 
-] [2] [3]) [4]
+] [2] [3]
+
+LaTeX Warning: Reference `appen:theory' on page 4 undefined on input line 25.
+
+) [4]
 \openout2 = `chapters/Johnson_noise_thermometry.aux'.
 
  (./chapters/Johnson_noise_thermometry.tex
@@ -1825,6 +1773,14 @@ but in
  []
 
 Chapter 2.
+
+Package natbib Warning: Citation `einstein_investigations_1956' on page 5 undef
+ined on input line 10.
+
+
+Package natbib Warning: Citation `kubo_fluctuation-dissipation_1966' on page 5 
+undefined on input line 10.
+
 LaTeX Font Info:    Font shape `TU/EBGaramond(1)/m/n' will be
 (Font)              scaled to size 8.0pt on input line 10.
 LaTeX Font Info:    Font shape `TU/EBGaramond(1)/m/n' will be
@@ -1836,14 +1792,38 @@ ng on a particle is proportional to its velocity — i.e.$\OML/cmm/m/it/10 F=v$ 
 TU/EBGaramond(1)/m/n/10 is
  []
 
+
+Package natbib Warning: Citation `callen_irreversibility_1951' on page 5 undefi
+ned on input line 10.
+
 [5
 
 
 
 ]
+
+Package natbib Warning: Citation `nyquist_thermal_1928' on page 6 undefined on 
+input line 14.
+
+
+Package natbib Warning: Citation `johnson_thermal_1927' on page 6 undefined on 
+input line 14.
+
+
+Package natbib Warning: Citation `johnson_thermal_1928' on page 6 undefined on 
+input line 14.
+
+
+Package natbib Warning: Citation `dicke_measurement_1946' on page 6 undefined o
+n input line 14.
+
 LaTeX Font Info:    Font shape `TU/EBGaramond(1)/m/sc' will be
 (Font)              scaled to size 14.4pt on input line 16.
- [6]
+
+Package natbib Warning: Citation `johnson_thermal_1927' on page 6 undefined on 
+input line 17.
+
+[6]
 File: figures/Johnson_noise_thermometry/Nyquist_resistors.png Graphic file (typ
 e QTm)
  <use  "figures/Johnson_noise_thermometry/Nyquist_resistors.png" >
@@ -1859,6 +1839,10 @@ LaTeX Font Info:    Font shape `TU/LatoRegular(0)/m/n' will be
 (Font)              scaled to size 9.71375pt on input line 24.
 LaTeX Font Info:    Font shape `TU/LatoRegular(0)/m/n' will be
 (Font)              scaled to size 8.09479pt on input line 24.
+
+
+Package natbib Warning: Citation `schoelkopf_frequency_1997' on page 7 undefine
+d on input line 31.
 
 [7]
 Underfull \hbox (badness 10000) in paragraph at lines 35--35
@@ -1882,8 +1866,15 @@ efficients often include internally terminated third
 File: figures/Johnson_noise_thermometry/Schematic_Autocorrelation.png Graphic f
 ile (type QTm)
  <use  "figures/Johnson_noise_thermometry/Schematic_Autocorrelation.png" >
-File: figures/Johnson_noise_thermometry/Miteq_spec.png Graphic file (type QTm)
 
+Package natbib Warning: Citation `dicke_measurement_1946' on page 12 undefined 
+on input line 101.
+
+
+Package natbib Warning: Citation `pozar_microwave_2011' on page 12 undefined on
+ input line 101.
+
+File: figures/Johnson_noise_thermometry/Miteq_spec.png Graphic file (type QTm)
 <use  "figures/Johnson_noise_thermometry/Miteq_spec.png" > [12]
 File: figures/Johnson_noise_thermometry/Miteq_BP_spec.png Graphic file (type QT
 m)
@@ -1895,7 +1886,17 @@ File: figures/Johnson_noise_thermometry/PE8000-50.png Graphic file (type QTm)
 File: figures/Johnson_noise_thermometry/Auto_noise_vs_T.png Graphic file (type 
 QTm)
 
-<use  "figures/Johnson_noise_thermometry/Auto_noise_vs_T.png" > [15] [16]
+<use  "figures/Johnson_noise_thermometry/Auto_noise_vs_T.png" > [15]
+
+Package natbib Warning: Citation `crossno_development_2015' on page 16 undefine
+d on input line 140.
+
+[16]
+
+Package natbib Warning: Citation `rice_mathematical_1944' on page 17 undefined 
+on input line 143.
+
+
 Underfull \hbox (badness 10000) in paragraph at lines 143--143
 [][][]\TU/EBGaramond(1)/m/n/10 The effective noise bandwidth is defined as the 
 width of a perfect square band that passes the same noise
@@ -1916,8 +1917,12 @@ hed input impedance. See the section [][]2.7[][] for more
  []
 
 [17]
+
+Package natbib Warning: Citation `dicke_measurement_1946' on page 18 undefined 
+on input line 153.
+
 File: figures/Johnson_noise_thermometry/histograms.png Graphic file (type QTm)
- <use  "figures/Johnson_noise_thermometry/histograms.png" > [18]
+<use  "figures/Johnson_noise_thermometry/histograms.png" > [18]
 File: figures/Johnson_noise_thermometry/schematic_matching.png Graphic file (ty
 pe QTm)
 
@@ -1952,14 +1957,26 @@ File: figures/Johnson_noise_thermometry/S11vsR.png Graphic file (type QTm)
 File: figures/Johnson_noise_thermometry/S11_3Rs.png Graphic file (type QTm)
 
 <use  "figures/Johnson_noise_thermometry/S11_3Rs.png" > [24]
+LaTeX Font Info:    Font shape `TU/EBGaramond(1)/bx/n' will be
+(Font)              scaled to size 10.0pt on input line 240.
+
+
+Package natbib Warning: Citation `horowitz_art_1989' on page 25 undefined on in
+put line 240.
+
+
 Underfull \hbox (badness 10000) in paragraph at lines 240--240
-[][][]\TU/EBGaramond(1)/m/n/10 This is a well known solution to a similar probl
-em in audio recording. Multi-stage impedance transforms
+[][][]\TU/EBGaramond(1)/bx/n/10 This is a well known solution to a similar prob
+lem in audio recording. Multi-stage impedance transforms
  []
 
 File: figures/Johnson_noise_thermometry/schematic_double_matching.png Graphic f
 ile (type QTm)
 <use  "figures/Johnson_noise_thermometry/schematic_double_matching.png" >
+
+Package natbib Warning: Citation `pozar_microwave_2011' on page 25 undefined on
+ input line 250.
+
 [25]
 File: figures/Johnson_noise_thermometry/Z_doubleTank.png Graphic file (type QTm
 )
@@ -1978,9 +1995,9 @@ le (type QTm)
 <use  "figures/Johnson_noise_thermometry/picture_matching_ceramic.jpg" >
 [27] [28] [29] [30]
 Underfull \hbox (badness 10000) in paragraph at lines 308--308
-[][][]\TU/EBGaramond(1)/m/n/10 Eqn. [][]2.24[][] approximates the external filt
-er function as a perfect square filter of bandwidth $\OML/cmm/m/it/10 ^^Af$\TU/
-EBGaramond(1)/m/n/10 . For the
+[][][]\TU/EBGaramond(1)/bx/n/10 Eqn. [][]2.24[][] approximates the external fil
+ter function as a perfect square filter of bandwidth $\OML/cmm/m/it/10 ^^Af$\TU
+/EBGaramond(1)/bx/n/10 . For the
  []
 
 File: figures/Johnson_noise_thermometry/schematic_noise_IV.png Graphic file (ty
@@ -1996,9 +2013,9 @@ File: figures/Johnson_noise_thermometry/G_Tn_vs_R.png Graphic file (type QTm)
 
 <use  "figures/Johnson_noise_thermometry/G_Tn_vs_R.png" > [34]
 Underfull \hbox (badness 10000) in paragraph at lines 362--362
-[][][]\TU/EBGaramond(1)/m/n/10 negative $\OML/cmm/m/it/10 T[]$ \TU/EBGaramond(1
-)/m/n/10 is where the linear fit intercepts the horizontal axis; also given by 
-the offset divided by the
+[][][]\TU/EBGaramond(1)/bx/n/10 negative $\OML/cmm/m/it/10 T[]$ \TU/EBGaramond(
+1)/bx/n/10 is where the linear fit intercepts the horizontal axis; also given b
+y the offset divided by the
  []
 
 [35]
@@ -2006,10 +2023,54 @@ File: figures/Johnson_noise_thermometry/Schematic_Crosscorrelation.png Graphic
 file (type QTm)
 
 <use  "figures/Johnson_noise_thermometry/Schematic_Crosscorrelation.png" >
+
+Package natbib Warning: Citation `white_status_1996' on page 36 undefined on in
+put line 372.
+
+
+Package natbib Warning: Citation `glattli_noise_1997' on page 36 undefined on i
+nput line 372.
+
+
+Package natbib Warning: Citation `glattli_noise_1997' on page 36 undefined on i
+nput line 372.
+
+
+Package natbib Warning: Citation `dicarlo_system_2006' on page 36 undefined on 
+input line 372.
+
+
+Package natbib Warning: Citation `henny_1/3-shot-noise_1999' on page 36 undefin
+ed on input line 372.
+
+
+Package natbib Warning: Citation `brophy_correlatoramplifier_1965' on page 36 u
+ndefined on input line 372.
+
+
+Package natbib Warning: Citation `klein_measurement_1979' on page 36 undefined 
+on input line 372.
+
 [36]
+
+Package natbib Warning: Citation `brophy_correlatoramplifier_1965' on page 37 u
+ndefined on input line 381.
+
+
+Package natbib Warning: Citation `klein_measurement_1979' on page 37 undefined 
+on input line 381.
+
+
+Package natbib Warning: Citation `sampietro_high_2000' on page 37 undefined on 
+input line 381.
+
+
+Package natbib Warning: Citation `dicarlo_system_2006' on page 37 undefined on 
+input line 381.
+
 File: figures/Johnson_noise_thermometry/Cross_noise_vs_T.png Graphic file (type
  QTm)
- <use  "figures/Johnson_noise_thermometry/Cross_noise_vs_T.png" >
+<use  "figures/Johnson_noise_thermometry/Cross_noise_vs_T.png" >
 File: figures/Johnson_noise_thermometry/cross_sensitivity.png Graphic file (typ
 e QTm)
 
@@ -2022,24 +2083,216 @@ File: figures/Johnson_noise_thermometry/4terminal.png Graphic file (type QTm)
 
 (./chapters/Electronic_cooling_pathways_in_graphene.tex
 Chapter 3.
+
+Package natbib Warning: Citation `ashcroft_solid_1976' on page 41 undefined on 
+input line 5.
+
+
+Package natbib Warning: Citation `mckitterick_performance_2013' on page 41 unde
+fined on input line 5.
+
+
+Package natbib Warning: Citation `mckitterick_electron-phonon_2016' on page 41 
+undefined on input line 5.
+
 [41
 
 
 
 ]
+
+Package natbib Warning: Citation `franz_ueber_1853' on page 42 undefined on inp
+ut line 8.
+
+
+Package natbib Warning: Citation `lorenz_bestimmung_1872' on page 42 undefined 
+on input line 8.
+
 File: figures/electronic_cooling/WF_in_metals.png Graphic file (type QTm)
- <use  "figures/electronic_cooling/WF_in_metals.png" > [42] [43] [44]
-[45] [46] [47]
+<use  "figures/electronic_cooling/WF_in_metals.png" >
+
+Package natbib Warning: Citation `kumar_experimental_1993' on page 42 undefined
+ on input line 16.
+
+
+Package natbib Warning: Citation `ashcroft_solid_1976' on page 42 undefined on 
+input line 19.
+
+
+Package natbib Warning: Citation `sommerfeld_zur_1927' on page 42 undefined on 
+input line 19.
+
+[42] [43]
+
+Package natbib Warning: Citation `steinbach_observation_1996' on page 44 undefi
+ned on input line 32.
+
+
+Package natbib Warning: Citation `blanter_shot_2000' on page 44 undefined on in
+put line 32.
+
+
+Package natbib Warning: Citation `de_jong_semiclassical_1996' on page 44 undefi
+ned on input line 32.
+
+[44]
+
+Package natbib Warning: Citation `steinbach_observation_1996' on page 45 undefi
+ned on input line 40.
+
+
+Package natbib Warning: Citation `viljas_electron-phonon_2010' on page 45 undef
+ined on input line 48.
+
+
+Package natbib Warning: Citation `bistritzer_electronic_2009' on page 45 undefi
+ned on input line 48.
+
+[45]
+
+Package natbib Warning: Citation `song_disorder-assisted_2012' on page 46 undef
+ined on input line 52.
+
+
+Package natbib Warning: Citation `chen_electron-phonon_2012' on page 46 undefin
+ed on input line 52.
+
+
+Package natbib Warning: Citation `viljas_electron-phonon_2010' on page 46 undef
+ined on input line 52.
+
+
+Package natbib Warning: Citation `bistritzer_electronic_2009' on page 46 undefi
+ned on input line 52.
+
+
+Package natbib Warning: Citation `sohier_phonon-limited_2014' on page 46 undefi
+ned on input line 60.
+
+
+Package natbib Warning: Citation `tielrooij_out--plane_2017' on page 46 undefin
+ed on input line 60.
+
+
+Package natbib Warning: Citation `viljas_electron-phonon_2010' on page 46 undef
+ined on input line 60.
+
+
+Package natbib Warning: Citation `bistritzer_electronic_2009' on page 46 undefi
+ned on input line 60.
+
+
+Package natbib Warning: Citation `schiefele_temperature_2012' on page 46 undefi
+ned on input line 60.
+
+
+Package natbib Warning: Citation `bloch_zum_1930' on page 46 undefined on input
+ line 63.
+
+
+Package natbib Warning: Citation `gruneisen_abhangigkeit_1933' on page 46 undef
+ined on input line 63.
+
+[46]
+
+Package natbib Warning: Citation `stormer_observation_1990' on page 47 undefine
+d on input line 67.
+
+
+Package natbib Warning: Citation `efetov_controlling_2010' on page 47 undefined
+ on input line 67.
+
+
+Package natbib Warning: Citation `ashcroft_solid_1976' on page 47 undefined on 
+input line 70.
+
+
+Package natbib Warning: Citation `fong_measurement_2013' on page 47 undefined o
+n input line 70.
+
+
+Package natbib Warning: Citation `betz_supercollision_2013' on page 47 undefine
+d on input line 70.
+
+
+Package natbib Warning: Citation `graham_photocurrent_2013' on page 47 undefine
+d on input line 70.
+
+[47]
+
+Package natbib Warning: Citation `song_disorder-assisted_2012' on page 48 undef
+ined on input line 72.
+
+
+Package natbib Warning: Citation `kubakaddi_interaction_2009' on page 48 undefi
+ned on input line 72.
+
+
+Package natbib Warning: Citation `viljas_electron-phonon_2010' on page 48 undef
+ined on input line 78.
+
 File: figures/electronic_cooling/Viljas2010_conduction.png Graphic file (type Q
 Tm)
- <use  "figures/electronic_cooling/Viljas2010_conduction.png" >
+<use  "figures/electronic_cooling/Viljas2010_conduction.png" >
+
+Package natbib Warning: Citation `viljas_electron-phonon_2010' on page 48 undef
+ined on input line 82.
+
+
+Package natbib Warning: Citation `bistritzer_electronic_2009' on page 48 undefi
+ned on input line 89.
+
+
+Package natbib Warning: Citation `viljas_electron-phonon_2010' on page 48 undef
+ined on input line 89.
+
+
+Package natbib Warning: Citation `bistritzer_electronic_2009' on page 48 undefi
+ned on input line 89.
+
+
+Package natbib Warning: Citation `low_cooling_2012' on page 48 undefined on inp
+ut line 89.
+
+
+Package natbib Warning: Citation `tielrooij_out--plane_2017' on page 48 undefin
+ed on input line 89.
+
+
+Package natbib Warning: Citation `sohier_phonon-limited_2014' on page 48 undefi
+ned on input line 89.
+
 [48] [49]
+
+Package natbib Warning: Citation `schmidt_photon-mediated_2004' on page 50 unde
+fined on input line 92.
+
+
+Package natbib Warning: Citation `mckitterick_prospects_2015' on page 50 undefi
+ned on input line 92.
+
+
+Package natbib Warning: Citation `mckitterick_prospects_2015' on page 50 undefi
+ned on input line 92.
+
 File: figures/electronic_cooling/Thermal_diagram.png Graphic file (type QTm)
- <use  "figures/electronic_cooling/Thermal_diagram.png" >
+<use  "figures/electronic_cooling/Thermal_diagram.png" >
 Underfull \hbox (badness 10000) in paragraph at lines 102--102
-[][][]\TU/EBGaramond(1)/m/n/10 The ratio of the lattice conductance to the elec
-tron-phonon conductance is geometry dependent. In long
+[][][]\TU/EBGaramond(1)/bx/n/10 The ratio of the lattice conductance to the ele
+ctron-phonon conductance is geometry dependent. In long
  []
+
+
+Package natbib Warning: Citation `crossno_development_2015' on page 50 undefine
+d on input line 102.
+
+
+Package natbib Warning: Citation `fong_measurement_2013' on page 50 undefined o
+n input line 102.
+
+
+Package natbib Warning: Citation `seol_two-dimensional_2010' on page 50 undefin
+ed on input line 102.
 
 [50] [51]) [52]
 \openout2 = `chapters/Thermal_conductance_via_electrical_noise.aux'.
@@ -2062,27 +2315,9 @@ File: figures/thermal_via_noise/thermal_diagram.png Graphic file (type QTm)
 File: figures/thermal_via_noise/picture_temperature_profile.png Graphic file (t
 ype QTm)
  <use  "figures/thermal_via_noise/picture_temperature_profile.png" >
-[58]
-Overfull \hbox (1.36507pt too wide) in paragraph at lines 85--87
-\TU/EBGaramond(1)/bx/n/10.95 All the information about the heating profile is c
-ontained in the factor of 12. — i.e for a two-terminal 
- []
-
-
-Overfull \hbox (19.36385pt too wide) in paragraph at lines 85--87
-\TU/EBGaramond(1)/bx/n/10.95 rectangular geometry under Joule heating $[]$. If 
-the electronic conductance follows the Wiedemann- 
- []
-
-[59]
+[58] [59]
 File: figures/thermal_via_noise/wedge.png Graphic file (type QTm)
- <use  "figures/thermal_via_noise/wedge.png" > [60]
-Overfull \hbox (2.12425pt too wide) in paragraph at lines 125--127
-\TU/EBGaramond(1)/bx/n/10.95 The mean temperature and the Johnson noise tempera
-ture can be calculated by integrating Eqn. [][]4.20[][] 
- []
-
-[61]
+ <use  "figures/thermal_via_noise/wedge.png" > [60] [61]
 
 Package hyperref Warning: Token not allowed in a PDF string (Unicode):
 (hyperref)                removing `math shift' on input line 139.
@@ -2095,21 +2330,14 @@ Package hyperref Warning: Token not allowed in a PDF string (Unicode):
 Package hyperref Warning: Token not allowed in a PDF string (Unicode):
 (hyperref)                removing `math shift' on input line 139.
 
-[62] [63] [64]
-Overfull \hbox (4.85638pt too wide) in paragraph at lines 185--187
-\TU/EBGaramond(1)/bx/n/10.95 Here we have used $\OML/cmm/m/it/10.95 P[] \OT1/cm
-r/m/n/10.95 = \OML/cmm/m/it/10.95 V[]=R \OT1/cmr/m/n/10.95 = 1\OML/cmm/m/it/10.
-95 =R$ \TU/EBGaramond(1)/bx/n/10.95 (assuming our voltage units). Combining Eqn
-. [][]4.29[][] and [][]4.30[][] 
- []
-
-[65]
+[62] [63] [64] [65]
 File: figures/thermal_via_noise/Schematic_Joule_heating.png Graphic file (type 
 QTm)
- <use  "figures/thermal_via_noise/Schematic_Joule_heating.png" > [66]
+
+<use  "figures/thermal_via_noise/Schematic_Joule_heating.png" > [66]
 Underfull \hbox (badness 10000) in paragraph at lines 226--226
-[][][]\TU/EBGaramond(1)/m/n/10 It is because of this need to pass a DC current 
-through the matching network and into the sample that
+[][][]\TU/EBGaramond(1)/bx/n/10 It is because of this need to pass a DC current
+ through the matching network and into the sample that
  []
 
 [67]
@@ -2124,6 +2352,14 @@ File: figures/thermal_via_noise/kappa.png Graphic file (type QTm)
 
 (./chapters/Thermal_conductance_in_high_density_graphene.tex
 Chapter 5.
+
+Package natbib Warning: Citation `fong_measurement_2013' on page 70 undefined o
+n input line 4.
+
+
+Package natbib Warning: Citation `yigen_wiedemannfranz_2014' on page 70 undefin
+ed on input line 4.
+
 File: figures/high_density_graphene/Fong_picture.png Graphic file (type QTm)
 <use  "figures/high_density_graphene/Fong_picture.png" >
 File: figures/high_density_graphene/Fong_Gth.png Graphic file (type QTm)
@@ -2132,22 +2368,50 @@ File: figures/high_density_graphene/Fong_Gth.png Graphic file (type QTm)
 File: figures/high_density_graphene/Fong_L.png Graphic file (type QTm)
 
 <use  "figures/high_density_graphene/Fong_L.png" >
-File: figures/high_density_graphene/Yigen_picture.png Graphic file (type QTm)
 
+Package natbib Warning: Citation `fong_measurement_2013' on page 70 undefined o
+n input line 10.
+
+
+Package natbib Warning: Citation `fong_measurement_2013' on page 70 undefined o
+n input line 10.
+
+File: figures/high_density_graphene/Yigen_picture.png Graphic file (type QTm)
 <use  "figures/high_density_graphene/Yigen_picture.png" >
 File: figures/high_density_graphene/Yigen_Gth.png Graphic file (type QTm)
 
-<use  "figures/high_density_graphene/Yigen_Gth.png" > [70
+<use  "figures/high_density_graphene/Yigen_Gth.png" >
+
+Package natbib Warning: Citation `yigen_wiedemannfranz_2014' on page 70 undefin
+ed on input line 17.
+
+
+Package natbib Warning: Citation `yigen_wiedemannfranz_2014' on page 70 undefin
+ed on input line 17.
+
+[70
 
 
 
 ]
 File: figures/high_density_graphene/picture_aria.jpg Graphic file (type QTm)
-
-<use  "figures/high_density_graphene/picture_aria.jpg" >
+ <use  "figures/high_density_graphene/picture_aria.jpg" >
 File: figures/high_density_graphene/mobility.png Graphic file (type QTm)
 
-<use  "figures/high_density_graphene/mobility.png" > [71] [72]
+<use  "figures/high_density_graphene/mobility.png" > [71]
+
+Package natbib Warning: Citation `wang_one-dimensional_2013' on page 72 undefin
+ed on input line 32.
+
+
+Package natbib Warning: Citation `fong_ultrasensitive_2012' on page 72 undefine
+d on input line 34.
+
+
+Package natbib Warning: Citation `schoelkopf_radio-frequency_1998' on page 72 u
+ndefined on input line 34.
+
+[72]
 Invalid UTF-8 byte or sequence at line 38 replaced by U+FFFD.
 Invalid UTF-8 byte or sequence at line 38 replaced by U+FFFD.
 Invalid UTF-8 byte or sequence at line 38 replaced by U+FFFD.
@@ -2157,8 +2421,7 @@ Invalid UTF-8 byte or sequence at line 38 replaced by U+FFFD.
 Invalid UTF-8 byte or sequence at line 38 replaced by U+FFFD.
 Invalid UTF-8 byte or sequence at line 38 replaced by U+FFFD.
 File: figures/high_density_graphene/matching.eps Graphic file (type eps)
-
-<figures/high_density_graphene/matching.eps>
+ <figures/high_density_graphene/matching.eps>
 Invalid UTF-8 byte or sequence at line 45 replaced by U+FFFD.
 Invalid UTF-8 byte or sequence at line 45 replaced by U+FFFD.
 Invalid UTF-8 byte or sequence at line 45 replaced by U+FFFD.
@@ -2169,8 +2432,19 @@ Invalid UTF-8 byte or sequence at line 45 replaced by U+FFFD.
 File: figures/high_density_graphene/noise.eps Graphic file (type eps)
 
 <figures/high_density_graphene/noise.eps> [73]
-File: figures/high_density_graphene/Gth_lin.png Graphic file (type QTm)
 
+Package natbib Warning: Citation `fong_measurement_2013' on page 74 undefined o
+n input line 53.
+
+
+Package natbib Warning: Citation `yigen_wiedemannfranz_2014' on page 74 undefin
+ed on input line 53.
+
+
+Package natbib Warning: Citation `fong_measurement_2013' on page 74 undefined o
+n input line 53.
+
+File: figures/high_density_graphene/Gth_lin.png Graphic file (type QTm)
 <use  "figures/high_density_graphene/Gth_lin.png" >
 File: figures/high_density_graphene/Gth_log.png Graphic file (type QTm)
 
@@ -2178,18 +2452,85 @@ File: figures/high_density_graphene/Gth_log.png Graphic file (type QTm)
 Missing character: There is no   in font cmr10!
 Missing character: There is no   in font cmr10!
 
-Overfull \hbox (1.79208pt too wide) in paragraph at lines 53--61
-\TU/EBGaramond(1)/bx/n/10.95 Wiedemann-Franz law. The dashed line in the left p
-anel of Fig. [][]5.6[][] shows the theoretical Wiedemann- 
- []
+
+Package natbib Warning: Citation `seol_two-dimensional_2010' on page 74 undefin
+ed on input line 62.
 
 [74]
+
+Package natbib Warning: Citation `bistritzer_electronic_2009' on page 75 undefi
+ned on input line 64.
+
+
+Package natbib Warning: Citation `viljas_electron-phonon_2010' on page 75 undef
+ined on input line 64.
+
+
+Package natbib Warning: Citation `song_disorder-assisted_2012' on page 75 undef
+ined on input line 64.
+
+
+Package natbib Warning: Citation `chen_electron-phonon_2012' on page 75 undefin
+ed on input line 64.
+
+
+Package natbib Warning: Citation `betz_supercollision_2013' on page 75 undefine
+d on input line 64.
+
+
+Package natbib Warning: Citation `graham_photocurrent_2013' on page 75 undefine
+d on input line 64.
+
+
+Package natbib Warning: Citation `sohier_phonon-limited_2014' on page 75 undefi
+ned on input line 64.
+
+
+Package natbib Warning: Citation `tielrooij_out--plane_2017' on page 75 undefin
+ed on input line 64.
+
+
+Package natbib Warning: Citation `viljas_electron-phonon_2010' on page 75 undef
+ined on input line 64.
+
+
+Package natbib Warning: Citation `bistritzer_electronic_2009' on page 75 undefi
+ned on input line 64.
+
+
+Package natbib Warning: Citation `schiefele_temperature_2012' on page 75 undefi
+ned on input line 64.
+
 File: figures/high_density_graphene/EPh.pdf Graphic file (type QTm)
- <use  "figures/high_density_graphene/EPh.pdf" >) [75] [76]
+<use  "figures/high_density_graphene/EPh.pdf" >
+
+Package natbib Warning: Citation `bistritzer_electronic_2009' on page 75 undefi
+ned on input line 68.
+
+
+Package natbib Warning: Citation `viljas_electron-phonon_2010' on page 75 undef
+ined on input line 68.
+
+
+Package natbib Warning: Citation `song_disorder-assisted_2012' on page 75 undef
+ined on input line 68.
+
+
+Package natbib Warning: Citation `chen_electron-phonon_2012' on page 75 undefin
+ed on input line 68.
+
+
+Package natbib Warning: Citation `betz_supercollision_2013' on page 75 undefine
+d on input line 68.
+
+
+Package natbib Warning: Citation `graham_photocurrent_2013' on page 75 undefine
+d on input line 68.
+
+) [75] [76]
 \openout2 = `chapters/The_Dirac_fluid.aux'.
 
-
-(./chapters/The_Dirac_fluid.tex
+ (./chapters/The_Dirac_fluid.tex
 Chapter 6.
 [77
 
@@ -2197,28 +2538,283 @@ Chapter 6.
 
 ]
 File: figures/Dirac_fluid/charge_puddles.png Graphic file (type QTm)
- <use  "figures/Dirac_fluid/charge_puddles.png" > [78] [79]
-File: figures/Dirac_fluid/temperature_regimes.png Graphic file (type QTm)
+ <use  "figures/Dirac_fluid/charge_puddles.png" >
 
-<use  "figures/Dirac_fluid/temperature_regimes.png" > [80]
+Package natbib Warning: Citation `xue_scanning_2011' on page 78 undefined on in
+put line 11.
+
+
+Package natbib Warning: Citation `xue_scanning_2011' on page 78 undefined on in
+put line 14.
+
+[78] [79]
+
+Package natbib Warning: Citation `adam_theoretical_2017' on page 80 undefined o
+n input line 16.
+
+File: figures/Dirac_fluid/temperature_regimes.png Graphic file (type QTm)
+<use  "figures/Dirac_fluid/temperature_regimes.png" >
+
+Package natbib Warning: Citation `crossno_observation_2016' on page 80 undefine
+d on input line 26.
+
+[80]
 Overfull \hbox (0.69379pt too wide) in paragraph at lines 28--28
 |[]\TU/EBGaramond(1)/m/sc/14.4 Observation of the Dirac fluid and the breakdown
  of the
  []
 
+
+Package natbib Warning: Citation `kadanoff_hydrodynamic_1963' on page 81 undefi
+ned on input line 29.
+
+
+Package natbib Warning: Citation `jong_hydrodynamic_1995' on page 81 undefined 
+on input line 29.
+
+
+Package natbib Warning: Citation `cao_universal_2011' on page 81 undefined on i
+nput line 29.
+
+
+Package natbib Warning: Citation `shuryak_why_2004' on page 81 undefined on inp
+ut line 29.
+
+
+Package natbib Warning: Citation `muller_collective_2008' on page 81 undefined 
+on input line 29.
+
+
+Package natbib Warning: Citation `foster_slow_2009' on page 81 undefined on inp
+ut line 29.
+
+
+Package natbib Warning: Citation `apostolov_hydrodynamic_2014' on page 81 undef
+ined on input line 29.
+
+
+Package natbib Warning: Citation `narozhny_hydrodynamics_2015' on page 81 undef
+ined on input line 29.
+
+
+Package natbib Warning: Citation `novoselov_two-dimensional_2005' on page 81 un
+defined on input line 31.
+
+
+Package natbib Warning: Citation `zhang_experimental_2005' on page 81 undefined
+ on input line 31.
+
+
+Package natbib Warning: Citation `siegel_charge-carrier_2013' on page 81 undefi
+ned on input line 31.
+
+
+Package natbib Warning: Citation `sheehy_quantum_2007' on page 81 undefined on 
+input line 31.
+
+
+Package natbib Warning: Citation `keimer_quantum_2011' on page 81 undefined on 
+input line 31.
+
+
+Package natbib Warning: Citation `lui_ultrafast_2010' on page 81 undefined on i
+nput line 31.
+
+
+Package natbib Warning: Citation `breusing_ultrafast_2009' on page 81 undefined
+ on input line 31.
+
+
+Package natbib Warning: Citation `tielrooij_photoexcitation_2013' on page 81 un
+defined on input line 31.
+
+
+Package natbib Warning: Citation `johannsen_direct_2013' on page 81 undefined o
+n input line 31.
+
+
+Package natbib Warning: Citation `muller_graphene:_2009' on page 81 undefined o
+n input line 31.
+
+
+Package natbib Warning: Citation `muller_quantum-critical_2008' on page 81 unde
+fined on input line 31.
+
+
+Package natbib Warning: Citation `foster_slow_2009' on page 81 undefined on inp
+ut line 31.
+
 [81]
 File: figures/Dirac_fluid/Fig1.pdf Graphic file (type QTm)
- <use  "figures/Dirac_fluid/Fig1.pdf" > [82] [83]
+ <use  "figures/Dirac_fluid/Fig1.pdf" >
+
+Package natbib Warning: Citation `ashcroft_solid_1976' on page 82 undefined on 
+input line 41.
+
+
+Package natbib Warning: Citation `ashcroft_solid_1976' on page 82 undefined on 
+input line 46.
+
+
+Package natbib Warning: Citation `wakeham_gross_2011' on page 82 undefined on i
+nput line 46.
+
+
+Package natbib Warning: Citation `smith_marginal_2008' on page 82 undefined on 
+input line 46.
+
+
+Package natbib Warning: Citation `pfau_thermal_2012' on page 82 undefined on in
+put line 46.
+
+
+Package natbib Warning: Citation `hill_breakdown_2001' on page 82 undefined on 
+input line 46.
+
+
+Package natbib Warning: Citation `fritz_quantum_2008' on page 82 undefined on i
+nput line 48.
+
+[82] [83]
 
 LaTeX Font Warning: Font shape `TU/EBGaramond(0)/bx/n' undefined
 (Font)              using `TU/EBGaramond(0)/m/n' instead on input line 50.
 
-[84] [85]
-File: figures/Dirac_fluid/Fig2.pdf Graphic file (type QTm)
- <use  "figures/Dirac_fluid/Fig2.pdf" > [86] [87]
-File: figures/Dirac_fluid/Fig3.pdf Graphic file (type QTm)
 
+Package natbib Warning: Citation `adam_self-consistent_2007' on page 84 undefin
+ed on input line 50.
+
+
+Package natbib Warning: Citation `martin_observation_2008' on page 84 undefined
+ on input line 50.
+
+
+Package natbib Warning: Citation `zhang_origin_2009' on page 84 undefined on in
+put line 50.
+
+
+Package natbib Warning: Citation `xue_scanning_2011' on page 84 undefined on in
+put line 50.
+
+
+Package natbib Warning: Citation `dean_boron_2010' on page 84 undefined on inpu
+t line 52.
+
+
+Package natbib Warning: Citation `fong_ultrasensitive_2012' on page 84 undefine
+d on input line 52.
+
+
+Package natbib Warning: Citation `wang_one-dimensional_2013' on page 84 undefin
+ed on input line 52.
+
+
+Package natbib Warning: Citation `couto_random_2014' on page 84 undefined on in
+put line 52.
+
+
+Package natbib Warning: Citation `dean_boron_2010' on page 84 undefined on inpu
+t line 52.
+
+[84]
+
+Package natbib Warning: Citation `fong_ultrasensitive_2012' on page 85 undefine
+d on input line 54.
+
+
+Package natbib Warning: Citation `crossno_development_2015' on page 85 undefine
+d on input line 54.
+
+
+Package natbib Warning: Citation `crossno_development_2015' on page 85 undefine
+d on input line 54.
+
+
+Package natbib Warning: Citation `fong_ultrasensitive_2012' on page 85 undefine
+d on input line 54.
+
+
+Package natbib Warning: Citation `crossno_development_2015' on page 85 undefine
+d on input line 54.
+
+
+Package natbib Warning: Citation `fong_measurement_2013' on page 85 undefined o
+n input line 54.
+
+
+Package natbib Warning: Citation `fong_measurement_2013' on page 85 undefined o
+n input line 54.
+
+
+Package natbib Warning: Citation `betz_hot_2012' on page 85 undefined on input 
+line 54.
+
+
+Package natbib Warning: Citation `mckitterick_electron-phonon_2016' on page 85 
+undefined on input line 54.
+
+
+Package natbib Warning: Citation `fong_measurement_2013' on page 85 undefined o
+n input line 54.
+
+
+Package natbib Warning: Citation `crossno_development_2015' on page 85 undefine
+d on input line 54.
+
+
+Package natbib Warning: Citation `yigen_wiedemannfranz_2014' on page 85 undefin
+ed on input line 54.
+
+
+Package natbib Warning: Citation `laitinen_electron-phonon_2014' on page 85 und
+efined on input line 54.
+
+[85]
+
+Package natbib Warning: Citation `crossno_development_2015' on page 86 undefine
+d on input line 57.
+
+
+Package natbib Warning: Citation `yigen_wiedemannfranz_2014' on page 86 undefin
+ed on input line 57.
+
+
+Package natbib Warning: Citation `fong_measurement_2013' on page 86 undefined o
+n input line 57.
+
+File: figures/Dirac_fluid/Fig2.pdf Graphic file (type QTm)
+<use  "figures/Dirac_fluid/Fig2.pdf" > [86] [87]
+
+Package natbib Warning: Citation `muller_quantum-critical_2008' on page 88 unde
+fined on input line 68.
+
+
+Package natbib Warning: Citation `foster_slow_2009' on page 88 undefined on inp
+ut line 68.
+
+File: figures/Dirac_fluid/Fig3.pdf Graphic file (type QTm)
 <use  "figures/Dirac_fluid/Fig3.pdf" >
+
+Package natbib Warning: Citation `muller_quantum-critical_2008' on page 88 unde
+fined on input line 73.
+
+
+Package natbib Warning: Citation `foster_slow_2009' on page 88 undefined on inp
+ut line 73.
+
+
+Package natbib Warning: Citation `hartnoll_theory_2007' on page 88 undefined on
+ input line 77.
+
+
+Package natbib Warning: Citation `muller_quantum-critical_2008' on page 88 unde
+fined on input line 77.
+
+
+Package natbib Warning: Citation `foster_slow_2009' on page 88 undefined on inp
+ut line 77.
+
+
 Overfull \hbox (6.2155pt too wide) in paragraph at lines 77--78
 []\TU/EBGaramond(1)/bx/n/10.95 More quantitative analysis of $\OMS/cmsy/m/n/10.
 95 L\OT1/cmr/m/n/10.95 (\OML/cmm/m/it/10.95 n\OT1/cmr/m/n/10.95 )$ \TU/EBGaramo
@@ -2228,11 +2824,77 @@ c
 
 LaTeX Font Info:    Font shape `TU/EBGaramond(1)/m/n' will be
 (Font)              scaled to size 6.0pt on input line 84.
-[88] [89] [90] [91]
+
+Package natbib Warning: Citation `muller_graphene:_2009' on page 88 undefined o
+n input line 86.
+
+
+Package natbib Warning: Citation `muller_graphene:_2009' on page 88 undefined o
+n input line 86.
+
+
+Package natbib Warning: Citation `muller_graphene:_2009' on page 88 undefined o
+n input line 86.
+
+[88] [89]
+
+Package natbib Warning: Citation `lucas_hydrodynamic_2015' on page 90 undefined
+ on input line 88.
+
+
+Package natbib Warning: Citation `lucas_transport_2016' on page 90 undefined on
+ input line 88.
+
+
+Package natbib Warning: Citation `muller_quantum-critical_2008' on page 90 unde
+fined on input line 89.
+
+
+Package natbib Warning: Citation `foster_slow_2009' on page 90 undefined on inp
+ut line 89.
+
+
+Package natbib Warning: Citation `lucas_transport_2016' on page 90 undefined on
+ input line 89.
+
+
+Package natbib Warning: Citation `muller_graphene:_2009' on page 90 undefined o
+n input line 91.
+
+
+Package natbib Warning: Citation `kovtun_viscosity_2005' on page 90 undefined o
+n input line 91.
+
+
+Package natbib Warning: Citation `lucas_transport_2016' on page 90 undefined on
+ input line 91.
+
+[90]
+
+Package natbib Warning: Citation `principi_bulk_2015' on page 91 undefined on i
+nput line 94.
+
+
+Package natbib Warning: Citation `muller_quantum-critical_2008' on page 91 unde
+fined on input line 94.
+
+
+Package natbib Warning: Citation `hartnoll_theory_2007' on page 91 undefined on
+ input line 94.
+
+
+Package natbib Warning: Citation `wang_one-dimensional_2013' on page 91 undefin
+ed on input line 98.
+
+[91]
 Overfull \hbox (12.5306pt too wide) in paragraph at lines 100--100
 |[]\TU/EBGaramond(1)/m/sc/14.4 Optimizing samples for high frequency thermal co
 nductiv-
  []
+
+
+Package natbib Warning: Citation `crossno_development_2015' on page 92 undefine
+d on input line 103.
 
 [92]
 .................................................
@@ -2276,16 +2938,71 @@ Invalid UTF-8 byte or sequence at line 132 replaced by U+FFFD.
 Invalid UTF-8 byte or sequence at line 132 replaced by U+FFFD.
 Invalid UTF-8 byte or sequence at line 132 replaced by U+FFFD.
 File: figures/Dirac_fluid/S1.eps Graphic file (type eps)
- <figures/Dirac_fluid/S1.eps> [94] [95]
-File: figures/Dirac_fluid/LorenzComparison.pdf Graphic file (type QTm)
+ <figures/Dirac_fluid/S1.eps>
 
-<use  "figures/Dirac_fluid/LorenzComparison.pdf" > [96]
-Overfull \hbox (3.33337pt too wide) in paragraph at lines 169--170
-[]\TU/EBGaramond(1)/bx/n/10.95 Working under the theory of [[]], $\OML/cmm/m/it
+Package natbib Warning: Citation `nolas_thermal_2004' on page 94 undefined on i
+nput line 138.
+
+[94]
+
+Package natbib Warning: Citation `goldsmid_thermal_1956' on page 95 undefined o
+n input line 144.
+
+
+Package natbib Warning: Citation `yoshino_significant_2015' on page 95 undefine
+d on input line 144.
+
+[95]
+File: figures/Dirac_fluid/LorenzComparison.pdf Graphic file (type QTm)
+ <use  "figures/Dirac_fluid/LorenzComparison.pdf" >
+
+Package natbib Warning: Citation `yoshino_significant_2015' on page 96 undefine
+d on input line 159.
+
+
+Package natbib Warning: Citation `lucas_transport_2016' on page 96 undefined on
+ input line 159.
+
+
+Package natbib Warning: Citation `yoshino_significant_2015' on page 96 undefine
+d on input line 163.
+
+
+Package natbib Warning: Citation `yoshino_significant_2015' on page 96 undefine
+d on input line 165.
+
+
+Package natbib Warning: Citation `lucas_transport_2016' on page 96 undefined on
+ input line 165.
+
+
+Package natbib Warning: Citation `yoshino_significant_2015' on page 96 undefine
+d on input line 167.
+
+
+Package natbib Warning: Citation `fong_ultrasensitive_2012' on page 96 undefine
+d on input line 167.
+
+[96]
+
+Package natbib Warning: Citation `hwang_screening-induced_2009' on page 97 unde
+fined on input line 169.
+
+
+Package natbib Warning: Citation `yoshino_significant_2015' on page 97 undefine
+d on input line 169.
+
+
+Overfull \hbox (1.45726pt too wide) in paragraph at lines 169--170
+[]\TU/EBGaramond(1)/bx/n/10.95 Working under the theory of [? ], $\OML/cmm/m/it
 /10.95 ^^\\OT1/cmr/m/n/10.95 ([]) \OMS/cmsy/m/n/10.95 ^^X j[]j$\TU/EBGaramond(1
 )/bx/n/10.95 , and hence the maximal Lorenz ratio $\OMS/cmsy/m/n/10.95 L\OML/cm
 m/m/it/10.95 =\OMS/cmsy/m/n/10.95 L[] ^^Y 
  []
+
+
+Package natbib Warning: Citation `yoshino_significant_2015' on page 97 undefine
+d on input line 172.
 
 ) [97]
 \openout2 = `chapters/Hydrodynamic_theory_of_transport.aux'.
@@ -2303,6 +3020,14 @@ e water
  []
 
 Chapter 7.
+
+Package natbib Warning: Citation `xue_scanning_2011' on page 98 undefined on in
+put line 10.
+
+
+Package natbib Warning: Citation `adam_theoretical_2017' on page 98 undefined o
+n input line 10.
+
 [98
 
 
@@ -2310,43 +3035,407 @@ Chapter 7.
 ]
 File: figures/hydro_theory/cartoon_hydro.png Graphic file (type QTm)
  <use  "figures/hydro_theory/cartoon_hydro.png" >
-File: figures/hydro_theory/Boltzmann.png Graphic file (type QTm)
 
+Package natbib Warning: Citation `crossno_observation_2016' on page 99 undefine
+d on input line 15.
+
+
+Package natbib Warning: Citation `bandurin_negative_2016' on page 99 undefined 
+on input line 15.
+
+
+Package natbib Warning: Citation `moll_evidence_2016' on page 99 undefined on i
+nput line 15.
+
+
+Package natbib Warning: Citation `zaanen_electrons_2016' on page 99 undefined o
+n input line 15.
+
+File: figures/hydro_theory/Boltzmann.png Graphic file (type QTm)
 <use  "figures/hydro_theory/Boltzmann.png" >
+
+Package natbib Warning: Citation `adam_theoretical_2017' on page 99 undefined o
+n input line 23.
+
+
+Package natbib Warning: Citation `briskot_collision-dominated_2015' on page 99 
+undefined on input line 23.
+
+
+Package natbib Warning: Citation `lucas_transport_2016' on page 99 undefined on
+ input line 29.
+
+
 Overfull \hbox (0.9242pt too wide) in paragraph at lines 31--31
 |[]\TU/EBGaramond(1)/m/sc/14.4 Transport in inhomogeneous quantum critical flui
 ds and
  []
 
 
+Package natbib Warning: Citation `pines_theory_1994' on page 99 undefined on in
+put line 32.
+
+
 Underfull \hbox (badness 10000) in paragraph at lines 32--32
-[][][]\TU/EBGaramond(1)/m/n/10 Below we have assumed that the charge of the qua
-siparticles is $\OMS/cmsy/m/n/10 ^^F\OML/cmm/m/it/10 e$\TU/EBGaramond(1)/m/n/10
- , with $\OML/cmm/m/it/10 e$ \TU/EBGaramond(1)/m/n/10 the charge of the electro
-n –
+[][][]\TU/EBGaramond(1)/bx/n/10 Below we have assumed that the charge of the qu
+asiparticles is $\OMS/cmsy/m/n/10 ^^F\OML/cmm/m/it/10 e$\TU/EBGaramond(1)/bx/n/
+10 , with $\OML/cmm/m/it/10 e$ \TU/EBGaramond(1)/bx/n/10 the charge of the elec
+tron –
  []
 
 [99] [100]
+
+Package natbib Warning: Citation `ashcroft_solid_1976' on page 101 undefined on
+ input line 35.
+
+
+Package natbib Warning: Citation `kadanoff_hydrodynamic_1963' on page 101 undef
+ined on input line 37.
+
+
+Package natbib Warning: Citation `jong_hydrodynamic_1995' on page 101 undefined
+ on input line 37.
+
+
+Package natbib Warning: Citation `weber_observation_2005' on page 101 undefined
+ on input line 37.
+
+
+Package natbib Warning: Citation `yang_doppler_2012' on page 101 undefined on i
+nput line 37.
+
+
+Package natbib Warning: Citation `andreev_hydrodynamic_2011' on page 101 undefi
+ned on input line 38.
+
+
+Package natbib Warning: Citation `mendoza_preturbulent_2011' on page 101 undefi
+ned on input line 38.
+
+
+Package natbib Warning: Citation `tomadin_corbino_2014' on page 101 undefined o
+n input line 38.
+
+
+Package natbib Warning: Citation `principi_violation_2015' on page 101 undefine
+d on input line 38.
+
+
+Package natbib Warning: Citation `torre_nonlocal_2015' on page 101 undefined on
+ input line 38.
+
+
+Package natbib Warning: Citation `levitov_electron_2016' on page 101 undefined 
+on input line 38.
+
+
+Package natbib Warning: Citation `bandurin_negative_2016' on page 101 undefined
+ on input line 38.
+
+
+Package natbib Warning: Citation `moll_evidence_2016' on page 101 undefined on 
+input line 38.
+
+
+Package natbib Warning: Citation `marel_quantum_2003' on page 101 undefined on 
+input line 40.
+
+
+Package natbib Warning: Citation `cooper_anomalous_2009' on page 101 undefined 
+on input line 40.
+
+
+Package natbib Warning: Citation `keimer_quantum_2011' on page 101 undefined on
+ input line 40.
+
+
+Package natbib Warning: Citation `sheehy_quantum_2007' on page 101 undefined on
+ input line 40.
+
+
+Package natbib Warning: Citation `muller_collective_2008' on page 101 undefined
+ on input line 40.
+
+
+Package natbib Warning: Citation `fritz_quantum_2008' on page 101 undefined on 
+input line 40.
+
+
+Package natbib Warning: Citation `li_scanning_2009' on page 101 undefined on in
+put line 40.
+
+
+Package natbib Warning: Citation `siegel_charge-carrier_2013' on page 101 undef
+ined on input line 40.
+
+
 Underfull \hbox (badness 10000) in paragraph at lines 40--40
-[][][]\TU/EBGaramond(1)/m/n/10 Quantum dynamics in one dimension, which is ofte
-n integrable, is described using very different tech-
+[][][]\TU/EBGaramond(1)/bx/n/10 Quantum dynamics in one dimension, which is oft
+en integrable, is described using very different tech-
  []
 
-[101] [102] [103] [104]
+
+Package natbib Warning: Citation `damle_nonzero-temperature_1997' on page 101 u
+ndefined on input line 40.
+
+
+Package natbib Warning: Citation `sachdev_quantum_2011' on page 101 undefined o
+n input line 40.
+
+
+Package natbib Warning: Citation `hartnoll_theory_2007' on page 101 undefined o
+n input line 40.
+
+
+Package natbib Warning: Citation `hartnoll_theory_2007' on page 101 undefined o
+n input line 40.
+
+
+Package natbib Warning: Citation `muller_collective_2008' on page 101 undefined
+ on input line 40.
+
+
+Package natbib Warning: Citation `fritz_quantum_2008' on page 101 undefined on 
+input line 40.
+
+
+Package natbib Warning: Citation `muller_quantum-critical_2008' on page 101 und
+efined on input line 40.
+
+
+Package natbib Warning: Citation `muller_graphene:_2009' on page 101 undefined 
+on input line 40.
+
+
+Package natbib Warning: Citation `foster_slow_2009' on page 101 undefined on in
+put line 40.
+
+
+Package natbib Warning: Citation `davison_holographic_2014' on page 101 undefin
+ed on input line 40.
+
+[101] [102]
+
+Package natbib Warning: Citation `fong_ultrasensitive_2012' on page 103 undefin
+ed on input line 42.
+
+
+Package natbib Warning: Citation `fong_measurement_2013' on page 103 undefined 
+on input line 42.
+
+
+Package natbib Warning: Citation `crossno_development_2015' on page 103 undefin
+ed on input line 42.
+
+
+Package natbib Warning: Citation `crossno_observation_2016' on page 103 undefin
+ed on input line 42.
+
+
+Package natbib Warning: Citation `hartnoll_theory_2007' on page 103 undefined o
+n input line 42.
+
+
+Package natbib Warning: Citation `lucas_hydrodynamic_2015' on page 103 undefine
+d on input line 42.
+
+
+Package natbib Warning: Citation `lucas_hydrodynamic_2015' on page 103 undefine
+d on input line 42.
+
+
+Package natbib Warning: Citation `blake_holographic_2014' on page 103 undefined
+ on input line 42.
+
+
+Package natbib Warning: Citation `davison_holographic_2014' on page 103 undefin
+ed on input line 42.
+
+
+Package natbib Warning: Citation `balasubramanian_losing_2014' on page 103 unde
+fined on input line 42.
+
+
+Package natbib Warning: Citation `lucas_scale-invariant_2014' on page 103 undef
+ined on input line 42.
+
+
+Package natbib Warning: Citation `lucas_conductivity_2015' on page 103 undefine
+d on input line 42.
+
+
+Package natbib Warning: Citation `davison_dissecting_2015' on page 103 undefine
+d on input line 42.
+
+
+Package natbib Warning: Citation `blake_momentum_2015' on page 103 undefined on
+ input line 42.
+
+
+Package natbib Warning: Citation `donos_navier-stokes_2015' on page 103 undefin
+ed on input line 42.
+
+
+Package natbib Warning: Citation `grozdanov_absence_2015' on page 103 undefined
+ on input line 42.
+
+
+Package natbib Warning: Citation `crossno_observation_2016' on page 103 undefin
+ed on input line 47.
+
+
+Package natbib Warning: Citation `hartnoll_theory_2007' on page 103 undefined o
+n input line 47.
+
+[103]
+
+Package natbib Warning: Citation `hartnoll_theory_2007' on page 104 undefined o
+n input line 60.
+
+[104]
 File: figures/hydro_theory/mainfigplot.pdf Graphic file (type QTm)
  <use  "figures/hydro_theory/mainfigplot.pdf" >
-File: figures/hydro_theory/mainfigTplot.pdf Graphic file (type QTm)
 
+Package natbib Warning: Citation `crossno_observation_2016' on page 105 undefin
+ed on input line 66.
+
+File: figures/hydro_theory/mainfigTplot.pdf Graphic file (type QTm)
 <use  "figures/hydro_theory/mainfigTplot.pdf" >
+
+Package natbib Warning: Citation `crossno_observation_2016' on page 105 undefin
+ed on input line 73.
+
+
+Package natbib Warning: Citation `martin_observation_2008' on page 105 undefine
+d on input line 78.
+
+
+Package natbib Warning: Citation `rossi_ground_2008' on page 105 undefined on i
+nput line 78.
+
+
+Package natbib Warning: Citation `zhang_origin_2009' on page 105 undefined on i
+nput line 78.
+
+
+Package natbib Warning: Citation `xue_scanning_2011' on page 105 undefined on i
+nput line 78.
+
+
+Package natbib Warning: Citation `adam_self-consistent_2007' on page 105 undefi
+ned on input line 78.
+
+
+Package natbib Warning: Citation `rossi_effective_2009' on page 105 undefined o
+n input line 78.
+
+
 Underfull \hbox (badness 10000) in paragraph at lines 78--78
-[][][]\TU/EBGaramond(1)/m/n/10 See [[], []] for a theory of electrical conducti
-vity in charge puddle dominated graphene at low tempera-
+[][][]\TU/EBGaramond(1)/bx/n/10 See [? ? ] for a theory of electrical conductiv
+ity in charge puddle dominated graphene at low tempera-
  []
+
+
+Package natbib Warning: Citation `xue_scanning_2011' on page 105 undefined on i
+nput line 78.
+
+
+Package natbib Warning: Citation `crossno_observation_2016' on page 105 undefin
+ed on input line 78.
 
 [105]
 File: figures/hydro_theory/hydrofig.pdf Graphic file (type QTm)
- <use  "figures/hydro_theory/hydrofig.pdf" > [106] [107] [108] [109]
-[110] [111]
+ <use  "figures/hydro_theory/hydrofig.pdf" > [106]
+
+Package natbib Warning: Citation `crossno_observation_2016' on page 107 undefin
+ed on input line 89.
+
+
+Package natbib Warning: Citation `efimkin_strongly_2014' on page 107 undefined 
+on input line 89.
+
+
+Package natbib Warning: Citation `lu_experimental_2015' on page 107 undefined o
+n input line 89.
+
+
+Package natbib Warning: Citation `xu_discovery_2015' on page 107 undefined on i
+nput line 89.
+
+
+Package natbib Warning: Citation `lv_experimental_2015' on page 107 undefined o
+n input line 89.
+
+
+Package natbib Warning: Citation `nielsen_adler-bell-jackiw_1983' on page 107 u
+ndefined on input line 89.
+
+
+Package natbib Warning: Citation `son_chiral_2013' on page 107 undefined on inp
+ut line 89.
+
+[107]
+
+Package natbib Warning: Citation `crossno_observation_2016' on page 108 undefin
+ed on input line 92.
+
+
+LaTeX Warning: Reference `appen:theory' on page 108 undefined on input line 92.
+
+
+[108] [109]
+
+Package natbib Warning: Citation `martin_observation_2008' on page 110 undefine
+d on input line 113.
+
+
+Package natbib Warning: Citation `xue_scanning_2011' on page 110 undefined on i
+nput line 113.
+
+
+Package natbib Warning: Citation `lucas_hydrodynamic_2015' on page 110 undefine
+d on input line 113.
+
+
+Package natbib Warning: Citation `andreev_hydrodynamic_2011' on page 110 undefi
+ned on input line 113.
+
+
+Package natbib Warning: Citation `lucas_hydrodynamic_2015' on page 110 undefine
+d on input line 113.
+
+
+LaTeX Warning: Reference `appthermo' on page 110 undefined on input line 113.
+
+[110]
+
+Package natbib Warning: Citation `hartnoll_theory_2007' on page 111 undefined o
+n input line 115.
+
+
+Package natbib Warning: Citation `muller_collective_2008' on page 111 undefined
+ on input line 115.
+
+
+Package natbib Warning: Citation `lucas_hydrodynamic_2015' on page 111 undefine
+d on input line 115.
+
+
+LaTeX Warning: Reference `appmom' on page 111 undefined on input line 115.
+
+
+Package natbib Warning: Citation `lucas_hydrodynamic_2015' on page 111 undefine
+d on input line 115.
+
+
+Package natbib Warning: Citation `crossno_observation_2016' on page 111 undefin
+ed on input line 115.
+
+
+Package natbib Warning: Citation `hartnoll_theory_2007' on page 111 undefined o
+n input line 121.
+
+[111]
 LaTeX Font Info:    Font shape `TU/EBGaramond(1)/m/n' will be
 (Font)              scaled to size 5.0pt on input line 125.
 
@@ -2355,92 +3444,490 @@ Overfull \hbox (1.27989pt too wide) in paragraph at lines 127--127
  local conservation laws, up to external sources. 
  []
 
-[112] [113]
+
+Package natbib Warning: Citation `lucas_hydrodynamic_2015' on page 112 undefine
+d on input line 130.
+
+[112]
+
+Package natbib Warning: Citation `hartnoll_theory_2007' on page 113 undefined o
+n input line 136.
+
+
+Package natbib Warning: Citation `hartnoll_theory_2007' on page 113 undefined o
+n input line 140.
+
+
+Package natbib Warning: Citation `pines_theory_1994' on page 113 undefined on i
+nput line 141.
+
+[113]
+
+Package natbib Warning: Citation `hartnoll_theory_2007' on page 114 undefined o
+n input line 143.
+
+
+Package natbib Warning: Citation `davison_holographic_2014' on page 114 undefin
+ed on input line 143.
+
+
+Package natbib Warning: Citation `muller_collective_2008' on page 114 undefined
+ on input line 145.
+
+
+Package natbib Warning: Citation `hartnoll_theory_2007' on page 114 undefined o
+n input line 145.
+
+
+Package natbib Warning: Citation `nolas_thermal_2004' on page 114 undefined on 
+input line 153.
+
+
+Package natbib Warning: Citation `yoshino_significant_2015' on page 114 undefin
+ed on input line 153.
+
+
 Underfull \hbox (badness 10000) in paragraph at lines 153--153
-[][][]\TU/EBGaramond(1)/m/n/10 It is qualitatively similar to the bipolar diffu
-sion effect [[], []] – however, in hydrodynamics the quasi-
+[][][]\TU/EBGaramond(1)/bx/n/10 It is qualitatively similar to the bipolar diff
+usion effect [? ? ] – however, in hydrodynamics the quasipar-
  []
 
 
 Underfull \hbox (badness 10000) in paragraph at lines 153--153
-\TU/EBGaramond(1)/m/n/10 particle lifetimes are limited by $\U/msb/m/n/10 ~\OML
-/cmm/m/it/10 =k[]T$\TU/EBGaramond(1)/m/n/10 , whereas in the bipolar diffusion 
-effect these lifetimes are parametri-
+\TU/EBGaramond(1)/bx/n/10 ticle lifetimes are limited by $\U/msb/m/n/10 ~\OML/c
+mm/m/it/10 =k[]T$\TU/EBGaramond(1)/bx/n/10 , whereas in the bipolar diffusion e
+ffect these lifetimes are parametrically
  []
 
 [114]
+
+Package natbib Warning: Citation `hartnoll_lectures_2009' on page 115 undefined
+ on input line 156.
+
+
 Underfull \hbox (badness 10000) in paragraph at lines 156--156
-[][][]\TU/EBGaramond(1)/m/n/10 The application of a constant $\OML/cmm/m/it/10 
-^^P[]$ \TU/EBGaramond(1)/m/n/10 on a periodic space is the reason why we cannot
- talk about driving the
+[][][]\TU/EBGaramond(1)/bx/n/10 The application of a constant $\OML/cmm/m/it/10
+ ^^P[]$ \TU/EBGaramond(1)/bx/n/10 on a periodic space is the reason why we cann
+ot talk about driving the
  []
 
 
 Underfull \hbox (badness 10000) in paragraph at lines 156--156
-\TU/EBGaramond(1)/m/n/10 system with a constant temperature gradient, since the
- temperature is a periodic function in space. One can
+\TU/EBGaramond(1)/bx/n/10 system with a constant temperature gradient, since th
+e temperature is a periodic function in space. One can
  []
 
-[115] [116] [117] [118] [119]
+[115]
+
+Package natbib Warning: Citation `lucas_hydrodynamic_2015' on page 116 undefine
+d on input line 168.
+
+[116]
+
+LaTeX Warning: Reference `appthermo' on page 117 undefined on input line 174.
+
+
+LaTeX Warning: Reference `appfin' on page 117 undefined on input line 177.
+
+
+Package natbib Warning: Citation `lucas_hydrodynamic_2015' on page 117 undefine
+d on input line 179.
+
+
+LaTeX Warning: Reference `apprescale' on page 117 undefined on input line 179.
+
+
+Package natbib Warning: Citation `crossno_observation_2016' on page 117 undefin
+ed on input line 179.
+
+
+Package natbib Warning: Citation `hartnoll_theory_2007' on page 117 undefined o
+n input line 179.
+
+[117]
+
+LaTeX Warning: Reference `appmom' on page 118 undefined on input line 191.
+
+
+Package natbib Warning: Citation `andreev_hydrodynamic_2011' on page 118 undefi
+ned on input line 191.
+
+[118]
+
+Package natbib Warning: Citation `vafek_anomalous_2007' on page 119 undefined o
+n input line 196.
+
+
+Package natbib Warning: Citation `sheehy_quantum_2007' on page 119 undefined on
+ input line 196.
+
+
+Package natbib Warning: Citation `muller_graphene:_2009' on page 119 undefined 
+on input line 196.
+
+
+Package natbib Warning: Citation `novoselov_two-dimensional_2005' on page 119 u
+ndefined on input line 202.
+
+
+Package natbib Warning: Citation `zhang_experimental_2005' on page 119 undefine
+d on input line 202.
+
+[119]
 LaTeX Font Info:    Font shape `TU/EBGaramond(1)/m/it' will be
 (Font)              scaled to size 10.95pt on input line 205.
- [120] [121] [122] [123] [124]
-File: figures/hydro_theory/viscosityplot.pdf Graphic file (type QTm)
 
-<use  "figures/hydro_theory/viscosityplot.pdf" > [125]
+
+Package natbib Warning: Citation `muller_quantum-critical_2008' on page 120 und
+efined on input line 207.
+
+
+Package natbib Warning: Citation `sheehy_quantum_2007' on page 120 undefined on
+ input line 209.
+
+[120]
+
+Package natbib Warning: Citation `crossno_observation_2016' on page 121 undefin
+ed on input line 214.
+
+
+Package natbib Warning: Citation `muller_quantum-critical_2008' on page 121 und
+efined on input line 214.
+
+
+Package natbib Warning: Citation `breusing_ultrafast_2009' on page 121 undefine
+d on input line 217.
+
+
+Package natbib Warning: Citation `johannsen_direct_2013' on page 121 undefined 
+on input line 217.
+
+
+Package natbib Warning: Citation `xue_scanning_2011' on page 121 undefined on i
+nput line 217.
+
+[121]
+
+LaTeX Warning: Reference `apprun' on page 122 undefined on input line 220.
+
+
+Package natbib Warning: Citation `muller_collective_2008' on page 122 undefined
+ on input line 222.
+
+
+Package natbib Warning: Citation `hwang_screening-induced_2009' on page 122 und
+efined on input line 228.
+
+
+Package natbib Warning: Citation `hwang_screening-induced_2009' on page 122 und
+efined on input line 228.
+
+[122]
+
+Package natbib Warning: Citation `muller_collective_2008' on page 123 undefined
+ on input line 233.
+
+
+Package natbib Warning: Citation `pines_theory_1994' on page 123 undefined on i
+nput line 233.
+
+
+Package natbib Warning: Citation `lucas_memory_2015' on page 123 undefined on i
+nput line 233.
+
+[123]
+
+LaTeX Warning: Reference `appthermo' on page 124 undefined on input line 243.
+
+
+LaTeX Warning: Reference `apprescale' on page 124 undefined on input line 246.
+
+
+Package natbib Warning: Citation `xue_scanning_2011' on page 124 undefined on i
+nput line 246.
+
+
+LaTeX Warning: Reference `appfin' on page 124 undefined on input line 246.
+
+
+Package natbib Warning: Citation `xue_scanning_2011' on page 124 undefined on i
+nput line 251.
+
+
+Package natbib Warning: Citation `hartnoll_theory_2007' on page 124 undefined o
+n input line 251.
+
+[124]
+File: figures/hydro_theory/viscosityplot.pdf Graphic file (type QTm)
+ <use  "figures/hydro_theory/viscosityplot.pdf" > [125]
 File: figures/hydro_theory/c4plot.pdf Graphic file (type QTm)
 
-<use  "figures/hydro_theory/c4plot.pdf" > [126]
+<use  "figures/hydro_theory/c4plot.pdf" >
+
+Package natbib Warning: Citation `crossno_observation_2016' on page 126 undefin
+ed on input line 272.
+
+[126]
+
+Package natbib Warning: Citation `crossno_observation_2016' on page 127 undefin
+ed on input line 277.
+
 File: figures/hydro_theory/Tscaleplot.pdf Graphic file (type QTm)
-
 <use  "figures/hydro_theory/Tscaleplot.pdf" >
+
+Package natbib Warning: Citation `crossno_observation_2016' on page 127 undefin
+ed on input line 284.
+
+
+Package natbib Warning: Citation `crossno_observation_2016' on page 127 undefin
+ed on input line 284.
+
 File: figures/hydro_theory/kappaTC4plot.pdf Graphic file (type QTm)
+<use  "figures/hydro_theory/kappaTC4plot.pdf" >
 
-<use  "figures/hydro_theory/kappaTC4plot.pdf" > [127]
+Package natbib Warning: Citation `muller_quantum-critical_2008' on page 127 und
+efined on input line 295.
+
+
+Package natbib Warning: Citation `wang_one-dimensional_2013' on page 127 undefi
+ned on input line 295.
+
+[127]
+
+Package natbib Warning: Citation `vafek_anomalous_2007' on page 128 undefined o
+n input line 298.
+
+
+Package natbib Warning: Citation `sheehy_quantum_2007' on page 128 undefined on
+ input line 298.
+
+
+Package natbib Warning: Citation `sheehy_quantum_2007' on page 128 undefined on
+ input line 298.
+
+
 Underfull \hbox (badness 10000) in paragraph at lines 298--298
-[][][]\TU/EBGaramond(1)/m/n/10 We have used theoretically predicted values of $
-\OML/cmm/m/it/10 C[]$ \TU/EBGaramond(1)/m/n/10 and $\OML/cmm/m/it/10 C[]$ \TU/E
-BGaramond(1)/m/n/10 [[]], and assumed that the Dirac fluid ends
+[][][]\TU/EBGaramond(1)/bx/n/10 We have used theoretically predicted values of 
+$\OML/cmm/m/it/10 C[]$ \TU/EBGaramond(1)/bx/n/10 and $\OML/cmm/m/it/10 C[]$ \TU
+/EBGaramond(1)/bx/n/10 [? ], and assumed that the Dirac fluid ends
  []
 
-[128] [129]
+
+LaTeX Warning: Reference `apprescale' on page 128 undefined on input line 298.
+
+[128]
+
+Package natbib Warning: Citation `kovtun_viscosity_2005' on page 129 undefined 
+on input line 300.
+
+
+Package natbib Warning: Citation `kovtun_viscosity_2005' on page 129 undefined 
+on input line 300.
+
+
+Package natbib Warning: Citation `kovtun_viscosity_2005' on page 129 undefined 
+on input line 300.
+
+
+Package natbib Warning: Citation `cao_universal_2011' on page 129 undefined on 
+input line 300.
+
+
+Package natbib Warning: Citation `luzum_conformal_2008' on page 129 undefined o
+n input line 300.
+
+[129]
+
+Package natbib Warning: Citation `crossno_observation_2016' on page 130 undefin
+ed on input line 302.
+
+
+Package natbib Warning: Citation `huard_evidence_2008' on page 130 undefined on
+ input line 302.
+
+
+Package natbib Warning: Citation `fong_ultrasensitive_2012' on page 130 undefin
+ed on input line 307.
+
+
+Package natbib Warning: Citation `fong_measurement_2013' on page 130 undefined 
+on input line 307.
+
+
+Package natbib Warning: Citation `crossno_observation_2016' on page 130 undefin
+ed on input line 307.
+
+
+Package natbib Warning: Citation `kirkpatrick_classical_1971' on page 130 undef
+ined on input line 309.
+
+
+Package natbib Warning: Citation `derrida_transfer-matrix_1982' on page 130 und
+efined on input line 309.
+
+
 Underfull \hbox (badness 10000) in paragraph at lines 309--309
-[][][]\TU/EBGaramond(1)/m/n/10 The hydrodynamic description of transport reduce
-s to a diffusion equation for the conserved electrical
+[][][]\TU/EBGaramond(1)/bx/n/10 The hydrodynamic description of transport reduc
+es to a diffusion equation for the conserved electrical
  []
+
+
+Package natbib Warning: Citation `hwang_acoustic_2008' on page 130 undefined on
+ input line 309.
 
 [130]
+
+Package natbib Warning: Citation `hartnoll_theory_2007' on page 131 undefined o
+n input line 313.
+
+
+Package natbib Warning: Citation `hwang_acoustic_2008' on page 131 undefined on
+ input line 318.
+
+
+Package natbib Warning: Citation `efetov_controlling_2010' on page 131 undefine
+d on input line 318.
+
+
+Package natbib Warning: Citation `ashcroft_solid_1976' on page 131 undefined on
+ input line 318.
+
+
+Package natbib Warning: Citation `hwang_acoustic_2008' on page 131 undefined on
+ input line 318.
+
+
 Underfull \hbox (badness 2213) in paragraph at lines 318--318
-[][][]\TU/EBGaramond(1)/m/n/10 As there is no large Fermi surface with $\OML/cm
-m/m/it/10 ^^V \OMS/cmsy/m/n/10 ^^] \OML/cmm/m/it/10 k[]T$\TU/EBGaramond(1)/m/n/
-10 , no further corrections to $\OML/cmm/m/it/10 a$ \TU/EBGaramond(1)/m/n/10 ar
-e necessary, as in usual
+[][][]\TU/EBGaramond(1)/bx/n/10 As there is no large Fermi surface with $\OML/c
+mm/m/it/10 ^^V \OMS/cmsy/m/n/10 ^^] \OML/cmm/m/it/10 k[]T$\TU/EBGaramond(1)/bx/
+n/10 , no further corrections to $\OML/cmm/m/it/10 a$ \TU/EBGaramond(1)/bx/n/10
+ are necessary, as in usual
  []
 
-[131] [132]
+[131]
+
+Package natbib Warning: Citation `crossno_observation_2016' on page 132 undefin
+ed on input line 329.
+
+[132]
+
+Package natbib Warning: Citation `crossno_observation_2016' on page 133 undefin
+ed on input line 332.
+
 File: figures/hydro_theory/ephsketchplot.pdf Graphic file (type QTm)
- <use  "figures/hydro_theory/ephsketchplot.pdf" > [133] [134])
-[135] [136]
+<use  "figures/hydro_theory/ephsketchplot.pdf" >
+
+Package natbib Warning: Citation `crossno_observation_2016' on page 133 undefin
+ed on input line 342.
+
+
+Package natbib Warning: Citation `crossno_development_2015' on page 133 undefin
+ed on input line 342.
+
+[133]
+
+Package natbib Warning: Citation `hartnoll_theory_2007' on page 134 undefined o
+n input line 347.
+
+
+Package natbib Warning: Citation `xue_scanning_2011' on page 134 undefined on i
+nput line 349.
+
+[134]
+
+Package natbib Warning: Citation `bolotin_ultrahigh_2008' on page 135 undefined
+ on input line 351.
+
+
+Package natbib Warning: Citation `mayorov_how_2012' on page 135 undefined on in
+put line 351.
+
+
+LaTeX Warning: Reference `appthermo' on page 135 undefined on input line 351.
+
+
+Package natbib Warning: Citation `martin_observation_2008' on page 135 undefine
+d on input line 351.
+
+
+Package natbib Warning: Citation `horng_drude_2011' on page 135 undefined on in
+put line 353.
+
+
+Package natbib Warning: Citation `hartnoll_theory_2007' on page 135 undefined o
+n input line 353.
+
+
+Package natbib Warning: Citation `ghahari_enhanced_2016' on page 135 undefined 
+on input line 353.
+
+) [135] [136]
 \openout2 = `chapters/Magneto-thermal_transport.aux'.
 
  (./chapters/Magneto-thermal_transport.tex
 Chapter 8.
 
-Package natbib Warning: Citation `??' on page 137 undefined on input line 6.
+Package natbib Warning: Citation `muller_collective_2008' on page 137 undefined
+ on input line 6.
 
 
-Package natbib Warning: Citation `??' on page 137 undefined on input line 6.
+Package natbib Warning: Citation `crossno_observation_2016' on page 137 undefin
+ed on input line 6.
+
+
+Package natbib Warning: Citation `lucas_transport_2016' on page 137 undefined o
+n input line 6.
+
+
+Package natbib Warning: Citation `sachdev_quantum_2011' on page 137 undefined o
+n input line 6.
+
+
+Package natbib Warning: Citation `muller_quantum-critical_2008' on page 137 und
+efined on input line 6.
+
+
+Package natbib Warning: Citation `wakeham_gross_2011' on page 137 undefined on 
+input line 6.
+
+
+Package natbib Warning: Citation `kane_thermal_1996' on page 137 undefined on i
+nput line 6.
+
+
+Package natbib Warning: Citation `li_ballistic_2005' on page 137 undefined on i
+nput line 6.
+
+
+Package natbib Warning: Citation `mccollum_spin-wave_1964' on page 137 undefine
+d on input line 6.
+
+
+Package natbib Warning: Citation `bid_observation_2010' on page 137 undefined o
+n input line 6.
+
+
+Package natbib Warning: Citation `inoue_proliferation_2014' on page 137 undefin
+ed on input line 6.
+
+
+Package natbib Warning: Citation `venkatachalam_local_2012' on page 137 undefin
+ed on input line 6.
+
+
+Package natbib Warning: Citation `kuntsevich_strongly_2015' on page 137 undefin
+ed on input line 6.
 
 
 Underfull \hbox (badness 10000) in paragraph at lines 6--6
-[][][]\TU/EBGaramond(1)/m/n/10 The linear diffusive regime assumes cooling is d
-ominated by Wiedemann-Franz like diffusion, the elec-
+[][][]\TU/EBGaramond(1)/bx/n/10 The linear diffusive regime assumes cooling is 
+dominated by Wiedemann-Franz like diffusion, the elec-
  []
 
 
 Underfull \hbox (badness 10000) in paragraph at lines 6--6
-\TU/EBGaramond(1)/m/n/10 trical conduction is sufficiently diffusive (not balli
-stic), and the temperature rise is small compared to the
+\TU/EBGaramond(1)/bx/n/10 trical conduction is sufficiently diffusive (not ball
+istic), and the temperature rise is small compared to the
  []
 
 [137
@@ -2449,22 +3936,82 @@ stic), and the temperature rise is small compared to the
 
 ] [138]
 Underfull \hbox (badness 10000) in paragraph at lines 19--19
-[][][]\TU/EBGaramond(1)/m/n/10 Let $[]$ and $[]\OML/cmm/m/it/10 ^^K$ \TU/EBGara
-mond(1)/m/n/10 be the two offdiagonal terms of eqn. [][]8.1[][]. Time reversal 
-symmetry and thus Onsager reci-
+[][][]\TU/EBGaramond(1)/bx/n/10 Let $[]$ and $[]\OML/cmm/m/it/10 ^^K$ \TU/EBGar
+amond(1)/bx/n/10 be the two offdiagonal terms of eqn. [][]8.1[][]. Time reversa
+l symmetry and thus Onsager reci-
  []
 
 
 Underfull \hbox (badness 10000) in paragraph at lines 19--19
-\TU/EBGaramond(1)/m/n/10 procity demand $[]$. But rotational symmetry forces $\
-OML/cmm/m/it/10 ^^K$ \TU/EBGaramond(1)/m/n/10 to be antisymmetric and thus
+\TU/EBGaramond(1)/bx/n/10 procity demand $[]$. But rotational symmetry forces $
+\OML/cmm/m/it/10 ^^K$ \TU/EBGaramond(1)/bx/n/10 to be antisymmetric and thus
  []
 
-[139]
-File: figures/magneto/Hall_profiles.png Graphic file (type QTm)
- <use  "figures/magneto/Hall_profiles.png" > [140] [141]
-File: figures/magneto/100x_crop.jpg Graphic file (type QTm)
 
+Package natbib Warning: Citation `mazur_onsagers_1953' on page 139 undefined on
+ input line 19.
+
+
+Package natbib Warning: Citation `smrcka_transport_1977' on page 139 undefined 
+on input line 19.
+
+
+Package natbib Warning: Citation `smrcka_transport_1977' on page 139 undefined 
+on input line 24.
+
+
+Package natbib Warning: Citation `zuev_thermoelectric_2009' on page 139 undefin
+ed on input line 24.
+
+
+Package natbib Warning: Citation `sommerfeld_zur_1927' on page 139 undefined on
+ input line 28.
+
+
+Package natbib Warning: Citation `ghahari_enhanced_2016' on page 139 undefined 
+on input line 28.
+
+
+Package natbib Warning: Citation `smrcka_transport_1977' on page 139 undefined 
+on input line 29.
+
+[139]
+
+Package natbib Warning: Citation `dora_magnetotransport_2007' on page 140 undef
+ined on input line 33.
+
+
+Package natbib Warning: Citation `long_quantum_2011' on page 140 undefined on i
+nput line 33.
+
+
+Package natbib Warning: Citation `gusynin_magnetic_2005' on page 140 undefined 
+on input line 33.
+
+
+Package natbib Warning: Citation `muller_quantum-critical_2008' on page 140 und
+efined on input line 33.
+
+
+Package natbib Warning: Citation `muller_collective_2008' on page 140 undefined
+ on input line 33.
+
+File: figures/magneto/Hall_profiles.png Graphic file (type QTm)
+<use  "figures/magneto/Hall_profiles.png" >
+
+Package natbib Warning: Citation `noauthor_comsol_2017' on page 140 undefined o
+n input line 49.
+
+
+Package natbib Warning: Citation `noauthor_comsol_2017' on page 140 undefined o
+n input line 53.
+
+[140] [141]
+
+Package natbib Warning: Citation `wang_one-dimensional_2013' on page 142 undefi
+ned on input line 57.
+
+File: figures/magneto/100x_crop.jpg Graphic file (type QTm)
 <use  "figures/magneto/100x_crop.jpg" >
 File: figures/magneto/R.png Graphic file (type QTm)
  <use  "figures/magneto/R.png" >
@@ -2486,29 +4033,32 @@ File: figures/magneto/Fan_VNdc.png Graphic file (type QTm)
 
 <use  "figures/magneto/Fan_VNdc.png" > [146] [147]
 Underfull \hbox (badness 10000) in paragraph at lines 125--125
-[][][]\TU/EBGaramond(1)/m/n/10 Calibration of these differential measures only 
-requires the use of generalized gain, $\OMS/cmsy/m/n/10 G$\TU/EBGaramond(1)/m/n
-/10 . Any fluctuations
+[][][]\TU/EBGaramond(1)/bx/n/10 Calibration of these differential measures only
+ requires the use of generalized gain, $\OMS/cmsy/m/n/10 G$\TU/EBGaramond(1)/bx
+/n/10 . Any fluctuations
  []
 
 
 Underfull \hbox (badness 10000) in paragraph at lines 125--125
-\TU/EBGaramond(1)/m/n/10 in the background noise are averaged out and $\OML/cmm
-/m/it/10 T[]$ \TU/EBGaramond(1)/m/n/10 is only important in that it determines 
-how long you must
+\TU/EBGaramond(1)/bx/n/10 in the background noise are averaged out and $\OML/cm
+m/m/it/10 T[]$ \TU/EBGaramond(1)/bx/n/10 is only important in that it determine
+s how long you must
  []
 
 File: figures/magneto/Fan_DT.png Graphic file (type QTm)
 <use  "figures/magneto/Fan_DT.png" > [148] [149] [150]
 Underfull \hbox (badness 10000) in paragraph at lines 140--140
-[][][]\TU/EBGaramond(1)/m/n/10 Here a diffusive system is defined as one where 
-the elastic mean free path of charge carriers is smaller than
+[][][]\TU/EBGaramond(1)/bx/n/10 Here a diffusive system is defined as one where
+ the elastic mean free path of charge carriers is smaller than
  []
 
 File: figures/magneto/High_density.png Graphic file (type QTm)
 <use  "figures/magneto/High_density.png" >
-File: figures/magneto/low_density.png Graphic file (type QTm)
 
+Package natbib Warning: Citation `noauthor_comsol_2017' on page 151 undefined o
+n input line 154.
+
+File: figures/magneto/low_density.png Graphic file (type QTm)
 <use  "figures/magneto/low_density.png" >
 File: figures/magneto/Fan_L.png Graphic file (type QTm)
  <use  "figures/magneto/Fan_L.png" >
@@ -2520,29 +4070,207 @@ LaTeX Warning: Command \r invalid in math mode on input line 193.
 
 Missing character: There is no ̊ in font cmmi7!
 [156]) [157]
-\openout2 = `chapters/RF_cryostats_and_circuitry.aux'.
+\openout2 = `appendices/cryostats.aux'.
 
- (./chapters/RF_cryostats_and_circuitry.tex
+ (./appendices/cryostats.tex
 Appendix A.
-) [158
+[158
 
 
 
-] [159]
-\openout2 = `chapters/appendix_theory.aux'.
+]
+File: figures/appendix/cryostats/sample_package.jpg Graphic file (type QTm)
+ <use  "figures/appendix/cryostats/sample_package.jpg" >
+File: figures/appendix/cryostats/sample_LC.jpg Graphic file (type QTm)
 
- (./chapters/appendix_theory.tex
+<use  "figures/appendix/cryostats/sample_LC.jpg" >
+File: figures/appendix/cryostats/Janis.jpg Graphic file (type QTm)
+
+<use  "figures/appendix/cryostats/Janis.jpg" > [159] [160] [161]
+File: figures/appendix/cryostats/Oxford_package.jpg Graphic file (type QTm)
+
+<use  "figures/appendix/cryostats/Oxford_package.jpg" > [162]
+File: figures/appendix/cryostats/Oxford_probe2.jpg Graphic file (type QTm)
+
+<use  "figures/appendix/cryostats/Oxford_probe2.jpg" >
+File: figures/appendix/cryostats/Oxford.jpg Graphic file (type QTm)
+
+<use  "figures/appendix/cryostats/Oxford.jpg" >
+File: figures/appendix/cryostats/Leiden_closed.jpg Graphic file (type QTm)
+
+<use  "figures/appendix/cryostats/Leiden_closed.jpg" > [163] [164] [165]
+File: figures/appendix/cryostats/Leiden_opening.jpg Graphic file (type QTm)
+
+<use  "figures/appendix/cryostats/Leiden_opening.jpg" >
+Underfull \hbox (badness 10000) in paragraph at lines 78--78
+[][][]\TU/EBGaramond(1)/bx/n/10 In principle, raising the evaporation rate resu
+lts in more cooling power and a high base temperature but
+ []
+
+File: figures/appendix/cryostats/Leiden_magnet.jpg Graphic file (type QTm)
+<use  "figures/appendix/cryostats/Leiden_magnet.jpg" > [166] [167]
+File: figures/appendix/cryostats/Leiden_full.jpg Graphic file (type QTm)
+
+<use  "figures/appendix/cryostats/Leiden_full.jpg" >
+Underfull \hbox (badness 10000) in paragraph at lines 94--94
+[][][]\TU/EBGaramond(1)/bx/n/10 The cooling power of the probe is limited by th
+e thermal contact to the cold plates so cations must be
+ []
+
+File: figures/appendix/cryostats/Leiden_lines.jpg Graphic file (type QTm)
+<use  "figures/appendix/cryostats/Leiden_lines.jpg" >
+
+LaTeX Warning: Reference `Fig:Appen:Leiden_bellows_open' on page 168 undefined 
+on input line 103.
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 103--103
+[][][]\TU/EBGaramond(1)/bx/n/10 While most stages sync well, the $\OT1/cmr/m/n/
+10 50 []\OML/cmm/m/it/10 K$ \TU/EBGaramond(1)/bx/n/10 stage is in the OVC and t
+herefore has to thermalize through a SS
+ []
+
+File: figures/appendix/cryostats/Leiden_bellows_open.jpg Graphic file (type QTm
+)
+<use  "figures/appendix/cryostats/Leiden_bellows_open.jpg" > [168] [169]
+[170] [171]
+
+LaTeX Warning: Reference `Fig:Appen:Leiden_probe' on page 172 undefined on inpu
+t line 111.
+
+File: figures/appendix/cryostats/Leiden_probe.jpg Graphic file (type QTm)
+<use  "figures/appendix/cryostats/Leiden_probe.jpg" >
+
+LaTeX Warning: Reference `Fig:Appen:Leiden_clicking' on page 172 undefined on i
+nput line 120.
+
+File: figures/appendix/cryostats/Leiden_clicking.jpg Graphic file (type QTm)
+<use  "figures/appendix/cryostats/Leiden_clicking.jpg" >) [172] [173] [174]
+[175]
+\openout2 = `appendices/theory.aux'.
+
+ (./appendices/theory.tex
 Appendix B.
-[160
+[176
 
 
 
-] [161] [162] [163] [164] [165] [166] [167] [168] [169]
+]
+
+LaTeX Warning: Reference `eq:AL_duhem' on page 177 undefined on input line 14.
+
+
+LaTeX Warning: Reference `eq:AL_qmu' on page 177 undefined on input line 14.
+
+[177]
+
+LaTeX Warning: Reference `eq:AL_qmu' on page 178 undefined on input line 20.
+
+[178]
+
+LaTeX Warning: Reference `eq:AL_feq' on page 179 undefined on input line 42.
+
+[179] [180]
+
+Package natbib Warning: Citation `crossno_observation_2016' on page 181 undefin
+ed on input line 67.
+
+[181]
+
+Package natbib Warning: Citation `lucas_hydrodynamic_2015' on page 182 undefine
+d on input line 72.
+
+[182] [183]
+
+Package natbib Warning: Citation `hartnoll_theory_2007' on page 184 undefined o
+n input line 97.
+
+
+LaTeX Warning: Reference `eq:AL_taueq1' on page 184 undefined on input line 101
+.
+
+
+Package natbib Warning: Citation `davison_holographic_2014' on page 184 undefin
+ed on input line 104.
+
+
+Package natbib Warning: Citation `lucas_hydrodynamic_2015' on page 184 undefine
+d on input line 107.
+
+[184]
+
+Package natbib Warning: Citation `hartnoll_theory_2007' on page 185 undefined o
+n input line 109.
+
+
+LaTeX Warning: Reference `appthermo' on page 185 undefined on input line 115.
+
+
+Package natbib Warning: Citation `vafek_anomalous_2007' on page 185 undefined o
+n input line 115.
+
+
+Package natbib Warning: Citation `sheehy_quantum_2007' on page 185 undefined on
+ input line 115.
+
+
+LaTeX Warning: Reference `eq:AL_cb' on page 185 undefined on input line 119.
+
+
+Package natbib Warning: Citation `vafek_anomalous_2007' on page 185 undefined o
+n input line 119.
+
+
+Package natbib Warning: Citation `sheehy_quantum_2007' on page 185 undefined on
+ input line 119.
+
+
+Package natbib Warning: Citation `muller_collective_2008' on page 185 undefined
+ on input line 119.
+
+
+Overfull \hbox (1.98187pt too wide) in paragraph at lines 118--119
+\TU/EBGaramond(1)/bx/n/10.95 ([]) can be derived by computing the thermodynamic
+s of 2 species of non-interacting Dirac fermions, 
+ []
+
+[185]
+
+LaTeX Warning: Reference `eq:AL_saeff' on page 186 undefined on input line 122.
+
+
+
+LaTeX Warning: Reference `eq:AL_cb' on page 186 undefined on input line 122.
+
+
+LaTeX Warning: Reference `eq:AL_cb' on page 186 undefined on input line 122.
+
+
+Package natbib Warning: Citation `muller_quantum-critical_2008' on page 186 und
+efined on input line 124.
+
+
+Package natbib Warning: Citation `muller_graphene:_2009' on page 186 undefined 
+on input line 124.
+
+
+Package natbib Warning: Citation `trefethen_spectral_2001' on page 186 undefine
+d on input line 128.
+
 Package microtype Info: Loading generic settings for font family
 (microtype)             `cmss' (encoding: OT1).
 (microtype)             For optimal results, create family-specific settings.
 (microtype)             See the microtype manual for details.
- [170]
+[186]
+
+Package natbib Warning: Citation `smith_domain_2004' on page 187 undefined on i
+nput line 131.
+
+
+Package natbib Warning: Citation `martin_observation_2008' on page 187 undefine
+d on input line 136.
+
+
 Overfull \hbox (8.29147pt too wide) in paragraph at lines 135--137
 \TU/EBGaramond(1)/bx/n/10.95 with $[]$ a constant, $[]\OT1/cmr/m/n/10.95 (\OML/
 cmm/m/it/10.95 n[]; n[]\OT1/cmr/m/n/10.95 )$ \TU/EBGaramond(1)/bx/n/10.95 unifo
@@ -2551,27 +4279,36 @@ rmly distributed on $\OT1/cmr/m/n/10.95 [\OMS/cmsy/m/n/10.95 ^^@\OML/cmm/m/it/1
 t/10.95 c \OT1/cmr/m/n/10.95 = []$\TU/EBGaramond(1)/bx/n/10.95 , 
  []
 
-[171]
-File: figures/appendix/finitesizeplot2.pdf Graphic file (type QTm)
- <use  "figures/appendix/finitesizeplot2.pdf" >
-Overfull \hbox (90.33751pt too wide) in paragraph at lines 144--145
- [][] 
- []
+[187]
 
-File: figures/appendix/finitesizeplot1.pdf Graphic file (type QTm)
-<use  "figures/appendix/finitesizeplot1.pdf" >
-Overfull \hbox (90.33751pt too wide) in paragraph at lines 151--152
- [][] 
- []
+LaTeX Warning: Reference `fig:AL_finitesize2plot' on page 188 undefined on inpu
+t line 140.
 
-[172]
-File: figures/appendix/spectralplot.pdf Graphic file (type QTm)
- <use  "figures/appendix/spectralplot.pdf" > [173]
+
+LaTeX Warning: Reference `fig:AL_finitesizeplot' on page 188 undefined on input
+ line 140.
+
+File: figures/appendix/theory/finitesizeplot2.pdf Graphic file (type QTm)
+<use  "figures/appendix/theory/finitesizeplot2.pdf" >
+File: figures/appendix/theory/finitesizeplot1.pdf Graphic file (type QTm)
+
+<use  "figures/appendix/theory/finitesizeplot1.pdf" >
+
+Package natbib Warning: Citation `trefethen_spectral_2001' on page 188 undefine
+d on input line 157.
+
+
+LaTeX Warning: Reference `fig:AL_spectralfig' on page 188 undefined on input li
+ne 157.
+
+[188]
+File: figures/appendix/theory/spectralplot.pdf Graphic file (type QTm)
+ <use  "figures/appendix/theory/spectralplot.pdf" > [189]
 Missing character: There is no 
  in font EB Garamond 12 Regular/OT:script=latn;language=DFLT;!
 Missing character: There is no 
  in font EB Garamond 12 Regular/OT:script=latn;language=DFLT;!
-) [174]
+) [190]
 (./endmatter/personalize.tex) (./dissertation.bbl
 LaTeX Font Info:    Font shape `TU/SourceCodePro(0)/m/n' will be
 (Font)              scaled to size 9.35316pt on input line 21.
@@ -2579,18 +4316,19 @@ Package microtype Info: Loading generic settings for font family
 (microtype)             `SourceCodePro' (encoding: TU).
 (microtype)             For optimal results, create family-specific settings.
 (microtype)             See the microtype manual for details.
- [175
+ [191
 
 
 
-] [176] [177] [178]
-[179] [180] [181] [182] [183] [184] [185] [186] [187] [188] [189] [190]
-[191]) [192]
+] [192] [193] [194]
+[195] [196] [197] [198] [199] [200] [201] [202] [203] [204] [205] [206]
+[207] [208]) [209]
 \openout2 = `endmatter/colophon.aux'.
 
  (./endmatter/colophon.tex
 File: endmatter/group.jpg Graphic file (type QTm)
- <use  "endmatter/group.jpg" >) [193]
+ <use  "endmatter/group.jpg" >)
+[210]
 
 Package natbib Warning: There were undefined citations.
 
@@ -2603,8 +4341,12 @@ Package atveryend Info: Empty hook `AfterLastShipout' on input line 32.
 (./chapters/Thermal_conductance_in_high_density_graphene.aux)
 (./chapters/The_Dirac_fluid.aux)
 (./chapters/Hydrodynamic_theory_of_transport.aux)
-(./chapters/Magneto-thermal_transport.aux)
-(./chapters/RF_cryostats_and_circuitry.aux) (./chapters/appendix_theory.aux)
+(./chapters/Magneto-thermal_transport.aux) (./appendices/cryostats.aux)
+(./appendices/theory.aux)
+
+Package natbib Warning: Citation(s) may have changed.
+(natbib)                Rerun to get citations correct.
+
 (./endmatter/colophon.aux))
 Package atveryend Info: Empty hook `AtVeryEndDocument' on input line 32.
 Package atveryend Info: Empty hook `AtEndAfterFileList' on input line 32.
@@ -2612,14 +4354,20 @@ Package atveryend Info: Empty hook `AtEndAfterFileList' on input line 32.
 
 LaTeX Font Warning: Some font shapes were not available, defaults substituted.
 
+
+LaTeX Warning: There were undefined references.
+
+
+LaTeX Warning: Label(s) may have changed. Rerun to get cross-references right.
+
  ) 
 Here is how much of TeX's memory you used:
- 25983 strings out of 493068
- 482686 string characters out of 6135636
- 654074 words of memory out of 5000000
- 29325 multiletter control sequences out of 15000+600000
+ 26044 strings out of 493068
+ 484283 string characters out of 6135636
+ 645742 words of memory out of 5000000
+ 29372 multiletter control sequences out of 15000+600000
  24654 words of font info for 130 fonts, out of 8000000 for 9000
  1347 hyphenation exceptions out of 8191
- 60i,17n,119p,10427b,777s stack positions out of 5000i,500n,10000p,200000b,80000s
+ 60i,17n,119p,10427b,945s stack positions out of 5000i,500n,10000p,200000b,80000s
 
-Output written on dissertation.pdf (206 pages).
+Output written on dissertation.pdf (223 pages).
