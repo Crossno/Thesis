@@ -11,11 +11,11 @@
 \contentsline {section}{\numberline {2.5}Uncertainty in noise measurements}{17}{section.2.5}
 \contentsline {section}{\numberline {2.6}Impedance matching}{19}{section.2.6}
 \contentsline {subsection}{\numberline {2.6.1}LC tank circuits}{20}{subsection.2.6.1}
-\contentsline {subsection}{\numberline {2.6.2}Multi-stage matching}{24}{subsection.2.6.2}
+\contentsline {subsection}{\numberline {2.6.2}Multi-stage matching}{25}{subsection.2.6.2}
 \contentsline {section}{\numberline {2.7}System noise temperature}{29}{section.2.7}
 \contentsline {section}{\numberline {2.8}Calibration}{33}{section.2.8}
-\contentsline {section}{\numberline {2.9}Cross-correlated noise thermometry}{36}{section.2.9}
-\contentsline {subsection}{\numberline {2.9.1}multi-terminal cross-correlation}{39}{subsection.2.9.1}
+\contentsline {section}{\numberline {2.9}Cross-correlated noise thermometry}{37}{section.2.9}
+\contentsline {subsection}{\numberline {2.9.1}multi-terminal cross-correlation}{40}{subsection.2.9.1}
 \contentsline {chapter}{\numberline {3}Electronic cooling mechanisms in graphene}{41}{chapter.3}
 \contentsline {section}{\numberline {3.1}Wiedemann-Franz}{42}{section.3.1}
 \contentsline {subsection}{\numberline {3.1.1}Linearization}{44}{subsection.3.1.1}
@@ -40,10 +40,10 @@
 \contentsline {chapter}{\numberline {6}The Dirac fluid}{77}{chapter.6}
 \contentsline {section}{\numberline {6.1}Temperature regimes}{78}{section.6.1}
 \contentsline {section}{\numberline {6.2}Observation of the Dirac fluid and the breakdown of the Wiedemann-Franz law in graphene}{81}{section.6.2}
-\contentsline {section}{\numberline {6.3}Sample Fabrication}{91}{section.6.3}
+\contentsline {section}{\numberline {6.3}Sample Fabrication}{92}{section.6.3}
 \contentsline {section}{\numberline {6.4}Optimizing samples for high frequency thermal conductivity measurements}{92}{section.6.4}
-\contentsline {section}{\numberline {6.5}Device Characterization}{93}{section.6.5}
-\contentsline {section}{\numberline {6.6}Bipolar Diffusion}{94}{section.6.6}
+\contentsline {section}{\numberline {6.5}Device Characterization}{94}{section.6.5}
+\contentsline {section}{\numberline {6.6}Bipolar Diffusion}{95}{section.6.6}
 \contentsline {chapter}{\numberline {7}Hydrodynamic framework}{98}{chapter.7}
 \contentsline {section}{\numberline {7.1}Transport in inhomogeneous quantum critical fluids and in the Dirac fluid in graphene}{100}{section.7.1}
 \contentsline {subsection}{\numberline {7.1.1}Summary of Results}{103}{subsection.7.1.1}
@@ -53,10 +53,10 @@
 \contentsline {subsection}{\numberline {7.3.1}Hydrodynamic Equations}{111}{subsection.7.3.1}
 \contentsline {subsection}{\numberline {7.3.2}Hydrodynamic Theory of Transport}{115}{subsection.7.3.2}
 \contentsline {section}{\numberline {7.4}The Dirac Fluid in Graphene}{119}{section.7.4}
-\contentsline {section}{\numberline {7.5}Numerical Results}{123}{section.7.5}
-\contentsline {subsection}{\numberline {7.5.1}Comparison to Experiment}{126}{subsection.7.5.1}
-\contentsline {section}{\numberline {7.6}Phonons in Graphene}{130}{section.7.6}
-\contentsline {section}{\numberline {7.7}Conclusions}{134}{section.7.7}
+\contentsline {section}{\numberline {7.5}Numerical Results}{124}{section.7.5}
+\contentsline {subsection}{\numberline {7.5.1}Comparison to Experiment}{127}{subsection.7.5.1}
+\contentsline {section}{\numberline {7.6}Phonons in Graphene}{131}{section.7.6}
+\contentsline {section}{\numberline {7.7}Conclusions}{135}{section.7.7}
 \contentsline {chapter}{\numberline {8}Magneto-thermal transport}{137}{chapter.8}
 \contentsline {section}{\numberline {8.1}Generalized transport coefficients}{138}{section.8.1}
 \contentsline {section}{\numberline {8.2}Classical Hall Effect}{140}{section.8.2}
@@ -66,8 +66,8 @@
 \contentsline {section}{\numberline {8.6}Cyclotron radius}{154}{section.8.6}
 \contentsline {chapter}{Appendix \numberline {A}RF cryostats}{158}{Appendix.1.A}
 \contentsline {section}{\numberline {A.1}Janis}{160}{section.1.A.1}
-\contentsline {section}{\numberline {A.2}Oxford}{161}{section.1.A.2}
-\contentsline {section}{\numberline {A.3}Leiden}{166}{section.1.A.3}
+\contentsline {section}{\numberline {A.2}Oxford}{162}{section.1.A.2}
+\contentsline {section}{\numberline {A.3}Leiden}{165}{section.1.A.3}
 \contentsline {chapter}{Appendix \numberline {B}Hydrodynamic framework}{176}{Appendix.1.B}
 \contentsline {section}{\numberline {B.1}Thermodynamics}{176}{section.1.B.1}
 \contentsline {subsection}{\numberline {B.1.1}Thermodynamics of Disordered Fluids}{178}{subsection.1.B.1.1}

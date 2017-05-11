@@ -5,7 +5,7 @@ Since the dawn of time, man hath sought to make things smaller.
 
 \chapter{Thermal conductance via electrical noise}
 \label{ch:thermal_conductance_via_electrical_noise}
-A common technique in studying the various cooling pathways in a mesoscopic sample is to inject a pulse of energy into the system and monitor the time dependent electron temperature as the system returns to equilibrium. However, these ''pump-probe" experiments suffer from a few difficulties: Firstly, they yield a thermal time constant which is a convolution of the various heat capacities and thermal conductances in the problem. Secondly, the large temperature rise needed to resolve the thermal decay makes it difficult to study the linear response of low energy excitations. A steady state experiment avoids these difficulties and enables the measurement of thermal conductance in linear response at the expense of time-resolution.
+\newthought{A common technique} in studying the various cooling pathways in a mesoscopic sample is to inject a pulse of energy into the system and monitor the time dependent electron temperature as the system returns to equilibrium. However, these ``pump-probe" experiments suffer from a few difficulties: Firstly, they yield a thermal time constant which is a convolution of the various heat capacities and thermal conductances in the problem. Secondly, the large temperature rise needed to resolve the thermal decay makes it difficult to study the linear response of low energy excitations. A steady state experiment avoids these difficulties and enables the measurement of thermal conductance in linear response at the expense of time-resolution.
 
 In a steady state thermal experiment, a constant heating power, $P_0$, is injected into the electronic system and the electron temperature rise, $\Delta T$, is measured. For the experiments in this dissertation, this is accomplished via Joule heating in a two terminal geometry while monitoring the change in Johnson noise temperature, $T_{JN}$ --- as discussed in chapter~\ref{section:TJN}. We can define the ratio of the applied power to the change in the Johnson noise temperature as a thermal conductance:
 \begin{equation}
@@ -20,14 +20,14 @@ It is important to note that $\Gth$ is not the traditional thermal conductance w
 \end{figure}
 
 \section{Rectangular devices}\label{section:retangularDeviceJN}
-For a two-terminal rectangular device, the temperature measured by Johnson noise --- as given by Eqn.~\ref{eq:TJN_cont} with spatially uniform $\mathcal{P}(r)$ --- is simply the spatially averaged temperature. Therefore, the total thermal power dissipated in linear response is then given by:
+\newthought{For a two-terminal rectangular device}, the temperature measured by Johnson noise --- as given by Eqn.~\ref{eq:TJN_cont} with spatially uniform $\mathcal{P}(r)$ --- is simply the spatially averaged temperature. Therefore, the total thermal power dissipated in linear response is then given by:
 \begin{equation}\label{eq:heat_transfer}
 I^2R=P_0=\Qdot = \left(\frac{W}{L}\beta\kappa + WL~\Sigma_{e-ph}\delta T_\mathrm{b}^{\delta-1}\right)\DTJN
 \end{equation}
 where $W$ and $L$ are the sample width and length, respectively, $T_\mathrm{b}$ is the bath temperature, $\kappa$ is the electronic thermal conductivity, $\Sigma_{e-ph}$ and $\delta$ are the electron-phonon parameters described in Ch.~\ref{section:elph}, and $\DTJN$ is the Johnson noise temperature minus the bath temperature. In Eqn.~\ref{eq:heat_transfer} we have used the steady-state requirement that the total heating power entering the system equal the total power transferred to the bath ($P_0=\Qdot$). The geometric factor $\beta$ depends on the shape of the electronic temperature profile which is affected by the relative strength of the two cooling terms in Eqn.~\ref{eq:heat_transfer} and must be calculated.
 
 \subsection{Electronic conduction only}
-In the absence of phonons, the temperature profile, and therefore $\beta$, can be solved analytically. In a rectangular geometry, symmetry reduces the problem to one dimension ($x$) along the source-drain direction. For simplicity we assume that the graphene sample is homogeneous, that the approximately uniform electrical current is given by 
+\newthought{In the absence of phonons}, the temperature profile, and therefore $\beta$, can be solved analytically. In a rectangular geometry, symmetry reduces the problem to one dimension ($x$) along the source-drain direction. For simplicity we assume that the graphene sample is homogeneous, that the approximately uniform electrical current is given by 
 \begin{equation}\label{eq:JNT_J(s)}
 \mathrm{J} = -\sigma \frac{\mathrm{d}V}{\mathrm{d}x} - \alpha \frac{\mathrm{d}T}{\mathrm{d}x}
 \end{equation}
@@ -90,7 +90,7 @@ All the information about the heating profile is contained in the constant facto
 where R is the directly measurable, two-terminal electrical resistance.
 
 \subsection{Phonon cooling only}
-The limit of electron-phonon dominated cooling can be modeled by phonons effectively removing an isotropic amount of heat per unit area; the balance between this and Joule heating leads to a uniform temperature profile, 
+\newthought{The limit of electron-phonon dominated cooling} can be modeled by phonons effectively removing an isotropic amount of heat per unit area; the balance between this and Joule heating leads to a uniform temperature profile, 
 \begin{equation}
 \Delta T(x) = T_0 = \DTJN
 \end{equation}
@@ -104,7 +104,7 @@ and thus the microscopic parameters governing electron-phonon coupling are relat
 \end{equation}
 
 \section{Wedge devices}
-Unlike in rectangular devices, where the Johnson noise temperature is simply the mean temperature, in more complicated geometries the effective temperature measured in a noise experiment must be calculated from the Joule heating temperature profile. An instructive example of a more complicated geometry which can also be solved analytically is a semicircular wedge as shown in fig.~\ref{fig:KCwedge}.
+\newthought{Unlike in rectangular devices}, where the Johnson noise temperature is simply the mean temperature, in more complicated geometries the effective temperature measured in a noise experiment must be calculated from the Joule heating temperature profile. An instructive example of a more complicated geometry which can also be solved analytically is a semicircular wedge as shown in fig.~\ref{fig:KCwedge}.
 \begin{figure}
 \centering
 \includegraphics[width=80mm]{figures/thermal_via_noise/wedge.png}
@@ -138,12 +138,12 @@ All geometric dependence is contained in the experimentally measurable two-termi
 
 \section{Universality of $\beta$}
 \label{section:beta}
-Above we have derived two analytic examples where $\beta$ was shown to be $12$. In fact, it can be shown that $\beta = 12$ is universally true in the linear response regime regardless of the geometry of the device or the form of the conductivity tensors, $\hat\sigma$ and $\hat\kappa$, provided the following conditions are met:
+\newthought{Above we have derived two analytic examples} where $\beta$ was shown to be $12$. In fact, it can be shown that $\beta = 12$ is universally true in the linear response regime regardless of the geometry of the device or the form of the conductivity tensors, $\hat\sigma$ and $\hat\kappa$, provided the following conditions are met:
 \begin{enumerate}
-\item The device has only two electrical terminals which serve as thermal heat sinks
+\item The device has only two electrical terminals which serve as thermal heat sinks and sources of Joule heating current
 \item Electron cool is provided only by Wiedemann-Franz diffusion
 \item $\hat\sigma$ and $\hat\kappa$ are spatially uniform
-\item The elastic mean free path of the charge carriers is the shorter than all other relevant length scales in the system
+\item The elastic mean free path of the charge carriers is shorter than all other relevant length scales in the system
 \end{enumerate}
 The following derivation is adapted from a work done by Dr. Brian Skinner, MIT, altered for clarity and brevity:
 
@@ -223,7 +223,7 @@ The final step in Eqn.~\ref{eq:brian_midDer3} comes from realizing the integrand
 \caption{Simplified schematic of thermal conductance measurement setup. A low frequency Joule heating current is pass through the sample using a lock-in amplifier and the corresponding temperature is measured using Johnson noise thermometry. A bias tee is used to combine the DC and RF signals. The noise signal is measured as the second harmonic of the heating current as $\Delta T \sim I^2$}
 \label{fig:schematic_Joule_heating}
 \end{figure}
-To sensitively measure $\DTJN$, the autocorrelation Johnson noise thermometry circuit described in chapter~\ref{ch:johnson_noise_thermometry} can be modified to allow a DC current to Joule heat the sample. Fig.~\ref{fig:schematic_Joule_heating} shows a simplified schematic of a thermal conductance measurement setup. A low frequency $(f{\sim 13}~Hz)$ current is generated by a lock-in amplifier\footnote{This lock-in is also used to measure the two-terminal resistance $R$} at frequency $\omega = 2\pi\times f$ and passed through the sample\footnote{It is because of this need to pass a DC current through the matching network and into the sample that the LC tanks used are setup in a low-pass configuration} using a bias tee. If the current is given by:
+\newthought{To sensitively measure $\DTJN$}, the autocorrelation Johnson noise thermometry circuit described in chapter~\ref{ch:johnson_noise_thermometry} can be modified to allow a DC current to Joule heat the sample. Fig.~\ref{fig:schematic_Joule_heating} shows a simplified schematic of a thermal conductance measurement setup. A low frequency $(f{\sim 13}~Hz)$ current is generated by a lock-in amplifier\footnote{This lock-in is also used to measure the two-terminal resistance $R$} at frequency $\omega = 2\pi\times f$ and passed through the sample\footnote{It is because of this need to pass a DC current through the matching network and into the sample that the LC tanks used are setup in a low-pass configuration} using a bias tee. If the current is given by:
 \begin{equation}
 I(t) = I_0\sin(\omega t)
 \end{equation}
@@ -241,7 +241,7 @@ The $2\omega$ component of the corresponding noise signal is then measured by a 
 \begin{figure}
 \centering
 \includegraphics[width=60mm]{figures/thermal_via_noise/quadratic_Joule_heating.png}
-\caption{Electron temperature of a two-terminal graphene device (inset) as a function of a Joule heating current for three different bath temperatures. The temperatures follow an $I^2$ heating law with the curvature determined by the generalized thermal conductance $\Gth$ which increases with the bath temperature. Here electron temperature is defined as the Johnson noise temperature as discussed in section~\ref{section:retangularDeviceJN}}
+\caption{Electron temperature of a two-terminal graphene device (\textbf{inset}) as a function of a Joule heating current for three different bath temperatures. The temperatures follow an $I^2$ heating law with the curvature determined by the generalized thermal conductance $\Gth$ which increases with the bath temperature. Here electron temperature is defined as the Johnson noise temperature as discussed in section~\ref{section:retangularDeviceJN}}
 \label{fig:quadratic_Joule_heating}
 \end{figure}
 Fig.~\ref{fig:quadratic_Joule_heating} shows how the electronic temperature of a mesoscopic device responds to a heating current. As expected in the linear response regime, the temperature rise follows an $I^2$ heating curve with curvature governed by the generalized thermal conductance. The thermal conductivity, $\kappa$, can be extracted in the low temperature regime using the factor $\beta = 12$ derived in section~\ref{section:retangularDeviceJN} --- a example of which is shown in comparison to the Wiedemann-Franz law in Fig.~\ref{fig:examplekappa}. At low temperature the assumptions required to show $\beta = 12$ are met and the measured thermal conductivity follows the Wiedemann-Franz law. At high temperatures appreciable electron-phonon coupling creates an additional energy loss mechanism and $\kappa$ can no longer be accurately extracted from $\Gth$.
